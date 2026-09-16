@@ -13,6 +13,13 @@ Decompilation and source-reconstruction project for **Pokémon Emerald**.
 - Keep analysis, tooling, metadata, and documentation reproducible.
 - Build a clean foundation for long-term reverse-engineering work.
 
+## 🧬 Repository characteristics
+
+- Generation III **Game Boy Advance** title targeting the ARM7TDMI architecture.
+- High-level decompilation/source reconstruction rather than instruction-by-instruction disassembly.
+- Focused on Emerald-specific executable, data, script, resource, and expanded Hoenn systems.
+- Ruby/Sapphire are useful comparison points, but Emerald-specific implementation differences remain independent targets.
+
 ## 🚧 Status
 
 This repository is in its **initial setup** stage. Source reconstruction and documentation will be added progressively.
