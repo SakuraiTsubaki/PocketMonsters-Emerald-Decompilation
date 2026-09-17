@@ -1,41 +1,59 @@
-# Target Profile: Pocket Monsters Emerald
+# Target Profile: Pokémon Emerald / Pocket Monsters Emerald
 
 ## Known repository scope
 
 - Repository: `SakuraiTsubaki/PocketMonsters-Emerald-Decompilation`
-- Working target name: Pocket Monsters Emerald
+- Working target: Pokémon Emerald / Pocket Monsters Emerald
 - Platform family: Game Boy Advance
 - Series generation: Generation III
-- Exact release, region, revision, and build: **not yet selected**
+- Exact target set: six unique verified retail ROM identities
+  - BPEJ — Japan / Japanese
+  - BPEE — USA/Europe / English
+  - BPED — Germany / German
+  - BPEF — France / French
+  - BPEI — Italy / Italian
+  - BPES — Spain / Spanish
+- Software version byte: 0 for all six selected identities
+- ROM size: 16 MiB for all six selected identities
 
-The repository name is a working label, not proof of a particular binary. No address, symbol, format, or behavior should be treated as target fact until the exact build is identified.
+The exact hashes, header checksums, observed input names, and duplicate English aliases are recorded in `config/target.json`. Original ROM binaries remain local and are never committed.
 
-## Identity checklist
+## Identity findings
 
-Record all available items before substantive reconstruction:
+Seven ROM files were observed locally, but the two English files named `Pokemon - Emerald Version (U).gba` and `Pokemon - Emerald Version (USA, Europe).gba` are byte-identical and share SHA-256 `a9dec84dfe7f62ab2220bafaef7479da0929d066ece16a6885f6226db19085af`. The working matrix therefore contains six unique binary identities.
 
-- official title and product identifier;
-- platform and execution environment;
-- region, language, revision, update, and distribution form;
-- hashes for user-supplied images, executables, modules, or manifests;
-- executable/container layout and relevant segment identifiers;
-- analysis, extraction, compiler, linker, and SDK tool versions;
-- legal provenance and distribution constraints for every input;
-- differences from related versions that affect addresses, formats, or behavior.
+All six unique inputs have a 16 MiB size, `POKEMON EMER` header title, maker code `01`, software version `0`, the expected GBA fixed header byte, and a valid calculated header complement checksum.
 
-Store machine-readable identifiers in `config/target.json`. Keep the ROM binary outside Git and commit every storable non-ROM result.
+## Research priorities
 
-## Initial research priorities
-
-- Fingerprint the exact cartridge revision and document the header, memory map, and top-level ROM regions.
+- Reconstruct shared and localization-specific code/data boundaries across the six selected identities.
 - Identify ARM and Thumb code boundaries, calling conventions, compiler fingerprints, and data/code references.
 - Map pointer tables, compression, graphics, text, audio, scripts, and other target-specific resource formats.
-- Build deterministic extraction and comparison tools around user-supplied, hash-verified inputs.
-- Define byte, layout, or behavior-based verification for each reconstructed component.
+- Build deterministic extraction and comparison tools around hash-verified local inputs.
+- Maintain a cross-variant defect registry and remove reproducible bugs, glitches, undefined behavior, crashes, softlocks, corruption paths, data errors, collision mistakes, audiovisual faults, localization-only defects, and exploit chains.
+- Define byte, layout, state, and behavior-based verification for each reconstructed or corrected component.
+
+## Defect-eradication baseline
+
+The zero-known-defect campaign is defined in `docs/BUG_ERADICATION.md`.
+
+Initial evidence has been pinned in:
+
+- `manifests/bugs/pret-marked-bug-surface.csv` for current upstream `BUGFIX` and `UBFIX` source surfaces;
+- `research/bugs/public-catalog-seed.csv` for public Emerald and shared Generation III glitch/oversight reports;
+- `tools/scan_emerald_roms.py` for repeatable local ROM identity verification.
+
+No single public catalog is considered complete. Completion requires source review, binary comparison, static analysis, dynamic emulator testing, fuzz/property testing, and regression coverage across every applicable target identity.
 
 ## First milestone
 
-The foundation milestone is complete when the exact target build is recorded, the initial file/executable map is reproducible, at least one research record has been promoted to an analysis with stated confidence, and all commands needed to repeat that result are documented.
+The original target-identification portion of the foundation milestone is complete. The next foundation milestone is complete when:
+
+1. a reproducible source baseline is present or synchronized;
+2. the upstream and public seed inventories are merged into one deduplicated defect registry;
+3. high-risk memory/UB, save-corruption/cloning, crash/softlock, and battle-state defects have automated regression tests where technically possible;
+4. each fix records applicability across BPEJ/BPEE/BPED/BPEF/BPEI/BPES;
+5. all commands needed to reproduce the analysis and tests are documented.
 
 ## Non-ROM artifact preservation
 
