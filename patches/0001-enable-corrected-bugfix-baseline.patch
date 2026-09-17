@@ -1,0 +1,26 @@
+From: EMERALD project
+Subject: [PATCH] Enable pret BUGFIX baseline for corrected builds
+
+This patch is intended for pret/pokeemerald commit
+5eff78649e7170a877b961ef0b3da13b81a16038.
+
+Enabling BUGFIX also enables UBFIX through include/config.h, so the corrected
+build takes both the ordinary identified bug-fix paths and the genuine
+undefined-behavior fixes instead of retail-compatible buggy branches.
+
+---
+ include/config.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/include/config.h b/include/config.h
+--- a/include/config.h
++++ b/include/config.h
+@@ -43,7 +43,7 @@
+ #endif
+ 
+ // Uncomment to fix some identified minor bugs
+-//#define BUGFIX
++#define BUGFIX
+ 
+ // Various undefined behavior bugs may or may not prevent compilation with
+ // newer compilers. So always fix them when using a modern compiler.
