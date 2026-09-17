@@ -1,0 +1,73 @@
+id,category,games,region_revision,name,source,status,notes
+GEN3-PUB-001,ui,"Ruby;Sapphire;Emerald;FireRed;LeafGreen",all,Evolution move-learning script bug,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified,
+GEN3-PUB-002,economy,"Ruby;Sapphire",all,256x item selling price bug,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified,
+GEN3-PUB-003,rtc,"Ruby;Sapphire","early revisions",Berry glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified,"fixed in later revisions; revision matrix required"
+GEN3-PUB-004,pokedex,"Ruby;Sapphire",all,Diploma bug,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified,
+GEN3-PUB-005,pokemon-data,"Ruby;Sapphire",all,Strain 0 Pokerus,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified,
+GEN3-PUB-006,event,"Ruby;Sapphire",Japanese,Yellow Scarf bug,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified,
+GEN3-PUB-007,save-exploit,Emerald,all,Battle Tower cloning glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified,
+GEN3-PUB-008,corruption-exploit,Emerald,all,Pomeg glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified,"audit derived corruption and ACE chains separately"
+GEN3-PUB-009,metadata,"FireRed;LeafGreen",all,Celadon City meeting location glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified,
+GEN3-PUB-010,graphics,"FireRed;LeafGreen","English 1.0",Opening sequence oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified,"reported fixed in English 1.1"
+GEN3-PUB-011,pokedex,"FireRed;LeafGreen","English 1.0",Pokedex category oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified,"reported fixed in English 1.1"
+GEN3-PUB-012,facility-exploit,"Pokemon Box Ruby & Sapphire",all,Battle Tower Ribbons on ineligible Pokemon,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified,"precise timing through Go to Adventure"
+GEN3-PUB-013,battle,"Ruby;Sapphire;Emerald;FireRed;LeafGreen",all,Focus Punch recall bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-014,battle-data,"Ruby;Sapphire;Emerald;FireRed;LeafGreen",varies,Mail corruption,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,"language and move-specific variants require split reproduction"
+GEN3-PUB-015,data,"Ruby;Sapphire;Emerald;FireRed;LeafGreen",all,Move details errors,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,"expand into one record per erroneous move detail"
+GEN3-PUB-016,graphics,"Ruby;Sapphire;Emerald;FireRed;LeafGreen",all,Softboiled plus Brick Break bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-017,battle,"Ruby;Sapphire;Emerald;FireRed;LeafGreen",all,Status condition delayed cure glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-018,graphics,"Ruby;Sapphire;Emerald;FireRed;LeafGreen",all,Sticky Hold graphics bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-019,audio,"Ruby;Sapphire;Emerald;FireRed;LeafGreen",all,Stuck audio bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-020,pokemon-data,"Ruby;Sapphire;FireRed;LeafGreen",all,Roaming Pokemon IV bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,"Emerald reported fixed"
+GEN3-PUB-021,battle,"Ruby;Sapphire;FireRed;LeafGreen;Colosseum",all,Multistrike moves inflict status upon their target,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,"do not incorrectly apply to Emerald without reproduction"
+GEN3-PUB-022,data,"Ruby;Sapphire;Emerald",all,Nature Power details error,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-023,battle,"Ruby;Sapphire;Emerald",all,Pokeblock throw bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-024,event,"Ruby;Sapphire;Emerald",all,Wally defeating Ralts oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-025,ui,"Ruby;Sapphire",all,HP bar oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-026,economy,"Ruby;Sapphire",all,Pay Day money error,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-027,roamer,"Ruby;Sapphire",all,Roaming Pokemon white out knockout oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-028,roamer,"Ruby;Sapphire",all,Roaming Pokemon encounter bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-029,battle,"Ruby;Sapphire",all,Shed Skin does not clear Nightmare,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-030,audio-crash,"Ruby;Sapphire",all,Stuck audio freeze,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-031,battle,"Ruby;Sapphire",all,Toxic catch rate bonus,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-032,battle-facility,Emerald,all,Battle Pike poison knockout,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-033,battle,Emerald,all,Hidden Power disobedience glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-034,roamer,"FireRed;LeafGreen",all,Roaming Roar bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-035,battle,"FireRed;LeafGreen",all,Kanto Safari Zone bait and rock oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-036,battle,Colosseum,all,Battle Item glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-037,battle-exp,Colosseum,all,Perish Song experience bug involving status ailments,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-038,battle-exp,Colosseum,all,Perish Song experience bug involving weather,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-039,inventory,Colosseum,all,Poke Ball amount bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-040,battle,Colosseum,all,Shadow Rush glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-041,pokemon-data,Colosseum,all,Shiny Shadow Pokemon bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-042,battle,Colosseum,all,Snag recall bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-043,capture,"XD: Gale of Darkness",all,Shadow Voltorb Catch Bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified,
+GEN3-PUB-044,overworld,"Ruby;Sapphire;Emerald",all,Dive glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-045,overworld,"Ruby;Sapphire;Emerald",all,Freezing NPCs while the player moves,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-046,event,"Ruby;Sapphire;Emerald",all,Oldale Town Poke Mart promotion gift,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-047,overworld,"Ruby;Sapphire;Emerald",all,Route 134 current interruption error,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-048,event,"Ruby;Sapphire;Emerald",all,Seafloor Cavern boulder oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-049,collision,"Ruby;Sapphire;Emerald",all,Sky Pillar rock drop,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-050,event,"Ruby;Sapphire;Emerald",all,Team Magma Aqua encounter oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-051,collision,"Ruby;Sapphire;Emerald",all,Walkable current tile in Route 134,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-052,localization,"Ruby;Sapphire;Emerald",varies,Mossdeep City Skitty oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,"reported in all RS plus French and Spanish Emerald"
+GEN3-PUB-053,event,"Ruby;Sapphire",all,Dewford Gym statue error,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-054,trainer,"Ruby;Sapphire",varies,Trainer approach oversights,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,"source states English cases; all-language coverage requires research"
+GEN3-PUB-055,collision,"Ruby;Sapphire",all,Walkable rock wall in Sootopolis City,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-056,localization,"Ruby;Sapphire","English 1.0",Softboiled out-of-battle fail message bug,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,"reported fixed in English 1.1"
+GEN3-PUB-057,crash,"Ruby;Sapphire",Japanese,Acro Bike instability,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-058,overworld,"Ruby;Sapphire",Japanese,Landsurfing bug,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-059,graphics,"Ruby;Sapphire",Japanese,Sand Ornament collapse bug,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-060,event,Emerald,all,Battle Pikes Gentleman third text box,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-061,collision,Emerald,all,Mirage Tower collision error,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-062,collision,Emerald,all,Sootopolis Gym wall oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-063,berry-state,Emerald,all,Stuck Cheri bug,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,"root cause still marked as needing research in source catalog"
+GEN3-PUB-064,memory-graphics,Emerald,all,Trainers School window tile quirks,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,"graphics depend on Pokemon storage data due tile overwrite"
+GEN3-PUB-065,overworld,Emerald,Japanese,Aqua Hideout Dive glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-066,audio,Emerald,Japanese,Mover Vigoroth cry oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-067,event,"FireRed;LeafGreen",Japanese,Nugget Bridge script oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,"verify exact revision and localization applicability"
+GEN3-PUB-068,audio,"FireRed;LeafGreen",all,Melody oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-069,persistent-state,Colosseum,all,Poison revive bug,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-070,collision,"Colosseum;XD: Gale of Darkness",all,Corner clipping bug,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified,
+GEN3-PUB-071,localization-crash,"Ruby;Sapphire","English 1.0",Foreign species-name evolution freeze or crash,https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Ruby_and_Sapphire,unverified,"version history reports guard added in English 1.1"
+GEN3-PUB-072,distribution,"Pokemon Channel;Ruby;Sapphire","European/Australian Channel with compatible RS",Channel Jirachi shiny programming error,https://bulbapedia.bulbagarden.net/wiki/List_of_game-based_Pok%C3%A9mon_distributions_(Generation_III),unverified,"game-based distribution path; verify intended shiny policy and transfer implementation"
