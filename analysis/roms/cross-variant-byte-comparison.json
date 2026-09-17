@@ -1,0 +1,24 @@
+{
+  "format": "emerald-cross-variant-byte-comparison-v1",
+  "method": "Pairwise byte comparison of the six unique verified 16 MiB local ROM identities; identical block count uses 64 KiB blocks.",
+  "block_size": 65536,
+  "block_count": 256,
+  "pairs": [
+    {"left":"BPEJ","right":"BPEE","differing_bytes":13390435,"differing_fraction":0.7981321215629578,"differing_percent":79.81321215629578,"identical_blocks":36,"first_difference_offset":175,"last_difference_offset":15988679},
+    {"left":"BPEJ","right":"BPED","differing_bytes":13386784,"differing_fraction":0.7979145050048828,"differing_percent":79.79145050048828,"identical_blocks":36,"first_difference_offset":175,"last_difference_offset":15988679},
+    {"left":"BPEJ","right":"BPEF","differing_bytes":13362861,"differing_fraction":0.7964885830879211,"differing_percent":79.64885830879211,"identical_blocks":36,"first_difference_offset":175,"last_difference_offset":15988679},
+    {"left":"BPEJ","right":"BPEI","differing_bytes":13352629,"differing_fraction":0.7958787083625793,"differing_percent":79.58787083625793,"identical_blocks":36,"first_difference_offset":175,"last_difference_offset":15988679},
+    {"left":"BPEJ","right":"BPES","differing_bytes":13394712,"differing_fraction":0.7983870506286621,"differing_percent":79.83870506286621,"identical_blocks":36,"first_difference_offset":175,"last_difference_offset":15988679},
+    {"left":"BPEE","right":"BPED","differing_bytes":10785193,"differing_fraction":0.6428475975990295,"differing_percent":64.28475975990295,"identical_blocks":68,"first_difference_offset":175,"last_difference_offset":14590074},
+    {"left":"BPEE","right":"BPEF","differing_bytes":10409185,"differing_fraction":0.6204357743263245,"differing_percent":62.04357743263245,"identical_blocks":69,"first_difference_offset":175,"last_difference_offset":14590248},
+    {"left":"BPEE","right":"BPEI","differing_bytes":10494578,"differing_fraction":0.6255255937576294,"differing_percent":62.55255937576294,"identical_blocks":69,"first_difference_offset":175,"last_difference_offset":14589840},
+    {"left":"BPEE","right":"BPES","differing_bytes":10158364,"differing_fraction":0.6054856777191162,"differing_percent":60.54856777191162,"identical_blocks":69,"first_difference_offset":175,"last_difference_offset":14590153},
+    {"left":"BPED","right":"BPEF","differing_bytes":10740226,"differing_fraction":0.6401673555374146,"differing_percent":64.01673555374146,"identical_blocks":68,"first_difference_offset":175,"last_difference_offset":14590248},
+    {"left":"BPED","right":"BPEI","differing_bytes":10399592,"differing_fraction":0.6198639869689941,"differing_percent":61.986398696899414,"identical_blocks":69,"first_difference_offset":175,"last_difference_offset":14590074},
+    {"left":"BPED","right":"BPES","differing_bytes":10744509,"differing_fraction":0.6404226422309875,"differing_percent":64.04226422309875,"identical_blocks":68,"first_difference_offset":175,"last_difference_offset":14590153},
+    {"left":"BPEF","right":"BPEI","differing_bytes":10402855,"differing_fraction":0.6200584769248962,"differing_percent":62.00584769248962,"identical_blocks":69,"first_difference_offset":175,"last_difference_offset":14590248},
+    {"left":"BPEF","right":"BPES","differing_bytes":9927235,"differing_fraction":0.591709315776825,"differing_percent":59.1709315776825,"identical_blocks":69,"first_difference_offset":175,"last_difference_offset":14590248},
+    {"left":"BPEI","right":"BPES","differing_bytes":10199886,"differing_fraction":0.60796058177948,"differing_percent":60.796058177948,"identical_blocks":69,"first_difference_offset":175,"last_difference_offset":14590153}
+  ],
+  "interpretation": "The large layout/data differences mean corrected behavior must be implemented and verified by reconstructed symbols/source or per-variant evidence; English retail offsets must not be assumed valid for other variants."
+}
