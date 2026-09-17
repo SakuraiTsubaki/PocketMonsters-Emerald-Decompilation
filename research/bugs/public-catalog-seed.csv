@@ -1,20 +1,20 @@
 id,category,scope,name,source,status
 PUB-001,system,Emerald all languages,Battle Tower cloning glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified
 PUB-002,system,Emerald all languages,Pomeg glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified
-PUB-003,battle,Gen III including Emerald,Focus Punch recall bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
-PUB-004,battle,Gen III including Emerald,Mail corruption,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
-PUB-005,data,Gen III including Emerald,Move details errors,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
-PUB-006,battle,Gen III including Emerald,Softboiled plus Brick Break graphics bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
-PUB-007,battle,Gen III including Emerald,Status condition delayed cure glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
-PUB-008,battle,Gen III including Emerald,Sticky Hold graphics bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
-PUB-009,audio,Gen III including Emerald,Stuck audio bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
-PUB-010,battle,Gen III including Emerald,Multistrike contact-status double-affliction bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
-PUB-011,data,Ruby Sapphire Emerald,Nature Power details error,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
-PUB-012,battle,Ruby Sapphire Emerald,Pokeblock throw bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
-PUB-013,event,Ruby Sapphire Emerald,Wally defeating Ralts oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
-PUB-014,battle,Emerald all languages,Battle Pike poison knockout,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
-PUB-015,battle,Emerald all languages,Hidden Power disobedience glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
-PUB-016,battle,Emerald latent,Roaming Roar bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_(Generation_III),unverified
+PUB-003,battle,Gen III GBA including Emerald,Focus Punch recall bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified
+PUB-004,battle,Gen III GBA including Emerald,Mail corruption,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified
+PUB-005,data,Gen III GBA including Emerald,Move details errors,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified
+PUB-006,battle,Gen III GBA including Emerald,Softboiled plus Brick Break graphics bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified
+PUB-007,battle,Gen III GBA including Emerald,Status condition delayed cure glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified
+PUB-008,battle,Gen III GBA including Emerald,Sticky Hold graphics bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified
+PUB-009,audio,Gen III GBA including Emerald,Stuck audio bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified
+PUB-010,battle,Ruby Sapphire FireRed LeafGreen Colosseum not Emerald,Multistrike contact-status double-affliction bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,not-applicable-to-emerald
+PUB-011,data,Ruby Sapphire Emerald,Nature Power details error,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified
+PUB-012,battle,Ruby Sapphire Emerald,Pokeblock throw bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified
+PUB-013,event,Ruby Sapphire Emerald,Wally defeating Ralts oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified
+PUB-014,battle,Emerald all languages,Battle Pike poison knockout,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified
+PUB-015,battle,Emerald all languages,Hidden Power disobedience glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,unverified
+PUB-016,battle,FireRed LeafGreen not Emerald,Roaming Roar bug,https://bulbapedia.bulbagarden.net/wiki/List_of_battle_glitches_in_Generation_III,not-applicable-to-emerald
 PUB-017,ui,Ruby Sapphire Emerald FireRed LeafGreen,Evolution move-learning script black-screen bug,https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_in_Generation_III,unverified
 PUB-018,overworld,Ruby Sapphire Emerald,Dive glitch,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified
 PUB-019,overworld,Ruby Sapphire Emerald,Freezing NPCs while player moves,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified
@@ -24,7 +24,7 @@ PUB-022,overworld,Ruby Sapphire Emerald,Seafloor Cavern boulder oversight,https:
 PUB-023,overworld,Ruby Sapphire Emerald,Sky Pillar rock drop,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified
 PUB-024,event,Ruby Sapphire Emerald,Team Magma Aqua encounter oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified
 PUB-025,collision,Ruby Sapphire Emerald,Walkable current tile in Route 134,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified
-PUB-026,event,Some Emerald localizations,Mossdeep City Skitty oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified
+PUB-026,event,French and Spanish Emerald plus all Ruby Sapphire,Mossdeep City Skitty oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified
 PUB-027,event,Emerald all languages,Battle Pike Gentleman third text box,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified
 PUB-028,collision,Emerald all languages,Mirage Tower collision error,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified
 PUB-029,collision,Emerald all languages,Sootopolis Gym wall oversight,https://bulbapedia.bulbagarden.net/wiki/List_of_overworld_glitches_in_Generation_III,unverified
