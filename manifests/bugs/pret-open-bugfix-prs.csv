@@ -1,0 +1,8 @@
+pr,state,head_sha,area,summary,project_disposition
+2358,open,713465480075f470528fd99bbbe0521578e2af83,battle-ai,Existing BUGFIX leaks target move knowledge in Cmd_if_has_move_with_effect,audit-and-regression-test
+2312,open,cde45fba96d4d9e6bdd7a317eb0cc6322749a707,battle-palace,Operator-precedence typo checks wrong Palace streak slot and can overwrite record,audit-and-regression-test
+2328,open,1cb61f99115336515ed1e6e89298a1fbed6f9fe6,undefined-behavior,Reclassifies genuine UB fixes from BUGFIX to UBFIX across ten files,audit-marker-coverage
+2308,open,3f1ee4f945ddb9109ed3da0fc852316c0f8a4727,first-battle,Zigzagoon can receive held Oran Berry because first-battle flag is omitted,audit-and-regression-test
+2242,open,3e646d3bd72e9cf8c24158c5c2a37af9c9a6d90b,wally-tutorial,Wally tutorial Ralts can be shiny due to personality loop logic,audit-and-regression-test
+2042,open,a148e7e4cf96fb8ddde99dbd567788f95ab95c51,input,L-equals-A key-repeat compares raw input against remapped held keys,audit-and-regression-test
+1946,open,40727e708d4cfee46c99becfc578c89d98bd2df5,battle,Non-Ghost Curse has asymmetric Pressure PP deduction for AI use,audit-and-regression-test
