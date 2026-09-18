@@ -9,7 +9,7 @@ This roadmap governs research, tooling, analysis, reconstruction, and preservati
 - Original, modified, and rebuilt ROM or complete game-package binaries remain local and are never committed.
 - Commit every other storable work product: notes, references, source, scripts, tools, settings, logs, manifests, tables, CSV/JSON/YAML, patches, validation evidence, and generated outputs.
 - Graphics and sprite work must include actual viewable PNG results alongside encoded data and metadata.
-- Normal diagnostics and validation belong in the repository; this roadmap does not create a separate bug-eradication program.
+- Diagnostics, validation, and safe failure handling remain ordinary engineering responsibilities.
 - A milestone becomes complete only when its exit criteria are backed by committed evidence.
 
 ## Target snapshot
