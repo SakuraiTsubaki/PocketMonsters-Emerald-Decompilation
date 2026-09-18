@@ -30,29 +30,17 @@ All six unique inputs have a 16 MiB size, `POKEMON EMER` header title, maker cod
 - Identify ARM and Thumb code boundaries, calling conventions, compiler fingerprints, and data/code references.
 - Map pointer tables, compression, graphics, text, audio, scripts, and other target-specific resource formats.
 - Build deterministic extraction and comparison tools around hash-verified local inputs.
-- Maintain a cross-variant defect registry and remove reproducible bugs, glitches, undefined behavior, crashes, softlocks, corruption paths, data errors, collision mistakes, audiovisual faults, localization-only defects, and exploit chains.
-- Define byte, layout, state, and behavior-based verification for each reconstructed or corrected component.
-
-## Defect-eradication baseline
-
-The zero-known-defect campaign is defined in `docs/BUG_ERADICATION.md`.
-
-Initial evidence has been pinned in:
-
-- `manifests/bugs/pret-marked-bug-surface.csv` for current upstream `BUGFIX` and `UBFIX` source surfaces;
-- `research/bugs/public-catalog-seed.csv` for public Emerald and shared Generation III glitch/oversight reports;
-- `tools/scan_emerald_roms.py` for repeatable local ROM identity verification.
-
-No single public catalog is considered complete. Completion requires source review, binary comparison, static analysis, dynamic emulator testing, fuzz/property testing, and regression coverage across every applicable target identity.
+- Define byte, layout, state, and behavior-based verification for each reconstructed component.
+- Preserve reproducible evidence and every lawful non-ROM work product.
 
 ## First milestone
 
 The original target-identification portion of the foundation milestone is complete. The next foundation milestone is complete when:
 
 1. a reproducible source baseline is present or synchronized;
-2. the upstream and public seed inventories are merged into one deduplicated defect registry;
-3. high-risk memory/UB, save-corruption/cloning, crash/softlock, and battle-state defects have automated regression tests where technically possible;
-4. each fix records applicability across BPEJ/BPEE/BPED/BPEF/BPEI/BPES;
+2. high-confidence code and data boundaries are recorded for every selected identity;
+3. shared and localization-specific structures can be compared deterministically;
+4. reconstructed components record applicability across BPEJ/BPEE/BPED/BPEF/BPEI/BPES;
 5. all commands needed to reproduce the analysis and tests are documented.
 
 ## Non-ROM artifact preservation

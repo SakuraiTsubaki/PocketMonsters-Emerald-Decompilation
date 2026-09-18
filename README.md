@@ -1,6 +1,6 @@
 # PocketMonsters-Emerald-Decompilation
 
-A complete, target-specific workspace for reproducible research, analysis, tooling, source reconstruction, bug eradication, and retained non-ROM work products related to **Pokémon Emerald / Pocket Monsters Emerald**.
+A complete, target-specific workspace for reproducible research, analysis, tooling, source reconstruction, and retained non-ROM work products related to **Pokémon Emerald / Pocket Monsters Emerald**.
 
 | Field | Value |
 | --- | --- |
@@ -8,7 +8,7 @@ A complete, target-specific workspace for reproducible research, analysis, tooli
 | Platform family | Game Boy Advance |
 | Series generation | Generation III |
 | Exact build identity | Six unique verified retail ROM identities: BPEJ, BPEE, BPED, BPEF, BPEI, BPES |
-| Foundation status | ROM identities selected; defect-eradication baseline in progress |
+| Foundation status | ROM identities selected; ready for evidence-backed reconstruction work |
 
 Machine-readable hashes and header identities are stored in [`config/target.json`](config/target.json). Original ROM binaries remain local inputs and are never committed.
 
@@ -34,11 +34,10 @@ Target-independent work belongs in [`SakuraiTsubaki/Decompilation`](https://gith
 ## Start here
 
 1. Verify local inputs with `python tools/scan_emerald_roms.py <roms...>` and compare them with [`config/target.json`](config/target.json).
-2. Follow [`docs/BUG_ERADICATION.md`](docs/BUG_ERADICATION.md) for the zero-known-defect campaign.
-3. Begin a focused record from [`research/template.md`](research/template.md).
-4. Promote reproducible conclusions through [`analysis/template.md`](analysis/template.md).
-5. Commit every storable non-ROM result produced or collected during the work.
-6. Run `python scripts/check_repository.py .` and the unit tests.
+2. Begin a focused record from [`research/template.md`](research/template.md).
+3. Promote reproducible conclusions through [`analysis/template.md`](analysis/template.md).
+4. Commit every storable non-ROM result produced or collected during the work.
+5. Run `python scripts/check_repository.py .` and the unit tests.
 
 ## Storage rule
 
