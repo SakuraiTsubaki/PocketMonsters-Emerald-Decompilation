@@ -1,0 +1,1873 @@
+{
+  "surveyVersion": 1,
+  "reference": {
+    "repository": "rh-hideout/pokeemerald-expansion",
+    "commit": "75b806a3ab57a81ff1eb6179288981f0b3cc3050"
+  },
+  "assets": [
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "コラッタ",
+      "koreanName": "꼬렛",
+      "key": "SPECIES_RATTATA_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_RattataAlola",
+        "path": "graphics/pokemon/rattata/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_RattataAlola",
+        "path": "graphics/pokemon/rattata/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_RattataAlola",
+        "path": "graphics/pokemon/rattata/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_RattataAlola",
+        "path": "graphics/pokemon/rattata/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_RattataAlola",
+        "path": "graphics/pokemon/rattata/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ラッタ",
+      "koreanName": "레트라",
+      "key": "SPECIES_RATICATE_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_RaticateAlola",
+        "path": "graphics/pokemon/raticate/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_RaticateAlola",
+        "path": "graphics/pokemon/raticate/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_RaticateAlola",
+        "path": "graphics/pokemon/raticate/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_RaticateAlola",
+        "path": "graphics/pokemon/raticate/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_RaticateAlola",
+        "path": "graphics/pokemon/raticate/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ライチュウ",
+      "koreanName": "라이츄",
+      "key": "SPECIES_RAICHU_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_RaichuAlola",
+        "path": "graphics/pokemon/raichu/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_RaichuAlola",
+        "path": "graphics/pokemon/raichu/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_RaichuAlola",
+        "path": "graphics/pokemon/raichu/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_RaichuAlola",
+        "path": "graphics/pokemon/raichu/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_RaichuAlola",
+        "path": "graphics/pokemon/raichu/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "サンド",
+      "koreanName": "모래두지",
+      "key": "SPECIES_SANDSHREW_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_SandshrewAlola",
+        "path": "graphics/pokemon/sandshrew/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_SandshrewAlola",
+        "path": "graphics/pokemon/sandshrew/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_SandshrewAlola",
+        "path": "graphics/pokemon/sandshrew/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_SandshrewAlola",
+        "path": "graphics/pokemon/sandshrew/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_SandshrewAlola",
+        "path": "graphics/pokemon/sandshrew/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "サンドパン",
+      "koreanName": "고지",
+      "key": "SPECIES_SANDSLASH_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_SandslashAlola",
+        "path": "graphics/pokemon/sandslash/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_SandslashAlola",
+        "path": "graphics/pokemon/sandslash/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_SandslashAlola",
+        "path": "graphics/pokemon/sandslash/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_SandslashAlola",
+        "path": "graphics/pokemon/sandslash/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_SandslashAlola",
+        "path": "graphics/pokemon/sandslash/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ロコン",
+      "koreanName": "식스테일",
+      "key": "SPECIES_VULPIX_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_VulpixAlola",
+        "path": "graphics/pokemon/vulpix/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_VulpixAlola",
+        "path": "graphics/pokemon/vulpix/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_VulpixAlola",
+        "path": "graphics/pokemon/vulpix/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_VulpixAlola",
+        "path": "graphics/pokemon/vulpix/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_VulpixAlola",
+        "path": "graphics/pokemon/vulpix/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "キュウコン",
+      "koreanName": "나인테일",
+      "key": "SPECIES_NINETALES_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_NinetalesAlola",
+        "path": "graphics/pokemon/ninetales/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_NinetalesAlola",
+        "path": "graphics/pokemon/ninetales/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_NinetalesAlola",
+        "path": "graphics/pokemon/ninetales/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_NinetalesAlola",
+        "path": "graphics/pokemon/ninetales/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_NinetalesAlola",
+        "path": "graphics/pokemon/ninetales/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ディグダ",
+      "koreanName": "디그다",
+      "key": "SPECIES_DIGLETT_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_DiglettAlola",
+        "path": "graphics/pokemon/diglett/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_DiglettAlola",
+        "path": "graphics/pokemon/diglett/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_DiglettAlola",
+        "path": "graphics/pokemon/diglett/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_DiglettAlola",
+        "path": "graphics/pokemon/diglett/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_DiglettAlola",
+        "path": "graphics/pokemon/diglett/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ダグトリオ",
+      "koreanName": "닥트리오",
+      "key": "SPECIES_DUGTRIO_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_DugtrioAlola",
+        "path": "graphics/pokemon/dugtrio/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_DugtrioAlola",
+        "path": "graphics/pokemon/dugtrio/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_DugtrioAlola",
+        "path": "graphics/pokemon/dugtrio/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_DugtrioAlola",
+        "path": "graphics/pokemon/dugtrio/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_DugtrioAlola",
+        "path": "graphics/pokemon/dugtrio/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ニャース",
+      "koreanName": "나옹",
+      "key": "SPECIES_MEOWTH_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_MeowthAlola",
+        "path": "graphics/pokemon/meowth/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_MeowthAlola",
+        "path": "graphics/pokemon/meowth/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_MeowthAlola",
+        "path": "graphics/pokemon/meowth/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_MeowthAlola",
+        "path": "graphics/pokemon/meowth/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_MeowthAlola",
+        "path": "graphics/pokemon/meowth/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ペルシアン",
+      "koreanName": "페르시온",
+      "key": "SPECIES_PERSIAN_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_PersianAlola",
+        "path": "graphics/pokemon/persian/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_PersianAlola",
+        "path": "graphics/pokemon/persian/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_PersianAlola",
+        "path": "graphics/pokemon/persian/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_PersianAlola",
+        "path": "graphics/pokemon/persian/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_PersianAlola",
+        "path": "graphics/pokemon/persian/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "イシツブテ",
+      "koreanName": "꼬마돌",
+      "key": "SPECIES_GEODUDE_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_GeodudeAlola",
+        "path": "graphics/pokemon/geodude/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_GeodudeAlola",
+        "path": "graphics/pokemon/geodude/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_GeodudeAlola",
+        "path": "graphics/pokemon/geodude/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_GeodudeAlola",
+        "path": "graphics/pokemon/geodude/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_GeodudeAlola",
+        "path": "graphics/pokemon/geodude/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ゴローン",
+      "koreanName": "데구리",
+      "key": "SPECIES_GRAVELER_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_GravelerAlola",
+        "path": "graphics/pokemon/graveler/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_GravelerAlola",
+        "path": "graphics/pokemon/graveler/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_GravelerAlola",
+        "path": "graphics/pokemon/graveler/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_GravelerAlola",
+        "path": "graphics/pokemon/graveler/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_GravelerAlola",
+        "path": "graphics/pokemon/graveler/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ゴローニャ",
+      "koreanName": "딱구리",
+      "key": "SPECIES_GOLEM_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_GolemAlola",
+        "path": "graphics/pokemon/golem/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_GolemAlola",
+        "path": "graphics/pokemon/golem/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_GolemAlola",
+        "path": "graphics/pokemon/golem/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_GolemAlola",
+        "path": "graphics/pokemon/golem/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_GolemAlola",
+        "path": "graphics/pokemon/golem/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ベトベター",
+      "koreanName": "질퍽이",
+      "key": "SPECIES_GRIMER_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_GrimerAlola",
+        "path": "graphics/pokemon/grimer/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_GrimerAlola",
+        "path": "graphics/pokemon/grimer/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_GrimerAlola",
+        "path": "graphics/pokemon/grimer/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_GrimerAlola",
+        "path": "graphics/pokemon/grimer/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_GrimerAlola",
+        "path": "graphics/pokemon/grimer/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ベトベトン",
+      "koreanName": "질뻐기",
+      "key": "SPECIES_MUK_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_MukAlola",
+        "path": "graphics/pokemon/muk/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_MukAlola",
+        "path": "graphics/pokemon/muk/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_MukAlola",
+        "path": "graphics/pokemon/muk/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_MukAlola",
+        "path": "graphics/pokemon/muk/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_MukAlola",
+        "path": "graphics/pokemon/muk/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ナッシー",
+      "koreanName": "나시",
+      "key": "SPECIES_EXEGGUTOR_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_ExeggutorAlola",
+        "path": "graphics/pokemon/exeggutor/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_ExeggutorAlola",
+        "path": "graphics/pokemon/exeggutor/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_ExeggutorAlola",
+        "path": "graphics/pokemon/exeggutor/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_ExeggutorAlola",
+        "path": "graphics/pokemon/exeggutor/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_ExeggutorAlola",
+        "path": "graphics/pokemon/exeggutor/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ガラガラ",
+      "koreanName": "텅구리",
+      "key": "SPECIES_MAROWAK_ALOLA",
+      "front": {
+        "symbol": "gMonFrontPic_MarowakAlola",
+        "path": "graphics/pokemon/marowak/alola/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_MarowakAlola",
+        "path": "graphics/pokemon/marowak/alola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_MarowakAlola",
+        "path": "graphics/pokemon/marowak/alola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_MarowakAlola",
+        "path": "graphics/pokemon/marowak/alola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_MarowakAlola",
+        "path": "graphics/pokemon/marowak/alola/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ニャース",
+      "koreanName": "나옹",
+      "key": "SPECIES_MEOWTH_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_MeowthGalar",
+        "path": "graphics/pokemon/meowth/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_MeowthGalar",
+        "path": "graphics/pokemon/meowth/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_MeowthGalar",
+        "path": "graphics/pokemon/meowth/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_MeowthGalar",
+        "path": "graphics/pokemon/meowth/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_MeowthGalar",
+        "path": "graphics/pokemon/meowth/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ポニータ",
+      "koreanName": "포니타",
+      "key": "SPECIES_PONYTA_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_PonytaGalar",
+        "path": "graphics/pokemon/ponyta/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_PonytaGalar",
+        "path": "graphics/pokemon/ponyta/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_PonytaGalar",
+        "path": "graphics/pokemon/ponyta/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_PonytaGalar",
+        "path": "graphics/pokemon/ponyta/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_PonytaGalar",
+        "path": "graphics/pokemon/ponyta/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ギャロップ",
+      "koreanName": "날쌩마",
+      "key": "SPECIES_RAPIDASH_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_RapidashGalar",
+        "path": "graphics/pokemon/rapidash/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_RapidashGalar",
+        "path": "graphics/pokemon/rapidash/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_RapidashGalar",
+        "path": "graphics/pokemon/rapidash/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_RapidashGalar",
+        "path": "graphics/pokemon/rapidash/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_RapidashGalar",
+        "path": "graphics/pokemon/rapidash/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ヤドン",
+      "koreanName": "야돈",
+      "key": "SPECIES_SLOWPOKE_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_SlowpokeGalar",
+        "path": "graphics/pokemon/slowpoke/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_SlowpokeGalar",
+        "path": "graphics/pokemon/slowpoke/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_SlowpokeGalar",
+        "path": "graphics/pokemon/slowpoke/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_SlowpokeGalar",
+        "path": "graphics/pokemon/slowpoke/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_SlowpokeGalar",
+        "path": "graphics/pokemon/slowpoke/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ヤドラン",
+      "koreanName": "야도란",
+      "key": "SPECIES_SLOWBRO_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_SlowbroGalar",
+        "path": "graphics/pokemon/slowbro/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_SlowbroGalar",
+        "path": "graphics/pokemon/slowbro/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_SlowbroGalar",
+        "path": "graphics/pokemon/slowbro/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_SlowbroGalar",
+        "path": "graphics/pokemon/slowbro/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_SlowbroGalar",
+        "path": "graphics/pokemon/slowbro/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "カモネギ",
+      "koreanName": "파오리",
+      "key": "SPECIES_FARFETCHD_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_FarfetchdGalar",
+        "path": "graphics/pokemon/farfetchd/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_FarfetchdGalar",
+        "path": "graphics/pokemon/farfetchd/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_FarfetchdGalar",
+        "path": "graphics/pokemon/farfetchd/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_FarfetchdGalar",
+        "path": "graphics/pokemon/farfetchd/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_FarfetchdGalar",
+        "path": "graphics/pokemon/farfetchd/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "マタドガス",
+      "koreanName": "또도가스",
+      "key": "SPECIES_WEEZING_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_WeezingGalar",
+        "path": "graphics/pokemon/weezing/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_WeezingGalar",
+        "path": "graphics/pokemon/weezing/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_WeezingGalar",
+        "path": "graphics/pokemon/weezing/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_WeezingGalar",
+        "path": "graphics/pokemon/weezing/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_WeezingGalar",
+        "path": "graphics/pokemon/weezing/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "バリヤード",
+      "koreanName": "마임맨",
+      "key": "SPECIES_MR_MIME_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_MrMimeGalar",
+        "path": "graphics/pokemon/mr_mime/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_MrMimeGalar",
+        "path": "graphics/pokemon/mr_mime/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_MrMimeGalar",
+        "path": "graphics/pokemon/mr_mime/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_MrMimeGalar",
+        "path": "graphics/pokemon/mr_mime/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_MrMimeGalar",
+        "path": "graphics/pokemon/mr_mime/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "フリーザー",
+      "koreanName": "프리져",
+      "key": "SPECIES_ARTICUNO_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_ArticunoGalar",
+        "path": "graphics/pokemon/articuno/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_ArticunoGalar",
+        "path": "graphics/pokemon/articuno/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_ArticunoGalar",
+        "path": "graphics/pokemon/articuno/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_ArticunoGalar",
+        "path": "graphics/pokemon/articuno/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_ArticunoGalar",
+        "path": "graphics/pokemon/articuno/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "サンダー",
+      "koreanName": "썬더",
+      "key": "SPECIES_ZAPDOS_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_ZapdosGalar",
+        "path": "graphics/pokemon/zapdos/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_ZapdosGalar",
+        "path": "graphics/pokemon/zapdos/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_ZapdosGalar",
+        "path": "graphics/pokemon/zapdos/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_ZapdosGalar",
+        "path": "graphics/pokemon/zapdos/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_ZapdosGalar",
+        "path": "graphics/pokemon/zapdos/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ファイヤー",
+      "koreanName": "파이어",
+      "key": "SPECIES_MOLTRES_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_MoltresGalar",
+        "path": "graphics/pokemon/moltres/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_MoltresGalar",
+        "path": "graphics/pokemon/moltres/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_MoltresGalar",
+        "path": "graphics/pokemon/moltres/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_MoltresGalar",
+        "path": "graphics/pokemon/moltres/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_MoltresGalar",
+        "path": "graphics/pokemon/moltres/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ヤドキング",
+      "koreanName": "야도킹",
+      "key": "SPECIES_SLOWKING_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_SlowkingGalar",
+        "path": "graphics/pokemon/slowking/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_SlowkingGalar",
+        "path": "graphics/pokemon/slowking/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_SlowkingGalar",
+        "path": "graphics/pokemon/slowking/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_SlowkingGalar",
+        "path": "graphics/pokemon/slowking/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_SlowkingGalar",
+        "path": "graphics/pokemon/slowking/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "サニーゴ",
+      "koreanName": "코산호",
+      "key": "SPECIES_CORSOLA_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_CorsolaGalar",
+        "path": "graphics/pokemon/corsola/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_CorsolaGalar",
+        "path": "graphics/pokemon/corsola/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_CorsolaGalar",
+        "path": "graphics/pokemon/corsola/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_CorsolaGalar",
+        "path": "graphics/pokemon/corsola/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_CorsolaGalar",
+        "path": "graphics/pokemon/corsola/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ジグザグマ",
+      "koreanName": "지그제구리",
+      "key": "SPECIES_ZIGZAGOON_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_ZigzagoonGalar",
+        "path": "graphics/pokemon/zigzagoon/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_ZigzagoonGalar",
+        "path": "graphics/pokemon/zigzagoon/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_ZigzagoonGalar",
+        "path": "graphics/pokemon/zigzagoon/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_ZigzagoonGalar",
+        "path": "graphics/pokemon/zigzagoon/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_ZigzagoonGalar",
+        "path": "graphics/pokemon/zigzagoon/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "マッスグマ",
+      "koreanName": "직구리",
+      "key": "SPECIES_LINOONE_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_LinooneGalar",
+        "path": "graphics/pokemon/linoone/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_LinooneGalar",
+        "path": "graphics/pokemon/linoone/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_LinooneGalar",
+        "path": "graphics/pokemon/linoone/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_LinooneGalar",
+        "path": "graphics/pokemon/linoone/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_LinooneGalar",
+        "path": "graphics/pokemon/linoone/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ダルマッカ",
+      "koreanName": "달막화",
+      "key": "SPECIES_DARUMAKA_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_DarumakaGalar",
+        "path": "graphics/pokemon/darumaka/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_DarumakaGalar",
+        "path": "graphics/pokemon/darumaka/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_DarumakaGalar",
+        "path": "graphics/pokemon/darumaka/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_DarumakaGalar",
+        "path": "graphics/pokemon/darumaka/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_DarumakaGalar",
+        "path": "graphics/pokemon/darumaka/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ヒヒダルマ",
+      "koreanName": "불비달마",
+      "key": "SPECIES_DARMANITAN_GALAR_STANDARD",
+      "front": {
+        "symbol": "gMonFrontPic_DarmanitanGalarStandard",
+        "path": "graphics/pokemon/darmanitan/galar_standard/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_DarmanitanGalarStandard",
+        "path": "graphics/pokemon/darmanitan/galar_standard/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_DarmanitanGalarStandard",
+        "path": "graphics/pokemon/darmanitan/galar_standard/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_DarmanitanGalarStandard",
+        "path": "graphics/pokemon/darmanitan/galar_standard/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_DarmanitanGalarStandard",
+        "path": "graphics/pokemon/darmanitan/galar_standard/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "デスマス",
+      "koreanName": "데스마스",
+      "key": "SPECIES_YAMASK_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_YamaskGalar",
+        "path": "graphics/pokemon/yamask/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_YamaskGalar",
+        "path": "graphics/pokemon/yamask/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_YamaskGalar",
+        "path": "graphics/pokemon/yamask/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_YamaskGalar",
+        "path": "graphics/pokemon/yamask/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_YamaskGalar",
+        "path": "graphics/pokemon/yamask/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "マッギョ",
+      "koreanName": "메더",
+      "key": "SPECIES_STUNFISK_GALAR",
+      "front": {
+        "symbol": "gMonFrontPic_StunfiskGalar",
+        "path": "graphics/pokemon/stunfisk/galar/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_StunfiskGalar",
+        "path": "graphics/pokemon/stunfisk/galar/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_StunfiskGalar",
+        "path": "graphics/pokemon/stunfisk/galar/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_StunfiskGalar",
+        "path": "graphics/pokemon/stunfisk/galar/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_StunfiskGalar",
+        "path": "graphics/pokemon/stunfisk/galar/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ガーディ",
+      "koreanName": "가디",
+      "key": "SPECIES_GROWLITHE_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_GrowlitheHisui",
+        "path": "graphics/pokemon/growlithe/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_GrowlitheHisui",
+        "path": "graphics/pokemon/growlithe/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_GrowlitheHisui",
+        "path": "graphics/pokemon/growlithe/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_GrowlitheHisui",
+        "path": "graphics/pokemon/growlithe/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_GrowlitheHisui",
+        "path": "graphics/pokemon/growlithe/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ウインディ",
+      "koreanName": "윈디",
+      "key": "SPECIES_ARCANINE_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_ArcanineHisui",
+        "path": "graphics/pokemon/arcanine/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_ArcanineHisui",
+        "path": "graphics/pokemon/arcanine/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_ArcanineHisui",
+        "path": "graphics/pokemon/arcanine/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_ArcanineHisui",
+        "path": "graphics/pokemon/arcanine/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_ArcanineHisui",
+        "path": "graphics/pokemon/arcanine/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ビリリダマ",
+      "koreanName": "찌리리공",
+      "key": "SPECIES_VOLTORB_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_VoltorbHisui",
+        "path": "graphics/pokemon/voltorb/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_VoltorbHisui",
+        "path": "graphics/pokemon/voltorb/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_VoltorbHisui",
+        "path": "graphics/pokemon/voltorb/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_VoltorbHisui",
+        "path": "graphics/pokemon/voltorb/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_VoltorbHisui",
+        "path": "graphics/pokemon/voltorb/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "マルマイン",
+      "koreanName": "붐볼",
+      "key": "SPECIES_ELECTRODE_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_ElectrodeHisui",
+        "path": "graphics/pokemon/electrode/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_ElectrodeHisui",
+        "path": "graphics/pokemon/electrode/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_ElectrodeHisui",
+        "path": "graphics/pokemon/electrode/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_ElectrodeHisui",
+        "path": "graphics/pokemon/electrode/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_ElectrodeHisui",
+        "path": "graphics/pokemon/electrode/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "バクフーン",
+      "koreanName": "블레이범",
+      "key": "SPECIES_TYPHLOSION_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_TyphlosionHisui",
+        "path": "graphics/pokemon/typhlosion/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_TyphlosionHisui",
+        "path": "graphics/pokemon/typhlosion/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_TyphlosionHisui",
+        "path": "graphics/pokemon/typhlosion/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_TyphlosionHisui",
+        "path": "graphics/pokemon/typhlosion/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_TyphlosionHisui",
+        "path": "graphics/pokemon/typhlosion/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ハリーセン",
+      "koreanName": "침바루",
+      "key": "SPECIES_QWILFISH_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_QwilfishHisui",
+        "path": "graphics/pokemon/qwilfish/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_QwilfishHisui",
+        "path": "graphics/pokemon/qwilfish/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_QwilfishHisui",
+        "path": "graphics/pokemon/qwilfish/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_QwilfishHisui",
+        "path": "graphics/pokemon/qwilfish/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_QwilfishHisui",
+        "path": "graphics/pokemon/qwilfish/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ニューラ",
+      "koreanName": "포푸니",
+      "key": "SPECIES_SNEASEL_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_SneaselHisui",
+        "path": "graphics/pokemon/sneasel/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_SneaselHisui",
+        "path": "graphics/pokemon/sneasel/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_SneaselHisui",
+        "path": "graphics/pokemon/sneasel/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_SneaselHisui",
+        "path": "graphics/pokemon/sneasel/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_SneaselHisui",
+        "path": "graphics/pokemon/sneasel/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ダイケンキ",
+      "koreanName": "대검귀",
+      "key": "SPECIES_SAMUROTT_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_SamurottHisui",
+        "path": "graphics/pokemon/samurott/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_SamurottHisui",
+        "path": "graphics/pokemon/samurott/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_SamurottHisui",
+        "path": "graphics/pokemon/samurott/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_SamurottHisui",
+        "path": "graphics/pokemon/samurott/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_SamurottHisui",
+        "path": "graphics/pokemon/samurott/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ドレディア",
+      "koreanName": "드레디어",
+      "key": "SPECIES_LILLIGANT_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_LilligantHisui",
+        "path": "graphics/pokemon/lilligant/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_LilligantHisui",
+        "path": "graphics/pokemon/lilligant/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_LilligantHisui",
+        "path": "graphics/pokemon/lilligant/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_LilligantHisui",
+        "path": "graphics/pokemon/lilligant/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_LilligantHisui",
+        "path": "graphics/pokemon/lilligant/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ゾロア",
+      "koreanName": "조로아",
+      "key": "SPECIES_ZORUA_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_ZoruaHisui",
+        "path": "graphics/pokemon/zorua/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_ZoruaHisui",
+        "path": "graphics/pokemon/zorua/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_ZoruaHisui",
+        "path": "graphics/pokemon/zorua/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_ZoruaHisui",
+        "path": "graphics/pokemon/zorua/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_ZoruaHisui",
+        "path": "graphics/pokemon/zorua/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ゾロアーク",
+      "koreanName": "조로아크",
+      "key": "SPECIES_ZOROARK_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_ZoroarkHisui",
+        "path": "graphics/pokemon/zoroark/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_ZoroarkHisui",
+        "path": "graphics/pokemon/zoroark/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_ZoroarkHisui",
+        "path": "graphics/pokemon/zoroark/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_ZoroarkHisui",
+        "path": "graphics/pokemon/zoroark/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_ZoroarkHisui",
+        "path": "graphics/pokemon/zoroark/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ウォーグル",
+      "koreanName": "워글",
+      "key": "SPECIES_BRAVIARY_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_BraviaryHisui",
+        "path": "graphics/pokemon/braviary/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_BraviaryHisui",
+        "path": "graphics/pokemon/braviary/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_BraviaryHisui",
+        "path": "graphics/pokemon/braviary/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_BraviaryHisui",
+        "path": "graphics/pokemon/braviary/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_BraviaryHisui",
+        "path": "graphics/pokemon/braviary/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ヌメイル",
+      "koreanName": "미끄네일",
+      "key": "SPECIES_SLIGGOO_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_SliggooHisui",
+        "path": "graphics/pokemon/sliggoo/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_SliggooHisui",
+        "path": "graphics/pokemon/sliggoo/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_SliggooHisui",
+        "path": "graphics/pokemon/sliggoo/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_SliggooHisui",
+        "path": "graphics/pokemon/sliggoo/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_SliggooHisui",
+        "path": "graphics/pokemon/sliggoo/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ヌメルゴン",
+      "koreanName": "미끄래곤",
+      "key": "SPECIES_GOODRA_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_GoodraHisui",
+        "path": "graphics/pokemon/goodra/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_GoodraHisui",
+        "path": "graphics/pokemon/goodra/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_GoodraHisui",
+        "path": "graphics/pokemon/goodra/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_GoodraHisui",
+        "path": "graphics/pokemon/goodra/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_GoodraHisui",
+        "path": "graphics/pokemon/goodra/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "クレベース",
+      "koreanName": "크레베이스",
+      "key": "SPECIES_AVALUGG_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_AvaluggHisui",
+        "path": "graphics/pokemon/avalugg/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_AvaluggHisui",
+        "path": "graphics/pokemon/avalugg/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_AvaluggHisui",
+        "path": "graphics/pokemon/avalugg/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_AvaluggHisui",
+        "path": "graphics/pokemon/avalugg/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_AvaluggHisui",
+        "path": "graphics/pokemon/avalugg/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ジュナイパー",
+      "koreanName": "모크나이퍼",
+      "key": "SPECIES_DECIDUEYE_HISUI",
+      "front": {
+        "symbol": "gMonFrontPic_DecidueyeHisui",
+        "path": "graphics/pokemon/decidueye/hisui/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_DecidueyeHisui",
+        "path": "graphics/pokemon/decidueye/hisui/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_DecidueyeHisui",
+        "path": "graphics/pokemon/decidueye/hisui/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_DecidueyeHisui",
+        "path": "graphics/pokemon/decidueye/hisui/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_DecidueyeHisui",
+        "path": "graphics/pokemon/decidueye/hisui/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Paldea",
+      "japaneseName": "ケンタロス（コンバット種）",
+      "koreanName": "켄타로스(컴뱃종)",
+      "key": "SPECIES_TAUROS_PALDEA_COMBAT",
+      "front": {
+        "symbol": "gMonFrontPic_TaurosPaldeaCombat",
+        "path": "graphics/pokemon/tauros/paldea_combat/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_TaurosPaldeaCombat",
+        "path": "graphics/pokemon/tauros/paldea_combat/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_TaurosPaldeaCombat",
+        "path": "graphics/pokemon/tauros/paldea_combat/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_TaurosPaldeaCombat",
+        "path": "graphics/pokemon/tauros/paldea_combat/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_TaurosPaldeaCombat",
+        "path": "graphics/pokemon/tauros/paldea_combat/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Paldea",
+      "japaneseName": "ケンタロス（ブレイズ種）",
+      "koreanName": "켄타로스(블레이즈종)",
+      "key": "SPECIES_TAUROS_PALDEA_BLAZE",
+      "front": {
+        "symbol": "gMonFrontPic_TaurosPaldeaBlaze",
+        "path": "graphics/pokemon/tauros/paldea_blaze/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_TaurosPaldeaBlaze",
+        "path": "graphics/pokemon/tauros/paldea_blaze/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_TaurosPaldeaBlaze",
+        "path": "graphics/pokemon/tauros/paldea_blaze/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_TaurosPaldeaBlaze",
+        "path": "graphics/pokemon/tauros/paldea_blaze/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_TaurosPaldeaBlaze",
+        "path": "graphics/pokemon/tauros/paldea_blaze/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Paldea",
+      "japaneseName": "ケンタロス（ウォーター種）",
+      "koreanName": "켄타로스(워터종)",
+      "key": "SPECIES_TAUROS_PALDEA_AQUA",
+      "front": {
+        "symbol": "gMonFrontPic_TaurosPaldeaAqua",
+        "path": "graphics/pokemon/tauros/paldea_aqua/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_TaurosPaldeaAqua",
+        "path": "graphics/pokemon/tauros/paldea_aqua/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_TaurosPaldeaAqua",
+        "path": "graphics/pokemon/tauros/paldea_aqua/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_TaurosPaldeaAqua",
+        "path": "graphics/pokemon/tauros/paldea_aqua/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_TaurosPaldeaAqua",
+        "path": "graphics/pokemon/tauros/paldea_aqua/icon.png"
+      }
+    },
+    {
+      "category": "regional_form",
+      "region": "Paldea",
+      "japaneseName": "ウパー",
+      "koreanName": "우파",
+      "key": "SPECIES_WOOPER_PALDEA",
+      "front": {
+        "symbol": "gMonFrontPic_WooperPaldea",
+        "path": "graphics/pokemon/wooper/paldea/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_WooperPaldea",
+        "path": "graphics/pokemon/wooper/paldea/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_WooperPaldea",
+        "path": "graphics/pokemon/wooper/paldea/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_WooperPaldea",
+        "path": "graphics/pokemon/wooper/paldea/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_WooperPaldea",
+        "path": "graphics/pokemon/wooper/paldea/icon.png"
+      }
+    },
+    {
+      "category": "regional_form_special",
+      "region": "Hisui",
+      "japaneseName": "バスラオ（しろすじのすがた）",
+      "koreanName": "배쓰나이(백색근의 모습)",
+      "key": "SPECIES_BASCULIN_WHITE_STRIPED",
+      "front": {
+        "symbol": "gMonFrontPic_BasculinWhiteStriped",
+        "path": "graphics/pokemon/basculin/white_striped/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_BasculinWhiteStriped",
+        "path": "graphics/pokemon/basculin/white_striped/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_BasculinWhiteStriped",
+        "path": "graphics/pokemon/basculin/white_striped/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_BasculinWhiteStriped",
+        "path": "graphics/pokemon/basculin/white_striped/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_BasculinWhiteStriped",
+        "path": "graphics/pokemon/basculin/white_striped/icon.png"
+      }
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Galar",
+      "japaneseName": "タチフサグマ",
+      "koreanName": "가로막구리",
+      "key": "SPECIES_OBSTAGOON",
+      "front": {
+        "symbol": "gMonFrontPic_Obstagoon",
+        "path": "graphics/pokemon/obstagoon/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_Obstagoon",
+        "path": "graphics/pokemon/obstagoon/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_Obstagoon",
+        "path": "graphics/pokemon/obstagoon/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_Obstagoon",
+        "path": "graphics/pokemon/obstagoon/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_Obstagoon",
+        "path": "graphics/pokemon/obstagoon/icon.png"
+      }
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Galar",
+      "japaneseName": "ニャイキング",
+      "koreanName": "나이킹",
+      "key": "SPECIES_PERRSERKER",
+      "front": {
+        "symbol": "gMonFrontPic_Perrserker",
+        "path": "graphics/pokemon/perrserker/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_Perrserker",
+        "path": "graphics/pokemon/perrserker/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_Perrserker",
+        "path": "graphics/pokemon/perrserker/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_Perrserker",
+        "path": "graphics/pokemon/perrserker/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_Perrserker",
+        "path": "graphics/pokemon/perrserker/icon.png"
+      }
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Galar",
+      "japaneseName": "サニゴーン",
+      "koreanName": "산호르곤",
+      "key": "SPECIES_CURSOLA",
+      "front": {
+        "symbol": "gMonFrontPic_Cursola",
+        "path": "graphics/pokemon/cursola/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_Cursola",
+        "path": "graphics/pokemon/cursola/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_Cursola",
+        "path": "graphics/pokemon/cursola/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_Cursola",
+        "path": "graphics/pokemon/cursola/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_Cursola",
+        "path": "graphics/pokemon/cursola/icon.png"
+      }
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Galar",
+      "japaneseName": "ネギガナイト",
+      "koreanName": "창파나이트",
+      "key": "SPECIES_SIRFETCHD",
+      "front": {
+        "symbol": "gMonFrontPic_Sirfetchd",
+        "path": "graphics/pokemon/sirfetchd/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_Sirfetchd",
+        "path": "graphics/pokemon/sirfetchd/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_Sirfetchd",
+        "path": "graphics/pokemon/sirfetchd/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_Sirfetchd",
+        "path": "graphics/pokemon/sirfetchd/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_Sirfetchd",
+        "path": "graphics/pokemon/sirfetchd/icon.png"
+      }
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Galar",
+      "japaneseName": "バリコオル",
+      "koreanName": "마임꽁꽁",
+      "key": "SPECIES_MR_RIME",
+      "front": {
+        "symbol": "gMonFrontPic_MrRime",
+        "path": "graphics/pokemon/mr_rime/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_MrRime",
+        "path": "graphics/pokemon/mr_rime/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_MrRime",
+        "path": "graphics/pokemon/mr_rime/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_MrRime",
+        "path": "graphics/pokemon/mr_rime/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_MrRime",
+        "path": "graphics/pokemon/mr_rime/icon.png"
+      }
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Galar",
+      "japaneseName": "デスバーン",
+      "koreanName": "데스판",
+      "key": "SPECIES_RUNERIGUS",
+      "front": {
+        "symbol": "gMonFrontPic_Runerigus",
+        "path": "graphics/pokemon/runerigus/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_Runerigus",
+        "path": "graphics/pokemon/runerigus/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_Runerigus",
+        "path": "graphics/pokemon/runerigus/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_Runerigus",
+        "path": "graphics/pokemon/runerigus/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_Runerigus",
+        "path": "graphics/pokemon/runerigus/icon.png"
+      }
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Hisui",
+      "japaneseName": "オオニューラ",
+      "koreanName": "포푸니크",
+      "key": "SPECIES_SNEASLER",
+      "front": {
+        "symbol": "gMonFrontPic_Sneasler",
+        "path": "graphics/pokemon/sneasler/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_Sneasler",
+        "path": "graphics/pokemon/sneasler/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_Sneasler",
+        "path": "graphics/pokemon/sneasler/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_Sneasler",
+        "path": "graphics/pokemon/sneasler/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_Sneasler",
+        "path": "graphics/pokemon/sneasler/icon.png"
+      }
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Hisui",
+      "japaneseName": "ハリーマン",
+      "koreanName": "장침바루",
+      "key": "SPECIES_OVERQWIL",
+      "front": {
+        "symbol": "gMonFrontPic_Overqwil",
+        "path": "graphics/pokemon/overqwil/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_Overqwil",
+        "path": "graphics/pokemon/overqwil/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_Overqwil",
+        "path": "graphics/pokemon/overqwil/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_Overqwil",
+        "path": "graphics/pokemon/overqwil/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_Overqwil",
+        "path": "graphics/pokemon/overqwil/icon.png"
+      }
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Paldea",
+      "japaneseName": "ドオー",
+      "koreanName": "토오",
+      "key": "SPECIES_CLODSIRE",
+      "front": {
+        "symbol": "gMonFrontPic_Clodsire",
+        "path": "graphics/pokemon/clodsire/anim_front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_Clodsire",
+        "path": "graphics/pokemon/clodsire/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_Clodsire",
+        "path": "graphics/pokemon/clodsire/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_Clodsire",
+        "path": "graphics/pokemon/clodsire/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_Clodsire",
+        "path": "graphics/pokemon/clodsire/icon.png"
+      }
+    },
+    {
+      "category": "regional_evolution_special",
+      "region": "Hisui",
+      "japaneseName": "イダイトウ♂",
+      "koreanName": "대쓰여너♂",
+      "key": "SPECIES_BASCULEGION_M",
+      "front": {
+        "symbol": "gMonFrontPic_BasculegionM",
+        "path": "graphics/pokemon/basculegion/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_BasculegionM",
+        "path": "graphics/pokemon/basculegion/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_BasculegionM",
+        "path": "graphics/pokemon/basculegion/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_BasculegionM",
+        "path": "graphics/pokemon/basculegion/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_BasculegionM",
+        "path": "graphics/pokemon/basculegion/icon.png"
+      }
+    },
+    {
+      "category": "regional_evolution_special",
+      "region": "Hisui",
+      "japaneseName": "イダイトウ♀",
+      "koreanName": "대쓰여너♀",
+      "key": "SPECIES_BASCULEGION_F",
+      "front": {
+        "symbol": "gMonFrontPic_BasculegionF",
+        "path": "graphics/pokemon/basculegion/f/front.png"
+      },
+      "back": {
+        "symbol": "gMonBackPic_BasculegionF",
+        "path": "graphics/pokemon/basculegion/f/back.png"
+      },
+      "normalPalette": {
+        "symbol": "gMonPalette_BasculegionF",
+        "path": "graphics/pokemon/basculegion/f/normal.pal"
+      },
+      "shinyPalette": {
+        "symbol": "gMonShinyPalette_BasculegionF",
+        "path": "graphics/pokemon/basculegion/f/shiny.pal"
+      },
+      "icon": {
+        "symbol": "gMonIcon_BasculegionF",
+        "path": "graphics/pokemon/basculegion/f/icon.png"
+      }
+    }
+  ],
+  "missing": []
+}
