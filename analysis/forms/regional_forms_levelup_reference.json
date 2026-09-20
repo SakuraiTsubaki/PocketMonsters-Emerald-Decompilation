@@ -1,0 +1,4857 @@
+{
+  "surveyVersion": 1,
+  "reference": {
+    "repository": "rh-hideout/pokeemerald-expansion",
+    "commit": "75b806a3ab57a81ff1eb6179288981f0b3cc3050"
+  },
+  "generationPolicy": {
+    "Alola": 7,
+    "Galar": 8,
+    "Hisui": 8,
+    "Paldea": 9
+  },
+  "entries": [
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "コラッタ",
+      "koreanName": "꼬렛",
+      "key": "SPECIES_RATTATA_ALOLA",
+      "natDex": "RATTATA",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sRattataAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TAIL_WHIP"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_QUICK_ATTACK"
+        },
+        {
+          "level": 7,
+          "move": "MOVE_FOCUS_ENERGY"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 13,
+          "move": "MOVE_PURSUIT"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_HYPER_FANG"
+        },
+        {
+          "level": 19,
+          "move": "MOVE_ASSURANCE"
+        },
+        {
+          "level": 22,
+          "move": "MOVE_CRUNCH"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_SUCKER_PUNCH"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_SUPER_FANG"
+        },
+        {
+          "level": 31,
+          "move": "MOVE_DOUBLE_EDGE"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_ENDEAVOR"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ラッタ",
+      "koreanName": "레트라",
+      "key": "SPECIES_RATICATE_ALOLA",
+      "natDex": "RATICATE",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sRaticateAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_SCARY_FACE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SCARY_FACE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SWORDS_DANCE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TAIL_WHIP"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_QUICK_ATTACK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_FOCUS_ENERGY"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_QUICK_ATTACK"
+        },
+        {
+          "level": 7,
+          "move": "MOVE_FOCUS_ENERGY"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 13,
+          "move": "MOVE_PURSUIT"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_HYPER_FANG"
+        },
+        {
+          "level": 19,
+          "move": "MOVE_ASSURANCE"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_CRUNCH"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_SUCKER_PUNCH"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_SUPER_FANG"
+        },
+        {
+          "level": 39,
+          "move": "MOVE_DOUBLE_EDGE"
+        },
+        {
+          "level": 44,
+          "move": "MOVE_ENDEAVOR"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ライチュウ",
+      "koreanName": "라이츄",
+      "key": "SPECIES_RAICHU_ALOLA",
+      "natDex": "RAICHU",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sRaichuAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_PSYCHIC"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_PSYCHIC"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SPEED_SWAP"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_THUNDER_SHOCK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TAIL_WHIP"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_QUICK_ATTACK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_THUNDERBOLT"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "サンド",
+      "koreanName": "모래두지",
+      "key": "SPECIES_SANDSHREW_ALOLA",
+      "natDex": "SANDSHREW",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sSandshrewAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_SCRATCH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_DEFENSE_CURL"
+        },
+        {
+          "level": 3,
+          "move": "MOVE_BIDE"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_POWDER_SNOW"
+        },
+        {
+          "level": 7,
+          "move": "MOVE_ICE_BALL"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_RAPID_SPIN"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_FURY_CUTTER"
+        },
+        {
+          "level": 14,
+          "move": "MOVE_METAL_CLAW"
+        },
+        {
+          "level": 17,
+          "move": "MOVE_SWIFT"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_FURY_SWIPES"
+        },
+        {
+          "level": 23,
+          "move": "MOVE_IRON_DEFENSE"
+        },
+        {
+          "level": 26,
+          "move": "MOVE_SLASH"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_IRON_HEAD"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_GYRO_BALL"
+        },
+        {
+          "level": 38,
+          "move": "MOVE_SWORDS_DANCE"
+        },
+        {
+          "level": 42,
+          "move": "MOVE_HAIL"
+        },
+        {
+          "level": 46,
+          "move": "MOVE_BLIZZARD"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "サンドパン",
+      "koreanName": "고지",
+      "key": "SPECIES_SANDSLASH_ALOLA",
+      "natDex": "SANDSLASH",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sSandslashAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_ICICLE_SPEAR"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ICICLE_SPEAR"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_METAL_BURST"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ICICLE_CRASH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SLASH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_DEFENSE_CURL"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ICE_BALL"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_METAL_CLAW"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ロコン",
+      "koreanName": "식스테일",
+      "key": "SPECIES_VULPIX_ALOLA",
+      "natDex": "VULPIX",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sVulpixAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_POWDER_SNOW"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_TAIL_WHIP"
+        },
+        {
+          "level": 7,
+          "move": "MOVE_ROAR"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_BABY_DOLL_EYES"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_ICE_SHARD"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_CONFUSE_RAY"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_ICY_WIND"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_PAYBACK"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_MIST"
+        },
+        {
+          "level": 23,
+          "move": "MOVE_FEINT_ATTACK"
+        },
+        {
+          "level": 26,
+          "move": "MOVE_HEX"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_AURORA_BEAM"
+        },
+        {
+          "level": 31,
+          "move": "MOVE_EXTRASENSORY"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_SAFEGUARD"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_ICE_BEAM"
+        },
+        {
+          "level": 39,
+          "move": "MOVE_IMPRISON"
+        },
+        {
+          "level": 42,
+          "move": "MOVE_BLIZZARD"
+        },
+        {
+          "level": 44,
+          "move": "MOVE_GRUDGE"
+        },
+        {
+          "level": 47,
+          "move": "MOVE_CAPTIVATE"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_SHEER_COLD"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "キュウコン",
+      "koreanName": "나인테일",
+      "key": "SPECIES_NINETALES_ALOLA",
+      "natDex": "NINETALES",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sNinetalesAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_IMPRISON"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_NASTY_PLOT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ICE_BEAM"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ICE_SHARD"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_CONFUSE_RAY"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SAFEGUARD"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ディグダ",
+      "koreanName": "디그다",
+      "key": "SPECIES_DIGLETT_ALOLA",
+      "natDex": "DIGLETT",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sDiglettAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_SAND_ATTACK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_METAL_CLAW"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_GROWL"
+        },
+        {
+          "level": 7,
+          "move": "MOVE_ASTONISH"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_MUD_SLAP"
+        },
+        {
+          "level": 14,
+          "move": "MOVE_MAGNITUDE"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_BULLDOZE"
+        },
+        {
+          "level": 22,
+          "move": "MOVE_SUCKER_PUNCH"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_MUD_BOMB"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_EARTH_POWER"
+        },
+        {
+          "level": 31,
+          "move": "MOVE_DIG"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_IRON_HEAD"
+        },
+        {
+          "level": 39,
+          "move": "MOVE_EARTHQUAKE"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_FISSURE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ダグトリオ",
+      "koreanName": "닥트리오",
+      "key": "SPECIES_DUGTRIO_ALOLA",
+      "natDex": "DUGTRIO",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sDugtrioAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_SAND_TOMB"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SAND_TOMB"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ROTOTILLER"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_NIGHT_SLASH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TRI_ATTACK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SAND_ATTACK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_METAL_CLAW"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_GROWL"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_GROWL"
+        },
+        {
+          "level": 7,
+          "move": "MOVE_ASTONISH"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_MUD_SLAP"
+        },
+        {
+          "level": 14,
+          "move": "MOVE_MAGNITUDE"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_BULLDOZE"
+        },
+        {
+          "level": 22,
+          "move": "MOVE_SUCKER_PUNCH"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_MUD_BOMB"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_EARTH_POWER"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_DIG"
+        },
+        {
+          "level": 41,
+          "move": "MOVE_IRON_HEAD"
+        },
+        {
+          "level": 47,
+          "move": "MOVE_EARTHQUAKE"
+        },
+        {
+          "level": 53,
+          "move": "MOVE_FISSURE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ニャース",
+      "koreanName": "나옹",
+      "key": "SPECIES_MEOWTH_ALOLA",
+      "natDex": "MEOWTH",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sMeowthAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_SCRATCH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_GROWL"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_FAKE_OUT"
+        },
+        {
+          "level": 14,
+          "move": "MOVE_FURY_SWIPES"
+        },
+        {
+          "level": 17,
+          "move": "MOVE_SCREECH"
+        },
+        {
+          "level": 22,
+          "move": "MOVE_FEINT_ATTACK"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_TAUNT"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_PAY_DAY"
+        },
+        {
+          "level": 33,
+          "move": "MOVE_SLASH"
+        },
+        {
+          "level": 38,
+          "move": "MOVE_NASTY_PLOT"
+        },
+        {
+          "level": 41,
+          "move": "MOVE_ASSURANCE"
+        },
+        {
+          "level": 46,
+          "move": "MOVE_CAPTIVATE"
+        },
+        {
+          "level": 49,
+          "move": "MOVE_NIGHT_SLASH"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_FEINT"
+        },
+        {
+          "level": 55,
+          "move": "MOVE_DARK_PULSE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ペルシアン",
+      "koreanName": "페르시온",
+      "key": "SPECIES_PERSIAN_ALOLA",
+      "natDex": "PERSIAN",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sPersianAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_SWIFT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SWIFT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_QUASH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_PLAY_ROUGH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SWITCHEROO"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SCRATCH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_GROWL"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_FAKE_OUT"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_FAKE_OUT"
+        },
+        {
+          "level": 14,
+          "move": "MOVE_FURY_SWIPES"
+        },
+        {
+          "level": 17,
+          "move": "MOVE_SCREECH"
+        },
+        {
+          "level": 22,
+          "move": "MOVE_FEINT_ATTACK"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_TAUNT"
+        },
+        {
+          "level": 32,
+          "move": "MOVE_POWER_GEM"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_SLASH"
+        },
+        {
+          "level": 44,
+          "move": "MOVE_NASTY_PLOT"
+        },
+        {
+          "level": 49,
+          "move": "MOVE_ASSURANCE"
+        },
+        {
+          "level": 56,
+          "move": "MOVE_CAPTIVATE"
+        },
+        {
+          "level": 61,
+          "move": "MOVE_NIGHT_SLASH"
+        },
+        {
+          "level": 65,
+          "move": "MOVE_FEINT"
+        },
+        {
+          "level": 69,
+          "move": "MOVE_DARK_PULSE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "イシツブテ",
+      "koreanName": "꼬마돌",
+      "key": "SPECIES_GEODUDE_ALOLA",
+      "natDex": "GEODUDE",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sGeodudeAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_DEFENSE_CURL"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_CHARGE"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_ROCK_POLISH"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_ROLLOUT"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_SPARK"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_ROCK_THROW"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_SMACK_DOWN"
+        },
+        {
+          "level": 22,
+          "move": "MOVE_THUNDER_PUNCH"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_SELF_DESTRUCT"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_STEALTH_ROCK"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_ROCK_BLAST"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_DISCHARGE"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_EXPLOSION"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_DOUBLE_EDGE"
+        },
+        {
+          "level": 42,
+          "move": "MOVE_STONE_EDGE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ゴローン",
+      "koreanName": "데구리",
+      "key": "SPECIES_GRAVELER_ALOLA",
+      "natDex": "GRAVELER",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sGravelerAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_DEFENSE_CURL"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_CHARGE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ROCK_POLISH"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_CHARGE"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_ROCK_POLISH"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_ROLLOUT"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_SPARK"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_ROCK_THROW"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_SMACK_DOWN"
+        },
+        {
+          "level": 22,
+          "move": "MOVE_THUNDER_PUNCH"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_SELF_DESTRUCT"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_STEALTH_ROCK"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_ROCK_BLAST"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_DISCHARGE"
+        },
+        {
+          "level": 44,
+          "move": "MOVE_EXPLOSION"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_DOUBLE_EDGE"
+        },
+        {
+          "level": 54,
+          "move": "MOVE_STONE_EDGE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ゴローニャ",
+      "koreanName": "딱구리",
+      "key": "SPECIES_GOLEM_ALOLA",
+      "natDex": "GOLEM",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sGolemAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_HEAVY_SLAM"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_DEFENSE_CURL"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_CHARGE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ROCK_POLISH"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_CHARGE"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_ROCK_POLISH"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_STEAMROLLER"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_SPARK"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_ROCK_THROW"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_SMACK_DOWN"
+        },
+        {
+          "level": 22,
+          "move": "MOVE_THUNDER_PUNCH"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_SELF_DESTRUCT"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_STEALTH_ROCK"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_ROCK_BLAST"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_DISCHARGE"
+        },
+        {
+          "level": 44,
+          "move": "MOVE_EXPLOSION"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_DOUBLE_EDGE"
+        },
+        {
+          "level": 54,
+          "move": "MOVE_STONE_EDGE"
+        },
+        {
+          "level": 60,
+          "move": "MOVE_HEAVY_SLAM"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ベトベター",
+      "koreanName": "질퍽이",
+      "key": "SPECIES_GRIMER_ALOLA",
+      "natDex": "GRIMER",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sGrimerAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_POUND"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_POISON_GAS"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_HARDEN"
+        },
+        {
+          "level": 7,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_DISABLE"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_ACID_SPRAY"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_POISON_FANG"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_MINIMIZE"
+        },
+        {
+          "level": 26,
+          "move": "MOVE_FLING"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_KNOCK_OFF"
+        },
+        {
+          "level": 32,
+          "move": "MOVE_CRUNCH"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_SCREECH"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_GUNK_SHOT"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_ACID_ARMOR"
+        },
+        {
+          "level": 46,
+          "move": "MOVE_BELCH"
+        },
+        {
+          "level": 48,
+          "move": "MOVE_MEMENTO"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ベトベトン",
+      "koreanName": "질뻐기",
+      "key": "SPECIES_MUK_ALOLA",
+      "natDex": "MUK",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sMukAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_VENOM_DRENCH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_VENOM_DRENCH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_POUND"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_POISON_GAS"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_HARDEN"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_HARDEN"
+        },
+        {
+          "level": 7,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_DISABLE"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_ACID_SPRAY"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_POISON_FANG"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_MINIMIZE"
+        },
+        {
+          "level": 26,
+          "move": "MOVE_FLING"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_KNOCK_OFF"
+        },
+        {
+          "level": 32,
+          "move": "MOVE_CRUNCH"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_SCREECH"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_GUNK_SHOT"
+        },
+        {
+          "level": 46,
+          "move": "MOVE_ACID_ARMOR"
+        },
+        {
+          "level": 52,
+          "move": "MOVE_BELCH"
+        },
+        {
+          "level": 57,
+          "move": "MOVE_MEMENTO"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ナッシー",
+      "koreanName": "나시",
+      "key": "SPECIES_EXEGGUTOR_ALOLA",
+      "natDex": "EXEGGUTOR",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sExeggutorAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_DRAGON_HAMMER"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_DRAGON_HAMMER"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SEED_BOMB"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_BARRAGE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_HYPNOSIS"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_CONFUSION"
+        },
+        {
+          "level": 17,
+          "move": "MOVE_PSYSHOCK"
+        },
+        {
+          "level": 27,
+          "move": "MOVE_EGG_BOMB"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_WOOD_HAMMER"
+        },
+        {
+          "level": 47,
+          "move": "MOVE_LEAF_STORM"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Alola",
+      "japaneseName": "ガラガラ",
+      "koreanName": "텅구리",
+      "key": "SPECIES_MAROWAK_ALOLA",
+      "natDex": "MAROWAK",
+      "sourceGeneration": 7,
+      "levelUpLearnset": "sMarowakAlolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_GROWL"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TAIL_WHIP"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_BONE_CLUB"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_FLAME_WHEEL"
+        },
+        {
+          "level": 3,
+          "move": "MOVE_TAIL_WHIP"
+        },
+        {
+          "level": 7,
+          "move": "MOVE_BONE_CLUB"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_FLAME_WHEEL"
+        },
+        {
+          "level": 13,
+          "move": "MOVE_LEER"
+        },
+        {
+          "level": 17,
+          "move": "MOVE_HEX"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_BONEMERANG"
+        },
+        {
+          "level": 23,
+          "move": "MOVE_WILL_O_WISP"
+        },
+        {
+          "level": 27,
+          "move": "MOVE_SHADOW_BONE"
+        },
+        {
+          "level": 33,
+          "move": "MOVE_THRASH"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_FLING"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_STOMPING_TANTRUM"
+        },
+        {
+          "level": 49,
+          "move": "MOVE_ENDEAVOR"
+        },
+        {
+          "level": 53,
+          "move": "MOVE_FLARE_BLITZ"
+        },
+        {
+          "level": 59,
+          "move": "MOVE_RETALIATE"
+        },
+        {
+          "level": 65,
+          "move": "MOVE_BONE_RUSH"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ニャース",
+      "koreanName": "나옹",
+      "key": "SPECIES_MEOWTH_GALAR",
+      "natDex": "MEOWTH",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sMeowthGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_FAKE_OUT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_GROWL"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_HONE_CLAWS"
+        },
+        {
+          "level": 8,
+          "move": "MOVE_SCRATCH"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_PAY_DAY"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_METAL_CLAW"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_TAUNT"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_SWAGGER"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_FURY_SWIPES"
+        },
+        {
+          "level": 32,
+          "move": "MOVE_SCREECH"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_SLASH"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_METAL_SOUND"
+        },
+        {
+          "level": 44,
+          "move": "MOVE_THRASH"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ポニータ",
+      "koreanName": "포니타",
+      "key": "SPECIES_PONYTA_GALAR",
+      "natDex": "PONYTA",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sPonytaGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_GROWL"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_TAIL_WHIP"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_CONFUSION"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_FAIRY_WIND"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_AGILITY"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_PSYBEAM"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_STOMP"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_HEAL_PULSE"
+        },
+        {
+          "level": 41,
+          "move": "MOVE_TAKE_DOWN"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_PSYCHIC"
+        },
+        {
+          "level": 55,
+          "move": "MOVE_HEALING_WISH"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ギャロップ",
+      "koreanName": "날쌩마",
+      "key": "SPECIES_RAPIDASH_GALAR",
+      "natDex": "RAPIDASH",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sRapidashGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_PSYCHO_CUT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_PSYCHO_CUT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_MEGAHORN"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_QUICK_ATTACK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_GROWL"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TAIL_WHIP"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_CONFUSION"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_FAIRY_WIND"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_AGILITY"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_PSYBEAM"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_STOMP"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_HEAL_PULSE"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_TAKE_DOWN"
+        },
+        {
+          "level": 49,
+          "move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "level": 56,
+          "move": "MOVE_PSYCHIC"
+        },
+        {
+          "level": 63,
+          "move": "MOVE_HEALING_WISH"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ヤドン",
+      "koreanName": "야돈",
+      "key": "SPECIES_SLOWPOKE_GALAR",
+      "natDex": "SLOWPOKE",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sSlowpokeGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_CURSE"
+        },
+        {
+          "level": 3,
+          "move": "MOVE_GROWL"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_ACID"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_YAWN"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_CONFUSION"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_DISABLE"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_WATER_PULSE"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_HEADBUTT"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_ZEN_HEADBUTT"
+        },
+        {
+          "level": 27,
+          "move": "MOVE_AMNESIA"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_SURF"
+        },
+        {
+          "level": 33,
+          "move": "MOVE_SLACK_OFF"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_PSYCHIC"
+        },
+        {
+          "level": 39,
+          "move": "MOVE_PSYCH_UP"
+        },
+        {
+          "level": 42,
+          "move": "MOVE_RAIN_DANCE"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_HEAL_PULSE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ヤドラン",
+      "koreanName": "야도란",
+      "key": "SPECIES_SLOWBRO_GALAR",
+      "natDex": "SLOWBRO",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sSlowbroGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_SHELL_SIDE_ARM"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SHELL_SIDE_ARM"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_WITHDRAW"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_CURSE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_GROWL"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ACID"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_YAWN"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_CONFUSION"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_DISABLE"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_WATER_PULSE"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_HEADBUTT"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_ZEN_HEADBUTT"
+        },
+        {
+          "level": 27,
+          "move": "MOVE_AMNESIA"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_SURF"
+        },
+        {
+          "level": 33,
+          "move": "MOVE_SLACK_OFF"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_PSYCHIC"
+        },
+        {
+          "level": 39,
+          "move": "MOVE_PSYCH_UP"
+        },
+        {
+          "level": 42,
+          "move": "MOVE_RAIN_DANCE"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_HEAL_PULSE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "カモネギ",
+      "koreanName": "파오리",
+      "key": "SPECIES_FARFETCHD_GALAR",
+      "natDex": "FARFETCHD",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sFarfetchdGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_PECK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SAND_ATTACK"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_LEER"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_FURY_CUTTER"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_ROCK_SMASH"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_BRUTAL_SWING"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_DETECT"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_KNOCK_OFF"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_DEFOG"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_BRICK_BREAK"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_SWORDS_DANCE"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_SLAM"
+        },
+        {
+          "level": 55,
+          "move": "MOVE_LEAF_BLADE"
+        },
+        {
+          "level": 60,
+          "move": "MOVE_FINAL_GAMBIT"
+        },
+        {
+          "level": 65,
+          "move": "MOVE_BRAVE_BIRD"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "マタドガス",
+      "koreanName": "또도가스",
+      "key": "SPECIES_WEEZING_GALAR",
+      "natDex": "WEEZING",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sWeezingGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_DOUBLE_HIT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_DOUBLE_HIT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_STRANGE_STEAM"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_DEFOG"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_HEAT_WAVE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SMOG"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SMOKESCREEN"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_HAZE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_POISON_GAS"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_FAIRY_WIND"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_AROMATIC_MIST"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_CLEAR_SMOG"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_ASSURANCE"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_SLUDGE"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_AROMATHERAPY"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_SELF_DESTRUCT"
+        },
+        {
+          "level": 32,
+          "move": "MOVE_SLUDGE_BOMB"
+        },
+        {
+          "level": 38,
+          "move": "MOVE_TOXIC"
+        },
+        {
+          "level": 44,
+          "move": "MOVE_BELCH"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_EXPLOSION"
+        },
+        {
+          "level": 56,
+          "move": "MOVE_MEMENTO"
+        },
+        {
+          "level": 62,
+          "move": "MOVE_DESTINY_BOND"
+        },
+        {
+          "level": 68,
+          "move": "MOVE_MISTY_TERRAIN"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "バリヤード",
+      "koreanName": "마임맨",
+      "key": "SPECIES_MR_MIME_GALAR",
+      "natDex": "MR_MIME",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sMrMimeGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_COPYCAT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ENCORE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ROLE_PLAY"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_PROTECT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_RECYCLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_MIMIC"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_LIGHT_SCREEN"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_REFLECT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SAFEGUARD"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_MISTY_TERRAIN"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_POUND"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_RAPID_SPIN"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_BATON_PASS"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ICE_SHARD"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_CONFUSION"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_ALLY_SWITCH"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_ICY_WIND"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_DOUBLE_KICK"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_PSYBEAM"
+        },
+        {
+          "level": 32,
+          "move": "MOVE_HYPNOSIS"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_MIRROR_COAT"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_SUCKER_PUNCH"
+        },
+        {
+          "level": 44,
+          "move": "MOVE_FREEZE_DRY"
+        },
+        {
+          "level": 48,
+          "move": "MOVE_PSYCHIC"
+        },
+        {
+          "level": 52,
+          "move": "MOVE_TEETER_DANCE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "フリーザー",
+      "koreanName": "프리져",
+      "key": "SPECIES_ARTICUNO_GALAR",
+      "natDex": "ARTICUNO",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sArticunoGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_GUST"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_PSYCHO_SHIFT"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_CONFUSION"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_REFLECT"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_HYPNOSIS"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_AGILITY"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_ANCIENT_POWER"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_TAILWIND"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_PSYCHO_CUT"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_RECOVER"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_FREEZING_GLARE"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_DREAM_EATER"
+        },
+        {
+          "level": 55,
+          "move": "MOVE_HURRICANE"
+        },
+        {
+          "level": 60,
+          "move": "MOVE_MIND_READER"
+        },
+        {
+          "level": 65,
+          "move": "MOVE_FUTURE_SIGHT"
+        },
+        {
+          "level": 70,
+          "move": "MOVE_TRICK_ROOM"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "サンダー",
+      "koreanName": "썬더",
+      "key": "SPECIES_ZAPDOS_GALAR",
+      "natDex": "ZAPDOS",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sZapdosGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_PECK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_FOCUS_ENERGY"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_ROCK_SMASH"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_LIGHT_SCREEN"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_PLUCK"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_AGILITY"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_ANCIENT_POWER"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_BRICK_BREAK"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_DRILL_PECK"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_QUICK_GUARD"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_THUNDEROUS_KICK"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_BULK_UP"
+        },
+        {
+          "level": 55,
+          "move": "MOVE_COUNTER"
+        },
+        {
+          "level": 60,
+          "move": "MOVE_DETECT"
+        },
+        {
+          "level": 65,
+          "move": "MOVE_CLOSE_COMBAT"
+        },
+        {
+          "level": 70,
+          "move": "MOVE_REVERSAL"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ファイヤー",
+      "koreanName": "파이어",
+      "key": "SPECIES_MOLTRES_GALAR",
+      "natDex": "MOLTRES",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sMoltresGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_GUST"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_LEER"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_PAYBACK"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_SAFEGUARD"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_WING_ATTACK"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_AGILITY"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_ANCIENT_POWER"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_SUCKER_PUNCH"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_AIR_SLASH"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_AFTER_YOU"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_FIERY_WRATH"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_NASTY_PLOT"
+        },
+        {
+          "level": 55,
+          "move": "MOVE_HURRICANE"
+        },
+        {
+          "level": 60,
+          "move": "MOVE_ENDURE"
+        },
+        {
+          "level": 65,
+          "move": "MOVE_MEMENTO"
+        },
+        {
+          "level": 70,
+          "move": "MOVE_SKY_ATTACK"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ヤドキング",
+      "koreanName": "야도킹",
+      "key": "SPECIES_SLOWKING_GALAR",
+      "natDex": "SLOWKING",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sSlowkingGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_EERIE_SPELL"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_EERIE_SPELL"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_POWER_GEM"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_NASTY_PLOT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SWAGGER"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_CURSE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_GROWL"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ACID"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_YAWN"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_CONFUSION"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_DISABLE"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_WATER_PULSE"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_HEADBUTT"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_ZEN_HEADBUTT"
+        },
+        {
+          "level": 27,
+          "move": "MOVE_AMNESIA"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_SURF"
+        },
+        {
+          "level": 33,
+          "move": "MOVE_SLACK_OFF"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_PSYCHIC"
+        },
+        {
+          "level": 39,
+          "move": "MOVE_PSYCH_UP"
+        },
+        {
+          "level": 42,
+          "move": "MOVE_RAIN_DANCE"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_HEAL_PULSE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "サニーゴ",
+      "koreanName": "코산호",
+      "key": "SPECIES_CORSOLA_GALAR",
+      "natDex": "CORSOLA",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sCorsolaGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_HARDEN"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_ASTONISH"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_DISABLE"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_SPITE"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_ANCIENT_POWER"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_HEX"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_CURSE"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_STRENGTH_SAP"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_POWER_GEM"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_NIGHT_SHADE"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_GRUDGE"
+        },
+        {
+          "level": 55,
+          "move": "MOVE_MIRROR_COAT"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ジグザグマ",
+      "koreanName": "지그제구리",
+      "key": "SPECIES_ZIGZAGOON_GALAR",
+      "natDex": "ZIGZAGOON",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sZigzagoonGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_LEER"
+        },
+        {
+          "level": 3,
+          "move": "MOVE_SAND_ATTACK"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_LICK"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_SNARL"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_HEADBUTT"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_BABY_DOLL_EYES"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_PIN_MISSILE"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_REST"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_TAKE_DOWN"
+        },
+        {
+          "level": 27,
+          "move": "MOVE_SCARY_FACE"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_COUNTER"
+        },
+        {
+          "level": 33,
+          "move": "MOVE_TAUNT"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_DOUBLE_EDGE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "マッスグマ",
+      "koreanName": "직구리",
+      "key": "SPECIES_LINOONE_GALAR",
+      "natDex": "LINOONE",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sLinooneGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_NIGHT_SLASH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_NIGHT_SLASH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SWITCHEROO"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_PIN_MISSILE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_BABY_DOLL_EYES"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_LEER"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SAND_ATTACK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_LICK"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_SNARL"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_HEADBUTT"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_HONE_CLAWS"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_FURY_SWIPES"
+        },
+        {
+          "level": 23,
+          "move": "MOVE_REST"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_TAKE_DOWN"
+        },
+        {
+          "level": 33,
+          "move": "MOVE_SCARY_FACE"
+        },
+        {
+          "level": 38,
+          "move": "MOVE_COUNTER"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_TAUNT"
+        },
+        {
+          "level": 48,
+          "move": "MOVE_DOUBLE_EDGE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ダルマッカ",
+      "koreanName": "달막화",
+      "key": "SPECIES_DARUMAKA_GALAR",
+      "natDex": "DARUMAKA",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sDarumakaGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_POWDER_SNOW"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_TAUNT"
+        },
+        {
+          "level": 8,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_AVALANCHE"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_WORK_UP"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_ICE_FANG"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_HEADBUTT"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_ICE_PUNCH"
+        },
+        {
+          "level": 32,
+          "move": "MOVE_UPROAR"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_BELLY_DRUM"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_BLIZZARD"
+        },
+        {
+          "level": 44,
+          "move": "MOVE_THRASH"
+        },
+        {
+          "level": 48,
+          "move": "MOVE_SUPERPOWER"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "ヒヒダルマ",
+      "koreanName": "불비달마",
+      "key": "SPECIES_DARMANITAN_GALAR_STANDARD",
+      "natDex": "DARMANITAN",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sDarmanitanGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_ICICLE_CRASH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ICICLE_CRASH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_POWDER_SNOW"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TAUNT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_AVALANCHE"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_WORK_UP"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_ICE_FANG"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_HEADBUTT"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_ICE_PUNCH"
+        },
+        {
+          "level": 32,
+          "move": "MOVE_UPROAR"
+        },
+        {
+          "level": 38,
+          "move": "MOVE_BELLY_DRUM"
+        },
+        {
+          "level": 44,
+          "move": "MOVE_BLIZZARD"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_THRASH"
+        },
+        {
+          "level": 56,
+          "move": "MOVE_SUPERPOWER"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "デスマス",
+      "koreanName": "데스마스",
+      "key": "SPECIES_YAMASK_GALAR",
+      "natDex": "YAMASK",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sYamaskGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_ASTONISH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_PROTECT"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_HAZE"
+        },
+        {
+          "level": 8,
+          "move": "MOVE_NIGHT_SHADE"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_DISABLE"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_BRUTAL_SWING"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_CRAFTY_SHIELD"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_HEX"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_MEAN_LOOK"
+        },
+        {
+          "level": 32,
+          "move": "MOVE_SLAM"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_CURSE"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_SHADOW_BALL"
+        },
+        {
+          "level": 44,
+          "move": "MOVE_EARTHQUAKE"
+        },
+        {
+          "level": 48,
+          "move": "MOVE_POWER_SPLIT"
+        },
+        {
+          "level": 48,
+          "move": "MOVE_GUARD_SPLIT"
+        },
+        {
+          "level": 52,
+          "move": "MOVE_DESTINY_BOND"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Galar",
+      "japaneseName": "マッギョ",
+      "koreanName": "메더",
+      "key": "SPECIES_STUNFISK_GALAR",
+      "natDex": "STUNFISK",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sStunfiskGalarLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_MUD_SLAP"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_WATER_GUN"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_METAL_CLAW"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_ENDURE"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_MUD_SHOT"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_REVENGE"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_METAL_SOUND"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_SUCKER_PUNCH"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_IRON_DEFENSE"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_BOUNCE"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_MUDDY_WATER"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_SNAP_TRAP"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_FLAIL"
+        },
+        {
+          "level": 55,
+          "move": "MOVE_FISSURE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ガーディ",
+      "koreanName": "가디",
+      "key": "SPECIES_GROWLITHE_HISUI",
+      "natDex": "GROWLITHE",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sGrowlitheHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_EMBER"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_FIRE_FANG"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_ROCK_SLIDE"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_CRUNCH"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_DOUBLE_EDGE"
+        },
+        {
+          "level": 47,
+          "move": "MOVE_FLARE_BLITZ"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ウインディ",
+      "koreanName": "윈디",
+      "key": "SPECIES_ARCANINE_HISUI",
+      "natDex": "ARCANINE",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sArcanineHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_EMBER"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_FIRE_FANG"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_ROCK_SLIDE"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_CRUNCH"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_RAGING_FURY"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_DOUBLE_EDGE"
+        },
+        {
+          "level": 47,
+          "move": "MOVE_FLARE_BLITZ"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ビリリダマ",
+      "koreanName": "찌리리공",
+      "key": "SPECIES_VOLTORB_HISUI",
+      "natDex": "VOLTORB",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sVoltorbHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_THUNDER_SHOCK"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_THUNDER_WAVE"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_SPARK"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_ENERGY_BALL"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_THUNDERBOLT"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_THUNDER"
+        },
+        {
+          "level": 47,
+          "move": "MOVE_SELF_DESTRUCT"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "マルマイン",
+      "koreanName": "붐볼",
+      "key": "SPECIES_ELECTRODE_HISUI",
+      "natDex": "ELECTRODE",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sElectrodeHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_THUNDER_SHOCK"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_THUNDER_WAVE"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_SPARK"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_ENERGY_BALL"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_THUNDERBOLT"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_THUNDER"
+        },
+        {
+          "level": 47,
+          "move": "MOVE_CHLOROBLAST"
+        },
+        {
+          "level": 47,
+          "move": "MOVE_SELF_DESTRUCT"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "バクフーン",
+      "koreanName": "블레이범",
+      "key": "SPECIES_TYPHLOSION_HISUI",
+      "natDex": "TYPHLOSION",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sTyphlosionHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_HEX"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_QUICK_ATTACK"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_EMBER"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_ROLLOUT"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_FLAME_WHEEL"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_SWIFT"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_FLAMETHROWER"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_INFERNAL_PARADE"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_OVERHEAT"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_SHADOW_BALL"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ハリーセン",
+      "koreanName": "침바루",
+      "key": "SPECIES_QWILFISH_HISUI",
+      "natDex": "QWILFISH",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sQwilfishHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_POISON_STING"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_SPIKES"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_PIN_MISSILE"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_BARB_BARRAGE"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_WATER_PULSE"
+        },
+        {
+          "level": 26,
+          "move": "MOVE_DARK_PULSE"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_POISON_JAB"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_AQUA_TAIL"
+        },
+        {
+          "level": 47,
+          "move": "MOVE_DOUBLE_EDGE"
+        },
+        {
+          "level": 57,
+          "move": "MOVE_SELF_DESTRUCT"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ニューラ",
+      "koreanName": "포푸니",
+      "key": "SPECIES_SNEASEL_HISUI",
+      "natDex": "SNEASEL",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sSneaselHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_QUICK_ATTACK"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_ROCK_SMASH"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_SWIFT"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_SLASH"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_POISON_JAB"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_SWORDS_DANCE"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_CLOSE_COMBAT"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ダイケンキ",
+      "koreanName": "대검귀",
+      "key": "SPECIES_SAMUROTT_HISUI",
+      "natDex": "SAMUROTT",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sSamurottHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_NIGHT_SLASH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_AQUA_JET"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_SWORDS_DANCE"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_WATER_PULSE"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_CEASELESS_EDGE"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_SLASH"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_AQUA_TAIL"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_DARK_PULSE"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_HYDRO_PUMP"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ドレディア",
+      "koreanName": "드레디어",
+      "key": "SPECIES_LILLIGANT_HISUI",
+      "natDex": "LILLIGANT",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sLilligantHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_ROCK_SMASH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ABSORB"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_LEAFAGE"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_STUN_SPORE"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_POISON_POWDER"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_ENERGY_BALL"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_SLEEP_POWDER"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_DRAIN_PUNCH"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_LEAF_BLADE"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_RECOVER"
+        },
+        {
+          "level": 42,
+          "move": "MOVE_VICTORY_DANCE"
+        },
+        {
+          "level": 47,
+          "move": "MOVE_LEAF_STORM"
+        },
+        {
+          "level": 53,
+          "move": "MOVE_PETAL_DANCE"
+        },
+        {
+          "level": 57,
+          "move": "MOVE_CLOSE_COMBAT"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ゾロア",
+      "koreanName": "조로아",
+      "key": "SPECIES_ZORUA_HISUI",
+      "natDex": "ZORUA",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sZoruaHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_SHADOW_SNEAK"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_SNARL"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_SWIFT"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_BITTER_MALICE"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_SLASH"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_SHADOW_CLAW"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_NASTY_PLOT"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ゾロアーク",
+      "koreanName": "조로아크",
+      "key": "SPECIES_ZOROARK_HISUI",
+      "natDex": "ZOROARK",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sZoroarkHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_SHADOW_SNEAK"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_SNARL"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_SWIFT"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_BITTER_MALICE"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_SLASH"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_SHADOW_CLAW"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_SHADOW_BALL"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_NASTY_PLOT"
+        },
+        {
+          "level": 52,
+          "move": "MOVE_EXTRASENSORY"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ウォーグル",
+      "koreanName": "워글",
+      "key": "SPECIES_BRAVIARY_HISUI",
+      "natDex": "BRAVIARY",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sBraviaryHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_QUICK_ATTACK"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_AERIAL_ACE"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_TWISTER"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_SLASH"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_AIR_SLASH"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_ESPER_WING"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_ROOST"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_DOUBLE_EDGE"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_BRAVE_BIRD"
+        },
+        {
+          "level": 52,
+          "move": "MOVE_HURRICANE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ヌメイル",
+      "koreanName": "미끄네일",
+      "key": "SPECIES_SLIGGOO_HISUI",
+      "natDex": "SLIGGOO",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sSliggooHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_BUBBLE"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_ACID_SPRAY"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_ACID_ARMOR"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_WATER_PULSE"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_DRAGON_PULSE"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_IRON_HEAD"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_SHELTER"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_HYDRO_PUMP"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ヌメルゴン",
+      "koreanName": "미끄래곤",
+      "key": "SPECIES_GOODRA_HISUI",
+      "natDex": "GOODRA",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sGoodraHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_BUBBLE"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_ACID_SPRAY"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_ACID_ARMOR"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_WATER_PULSE"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_DRAGON_PULSE"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_IRON_HEAD"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_SHELTER"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_HYDRO_PUMP"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "クレベース",
+      "koreanName": "크레베이스",
+      "key": "SPECIES_AVALUGG_HISUI",
+      "natDex": "AVALUGG",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sAvaluggHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_ROCK_SLIDE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_POWDER_SNOW"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_ICE_SHARD"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_IRON_DEFENSE"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_CRUNCH"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_EARTH_POWER"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_BLIZZARD"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_MOUNTAIN_GALE"
+        },
+        {
+          "level": 47,
+          "move": "MOVE_DOUBLE_EDGE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Hisui",
+      "japaneseName": "ジュナイパー",
+      "koreanName": "모크나이퍼",
+      "key": "SPECIES_DECIDUEYE_HISUI",
+      "natDex": "DECIDUEYE",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sDecidueyeHisuiLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_ROCK_SMASH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_GUST"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_LEAFAGE"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_ROOST"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_AERIAL_ACE"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_MAGICAL_LEAF"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_AIR_SLASH"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_AURA_SPHERE"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_LEAF_BLADE"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_TRIPLE_ARROWS"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_BRAVE_BIRD"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_LEAF_STORM"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Paldea",
+      "japaneseName": "ケンタロス（コンバット種）",
+      "koreanName": "켄타로스(컴뱃종)",
+      "key": "SPECIES_TAUROS_PALDEA_COMBAT",
+      "natDex": "TAUROS",
+      "sourceGeneration": 9,
+      "levelUpLearnset": "sTaurosPaldeaCombatLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TAIL_WHIP"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_WORK_UP"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_DOUBLE_KICK"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_ASSURANCE"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_HEADBUTT"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_SCARY_FACE"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_ZEN_HEADBUTT"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_RAGING_BULL"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_REST"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_SWAGGER"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_THRASH"
+        },
+        {
+          "level": 55,
+          "move": "MOVE_DOUBLE_EDGE"
+        },
+        {
+          "level": 60,
+          "move": "MOVE_CLOSE_COMBAT"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Paldea",
+      "japaneseName": "ケンタロス（ブレイズ種）",
+      "koreanName": "켄타로스(블레이즈종)",
+      "key": "SPECIES_TAUROS_PALDEA_BLAZE",
+      "natDex": "TAUROS",
+      "sourceGeneration": 9,
+      "levelUpLearnset": "sTaurosPaldeaBlazeLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TAIL_WHIP"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_WORK_UP"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_DOUBLE_KICK"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_FLAME_CHARGE"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_HEADBUTT"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_SCARY_FACE"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_ZEN_HEADBUTT"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_RAGING_BULL"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_REST"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_SWAGGER"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_THRASH"
+        },
+        {
+          "level": 55,
+          "move": "MOVE_FLARE_BLITZ"
+        },
+        {
+          "level": 60,
+          "move": "MOVE_CLOSE_COMBAT"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Paldea",
+      "japaneseName": "ケンタロス（ウォーター種）",
+      "koreanName": "켄타로스(워터종)",
+      "key": "SPECIES_TAUROS_PALDEA_AQUA",
+      "natDex": "TAUROS",
+      "sourceGeneration": 9,
+      "levelUpLearnset": "sTaurosPaldeaAquaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TAIL_WHIP"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_WORK_UP"
+        },
+        {
+          "level": 10,
+          "move": "MOVE_DOUBLE_KICK"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_AQUA_JET"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_HEADBUTT"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_SCARY_FACE"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_ZEN_HEADBUTT"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_RAGING_BULL"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_REST"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_SWAGGER"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_THRASH"
+        },
+        {
+          "level": 55,
+          "move": "MOVE_WAVE_CRASH"
+        },
+        {
+          "level": 60,
+          "move": "MOVE_CLOSE_COMBAT"
+        }
+      ]
+    },
+    {
+      "category": "regional_form",
+      "region": "Paldea",
+      "japaneseName": "ウパー",
+      "koreanName": "우파",
+      "key": "SPECIES_WOOPER_PALDEA",
+      "natDex": "WOOPER",
+      "sourceGeneration": 9,
+      "levelUpLearnset": "sWooperPaldeaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TAIL_WHIP"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_MUD_SHOT"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 8,
+          "move": "MOVE_POISON_TAIL"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_TOXIC_SPIKES"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_SLAM"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_YAWN"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_POISON_JAB"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_SLUDGE_WAVE"
+        },
+        {
+          "level": 32,
+          "move": "MOVE_AMNESIA"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_TOXIC"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_EARTHQUAKE"
+        }
+      ]
+    },
+    {
+      "category": "regional_form_special",
+      "region": "Hisui",
+      "japaneseName": "バスラオ（しろすじのすがた）",
+      "koreanName": "배쓰나이(백색근의 모습)",
+      "key": "SPECIES_BASCULIN_WHITE_STRIPED",
+      "natDex": "BASCULIN",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sBasculinWhiteStripedLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_AQUA_JET"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_ZEN_HEADBUTT"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_CRUNCH"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_WAVE_CRASH"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_DOUBLE_EDGE"
+        }
+      ]
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Galar",
+      "japaneseName": "タチフサグマ",
+      "koreanName": "가로막구리",
+      "key": "SPECIES_OBSTAGOON",
+      "natDex": "OBSTAGOON",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sObstagoonLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_OBSTRUCT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_OBSTRUCT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_CROSS_CHOP"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SUBMISSION"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_NIGHT_SLASH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SWITCHEROO"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_PIN_MISSILE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_BABY_DOLL_EYES"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_LEER"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SAND_ATTACK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_LICK"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_SNARL"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_HEADBUTT"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_HONE_CLAWS"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_FURY_SWIPES"
+        },
+        {
+          "level": 23,
+          "move": "MOVE_REST"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_TAKE_DOWN"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_SCARY_FACE"
+        },
+        {
+          "level": 42,
+          "move": "MOVE_COUNTER"
+        },
+        {
+          "level": 49,
+          "move": "MOVE_TAUNT"
+        },
+        {
+          "level": 56,
+          "move": "MOVE_DOUBLE_EDGE"
+        }
+      ]
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Galar",
+      "japaneseName": "ニャイキング",
+      "koreanName": "나이킹",
+      "key": "SPECIES_PERRSERKER",
+      "natDex": "PERRSERKER",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sPerrserkerLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_IRON_HEAD"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_IRON_HEAD"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_METAL_BURST"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_IRON_DEFENSE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_FAKE_OUT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_GROWL"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_HONE_CLAWS"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SCRATCH"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_PAY_DAY"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_METAL_CLAW"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_TAUNT"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_SWAGGER"
+        },
+        {
+          "level": 31,
+          "move": "MOVE_FURY_SWIPES"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_SCREECH"
+        },
+        {
+          "level": 42,
+          "move": "MOVE_SLASH"
+        },
+        {
+          "level": 48,
+          "move": "MOVE_METAL_SOUND"
+        },
+        {
+          "level": 54,
+          "move": "MOVE_THRASH"
+        }
+      ]
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Galar",
+      "japaneseName": "サニゴーン",
+      "koreanName": "산호르곤",
+      "key": "SPECIES_CURSOLA",
+      "natDex": "CURSOLA",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sCursolaLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_PERISH_SONG"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_HARDEN"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ASTONISH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_DISABLE"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_SPITE"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_ANCIENT_POWER"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_HEX"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_CURSE"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_STRENGTH_SAP"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_POWER_GEM"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_NIGHT_SHADE"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_GRUDGE"
+        },
+        {
+          "level": 55,
+          "move": "MOVE_MIRROR_COAT"
+        }
+      ]
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Galar",
+      "japaneseName": "ネギガナイト",
+      "koreanName": "창파나이트",
+      "key": "SPECIES_SIRFETCHD",
+      "natDex": "SIRFETCHD",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sSirfetchdLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_IRON_DEFENSE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_IRON_DEFENSE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_FIRST_IMPRESSION"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_PECK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SAND_ATTACK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_LEER"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_FURY_CUTTER"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_ROCK_SMASH"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_BRUTAL_SWING"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_DETECT"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_KNOCK_OFF"
+        },
+        {
+          "level": 35,
+          "move": "MOVE_DEFOG"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_BRICK_BREAK"
+        },
+        {
+          "level": 45,
+          "move": "MOVE_SWORDS_DANCE"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_SLAM"
+        },
+        {
+          "level": 55,
+          "move": "MOVE_LEAF_BLADE"
+        },
+        {
+          "level": 60,
+          "move": "MOVE_FINAL_GAMBIT"
+        },
+        {
+          "level": 65,
+          "move": "MOVE_BRAVE_BIRD"
+        },
+        {
+          "level": 70,
+          "move": "MOVE_METEOR_ASSAULT"
+        }
+      ]
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Galar",
+      "japaneseName": "バリコオル",
+      "koreanName": "마임꽁꽁",
+      "key": "SPECIES_MR_RIME",
+      "natDex": "MR_RIME",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sMrRimeLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_FAKE_TEARS"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SLACK_OFF"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_AFTER_YOU"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_BLOCK"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_COPYCAT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ENCORE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ROLE_PLAY"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_PROTECT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_RECYCLE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_MIMIC"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_LIGHT_SCREEN"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_REFLECT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SAFEGUARD"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_DAZZLING_GLEAM"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_MISTY_TERRAIN"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_POUND"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_RAPID_SPIN"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_BATON_PASS"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ICE_SHARD"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_CONFUSION"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_ALLY_SWITCH"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_ICY_WIND"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_DOUBLE_KICK"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_PSYBEAM"
+        },
+        {
+          "level": 32,
+          "move": "MOVE_HYPNOSIS"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_MIRROR_COAT"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_SUCKER_PUNCH"
+        },
+        {
+          "level": 44,
+          "move": "MOVE_FREEZE_DRY"
+        },
+        {
+          "level": 48,
+          "move": "MOVE_PSYCHIC"
+        },
+        {
+          "level": 52,
+          "move": "MOVE_TEETER_DANCE"
+        }
+      ]
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Galar",
+      "japaneseName": "デスバーン",
+      "koreanName": "데스판",
+      "key": "SPECIES_RUNERIGUS",
+      "natDex": "RUNERIGUS",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sRunerigusLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_SHADOW_CLAW"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SHADOW_CLAW"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_SCARY_FACE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_ASTONISH"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_PROTECT"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_HAZE"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_NIGHT_SHADE"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_DISABLE"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_BRUTAL_SWING"
+        },
+        {
+          "level": 20,
+          "move": "MOVE_CRAFTY_SHIELD"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_HEX"
+        },
+        {
+          "level": 28,
+          "move": "MOVE_MEAN_LOOK"
+        },
+        {
+          "level": 32,
+          "move": "MOVE_SLAM"
+        },
+        {
+          "level": 38,
+          "move": "MOVE_CURSE"
+        },
+        {
+          "level": 44,
+          "move": "MOVE_SHADOW_BALL"
+        },
+        {
+          "level": 50,
+          "move": "MOVE_EARTHQUAKE"
+        },
+        {
+          "level": 56,
+          "move": "MOVE_POWER_SPLIT"
+        },
+        {
+          "level": 56,
+          "move": "MOVE_GUARD_SPLIT"
+        },
+        {
+          "level": 62,
+          "move": "MOVE_DESTINY_BOND"
+        }
+      ]
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Hisui",
+      "japaneseName": "オオニューラ",
+      "koreanName": "포푸니크",
+      "key": "SPECIES_SNEASLER",
+      "natDex": "SNEASLER",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sSneaslerLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_QUICK_ATTACK"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_ROCK_SMASH"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_DIRE_CLAW"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_SWIFT"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_SLASH"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_POISON_JAB"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_SWORDS_DANCE"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_CLOSE_COMBAT"
+        }
+      ]
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Hisui",
+      "japaneseName": "ハリーマン",
+      "koreanName": "장침바루",
+      "key": "SPECIES_OVERQWIL",
+      "natDex": "OVERQWIL",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sOverqwilLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_POISON_STING"
+        },
+        {
+          "level": 5,
+          "move": "MOVE_SPIKES"
+        },
+        {
+          "level": 9,
+          "move": "MOVE_PIN_MISSILE"
+        },
+        {
+          "level": 15,
+          "move": "MOVE_BARB_BARRAGE"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_WATER_PULSE"
+        },
+        {
+          "level": 26,
+          "move": "MOVE_DARK_PULSE"
+        },
+        {
+          "level": 29,
+          "move": "MOVE_POISON_JAB"
+        },
+        {
+          "level": 37,
+          "move": "MOVE_AQUA_TAIL"
+        },
+        {
+          "level": 47,
+          "move": "MOVE_DOUBLE_EDGE"
+        },
+        {
+          "level": 57,
+          "move": "MOVE_SELF_DESTRUCT"
+        }
+      ]
+    },
+    {
+      "category": "regional_evolution",
+      "region": "Paldea",
+      "japaneseName": "ドオー",
+      "koreanName": "토오",
+      "key": "SPECIES_CLODSIRE",
+      "natDex": "CLODSIRE",
+      "sourceGeneration": 9,
+      "levelUpLearnset": "sClodsireLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 0,
+          "move": "MOVE_AMNESIA"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_TAIL_WHIP"
+        },
+        {
+          "level": 1,
+          "move": "MOVE_POISON_STING"
+        },
+        {
+          "level": 4,
+          "move": "MOVE_TOXIC_SPIKES"
+        },
+        {
+          "level": 8,
+          "move": "MOVE_MUD_SHOT"
+        },
+        {
+          "level": 12,
+          "move": "MOVE_POISON_TAIL"
+        },
+        {
+          "level": 16,
+          "move": "MOVE_SLAM"
+        },
+        {
+          "level": 21,
+          "move": "MOVE_YAWN"
+        },
+        {
+          "level": 24,
+          "move": "MOVE_POISON_JAB"
+        },
+        {
+          "level": 30,
+          "move": "MOVE_SLUDGE_WAVE"
+        },
+        {
+          "level": 36,
+          "move": "MOVE_MEGAHORN"
+        },
+        {
+          "level": 40,
+          "move": "MOVE_TOXIC"
+        },
+        {
+          "level": 48,
+          "move": "MOVE_EARTHQUAKE"
+        }
+      ]
+    },
+    {
+      "category": "regional_evolution_special",
+      "region": "Hisui",
+      "japaneseName": "イダイトウ♂",
+      "koreanName": "대쓰여너♂",
+      "key": "SPECIES_BASCULEGION_M",
+      "natDex": "BASCULEGION",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sBasculegionLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_AQUA_JET"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_HEX"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_ZEN_HEADBUTT"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_CRUNCH"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_SHADOW_BALL"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_WAVE_CRASH"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_DOUBLE_EDGE"
+        }
+      ]
+    },
+    {
+      "category": "regional_evolution_special",
+      "region": "Hisui",
+      "japaneseName": "イダイトウ♀",
+      "koreanName": "대쓰여너♀",
+      "key": "SPECIES_BASCULEGION_F",
+      "natDex": "BASCULEGION",
+      "sourceGeneration": 8,
+      "levelUpLearnset": "sBasculegionLevelUpLearnset",
+      "missing": false,
+      "moves": [
+        {
+          "level": 1,
+          "move": "MOVE_TACKLE"
+        },
+        {
+          "level": 6,
+          "move": "MOVE_AQUA_JET"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_BITE"
+        },
+        {
+          "level": 11,
+          "move": "MOVE_HEX"
+        },
+        {
+          "level": 18,
+          "move": "MOVE_ZEN_HEADBUTT"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_CRUNCH"
+        },
+        {
+          "level": 25,
+          "move": "MOVE_SHADOW_BALL"
+        },
+        {
+          "level": 34,
+          "move": "MOVE_WAVE_CRASH"
+        },
+        {
+          "level": 43,
+          "move": "MOVE_DOUBLE_EDGE"
+        }
+      ]
+    }
+  ],
+  "missing": []
+}
