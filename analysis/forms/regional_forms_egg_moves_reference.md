@@ -1,0 +1,75 @@
+# Regional Forms — Egg Move Reference
+
+Reference: `rh-hideout/pokeemerald-expansion` commit `75b806a3ab57a81ff1eb6179288981f0b3cc3050`.
+
+An empty symbol means the species entry does not own a dedicated egg-move array in the reference species record; this commonly occurs for evolved stages and should not be misread as proof that the evolutionary family has no inheritable moves.
+
+- コラッタ / 꼬렛 (`SPECIES_RATTATA_ALOLA`): `sRattataAlolaEggMoveLearnset` — COUNTER, FINAL_GAMBIT, FURY_SWIPES, ME_FIRST, REVENGE, REVERSAL, SNATCH, STOCKPILE, SWALLOW, SWITCHEROO, UPROAR
+- ラッタ / 레트라 (`SPECIES_RATICATE_ALOLA`): no dedicated pointer
+- ライチュウ / 라이츄 (`SPECIES_RAICHU_ALOLA`): no dedicated pointer
+- サンド / 모래두지 (`SPECIES_SANDSHREW_ALOLA`): `sSandshrewAlolaEggMoveLearnset` — AMNESIA, CHIP_AWAY, COUNTER, CRUSH_CLAW, CURSE, ENDURE, FLAIL, HONE_CLAWS, ICICLE_CRASH, ICICLE_SPEAR, METAL_CLAW, NIGHT_SLASH
+- サンドパン / 고지 (`SPECIES_SANDSLASH_ALOLA`): no dedicated pointer
+- ロコン / 식스테일 (`SPECIES_VULPIX_ALOLA`): `sVulpixAlolaEggMoveLearnset` — AGILITY, CHARM, DISABLE, ENCORE, EXTRASENSORY, FLAIL, FREEZE_DRY, HOWL, HYPNOSIS, MOONBLAST, POWER_SWAP, SPITE, SECRET_POWER, TAIL_SLAP
+- キュウコン / 나인테일 (`SPECIES_NINETALES_ALOLA`): no dedicated pointer
+- ディグダ / 디그다 (`SPECIES_DIGLETT_ALOLA`): `sDiglettAlolaEggMoveLearnset` — ANCIENT_POWER, BEAT_UP, ENDURE, FEINT_ATTACK, FINAL_GAMBIT, HEADBUTT, MEMENTO, METAL_SOUND, PURSUIT, REVERSAL, THRASH
+- ダグトリオ / 닥트리오 (`SPECIES_DUGTRIO_ALOLA`): no dedicated pointer
+- ニャース / 나옹 (`SPECIES_MEOWTH_ALOLA`): `sMeowthAlolaEggMoveLearnset` — AMNESIA, ASSIST, CHARM, COVET, FLAIL, FLATTER, FOUL_PLAY, HYPNOSIS, PARTING_SHOT, PUNISHMENT, SNATCH, SPITE
+- ペルシアン / 페르시온 (`SPECIES_PERSIAN_ALOLA`): no dedicated pointer
+- イシツブテ / 꼬마돌 (`SPECIES_GEODUDE_ALOLA`): `sGeodudeAlolaEggMoveLearnset` — AUTOTOMIZE, BLOCK, COUNTER, CURSE, ENDURE, FLAIL, MAGNET_RISE, ROCK_CLIMB, SCREECH, WIDE_GUARD
+- ゴローン / 데구리 (`SPECIES_GRAVELER_ALOLA`): no dedicated pointer
+- ゴローニャ / 딱구리 (`SPECIES_GOLEM_ALOLA`): no dedicated pointer
+- ベトベター / 질퍽이 (`SPECIES_GRIMER_ALOLA`): `sGrimerAlolaEggMoveLearnset` — ASSURANCE, CLEAR_SMOG, CURSE, IMPRISON, MEAN_LOOK, POWER_UP_PUNCH, PURSUIT, SCARY_FACE, SHADOW_SNEAK, SPITE, SPIT_UP, STOCKPILE, SWALLOW
+- ベトベトン / 질뻐기 (`SPECIES_MUK_ALOLA`): no dedicated pointer
+- ナッシー / 나시 (`SPECIES_EXEGGUTOR_ALOLA`): no dedicated pointer
+- ガラガラ / 텅구리 (`SPECIES_MAROWAK_ALOLA`): no dedicated pointer
+- ニャース / 나옹 (`SPECIES_MEOWTH_GALAR`): `sMeowthGalarEggMoveLearnset` — SPITE, DOUBLE_EDGE, CURSE, FLAIL, NIGHT_SLASH, COVET
+- ポニータ / 포니타 (`SPECIES_PONYTA_GALAR`): `sPonytaGalarEggMoveLearnset` — THRASH, DOUBLE_KICK, HYPNOSIS, DOUBLE_EDGE, HORN_DRILL, MORNING_SUN
+- ギャロップ / 날쌩마 (`SPECIES_RAPIDASH_GALAR`): no dedicated pointer
+- ヤドン / 야돈 (`SPECIES_SLOWPOKE_GALAR`): `sSlowpokeGalarEggMoveLearnset` — BELCH, BELLY_DRUM, BLOCK, STOMP
+- ヤドラン / 야도란 (`SPECIES_SLOWBRO_GALAR`): no dedicated pointer
+- カモネギ / 파오리 (`SPECIES_FARFETCHD_GALAR`): `sFarfetchdGalarEggMoveLearnset` — COUNTER, QUICK_ATTACK, FLAIL, QUICK_GUARD, CURSE, COVET, NIGHT_SLASH, SIMPLE_BEAM, DOUBLE_EDGE, FEINT, SKY_ATTACK
+- マタドガス / 또도가스 (`SPECIES_WEEZING_GALAR`): no dedicated pointer
+- バリヤード / 마임맨 (`SPECIES_MR_MIME_GALAR`): `sMrMimeGalarEggMoveLearnset` — FAKE_OUT, CONFUSE_RAY, POWER_SPLIT, TICKLE
+- フリーザー / 프리져 (`SPECIES_ARTICUNO_GALAR`): no dedicated pointer
+- サンダー / 썬더 (`SPECIES_ZAPDOS_GALAR`): no dedicated pointer
+- ファイヤー / 파이어 (`SPECIES_MOLTRES_GALAR`): no dedicated pointer
+- ヤドキング / 야도킹 (`SPECIES_SLOWKING_GALAR`): no dedicated pointer
+- サニーゴ / 코산호 (`SPECIES_CORSOLA_GALAR`): `sCorsolaGalarEggMoveLearnset` — HAZE, CONFUSE_RAY, NATURE_POWER, DESTINY_BOND, WATER_PULSE, HEAD_SMASH
+- ジグザグマ / 지그제구리 (`SPECIES_ZIGZAGOON_GALAR`): `sZigzagoonGalarEggMoveLearnset` — PARTING_SHOT, QUICK_GUARD, KNOCK_OFF
+- マッスグマ / 직구리 (`SPECIES_LINOONE_GALAR`): no dedicated pointer
+- ダルマッカ / 달막화 (`SPECIES_DARUMAKA_GALAR`): `sDarumakaGalarEggMoveLearnset` — FOCUS_PUNCH, HAMMER_ARM, TAKE_DOWN, FLAME_WHEEL, YAWN, FREEZE_DRY, INCINERATE, POWER_UP_PUNCH
+- ヒヒダルマ / 불비달마 (`SPECIES_DARMANITAN_GALAR_STANDARD`): no dedicated pointer
+- デスマス / 데스마스 (`SPECIES_YAMASK_GALAR`): `sYamaskGalarEggMoveLearnset` — MEMENTO
+- マッギョ / 메더 (`SPECIES_STUNFISK_GALAR`): `sStunfiskGalarEggMoveLearnset` — BIND, YAWN, ASTONISH, CURSE, SPITE, COUNTER, PAIN_SPLIT, REFLECT_TYPE
+- ガーディ / 가디 (`SPECIES_GROWLITHE_HISUI`): `sGrowlitheHisuiEggMoveLearnset` — DOUBLE_KICK, THRASH, DOUBLE_EDGE, MORNING_SUN, COVET, HEAD_SMASH
+- ウインディ / 윈디 (`SPECIES_ARCANINE_HISUI`): no dedicated pointer
+- ビリリダマ / 찌리리공 (`SPECIES_VOLTORB_HISUI`): no dedicated pointer
+- マルマイン / 붐볼 (`SPECIES_ELECTRODE_HISUI`): no dedicated pointer
+- バクフーン / 블레이범 (`SPECIES_TYPHLOSION_HISUI`): no dedicated pointer
+- ハリーセン / 침바루 (`SPECIES_QWILFISH_HISUI`): `sQwilfishHisuiEggMoveLearnset` — SUPERSONIC, BUBBLE_BEAM, HAZE, SELF_DESTRUCT, FLAIL, ASTONISH, WATER_PULSE, AQUA_JET, ACID_SPRAY, AQUA_TAIL
+- ニューラ / 포푸니 (`SPECIES_SNEASEL_HISUI`): `sSneaselHisuiEggMoveLearnset` — COUNTER, FAKE_OUT, FEINT, DOUBLE_HIT, NIGHT_SLASH, SWITCHEROO, QUICK_GUARD
+- ダイケンキ / 대검귀 (`SPECIES_SAMUROTT_HISUI`): no dedicated pointer
+- ドレディア / 드레디어 (`SPECIES_LILLIGANT_HISUI`): no dedicated pointer
+- ゾロア / 조로아 (`SPECIES_ZORUA_HISUI`): `sZoruaHisuiEggMoveLearnset` — DETECT, MEMENTO, EXTRASENSORY, COMEUPPANCE
+- ゾロアーク / 조로아크 (`SPECIES_ZOROARK_HISUI`): no dedicated pointer
+- ウォーグル / 워글 (`SPECIES_BRAVIARY_HISUI`): no dedicated pointer
+- ヌメイル / 미끄네일 (`SPECIES_SLIGGOO_HISUI`): no dedicated pointer
+- ヌメルゴン / 미끄래곤 (`SPECIES_GOODRA_HISUI`): no dedicated pointer
+- クレベース / 크레베이스 (`SPECIES_AVALUGG_HISUI`): no dedicated pointer
+- ジュナイパー / 모크나이퍼 (`SPECIES_DECIDUEYE_HISUI`): no dedicated pointer
+- ケンタロス（コンバット種） / 켄타로스(컴뱃종) (`SPECIES_TAUROS_PALDEA_COMBAT`): `sTaurosPaldeaCombatEggMoveLearnset` — CURSE, ENDEAVOR
+- ケンタロス（ブレイズ種） / 켄타로스(블레이즈종) (`SPECIES_TAUROS_PALDEA_BLAZE`): `sTaurosPaldeaBlazeEggMoveLearnset` — CURSE, ENDEAVOR
+- ケンタロス（ウォーター種） / 켄타로스(워터종) (`SPECIES_TAUROS_PALDEA_AQUA`): `sTaurosPaldeaAquaEggMoveLearnset` — CURSE, ENDEAVOR
+- ウパー / 우파 (`SPECIES_WOOPER_PALDEA`): `sWooperPaldeaEggMoveLearnset` — ACID_SPRAY, AFTER_YOU, ANCIENT_POWER, COUNTER, CURSE, DOUBLE_KICK, HAZE, MIST, RECOVER, SPIT_UP, STOCKPILE, SWALLOW
+- バスラオ（しろすじのすがた） / 배쓰나이(백색근의 모습) (`SPECIES_BASCULIN_WHITE_STRIPED`): `sBasculinWhiteStripedEggMoveLearnset` — ENDEAVOR, LAST_RESPECTS
+- タチフサグマ / 가로막구리 (`SPECIES_OBSTAGOON`): no dedicated pointer
+- ニャイキング / 나이킹 (`SPECIES_PERRSERKER`): no dedicated pointer
+- サニゴーン / 산호르곤 (`SPECIES_CURSOLA`): no dedicated pointer
+- ネギガナイト / 창파나이트 (`SPECIES_SIRFETCHD`): no dedicated pointer
+- バリコオル / 마임꽁꽁 (`SPECIES_MR_RIME`): no dedicated pointer
+- デスバーン / 데스판 (`SPECIES_RUNERIGUS`): no dedicated pointer
+- オオニューラ / 포푸니크 (`SPECIES_SNEASLER`): no dedicated pointer
+- ハリーマン / 장침바루 (`SPECIES_OVERQWIL`): no dedicated pointer
+- ドオー / 토오 (`SPECIES_CLODSIRE`): no dedicated pointer
+- イダイトウ♂ / 대쓰여너♂ (`SPECIES_BASCULEGION_M`): no dedicated pointer
+- イダイトウ♀ / 대쓰여너♀ (`SPECIES_BASCULEGION_F`): no dedicated pointer
