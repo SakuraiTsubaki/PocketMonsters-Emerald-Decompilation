@@ -56,3 +56,38 @@ Reference: `rh-hideout/pokeemerald-expansion` commit `75b806a3ab57a81ff1eb617928
 2. Keep regional-evolution species as independent National Dex species.
 3. Keep region-sensitive evolution conditions separate from battle-only form changes.
 4. White-Striped Basculin remains explicitly tagged as a special classification boundary case rather than silently merged into named Hisuian forms.
+
+## Game-specific regional-evolution semantics
+
+The reference implementation above is useful for EMERALD engineering, but it intentionally normalizes some later-game evolution mechanics. Preserve these title-specific rules separately when source-faithful behavior matters.
+
+| Line | Title / ruleset | Evolution trigger |
+| --- | --- | --- |
+| Galarian Linoone → Obstagoon | Sword/Shield rule | Level 35 or higher at night. |
+| Galarian Meowth → Perrserker | Sword/Shield rule | Level 28. |
+| Galarian Corsola → Cursola | Sword/Shield rule | Level 38. |
+| Galarian Farfetch'd → Sirfetch'd | Sword/Shield rule | Land at least 3 critical hits in one battle; evolution occurs after the battle. |
+| Galarian Mr. Mime → Mr. Rime | Sword/Shield rule | Level 42. |
+| Galarian Yamask → Runerigus | Sword/Shield | Take at least 49 HP of qualifying attack damage without fainting, then travel under the designated rock arch in Dusty Bowl. Healing does not erase the accumulated qualifying damage. |
+| Galarian Yamask → Runerigus | Legends Z-A | The same 49-HP damage concept is retained, with the designated overworld trigger associated with the bridges above Coulant Waterway. |
+| Hisuian Sneasel → Sneasler | Legends: Arceus | Expose it to a Razor Claw during the daytime. |
+| Hisuian Sneasel → Sneasler | Scarlet/Violet | Level up while holding a Razor Claw during the daytime. |
+| Hisuian Qwilfish → Overqwil | Legends: Arceus | Use Barb Barrage in Strong Style 20 times. |
+| Hisuian Qwilfish → Overqwil | Scarlet/Violet 3.0.0+ | Level up while knowing Barb Barrage. |
+| Hisuian Qwilfish → Overqwil | Legends Z-A | Land 20 hits with Barb Barrage; each target hit can increment the counter. |
+| Paldean Wooper → Clodsire | Scarlet/Violet rule | Level 20. |
+| White-Striped Basculin → Basculegion | Legends: Arceus | Cumulatively lose at least 294 HP to recoil without fainting; no additional level-up is required. Sex selects male/female Basculegion. |
+| White-Striped Basculin → Basculegion | Scarlet/Violet-style rule | After cumulatively losing at least 294 HP to recoil without fainting, level up. Fainting resets progress; recovery does not. Sex selects male/female Basculegion. |
+
+### Modeling requirement
+
+Do not collapse the table above into a single global `EvolutionMethod`. EMERALD should retain a stable semantic condition set (level, time, held/used item, known move, battle critical-hit counter, qualifying damage counter, recoil counter, overworld/script trigger, gender) and let a per-ruleset policy select which conditions apply. This lets the same save/species representation reproduce Sword/Shield, Legends: Arceus, Scarlet/Violet, and Legends Z-A behavior without inventing separate Pokémon species for mechanic differences.
+
+### External verification references
+
+- https://bulbapedia.bulbagarden.net/wiki/Regional_form
+- https://bulbapedia.bulbagarden.net/wiki/Overqwil_(Pok%C3%A9mon)
+- https://bulbapedia.bulbagarden.net/wiki/Yamask_(Pok%C3%A9mon)
+- https://bulbapedia.bulbagarden.net/wiki/Sneasel_(Pok%C3%A9mon)
+- https://bulbapedia.bulbagarden.net/wiki/Basculin_(Pok%C3%A9mon)
+- https://bulbapedia.bulbagarden.net/wiki/Critical_hit
