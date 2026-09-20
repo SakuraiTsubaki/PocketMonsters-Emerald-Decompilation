@@ -1,0 +1,913 @@
+{
+  "surveyVersion": 1,
+  "reference": {
+    "repository": "rh-hideout/pokeemerald-expansion",
+    "commit": "75b806a3ab57a81ff1eb6179288981f0b3cc3050"
+  },
+  "entries": [
+    {
+      "key": "SPECIES_RATTATA_ALOLA",
+      "region": "Alola",
+      "japaneseName": "コラッタ",
+      "koreanName": "꼬렛",
+      "symbol": "sRattataAlolaEggMoveLearnset",
+      "moves": [
+        "COUNTER",
+        "FINAL_GAMBIT",
+        "FURY_SWIPES",
+        "ME_FIRST",
+        "REVENGE",
+        "REVERSAL",
+        "SNATCH",
+        "STOCKPILE",
+        "SWALLOW",
+        "SWITCHEROO",
+        "UPROAR"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_RATICATE_ALOLA",
+      "region": "Alola",
+      "japaneseName": "ラッタ",
+      "koreanName": "레트라",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_RAICHU_ALOLA",
+      "region": "Alola",
+      "japaneseName": "ライチュウ",
+      "koreanName": "라이츄",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_SANDSHREW_ALOLA",
+      "region": "Alola",
+      "japaneseName": "サンド",
+      "koreanName": "모래두지",
+      "symbol": "sSandshrewAlolaEggMoveLearnset",
+      "moves": [
+        "AMNESIA",
+        "CHIP_AWAY",
+        "COUNTER",
+        "CRUSH_CLAW",
+        "CURSE",
+        "ENDURE",
+        "FLAIL",
+        "HONE_CLAWS",
+        "ICICLE_CRASH",
+        "ICICLE_SPEAR",
+        "METAL_CLAW",
+        "NIGHT_SLASH"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_SANDSLASH_ALOLA",
+      "region": "Alola",
+      "japaneseName": "サンドパン",
+      "koreanName": "고지",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_VULPIX_ALOLA",
+      "region": "Alola",
+      "japaneseName": "ロコン",
+      "koreanName": "식스테일",
+      "symbol": "sVulpixAlolaEggMoveLearnset",
+      "moves": [
+        "AGILITY",
+        "CHARM",
+        "DISABLE",
+        "ENCORE",
+        "EXTRASENSORY",
+        "FLAIL",
+        "FREEZE_DRY",
+        "HOWL",
+        "HYPNOSIS",
+        "MOONBLAST",
+        "POWER_SWAP",
+        "SPITE",
+        "SECRET_POWER",
+        "TAIL_SLAP"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_NINETALES_ALOLA",
+      "region": "Alola",
+      "japaneseName": "キュウコン",
+      "koreanName": "나인테일",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_DIGLETT_ALOLA",
+      "region": "Alola",
+      "japaneseName": "ディグダ",
+      "koreanName": "디그다",
+      "symbol": "sDiglettAlolaEggMoveLearnset",
+      "moves": [
+        "ANCIENT_POWER",
+        "BEAT_UP",
+        "ENDURE",
+        "FEINT_ATTACK",
+        "FINAL_GAMBIT",
+        "HEADBUTT",
+        "MEMENTO",
+        "METAL_SOUND",
+        "PURSUIT",
+        "REVERSAL",
+        "THRASH"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_DUGTRIO_ALOLA",
+      "region": "Alola",
+      "japaneseName": "ダグトリオ",
+      "koreanName": "닥트리오",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_MEOWTH_ALOLA",
+      "region": "Alola",
+      "japaneseName": "ニャース",
+      "koreanName": "나옹",
+      "symbol": "sMeowthAlolaEggMoveLearnset",
+      "moves": [
+        "AMNESIA",
+        "ASSIST",
+        "CHARM",
+        "COVET",
+        "FLAIL",
+        "FLATTER",
+        "FOUL_PLAY",
+        "HYPNOSIS",
+        "PARTING_SHOT",
+        "PUNISHMENT",
+        "SNATCH",
+        "SPITE"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_PERSIAN_ALOLA",
+      "region": "Alola",
+      "japaneseName": "ペルシアン",
+      "koreanName": "페르시온",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_GEODUDE_ALOLA",
+      "region": "Alola",
+      "japaneseName": "イシツブテ",
+      "koreanName": "꼬마돌",
+      "symbol": "sGeodudeAlolaEggMoveLearnset",
+      "moves": [
+        "AUTOTOMIZE",
+        "BLOCK",
+        "COUNTER",
+        "CURSE",
+        "ENDURE",
+        "FLAIL",
+        "MAGNET_RISE",
+        "ROCK_CLIMB",
+        "SCREECH",
+        "WIDE_GUARD"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_GRAVELER_ALOLA",
+      "region": "Alola",
+      "japaneseName": "ゴローン",
+      "koreanName": "데구리",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_GOLEM_ALOLA",
+      "region": "Alola",
+      "japaneseName": "ゴローニャ",
+      "koreanName": "딱구리",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_GRIMER_ALOLA",
+      "region": "Alola",
+      "japaneseName": "ベトベター",
+      "koreanName": "질퍽이",
+      "symbol": "sGrimerAlolaEggMoveLearnset",
+      "moves": [
+        "ASSURANCE",
+        "CLEAR_SMOG",
+        "CURSE",
+        "IMPRISON",
+        "MEAN_LOOK",
+        "POWER_UP_PUNCH",
+        "PURSUIT",
+        "SCARY_FACE",
+        "SHADOW_SNEAK",
+        "SPITE",
+        "SPIT_UP",
+        "STOCKPILE",
+        "SWALLOW"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_MUK_ALOLA",
+      "region": "Alola",
+      "japaneseName": "ベトベトン",
+      "koreanName": "질뻐기",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_EXEGGUTOR_ALOLA",
+      "region": "Alola",
+      "japaneseName": "ナッシー",
+      "koreanName": "나시",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_MAROWAK_ALOLA",
+      "region": "Alola",
+      "japaneseName": "ガラガラ",
+      "koreanName": "텅구리",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_MEOWTH_GALAR",
+      "region": "Galar",
+      "japaneseName": "ニャース",
+      "koreanName": "나옹",
+      "symbol": "sMeowthGalarEggMoveLearnset",
+      "moves": [
+        "SPITE",
+        "DOUBLE_EDGE",
+        "CURSE",
+        "FLAIL",
+        "NIGHT_SLASH",
+        "COVET"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_PONYTA_GALAR",
+      "region": "Galar",
+      "japaneseName": "ポニータ",
+      "koreanName": "포니타",
+      "symbol": "sPonytaGalarEggMoveLearnset",
+      "moves": [
+        "THRASH",
+        "DOUBLE_KICK",
+        "HYPNOSIS",
+        "DOUBLE_EDGE",
+        "HORN_DRILL",
+        "MORNING_SUN"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_RAPIDASH_GALAR",
+      "region": "Galar",
+      "japaneseName": "ギャロップ",
+      "koreanName": "날쌩마",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_SLOWPOKE_GALAR",
+      "region": "Galar",
+      "japaneseName": "ヤドン",
+      "koreanName": "야돈",
+      "symbol": "sSlowpokeGalarEggMoveLearnset",
+      "moves": [
+        "BELCH",
+        "BELLY_DRUM",
+        "BLOCK",
+        "STOMP"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_SLOWBRO_GALAR",
+      "region": "Galar",
+      "japaneseName": "ヤドラン",
+      "koreanName": "야도란",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_FARFETCHD_GALAR",
+      "region": "Galar",
+      "japaneseName": "カモネギ",
+      "koreanName": "파오리",
+      "symbol": "sFarfetchdGalarEggMoveLearnset",
+      "moves": [
+        "COUNTER",
+        "QUICK_ATTACK",
+        "FLAIL",
+        "QUICK_GUARD",
+        "CURSE",
+        "COVET",
+        "NIGHT_SLASH",
+        "SIMPLE_BEAM",
+        "DOUBLE_EDGE",
+        "FEINT",
+        "SKY_ATTACK"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_WEEZING_GALAR",
+      "region": "Galar",
+      "japaneseName": "マタドガス",
+      "koreanName": "또도가스",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_MR_MIME_GALAR",
+      "region": "Galar",
+      "japaneseName": "バリヤード",
+      "koreanName": "마임맨",
+      "symbol": "sMrMimeGalarEggMoveLearnset",
+      "moves": [
+        "FAKE_OUT",
+        "CONFUSE_RAY",
+        "POWER_SPLIT",
+        "TICKLE"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_ARTICUNO_GALAR",
+      "region": "Galar",
+      "japaneseName": "フリーザー",
+      "koreanName": "프리져",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_ZAPDOS_GALAR",
+      "region": "Galar",
+      "japaneseName": "サンダー",
+      "koreanName": "썬더",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_MOLTRES_GALAR",
+      "region": "Galar",
+      "japaneseName": "ファイヤー",
+      "koreanName": "파이어",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_SLOWKING_GALAR",
+      "region": "Galar",
+      "japaneseName": "ヤドキング",
+      "koreanName": "야도킹",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_CORSOLA_GALAR",
+      "region": "Galar",
+      "japaneseName": "サニーゴ",
+      "koreanName": "코산호",
+      "symbol": "sCorsolaGalarEggMoveLearnset",
+      "moves": [
+        "HAZE",
+        "CONFUSE_RAY",
+        "NATURE_POWER",
+        "DESTINY_BOND",
+        "WATER_PULSE",
+        "HEAD_SMASH"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_ZIGZAGOON_GALAR",
+      "region": "Galar",
+      "japaneseName": "ジグザグマ",
+      "koreanName": "지그제구리",
+      "symbol": "sZigzagoonGalarEggMoveLearnset",
+      "moves": [
+        "PARTING_SHOT",
+        "QUICK_GUARD",
+        "KNOCK_OFF"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_LINOONE_GALAR",
+      "region": "Galar",
+      "japaneseName": "マッスグマ",
+      "koreanName": "직구리",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_DARUMAKA_GALAR",
+      "region": "Galar",
+      "japaneseName": "ダルマッカ",
+      "koreanName": "달막화",
+      "symbol": "sDarumakaGalarEggMoveLearnset",
+      "moves": [
+        "FOCUS_PUNCH",
+        "HAMMER_ARM",
+        "TAKE_DOWN",
+        "FLAME_WHEEL",
+        "YAWN",
+        "FREEZE_DRY",
+        "INCINERATE",
+        "POWER_UP_PUNCH"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_DARMANITAN_GALAR_STANDARD",
+      "region": "Galar",
+      "japaneseName": "ヒヒダルマ",
+      "koreanName": "불비달마",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_YAMASK_GALAR",
+      "region": "Galar",
+      "japaneseName": "デスマス",
+      "koreanName": "데스마스",
+      "symbol": "sYamaskGalarEggMoveLearnset",
+      "moves": [
+        "MEMENTO"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_STUNFISK_GALAR",
+      "region": "Galar",
+      "japaneseName": "マッギョ",
+      "koreanName": "메더",
+      "symbol": "sStunfiskGalarEggMoveLearnset",
+      "moves": [
+        "BIND",
+        "YAWN",
+        "ASTONISH",
+        "CURSE",
+        "SPITE",
+        "COUNTER",
+        "PAIN_SPLIT",
+        "REFLECT_TYPE"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_GROWLITHE_HISUI",
+      "region": "Hisui",
+      "japaneseName": "ガーディ",
+      "koreanName": "가디",
+      "symbol": "sGrowlitheHisuiEggMoveLearnset",
+      "moves": [
+        "DOUBLE_KICK",
+        "THRASH",
+        "DOUBLE_EDGE",
+        "MORNING_SUN",
+        "COVET",
+        "HEAD_SMASH"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_ARCANINE_HISUI",
+      "region": "Hisui",
+      "japaneseName": "ウインディ",
+      "koreanName": "윈디",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_VOLTORB_HISUI",
+      "region": "Hisui",
+      "japaneseName": "ビリリダマ",
+      "koreanName": "찌리리공",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_ELECTRODE_HISUI",
+      "region": "Hisui",
+      "japaneseName": "マルマイン",
+      "koreanName": "붐볼",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_TYPHLOSION_HISUI",
+      "region": "Hisui",
+      "japaneseName": "バクフーン",
+      "koreanName": "블레이범",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_QWILFISH_HISUI",
+      "region": "Hisui",
+      "japaneseName": "ハリーセン",
+      "koreanName": "침바루",
+      "symbol": "sQwilfishHisuiEggMoveLearnset",
+      "moves": [
+        "SUPERSONIC",
+        "BUBBLE_BEAM",
+        "HAZE",
+        "SELF_DESTRUCT",
+        "FLAIL",
+        "ASTONISH",
+        "WATER_PULSE",
+        "AQUA_JET",
+        "ACID_SPRAY",
+        "AQUA_TAIL"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_SNEASEL_HISUI",
+      "region": "Hisui",
+      "japaneseName": "ニューラ",
+      "koreanName": "포푸니",
+      "symbol": "sSneaselHisuiEggMoveLearnset",
+      "moves": [
+        "COUNTER",
+        "FAKE_OUT",
+        "FEINT",
+        "DOUBLE_HIT",
+        "NIGHT_SLASH",
+        "SWITCHEROO",
+        "QUICK_GUARD"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_SAMUROTT_HISUI",
+      "region": "Hisui",
+      "japaneseName": "ダイケンキ",
+      "koreanName": "대검귀",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_LILLIGANT_HISUI",
+      "region": "Hisui",
+      "japaneseName": "ドレディア",
+      "koreanName": "드레디어",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_ZORUA_HISUI",
+      "region": "Hisui",
+      "japaneseName": "ゾロア",
+      "koreanName": "조로아",
+      "symbol": "sZoruaHisuiEggMoveLearnset",
+      "moves": [
+        "DETECT",
+        "MEMENTO",
+        "EXTRASENSORY",
+        "COMEUPPANCE"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_ZOROARK_HISUI",
+      "region": "Hisui",
+      "japaneseName": "ゾロアーク",
+      "koreanName": "조로아크",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_BRAVIARY_HISUI",
+      "region": "Hisui",
+      "japaneseName": "ウォーグル",
+      "koreanName": "워글",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_SLIGGOO_HISUI",
+      "region": "Hisui",
+      "japaneseName": "ヌメイル",
+      "koreanName": "미끄네일",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_GOODRA_HISUI",
+      "region": "Hisui",
+      "japaneseName": "ヌメルゴン",
+      "koreanName": "미끄래곤",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_AVALUGG_HISUI",
+      "region": "Hisui",
+      "japaneseName": "クレベース",
+      "koreanName": "크레베이스",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_DECIDUEYE_HISUI",
+      "region": "Hisui",
+      "japaneseName": "ジュナイパー",
+      "koreanName": "모크나이퍼",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_TAUROS_PALDEA_COMBAT",
+      "region": "Paldea",
+      "japaneseName": "ケンタロス（コンバット種）",
+      "koreanName": "켄타로스(컴뱃종)",
+      "symbol": "sTaurosPaldeaCombatEggMoveLearnset",
+      "moves": [
+        "CURSE",
+        "ENDEAVOR"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_TAUROS_PALDEA_BLAZE",
+      "region": "Paldea",
+      "japaneseName": "ケンタロス（ブレイズ種）",
+      "koreanName": "켄타로스(블레이즈종)",
+      "symbol": "sTaurosPaldeaBlazeEggMoveLearnset",
+      "moves": [
+        "CURSE",
+        "ENDEAVOR"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_TAUROS_PALDEA_AQUA",
+      "region": "Paldea",
+      "japaneseName": "ケンタロス（ウォーター種）",
+      "koreanName": "켄타로스(워터종)",
+      "symbol": "sTaurosPaldeaAquaEggMoveLearnset",
+      "moves": [
+        "CURSE",
+        "ENDEAVOR"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_WOOPER_PALDEA",
+      "region": "Paldea",
+      "japaneseName": "ウパー",
+      "koreanName": "우파",
+      "symbol": "sWooperPaldeaEggMoveLearnset",
+      "moves": [
+        "ACID_SPRAY",
+        "AFTER_YOU",
+        "ANCIENT_POWER",
+        "COUNTER",
+        "CURSE",
+        "DOUBLE_KICK",
+        "HAZE",
+        "MIST",
+        "RECOVER",
+        "SPIT_UP",
+        "STOCKPILE",
+        "SWALLOW"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_BASCULIN_WHITE_STRIPED",
+      "region": "Hisui",
+      "japaneseName": "バスラオ（しろすじのすがた）",
+      "koreanName": "배쓰나이(백색근의 모습)",
+      "symbol": "sBasculinWhiteStripedEggMoveLearnset",
+      "moves": [
+        "ENDEAVOR",
+        "LAST_RESPECTS"
+      ],
+      "inheritedOrNone": false,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_OBSTAGOON",
+      "region": "Galar",
+      "japaneseName": "タチフサグマ",
+      "koreanName": "가로막구리",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_PERRSERKER",
+      "region": "Galar",
+      "japaneseName": "ニャイキング",
+      "koreanName": "나이킹",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_CURSOLA",
+      "region": "Galar",
+      "japaneseName": "サニゴーン",
+      "koreanName": "산호르곤",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_SIRFETCHD",
+      "region": "Galar",
+      "japaneseName": "ネギガナイト",
+      "koreanName": "창파나이트",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_MR_RIME",
+      "region": "Galar",
+      "japaneseName": "バリコオル",
+      "koreanName": "마임꽁꽁",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_RUNERIGUS",
+      "region": "Galar",
+      "japaneseName": "デスバーン",
+      "koreanName": "데스판",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_SNEASLER",
+      "region": "Hisui",
+      "japaneseName": "オオニューラ",
+      "koreanName": "포푸니크",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_OVERQWIL",
+      "region": "Hisui",
+      "japaneseName": "ハリーマン",
+      "koreanName": "장침바루",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_CLODSIRE",
+      "region": "Paldea",
+      "japaneseName": "ドオー",
+      "koreanName": "토오",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_BASCULEGION_M",
+      "region": "Hisui",
+      "japaneseName": "イダイトウ♂",
+      "koreanName": "대쓰여너♂",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    },
+    {
+      "key": "SPECIES_BASCULEGION_F",
+      "region": "Hisui",
+      "japaneseName": "イダイトウ♀",
+      "koreanName": "대쓰여너♀",
+      "symbol": "",
+      "moves": [],
+      "inheritedOrNone": true,
+      "missing": false
+    }
+  ],
+  "missing": []
+}
