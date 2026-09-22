@@ -1,0 +1,864 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 932,
+  "start_address": 134218660,
+  "scan_limit_address": 134235044,
+  "instruction_halfwords": 124,
+  "range_start": 134218660,
+  "range_end": 134218944,
+  "return_observed": false,
+  "instructions": [
+    {
+      "address": 134218660,
+      "halfword": 46576,
+      "kind": "other"
+    },
+    {
+      "address": 134218662,
+      "halfword": 17991,
+      "kind": "other"
+    },
+    {
+      "address": 134218664,
+      "halfword": 46208,
+      "kind": "other"
+    },
+    {
+      "address": 134218666,
+      "halfword": 8447,
+      "kind": "other"
+    },
+    {
+      "address": 134218668,
+      "halfword": 62101,
+      "kind": "call",
+      "target": 136927712
+    },
+    {
+      "address": 134218670,
+      "halfword": 64280,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218672,
+      "halfword": 8608,
+      "kind": "other"
+    },
+    {
+      "address": 134218674,
+      "halfword": 1225,
+      "kind": "other"
+    },
+    {
+      "address": 134218676,
+      "halfword": 18988,
+      "kind": "other"
+    },
+    {
+      "address": 134218678,
+      "halfword": 7184,
+      "kind": "other"
+    },
+    {
+      "address": 134218680,
+      "halfword": 32776,
+      "kind": "other"
+    },
+    {
+      "address": 134218682,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134221940
+    },
+    {
+      "address": 134218684,
+      "halfword": 65115,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218686,
+      "halfword": 18731,
+      "kind": "other"
+    },
+    {
+      "address": 134218688,
+      "halfword": 19243,
+      "kind": "other"
+    },
+    {
+      "address": 134218690,
+      "halfword": 7192,
+      "kind": "other"
+    },
+    {
+      "address": 134218692,
+      "halfword": 32776,
+      "kind": "other"
+    },
+    {
+      "address": 134218694,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134219196
+    },
+    {
+      "address": 134218696,
+      "halfword": 63737,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218698,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134219396
+    },
+    {
+      "address": 134218700,
+      "halfword": 63835,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218702,
+      "halfword": 62094,
+      "kind": "call",
+      "target": 136898040
+    },
+    {
+      "address": 134218704,
+      "halfword": 63763,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218706,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134219156
+    },
+    {
+      "address": 134218708,
+      "halfword": 63711,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218710,
+      "halfword": 61453,
+      "kind": "call",
+      "target": 134275476
+    },
+    {
+      "address": 134218712,
+      "halfword": 65245,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218714,
+      "halfword": 61486,
+      "kind": "call",
+      "target": 134409856
+    },
+    {
+      "address": 134218716,
+      "halfword": 64849,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218718,
+      "halfword": 61558,
+      "kind": "call",
+      "target": 134702448
+    },
+    {
+      "address": 134218720,
+      "halfword": 63687,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218722,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134218968
+    },
+    {
+      "address": 134218724,
+      "halfword": 63609,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218726,
+      "halfword": 61602,
+      "kind": "call",
+      "target": 134882972
+    },
+    {
+      "address": 134218728,
+      "halfword": 63833,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218730,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134220872
+    },
+    {
+      "address": 134218732,
+      "halfword": 64557,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218734,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134222600
+    },
+    {
+      "address": 134218736,
+      "halfword": 65419,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218738,
+      "halfword": 61445,
+      "kind": "call",
+      "target": 134242724
+    },
+    {
+      "address": 134218740,
+      "halfword": 65239,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218742,
+      "halfword": 18463,
+      "kind": "other"
+    },
+    {
+      "address": 134218744,
+      "halfword": 8672,
+      "kind": "other"
+    },
+    {
+      "address": 134218746,
+      "halfword": 585,
+      "kind": "other"
+    },
+    {
+      "address": 134218748,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134220716
+    },
+    {
+      "address": 134218750,
+      "halfword": 64470,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218752,
+      "halfword": 18461,
+      "kind": "other"
+    },
+    {
+      "address": 134218754,
+      "halfword": 9216,
+      "kind": "other"
+    },
+    {
+      "address": 134218756,
+      "halfword": 28676,
+      "kind": "other"
+    },
+    {
+      "address": 134218758,
+      "halfword": 18461,
+      "kind": "other"
+    },
+    {
+      "address": 134218760,
+      "halfword": 26624,
+      "kind": "other"
+    },
+    {
+      "address": 134218762,
+      "halfword": 10241,
+      "kind": "other"
+    },
+    {
+      "address": 134218764,
+      "halfword": 53250,
+      "kind": "conditional-branch",
+      "target": 134218772
+    },
+    {
+      "address": 134218766,
+      "halfword": 8192,
+      "kind": "other"
+    },
+    {
+      "address": 134218768,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134219072
+    },
+    {
+      "address": 134218770,
+      "halfword": 63638,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218772,
+      "halfword": 18970,
+      "kind": "other"
+    },
+    {
+      "address": 134218774,
+      "halfword": 28692,
+      "kind": "other"
+    },
+    {
+      "address": 134218776,
+      "halfword": 18714,
+      "kind": "other"
+    },
+    {
+      "address": 134218778,
+      "halfword": 9212,
+      "kind": "other"
+    },
+    {
+      "address": 134218780,
+      "halfword": 283,
+      "kind": "other"
+    },
+    {
+      "address": 134218782,
+      "halfword": 7192,
+      "kind": "other"
+    },
+    {
+      "address": 134218784,
+      "halfword": 32776,
+      "kind": "other"
+    },
+    {
+      "address": 134218786,
+      "halfword": 20249,
+      "kind": "other"
+    },
+    {
+      "address": 134218788,
+      "halfword": 8192,
+      "kind": "other"
+    },
+    {
+      "address": 134218790,
+      "halfword": 18048,
+      "kind": "other"
+    },
+    {
+      "address": 134218792,
+      "halfword": 7190,
+      "kind": "other"
+    },
+    {
+      "address": 134218794,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134219236
+    },
+    {
+      "address": 134218796,
+      "halfword": 63707,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218798,
+      "halfword": 18450,
+      "kind": "other"
+    },
+    {
+      "address": 134218800,
+      "halfword": 30720,
+      "kind": "other"
+    },
+    {
+      "address": 134218802,
+      "halfword": 10240,
+      "kind": "other"
+    },
+    {
+      "address": 134218804,
+      "halfword": 53518,
+      "kind": "conditional-branch",
+      "target": 134218836
+    },
+    {
+      "address": 134218806,
+      "halfword": 36153,
+      "kind": "other"
+    },
+    {
+      "address": 134218808,
+      "halfword": 8193,
+      "kind": "other"
+    },
+    {
+      "address": 134218810,
+      "halfword": 16392,
+      "kind": "other"
+    },
+    {
+      "address": 134218812,
+      "halfword": 10240,
+      "kind": "other"
+    },
+    {
+      "address": 134218814,
+      "halfword": 53257,
+      "kind": "conditional-branch",
+      "target": 134218836
+    },
+    {
+      "address": 134218816,
+      "halfword": 8206,
+      "kind": "other"
+    },
+    {
+      "address": 134218818,
+      "halfword": 16392,
+      "kind": "other"
+    },
+    {
+      "address": 134218820,
+      "halfword": 10254,
+      "kind": "other"
+    },
+    {
+      "address": 134218822,
+      "halfword": 53509,
+      "kind": "conditional-branch",
+      "target": 134218836
+    },
+    {
+      "address": 134218824,
+      "halfword": 62098,
+      "kind": "call",
+      "target": 136915020
+    },
+    {
+      "address": 134218826,
+      "halfword": 64000,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218828,
+      "halfword": 62098,
+      "kind": "call",
+      "target": 136914800
+    },
+    {
+      "address": 134218830,
+      "halfword": 63888,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218832,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134220020
+    },
+    {
+      "address": 134218834,
+      "halfword": 64080,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218836,
+      "halfword": 61574,
+      "kind": "call",
+      "target": 134770584
+    },
+    {
+      "address": 134218838,
+      "halfword": 64928,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218840,
+      "halfword": 10241,
+      "kind": "other"
+    },
+    {
+      "address": 134218842,
+      "halfword": 53527,
+      "kind": "conditional-branch",
+      "target": 134218892
+    },
+    {
+      "address": 134218844,
+      "halfword": 28720,
+      "kind": "other"
+    },
+    {
+      "address": 134218846,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134218948
+    },
+    {
+      "address": 134218848,
+      "halfword": 63537,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218850,
+      "halfword": 8192,
+      "kind": "other"
+    },
+    {
+      "address": 134218852,
+      "halfword": 28720,
+      "kind": "other"
+    },
+    {
+      "address": 134218854,
+      "halfword": 57380,
+      "kind": "branch",
+      "target": 134218930
+    },
+    {
+      "address": 134218892,
+      "halfword": 19724,
+      "kind": "other"
+    },
+    {
+      "address": 134218894,
+      "halfword": 8192,
+      "kind": "other"
+    },
+    {
+      "address": 134218896,
+      "halfword": 28712,
+      "kind": "other"
+    },
+    {
+      "address": 134218898,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134218948
+    },
+    {
+      "address": 134218900,
+      "halfword": 63511,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218902,
+      "halfword": 61574,
+      "kind": "call",
+      "target": 134770476
+    },
+    {
+      "address": 134218904,
+      "halfword": 64841,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218906,
+      "halfword": 7172,
+      "kind": "other"
+    },
+    {
+      "address": 134218908,
+      "halfword": 11265,
+      "kind": "other"
+    },
+    {
+      "address": 134218910,
+      "halfword": 53512,
+      "kind": "conditional-branch",
+      "target": 134218930
+    },
+    {
+      "address": 134218912,
+      "halfword": 8192,
+      "kind": "other"
+    },
+    {
+      "address": 134218914,
+      "halfword": 34296,
+      "kind": "other"
+    },
+    {
+      "address": 134218916,
+      "halfword": 61446,
+      "kind": "call",
+      "target": 134246096
+    },
+    {
+      "address": 134218918,
+      "halfword": 64788,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218920,
+      "halfword": 28716,
+      "kind": "other"
+    },
+    {
+      "address": 134218922,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134218948
+    },
+    {
+      "address": 134218924,
+      "halfword": 63499,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218926,
+      "halfword": 17986,
+      "kind": "other"
+    },
+    {
+      "address": 134218928,
+      "halfword": 28714,
+      "kind": "other"
+    },
+    {
+      "address": 134218930,
+      "halfword": 61571,
+      "kind": "call",
+      "target": 134757316
+    },
+    {
+      "address": 134218932,
+      "halfword": 64391,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218934,
+      "halfword": 61602,
+      "kind": "call",
+      "target": 134882992
+    },
+    {
+      "address": 134218936,
+      "halfword": 63739,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218938,
+      "halfword": 61440,
+      "kind": "call",
+      "target": 134219948
+    },
+    {
+      "address": 134218940,
+      "halfword": 63991,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134218942,
+      "halfword": 59316,
+      "kind": "branch",
+      "target": 134218794
+    }
+  ],
+  "edges": [
+    {
+      "source": 134218764,
+      "target": 134218772,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134218764,
+      "target": 134218766,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134218804,
+      "target": 134218836,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134218804,
+      "target": 134218806,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134218814,
+      "target": 134218836,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134218814,
+      "target": 134218816,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134218822,
+      "target": 134218836,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134218822,
+      "target": 134218824,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134218842,
+      "target": 134218892,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134218842,
+      "target": 134218844,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134218854,
+      "target": 134218930,
+      "kind": "branch"
+    },
+    {
+      "source": 134218942,
+      "target": 134218794,
+      "kind": "branch"
+    },
+    {
+      "source": 134218910,
+      "target": 134218930,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134218910,
+      "target": 134218912,
+      "kind": "conditional-fallthrough"
+    }
+  ],
+  "calls": [
+    {
+      "source": 134218668,
+      "target": 136927712
+    },
+    {
+      "source": 134218682,
+      "target": 134221940
+    },
+    {
+      "source": 134218694,
+      "target": 134219196
+    },
+    {
+      "source": 134218698,
+      "target": 134219396
+    },
+    {
+      "source": 134218702,
+      "target": 136898040
+    },
+    {
+      "source": 134218706,
+      "target": 134219156
+    },
+    {
+      "source": 134218710,
+      "target": 134275476
+    },
+    {
+      "source": 134218714,
+      "target": 134409856
+    },
+    {
+      "source": 134218718,
+      "target": 134702448
+    },
+    {
+      "source": 134218722,
+      "target": 134218968
+    },
+    {
+      "source": 134218726,
+      "target": 134882972
+    },
+    {
+      "source": 134218730,
+      "target": 134220872
+    },
+    {
+      "source": 134218734,
+      "target": 134222600
+    },
+    {
+      "source": 134218738,
+      "target": 134242724
+    },
+    {
+      "source": 134218748,
+      "target": 134220716
+    },
+    {
+      "source": 134218768,
+      "target": 134219072
+    },
+    {
+      "source": 134218794,
+      "target": 134219236
+    },
+    {
+      "source": 134218824,
+      "target": 136915020
+    },
+    {
+      "source": 134218828,
+      "target": 136914800
+    },
+    {
+      "source": 134218832,
+      "target": 134220020
+    },
+    {
+      "source": 134218836,
+      "target": 134770584
+    },
+    {
+      "source": 134218846,
+      "target": 134218948
+    },
+    {
+      "source": 134218930,
+      "target": 134757316
+    },
+    {
+      "source": 134218934,
+      "target": 134882992
+    },
+    {
+      "source": 134218938,
+      "target": 134219948
+    },
+    {
+      "source": 134218898,
+      "target": 134218948
+    },
+    {
+      "source": 134218902,
+      "target": 134770476
+    },
+    {
+      "source": 134218916,
+      "target": 134246096
+    },
+    {
+      "source": 134218922,
+      "target": 134218948
+    }
+  ],
+  "returns": [],
+  "source_size": 16777216,
+  "source_sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+}
+
