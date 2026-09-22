@@ -1,0 +1,2 @@
+{"schema_version":1,"id":"emerald-jp-thumb-entry-cfg","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/thumb_cfg.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"}],"outputs":[{"path":"analysis/emerald-jp-thumb-entry-cfg.json","sha256":"9316e11abeb8944f19fddde58d02e83818f115ca438bac09a9e23e1e8cd6045b"}]}
+
