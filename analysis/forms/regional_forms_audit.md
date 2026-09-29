@@ -68,7 +68,7 @@ Therefore the final teachable set is build-policy dependent and should not be tr
 Reference documentation:
 - https://github.com/rh-hideout/pokeemerald-expansion/blob/75b806a3ab57a81ff1eb6179288981f0b3cc3050/docs/tutorials/teachable_learnsets.md
 
-Before source integration is declared complete, capture the generated teachable arrays for the chosen EMERALD ruleset as:
+The deterministic extractor and completeness gate are implemented in `tools/extract_regional_teachables.py` and documented in `analysis/forms/regional_forms_teachable_extraction.md`. Before source integration is declared complete, run it against the generated header of the chosen EMERALD ruleset and commit:
 - `regional_forms_teachable_reference.json`
 - `regional_forms_teachable_reference.md`
 

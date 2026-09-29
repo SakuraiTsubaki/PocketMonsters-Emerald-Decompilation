@@ -3,7 +3,7 @@
   "target": "Pokemon Emerald / Pocket Monsters Emerald",
   "platform_family": "Game Boy Advance",
   "generation": "Generation III",
-  "identity_status": "selected-multi-variant",
+  "identity_status": "verified",
   "rom_size_bytes": 16777216,
   "software_version": 0,
   "variants": [
@@ -17,7 +17,9 @@
       "md5": "92eecf93f1ab828bdf2a83daddacf3e5",
       "header_checksum": "0x6D",
       "header_checksum_verified": true,
-      "observed_input_names": ["Pocket Monsters - Emerald (Japan).gba"]
+      "observed_input_names": [
+        "Pocket Monsters - Emerald (Japan).gba"
+      ]
     },
     {
       "language_region": "USA/Europe / English",
@@ -45,7 +47,9 @@
       "md5": "f793a854654b467211fc32c4062cb183",
       "header_checksum": "0x73",
       "header_checksum_verified": true,
-      "observed_input_names": ["Pokemon - Smaragd-Edition (Germany).gba"]
+      "observed_input_names": [
+        "Pokemon - Smaragd-Edition (Germany).gba"
+      ]
     },
     {
       "language_region": "France / French",
@@ -57,7 +61,9 @@
       "md5": "2c00e335288a96650e34785b5e2a7588",
       "header_checksum": "0x71",
       "header_checksum_verified": true,
-      "observed_input_names": ["Pokemon - Version Emeraude (France).gba"]
+      "observed_input_names": [
+        "Pokemon - Version Emeraude (France).gba"
+      ]
     },
     {
       "language_region": "Italy / Italian",
@@ -69,7 +75,9 @@
       "md5": "c3e85be7372bbd5e43f6334a565968c1",
       "header_checksum": "0x6E",
       "header_checksum_verified": true,
-      "observed_input_names": ["Pokemon - Versione Smeraldo (Italy).gba"]
+      "observed_input_names": [
+        "Pokemon - Versione Smeraldo (Italy).gba"
+      ]
     },
     {
       "language_region": "Spain / Spanish",
@@ -81,8 +89,75 @@
       "md5": "67b770405f7b87589e0342513b25fe9b",
       "header_checksum": "0x64",
       "header_checksum_verified": true,
-      "observed_input_names": ["Pokemon - Edicion Esmeralda (Spain).gba"]
+      "observed_input_names": [
+        "Pokemon - Edicion Esmeralda (Spain).gba"
+      ]
     }
   ],
-  "rom_policy": "ROM binaries remain local inputs and are never committed. Hashes, analysis, tests, patches, source and verification artifacts are committed."
+  "rom_policy": "ROM binaries remain local inputs and are never committed. Hashes, analysis, tests, patches, source and verification artifacts are committed.",
+  "release": "Pokémon Emerald / Pocket Monsters Emerald retail cartridge matrix",
+  "region": "Japan, USA/Europe, Germany, France, Italy, Spain",
+  "revision": "0",
+  "hashes": [
+    {
+      "algorithm": "sha1",
+      "value": "d7cf8f156ba9c455d164e1ea780a6bf1945465c2",
+      "game_code": "BPEJ"
+    },
+    {
+      "algorithm": "sha256",
+      "value": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+      "game_code": "BPEJ"
+    },
+    {
+      "algorithm": "sha1",
+      "value": "f3ae088181bf583e55daf962a92bb46f4f1d07b7",
+      "game_code": "BPEE"
+    },
+    {
+      "algorithm": "sha256",
+      "value": "a9dec84dfe7f62ab2220bafaef7479da0929d066ece16a6885f6226db19085af",
+      "game_code": "BPEE"
+    },
+    {
+      "algorithm": "sha1",
+      "value": "61c2eb2b380b1a75f0c94b767a2d4c26cd7ce4e3",
+      "game_code": "BPED"
+    },
+    {
+      "algorithm": "sha256",
+      "value": "7c599c56849efeebeb93bd71f714932ae4cdf980db51c9c1016b4431057f71d4",
+      "game_code": "BPED"
+    },
+    {
+      "algorithm": "sha1",
+      "value": "ca666651374d89ca439007bed54d839eb7bd14d0",
+      "game_code": "BPEF"
+    },
+    {
+      "algorithm": "sha256",
+      "value": "e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4",
+      "game_code": "BPEF"
+    },
+    {
+      "algorithm": "sha1",
+      "value": "1692db322400c3141c5de2db38469913ceb1f4d4",
+      "game_code": "BPEI"
+    },
+    {
+      "algorithm": "sha256",
+      "value": "63cbff3500b657cb6966568beb0780de3655d3a0b2e5ac6e0ec33d5d01a916ad",
+      "game_code": "BPEI"
+    },
+    {
+      "algorithm": "sha1",
+      "value": "fe1558a3dcb0360ab558969e09b690888b846dd9",
+      "game_code": "BPES"
+    },
+    {
+      "algorithm": "sha256",
+      "value": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e",
+      "game_code": "BPES"
+    }
+  ]
 }

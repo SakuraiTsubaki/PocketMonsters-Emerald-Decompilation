@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "entry_address": 134217728,
+  "instruction_word": 3925868671,
+  "mnemonic": "b",
+  "displacement": 508,
+  "target_address": 134218244,
+  "thumb": false,
+  "source_size": 16777216,
+  "source_sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+}
