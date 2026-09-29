@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "emerald-jp-callee-080004c4",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "mode": "omit-raw-halfwords"
+  },
+  "inputs": [
+    {
+      "release": "BPEJ-rev0",
+      "size": 16777216,
+      "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+      "start_offset": 1220,
+      "max_span": 256
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/emerald-jp-callee-080004c4.json",
+      "sha256": "0b508d44680b7a67116a34a3c6d13723856f064d166b7dae0578afb386448369"
+    }
+  ]
+}
