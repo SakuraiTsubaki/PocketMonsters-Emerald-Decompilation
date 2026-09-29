@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/import_release_catalog.py"
+  },
+  "inputs": [
+    {
+      "repository": "SakuraiTsubaki/PocketMonsters-Emerald-Disassembly",
+      "path": "analysis/emerald-global-release-catalog.json",
+      "sha256": "3727a8efc7e1a805da8f1fcc88c5dea10f6429a92735c33316e381fd99208702"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    }
+  ]
+}
