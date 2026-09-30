@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPEJ-rev0",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "source": "src/main_callbacks.c",
+  "functions": [
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "address": 134218948,
+      "range_end_exclusive": 134218968,
+      "direct_callees": [134262496, 134219036],
+      "evidence": ["one predicate call", "conditional callback dispatch", "return"]
+    },
+    {
+      "name": "CallCallbacks",
+      "address": 134219036,
+      "range_end_exclusive": 134219066,
+      "direct_callees": [136927752],
+      "indirect_dispatches": 2,
+      "evidence": ["two nullable words at one base", "same indirect-call trampoline", "return"]
+    },
+    {
+      "name": "SetMainCallback2",
+      "address": 134219072,
+      "range_end_exclusive": 134219088,
+      "stores": [
+        {"base": "gMain", "offset": 4, "value": "callback"},
+        {"base": "gMain", "offset": 1080, "value": 0, "width_bits": 8}
+      ],
+      "evidence": ["callback word store", "state byte clear", "leaf return"]
+    }
+  ],
+  "naming_basis": {
+    "reference_repository": "pret/pokeemerald",
+    "reference_path": "src/main.c",
+    "match_kind": "control-flow and data-access equivalence",
+    "raw_rom_bytes_published": false
+  }
+}

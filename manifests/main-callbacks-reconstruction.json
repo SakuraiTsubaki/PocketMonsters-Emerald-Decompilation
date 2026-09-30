@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "emerald-jp-main-callbacks-reconstruction",
+  "inputs": [
+    {
+      "path": "analysis/emerald-jp-callee-080004c4.json",
+      "sha256": "0b508d44680b7a67116a34a3c6d13723856f064d166b7dae0578afb386448369"
+    },
+    {
+      "repository": "pret/pokeemerald",
+      "path": "src/main.c",
+      "role": "public naming and behavior reference"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "src/main_callbacks.c",
+      "sha256": "b920a76e21911b5f25f8a8f72de70a47894939bb4955a0caa5c5c587d373c07f"
+    },
+    {
+      "path": "analysis/emerald-jp-main-callbacks-map.json",
+      "sha256": "fe67fb6f2608b2952f50871e847c13a8714d652dfc4865e58f504fa976251cca"
+    },
+    {
+      "path": "research/main-callbacks-reconstruction.md",
+      "sha256": "b645f08d332ccc99f4e6d8b2804f84afab0d2d24c54a1de078b11447e6c8dffc"
+    }
+  ]
+}
