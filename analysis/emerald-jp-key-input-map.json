@@ -1,0 +1,9 @@
+{
+  "schema_version":1,"target":{"release":"BPEJ-rev0","sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"},"source":"src/key_input.c",
+  "functions":[{"name":"InitKeys","address":134219196,"range_end_exclusive":134219224},{"name":"ReadKeys","address":134219236,"range_end_exclusive":134219386}],
+  "rom_code_range":{"start_offset":1468,"end_offset_exclusive":1658,"sha256":"0528f26b2efa8d84acf5cf1ba8ce9819dfe3aed88ed6aa057b1879f4f1b1f100","raw_bytes_published":false},
+  "literal_addresses":{"REG_KEYINPUT":"0x04000130","KEYS_MASK":"0x03FF","gMain":"0x03002360","gSaveBlock2Ptr":"0x03005AF0","gKeyRepeatContinueDelay":"0x0300279C","gKeyRepeatStartDelay":"0x03002350"},
+  "proven_offsets":{"heldKeysRaw":40,"newKeysRaw":42,"heldKeys":44,"newKeys":46,"newAndRepeatedKeys":48,"keyRepeatCounter":50,"watchedKeysPressed":52,"watchedKeysMask":54,"optionsButtonMode":19},
+  "version_difference":{"save_options_access":"pointer_indirect","pointer_symbol":"gSaveBlock2Ptr"},
+  "naming_basis":{"repository":"pret/pokeemerald","commit":"fe1d8e51b265851676b65885818b1f5f62586135","path":"src/main.c","match_kind":"instruction order, branches, literals and state accesses","raw_rom_bytes_published":false}
+}

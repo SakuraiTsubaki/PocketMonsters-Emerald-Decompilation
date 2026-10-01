@@ -1,0 +1,8 @@
+{
+  "schema_version":1,"target":{"release":"BPEJ-rev0","sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"},"functions":["InitKeys","ReadKeys"],
+  "outputs":[
+    {"path":"src/key_input.c","sha256":"7466da3c9abf121db7e923448d060da996368a1110c83ca6031c0ad3d05eb494"},
+    {"path":"analysis/emerald-jp-key-input-map.json","sha256":"f431249a039870ae9655fe1dedbfec95e86dfa03bd4b4292ee619093c9a2be86"},
+    {"path":"research/key-input-reconstruction.md","sha256":"9694c154c0bc383b5cc8e1d0dbee67b52caa78755c9738d1de300a434daf9f2e"}
+  ],"raw_rom_bytes_included":false
+}
