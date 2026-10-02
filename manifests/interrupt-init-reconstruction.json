@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPEJ-rev0",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "functions": [
+    "InitIntrHandlers",
+    "SetVBlankCallback",
+    "SetHBlankCallback",
+    "SetVCountCallback",
+    "RestoreSerialTimer3IntrHandlers",
+    "SetSerialCallback"
+  ],
+  "outputs": [
+    {
+      "path": "src/interrupt_init.c",
+      "sha256": "1c1144796a4cde1763b1e10b9e106c785bcecd6c0f6ff9803abfc7544580d3c4"
+    },
+    {
+      "path": "analysis/emerald-jp-interrupt-init-map.json",
+      "sha256": "b7af5f597cc91a654924405b61d96806afd29554418c88a30c0d4a95c6149edf"
+    },
+    {
+      "path": "research/interrupt-init-reconstruction.md",
+      "sha256": "9c1da4b2f2ede63e5e02c584a1ffbb6543b47bd04392f92d45defca9d455a022"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
