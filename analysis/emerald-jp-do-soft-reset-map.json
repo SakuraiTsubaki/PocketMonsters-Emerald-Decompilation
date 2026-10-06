@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPEJ-rev0",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "source": "src/do_soft_reset.c",
+  "function": {
+    "name": "DoSoftReset",
+    "address": "0x080008F4",
+    "range_end_exclusive": "0x08000950",
+    "returns": true
+  },
+  "rom_code_range": {
+    "start_offset": 2292,
+    "end_offset_exclusive": 2384,
+    "sha256": "3ef44d6129b690d136ac017c669c2dbd5c0d5ad0d95f4692b4487c3be2390f9c",
+    "raw_bytes_published": false
+  },
+  "calls": [
+    {
+      "address": "0x080008FC",
+      "target": "0x0828ECEC",
+      "name": "m4aSoundVSyncOff"
+    },
+    {
+      "address": "0x08000900",
+      "target": "0x080B9710",
+      "name": "ScanlineEffect_Stop"
+    },
+    {
+      "address": "0x08000940",
+      "target": "0x082906F0",
+      "name": "SiiRtcProtect"
+    },
+    {
+      "address": "0x08000946",
+      "target": "0x082959E4",
+      "name": "SoftReset"
+    }
+  ],
+  "hardware_writes": {
+    "REG_IME": "0x04000208",
+    "dma_control_high": [
+      "0x040000C6",
+      "0x040000D2",
+      "0x040000DE"
+    ]
+  },
+  "behavior": {
+    "interrupt_master_enable": 0,
+    "dma_channels_stopped": [
+      1,
+      2,
+      3
+    ],
+    "rtc_protected": true,
+    "soft_reset_mask": "0xFF"
+  },
+  "cfg": "analysis/emerald-jp-do-soft-reset-cfg.json",
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+    "path": "src/main.c",
+    "match_kind": "straight-line call order, hardware addresses and constants",
+    "raw_rom_bytes_published": false
+  }
+}
+
