@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 1428,
+  "start_address": 134219156,
+  "scan_limit_address": 134219412,
+  "instruction_halfwords": 20,
+  "range_start": 134219156,
+  "range_end": 134219196,
+  "return_observed": true,
+  "instructions": [
+    {
+      "address": 134219156,
+      "kind": "other"
+    },
+    {
+      "address": 134219158,
+      "kind": "other"
+    },
+    {
+      "address": 134219160,
+      "kind": "call",
+      "target": 134222288
+    },
+    {
+      "address": 134219162,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219164,
+      "kind": "other"
+    },
+    {
+      "address": 134219166,
+      "kind": "other"
+    },
+    {
+      "address": 134219168,
+      "kind": "other"
+    },
+    {
+      "address": 134219170,
+      "kind": "other"
+    },
+    {
+      "address": 134219172,
+      "kind": "other"
+    },
+    {
+      "address": 134219174,
+      "kind": "other"
+    },
+    {
+      "address": 134219176,
+      "kind": "other"
+    },
+    {
+      "address": 134219178,
+      "kind": "other"
+    },
+    {
+      "address": 134219180,
+      "kind": "other"
+    },
+    {
+      "address": 134219182,
+      "kind": "call",
+      "target": 134222148
+    },
+    {
+      "address": 134219184,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219186,
+      "kind": "other"
+    },
+    {
+      "address": 134219188,
+      "kind": "call",
+      "target": 134222452
+    },
+    {
+      "address": 134219190,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219192,
+      "kind": "return-pop"
+    },
+    {
+      "address": 134219194,
+      "kind": "return-branch"
+    }
+  ],
+  "edges": [],
+  "calls": [
+    {
+      "source": 134219160,
+      "target": 134222288
+    },
+    {
+      "source": 134219182,
+      "target": 134222148
+    },
+    {
+      "source": 134219188,
+      "target": 134222452
+    }
+  ],
+  "returns": [
+    134219194
+  ],
+  "source_size": 16777216,
+  "source_sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+  "raw_halfwords_omitted": true
+}
