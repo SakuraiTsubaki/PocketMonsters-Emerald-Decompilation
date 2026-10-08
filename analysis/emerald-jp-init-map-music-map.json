@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPEJ-rev0",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "source": "src/init_map_music.c",
+  "source_sha256": "a77e2d4b7e6f31022d0f181e7406bfe6a0196c1238d881d0c944fd431056b2be",
+  "function": {
+    "name": "InitMapMusic",
+    "address": "0x080A269C",
+    "range_end_exclusive": "0x080A26AC",
+    "returns": true
+  },
+  "rom_code_range": {
+    "start_offset": 665244,
+    "end_offset_exclusive": 665260,
+    "length": 16,
+    "sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+    "raw_bytes_published": false
+  },
+  "calls": [
+    {
+      "address": "0x080A26A4",
+      "target": "0x080A27A8",
+      "name": "ResetMapMusic"
+    }
+  ],
+  "behavior": {
+    "disable_music_value": 0,
+    "then_calls": "ResetMapMusic",
+    "cross_title_code_range_identical": true
+  },
+  "cfg": "analysis/emerald-jp-init-map-music-cfg.json",
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/sound.c",
+    "match_kind": "store, direct call, return shape and identical code-range hash",
+    "raw_rom_bytes_published": false
+  }
+}

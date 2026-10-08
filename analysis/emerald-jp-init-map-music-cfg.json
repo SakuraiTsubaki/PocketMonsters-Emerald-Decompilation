@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 665244,
+  "start_address": 134882972,
+  "scan_limit_address": 134883100,
+  "instruction_halfwords": 8,
+  "range_start": 134882972,
+  "range_end": 134882988,
+  "return_observed": true,
+  "instructions": [
+    {
+      "address": 134882972,
+      "kind": "other"
+    },
+    {
+      "address": 134882974,
+      "kind": "other"
+    },
+    {
+      "address": 134882976,
+      "kind": "other"
+    },
+    {
+      "address": 134882978,
+      "kind": "other"
+    },
+    {
+      "address": 134882980,
+      "kind": "call",
+      "target": 134883240
+    },
+    {
+      "address": 134882982,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134882984,
+      "kind": "return-pop"
+    },
+    {
+      "address": 134882986,
+      "kind": "return-branch"
+    }
+  ],
+  "edges": [],
+  "calls": [
+    {
+      "source": 134882980,
+      "target": 134883240
+    }
+  ],
+  "returns": [
+    134882986
+  ],
+  "source_size": 16777216,
+  "source_sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+  "raw_halfwords_omitted": true
+}
