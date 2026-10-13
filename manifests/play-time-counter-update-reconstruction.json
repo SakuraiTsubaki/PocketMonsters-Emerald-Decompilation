@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPEJ-rev0",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "function": "PlayTimeCounter_Update",
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/thumb_cfg.py",
+    "minimum_commit": "4f687a912ecc40823a17a67fa885768cdca12e98"
+  },
+  "outputs": [
+    {
+      "path": "src/play_time_counter.c",
+      "sha256": "4829fba7b9a81d80ff71956af3c0332decacf2a2d33680ebc42b23d0dac0451e"
+    },
+    {
+      "path": "analysis/emerald-jp-play-time-counter-update-cfg.json",
+      "sha256": "e1180c891792d10c3919a7a31c110c4c02c9ab47acfcd7989e24a7cc9204b3aa"
+    },
+    {
+      "path": "analysis/emerald-jp-play-time-counter-update-map.json",
+      "sha256": "bb120a9d158118d58ad21344c1b642306f1b333eaf874d4ad034c850ecb61ee4"
+    },
+    {
+      "path": "research/play-time-counter-update-reconstruction.md",
+      "sha256": "a0eb486a5d19c09f351efd33f9c2585dcad76b63a2cf22833d444422c5b37770"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+
