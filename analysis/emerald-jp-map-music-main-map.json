@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPEJ-rev0",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "source": "src/map_music_main.c",
+  "source_sha256": "e98a408ff7496f5419298bfc27ef9988e74c125d247267b48cd84b90f0b963f6",
+  "function": {
+    "name": "MapMusicMain",
+    "address": "0x080A26B0",
+    "range_end_exclusive": "0x080A2798",
+    "returns": true
+  },
+  "rom_code_range": {
+    "start_offset": 665264,
+    "end_offset_exclusive": 665496,
+    "length": 232,
+    "sha256": "2028900fc8662f31cf6e4bccc0027e79ea374777bd688159bb6e4f8b06d7e752",
+    "raw_bytes_published": false
+  },
+  "jump_table": {
+    "address": "0x080A26D0",
+    "cases": {
+      "0": "0x080A2792",
+      "1": "0x080A26F0",
+      "2": "0x080A2792",
+      "3": "0x080A2792",
+      "4": "0x080A2792",
+      "5": "0x080A2704",
+      "6": "0x080A2724",
+      "7": "0x080A2760"
+    }
+  },
+  "calls": [
+    {
+      "address": "0x080A26F8",
+      "target": "0x080A3040",
+      "name": "PlayBGM"
+    },
+    {
+      "address": "0x080A2704",
+      "target": "0x080A2B20",
+      "name": "IsBGMStopped"
+    },
+    {
+      "address": "0x080A2724",
+      "target": "0x080A2B20",
+      "name": "IsBGMStopped"
+    },
+    {
+      "address": "0x080A272E",
+      "target": "0x080A29E8",
+      "name": "IsFanfareTaskInactive"
+    },
+    {
+      "address": "0x080A274C",
+      "target": "0x080A3040",
+      "name": "PlayBGM"
+    },
+    {
+      "address": "0x080A2760",
+      "target": "0x080A2B20",
+      "name": "IsBGMStopped"
+    },
+    {
+      "address": "0x080A276A",
+      "target": "0x080A29E8",
+      "name": "IsFanfareTaskInactive"
+    },
+    {
+      "address": "0x080A277C",
+      "target": "0x080A2A5C",
+      "name": "FadeInNewBGM"
+    }
+  ],
+  "behavior": {
+    "state_cases": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "shared_idle_target_cases": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "publishes_raw_rom_bytes": false
+  },
+  "cfg": "analysis/emerald-jp-map-music-main-cfg.json",
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/sound.c",
+    "match_kind": "eight-case jump table, state stores, call order and direct call targets",
+    "raw_rom_bytes_published": false
+  }
+}
+
