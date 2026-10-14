@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPEJ-rev0",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "functions": [
+    "PlayTimeCounter_Reset",
+    "PlayTimeCounter_Start",
+    "PlayTimeCounter_Stop",
+    "PlayTimeCounter_SetToMax"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/play_time_controls.py",
+    "tool_sha256": "5227a1f41c4d086c105df68cc4256e327c984fc0bad4ace3f31e53e178f49913"
+  },
+  "outputs": [
+    {
+      "path": "src/play_time_counter.c",
+      "sha256": "6896cf1d8c24e5ccaa5db41a9e9145764c67545fe74d0fbf13fe4e5c07f97928"
+    },
+    {
+      "path": "analysis/emerald-jp-play-time-counter-reset-cfg.json",
+      "sha256": "56355e76411ddacbe8189bf3ccf6cc5d8c18ee31319b2e49ed2424c5718e912c"
+    },
+    {
+      "path": "analysis/emerald-jp-play-time-counter-start-cfg.json",
+      "sha256": "5acde4776358432aed2e1b879225848380b6bad8ff24b7f1b9033bd9d27bd5f3"
+    },
+    {
+      "path": "analysis/emerald-jp-play-time-counter-stop-cfg.json",
+      "sha256": "986147e95c2bda8d99d5020ed12a84e921689f24999641095b436a6c5ac8bae8"
+    },
+    {
+      "path": "analysis/emerald-jp-play-time-counter-set-to-max-cfg.json",
+      "sha256": "6bfd394c106221d5113a7b7d99f3b457f13528061b3ff61fe26ac8c352f46b3f"
+    },
+    {
+      "path": "analysis/emerald-jp-play-time-counter-controls-map.json",
+      "sha256": "9958fc3c3200536e514224d6e29661a06a77bea72acdb911226f2676ba058b1c"
+    },
+    {
+      "path": "research/play-time-counter-controls-reconstruction.md",
+      "sha256": "6038428e5a4019fdd7f6e39a9274d377b93c598ee500f442fadc17281d03b0dc"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

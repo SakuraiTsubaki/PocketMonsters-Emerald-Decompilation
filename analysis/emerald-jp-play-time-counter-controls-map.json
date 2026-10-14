@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPEJ-rev0",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "source": "src/play_time_counter.c",
+  "source_sha256": "6896cf1d8c24e5ccaa5db41a9e9145764c67545fe74d0fbf13fe4e5c07f97928",
+  "save_storage": "gSaveBlock2Ptr",
+  "save_field_offsets": {
+    "playTimeHours": 14,
+    "playTimeMinutes": 16,
+    "playTimeSeconds": 17,
+    "playTimeVBlanks": 18
+  },
+  "functions": [
+    {
+      "name": "PlayTimeCounter_Reset",
+      "address": "0x08083B6C",
+      "range_end_exclusive": "0x08083B88",
+      "rom_code_range": {
+        "start_offset": 539500,
+        "end_offset_exclusive": 539528,
+        "length": 28,
+        "sha256": "6dee17d890810e71b59343bb41a46213bf2e2b6d4b795b06442fe99e9b90419a",
+        "raw_bytes_published": false
+      },
+      "cfg": "analysis/emerald-jp-play-time-counter-reset-cfg.json",
+      "edge_count": 0,
+      "return_count": 1,
+      "calls": []
+    },
+    {
+      "name": "PlayTimeCounter_Start",
+      "address": "0x08083B90",
+      "range_end_exclusive": "0x08083BAC",
+      "rom_code_range": {
+        "start_offset": 539536,
+        "end_offset_exclusive": 539564,
+        "length": 28,
+        "sha256": "245be510a80dba9e5609035282e375dc8797d647a0f0d99ea5b1fea1832fc3c1",
+        "raw_bytes_published": false
+      },
+      "cfg": "analysis/emerald-jp-play-time-counter-start-cfg.json",
+      "edge_count": 2,
+      "return_count": 1,
+      "calls": [
+        {
+          "address": "0x08083BA4",
+          "target": "0x08083C2C"
+        }
+      ]
+    },
+    {
+      "name": "PlayTimeCounter_Stop",
+      "address": "0x08083BB8",
+      "range_end_exclusive": "0x08083BC0",
+      "rom_code_range": {
+        "start_offset": 539576,
+        "end_offset_exclusive": 539584,
+        "length": 8,
+        "sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699",
+        "raw_bytes_published": false
+      },
+      "cfg": "analysis/emerald-jp-play-time-counter-stop-cfg.json",
+      "edge_count": 0,
+      "return_count": 1,
+      "calls": []
+    },
+    {
+      "name": "PlayTimeCounter_SetToMax",
+      "address": "0x08083C2C",
+      "range_end_exclusive": "0x08083C48",
+      "rom_code_range": {
+        "start_offset": 539692,
+        "end_offset_exclusive": 539720,
+        "length": 28,
+        "sha256": "3692df09faf1ac9b5829de52fdb5d912456f627f60d484b3f5e9d636b86a1e33",
+        "raw_bytes_published": false
+      },
+      "cfg": "analysis/emerald-jp-play-time-counter-set-to-max-cfg.json",
+      "edge_count": 0,
+      "return_count": 1,
+      "calls": []
+    }
+  ],
+  "behavior": {
+    "reset": {
+      "state": 0,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0,
+      "vblanks": 0
+    },
+    "start": {
+      "state": 1,
+      "clamp_when_hours_above": 999
+    },
+    "stop": {
+      "state": 0
+    },
+    "set_to_max": {
+      "state": 2,
+      "hours": 999,
+      "minutes": 59,
+      "seconds": 59,
+      "vblanks": 59
+    }
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/play_time.c",
+    "match_kind": "state writes, save-field offsets, clamp threshold and direct call target",
+    "raw_rom_bytes_published": false
+  }
+}

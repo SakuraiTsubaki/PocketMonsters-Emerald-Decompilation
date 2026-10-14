@@ -13,13 +13,35 @@ struct SaveBlock2 {
 
 extern struct SaveBlock2 *gSaveBlock2Ptr;
 extern u8 sPlayTimeCounterState;
-extern void PlayTimeCounter_SetToMax(void);
 
 enum {
     PLAY_TIME_STOPPED,
     PLAY_TIME_RUNNING,
     PLAY_TIME_MAXED_OUT
 };
+
+void PlayTimeCounter_Reset(void)
+{
+    sPlayTimeCounterState = PLAY_TIME_STOPPED;
+    gSaveBlock2Ptr->playTimeHours = 0;
+    gSaveBlock2Ptr->playTimeMinutes = 0;
+    gSaveBlock2Ptr->playTimeSeconds = 0;
+    gSaveBlock2Ptr->playTimeVBlanks = 0;
+}
+
+void PlayTimeCounter_SetToMax(void);
+
+void PlayTimeCounter_Start(void)
+{
+    sPlayTimeCounterState = PLAY_TIME_RUNNING;
+    if (gSaveBlock2Ptr->playTimeHours > 999)
+        PlayTimeCounter_SetToMax();
+}
+
+void PlayTimeCounter_Stop(void)
+{
+    sPlayTimeCounterState = PLAY_TIME_STOPPED;
+}
 
 void PlayTimeCounter_Update(void)
 {
@@ -46,3 +68,11 @@ void PlayTimeCounter_Update(void)
         PlayTimeCounter_SetToMax();
 }
 
+void PlayTimeCounter_SetToMax(void)
+{
+    sPlayTimeCounterState = PLAY_TIME_MAXED_OUT;
+    gSaveBlock2Ptr->playTimeHours = 999;
+    gSaveBlock2Ptr->playTimeMinutes = 59;
+    gSaveBlock2Ptr->playTimeSeconds = 59;
+    gSaveBlock2Ptr->playTimeVBlanks = 59;
+}

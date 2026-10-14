@@ -13,7 +13,7 @@
   "outputs": [
     {
       "path": "src/play_time_counter.c",
-      "sha256": "4829fba7b9a81d80ff71956af3c0332decacf2a2d33680ebc42b23d0dac0451e"
+      "sha256": "6896cf1d8c24e5ccaa5db41a9e9145764c67545fe74d0fbf13fe4e5c07f97928"
     },
     {
       "path": "analysis/emerald-jp-play-time-counter-update-cfg.json",
@@ -21,7 +21,7 @@
     },
     {
       "path": "analysis/emerald-jp-play-time-counter-update-map.json",
-      "sha256": "bb120a9d158118d58ad21344c1b642306f1b333eaf874d4ad034c850ecb61ee4"
+      "sha256": "044ab39a77e2ca4783f50d2f3557c17d16ae8c7a3b54ad0270919606d123ce64"
     },
     {
       "path": "research/play-time-counter-update-reconstruction.md",
@@ -30,4 +30,3 @@
   ],
   "raw_rom_bytes_included": false
 }
-

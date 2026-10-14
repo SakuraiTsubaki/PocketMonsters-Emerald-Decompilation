@@ -5,7 +5,7 @@
     "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
   },
   "source": "src/play_time_counter.c",
-  "source_sha256": "4829fba7b9a81d80ff71956af3c0332decacf2a2d33680ebc42b23d0dac0451e",
+  "source_sha256": "6896cf1d8c24e5ccaa5db41a9e9145764c67545fe74d0fbf13fe4e5c07f97928",
   "function": {
     "name": "PlayTimeCounter_Update",
     "address": "0x08083BC4",
@@ -49,4 +49,3 @@
     "raw_rom_bytes_published": false
   }
 }
-
