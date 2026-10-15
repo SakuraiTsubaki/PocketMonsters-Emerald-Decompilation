@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "BPEJ-rev0",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "functions": [
+    "Random",
+    "SeedRng"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rng_evidence.py",
+    "tool_sha256": "d9f9b2fcb21f66910714eaf4cbe1aa36f6714ab11dd9c833926fa392a6cf2254"
+  },
+  "outputs": [
+    {
+      "path": "src/random.c",
+      "sha256": "35626c05a4478a7a46c3f7115f243df0f08e4c13399415c1b9b46113800fb91b"
+    },
+    {
+      "path": "analysis/emerald-jp-random-cfg.json",
+      "sha256": "34e1428987b1bf9ee5a0b425d45856ee4c5b15184b6a8bc0fc67afa2c1958fe4"
+    },
+    {
+      "path": "analysis/emerald-jp-seed-rng-cfg.json",
+      "sha256": "9a905263f7b94a2b13b47afe9396cd8ccee1ef689925c4f14b7e8b71f2d5d6fb"
+    },
+    {
+      "path": "analysis/emerald-jp-rng-map.json",
+      "sha256": "802929e94fe57df97848c919a44fae4ca248152ed25d61c10a0df4d34070ad16"
+    },
+    {
+      "path": "research/rng-reconstruction.md",
+      "sha256": "7baccb1753a0d5dc70de7b51daf109500a870497fd7258964bbe5060c3179689"
+    },
+    {
+      "path": "tests/test_rng_reconstruction.py",
+      "sha256": "5880c3b513fc9d7c2bfd407814685d0c7e1e9341885da2402002f4e54bc56369"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
