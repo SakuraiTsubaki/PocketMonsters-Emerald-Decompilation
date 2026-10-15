@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "algorithm": {
+    "state_bits": 32,
+    "multiplier": 1103515245,
+    "increment": 24691,
+    "return_bits": "state[31:16]",
+    "independent_from_primary": true
+  },
+  "globals": {
+    "gRng2Value": "0x03005AE4"
+  },
+  "functions": {
+    "SeedRng2": {
+      "address": "0x0806F094",
+      "range_end_exclusive": "0x0806F09E",
+      "rom_code_range": {
+        "start_offset": 454804,
+        "end_offset_exclusive": 454814,
+        "length": 10,
+        "sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb",
+        "raw_bytes_published": false
+      }
+    },
+    "Random2": {
+      "address": "0x0806F0A4",
+      "range_end_exclusive": "0x0806F0B6",
+      "rom_code_range": {
+        "start_offset": 454820,
+        "end_offset_exclusive": 454838,
+        "length": 18,
+        "sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb",
+        "raw_bytes_published": false
+      }
+    }
+  },
+  "located_offsets": {
+    "SeedRng2": 454804,
+    "Random2": 454820
+  },
+  "raw_rom_bytes_included": false,
+  "target": {
+    "release": "bpe-j-rev0-retail",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+    "path": "src/random.c",
+    "raw_rom_bytes_published": false
+  }
+}

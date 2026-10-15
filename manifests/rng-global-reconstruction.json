@@ -22,7 +22,7 @@
   "outputs": [
     {
       "path": "src/random.c",
-      "sha256": "35626c05a4478a7a46c3f7115f243df0f08e4c13399415c1b9b46113800fb91b"
+      "sha256": "af6e89967cacf72c0e0838a4946d741e61e9241fecb77b9ddb609e586fa6533b"
     },
     {
       "path": "analysis/emerald-jp-rng-map.json",
