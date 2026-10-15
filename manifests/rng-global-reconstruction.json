@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Emerald",
+  "origin_reference": "Japanese",
+  "official_languages": [
+    "Japanese",
+    "English",
+    "German",
+    "French",
+    "Italian",
+    "Spanish"
+  ],
+  "functions": [
+    "Random",
+    "SeedRng"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rng_matrix_evidence.py",
+    "tool_sha256": "34e211f2e437a0eaf0de00074cb3a430d5dae0c57df1b8a73569a67fbfddd808"
+  },
+  "outputs": [
+    {
+      "path": "src/random.c",
+      "sha256": "35626c05a4478a7a46c3f7115f243df0f08e4c13399415c1b9b46113800fb91b"
+    },
+    {
+      "path": "analysis/emerald-jp-rng-map.json",
+      "sha256": "802929e94fe57df97848c919a44fae4ca248152ed25d61c10a0df4d34070ad16"
+    },
+    {
+      "path": "analysis/emerald-jp-random-cfg.json",
+      "sha256": "34e1428987b1bf9ee5a0b425d45856ee4c5b15184b6a8bc0fc67afa2c1958fe4"
+    },
+    {
+      "path": "analysis/emerald-jp-seed-rng-cfg.json",
+      "sha256": "9a905263f7b94a2b13b47afe9396cd8ccee1ef689925c4f14b7e8b71f2d5d6fb"
+    },
+    {
+      "path": "analysis/emerald-en-rng-map.json",
+      "sha256": "730fd2dddde9597a24b369ffe47b4493b7bd1e846ab6ae27e2d6397f56a5be35"
+    },
+    {
+      "path": "analysis/emerald-en-random-cfg.json",
+      "sha256": "85e6ae278aaa45de33064caaa75e619bdf465283267ef59973135e2923bb4334"
+    },
+    {
+      "path": "analysis/emerald-en-seed-rng-cfg.json",
+      "sha256": "ce877b25a74ca7f96b864af1b5972c2b0a2e98054da47ecf76482cd9e6e26e7a"
+    },
+    {
+      "path": "analysis/emerald-de-rng-map.json",
+      "sha256": "275c6285e3a4b46eb6e610b7d2bb29dc2b4058b17e42230328fc1b2103e5c72f"
+    },
+    {
+      "path": "analysis/emerald-de-random-cfg.json",
+      "sha256": "4bcc5dd01be5e21a05c24c4892a0408a1ebef1b840bf931cd0d4aec0fa0899e7"
+    },
+    {
+      "path": "analysis/emerald-de-seed-rng-cfg.json",
+      "sha256": "38639d9f7a4f74e142933414870ade04b3071b09e2ec57ca7ddfee69b58f1697"
+    },
+    {
+      "path": "analysis/emerald-fr-rng-map.json",
+      "sha256": "c46fc5e8867723ff2356c3764d4e651c5cd31d1bb4e1ddc589a87e637e466ee3"
+    },
+    {
+      "path": "analysis/emerald-fr-random-cfg.json",
+      "sha256": "40bbe765edf5b44eafb73acd1e6fd604b1d7681b01d7e0c3d84ee3ac9b61e355"
+    },
+    {
+      "path": "analysis/emerald-fr-seed-rng-cfg.json",
+      "sha256": "9f749e785aa49584cee75b509c3e82bc8b200effbd64b228ba9d2eab4d51b68c"
+    },
+    {
+      "path": "analysis/emerald-it-rng-map.json",
+      "sha256": "03337b0aded7be7abf12f27f029d3fa33bc781b94edc86e6d4b63bc472acc58a"
+    },
+    {
+      "path": "analysis/emerald-it-random-cfg.json",
+      "sha256": "873f082f8b7ad2ab4708473a6c13eb173d979fed60b70c16b871b94e47cebb5b"
+    },
+    {
+      "path": "analysis/emerald-it-seed-rng-cfg.json",
+      "sha256": "23bedae66a7097457c82d6535ff5da92a9633829e086888e2b922b20c9a648f4"
+    },
+    {
+      "path": "analysis/emerald-es-rng-map.json",
+      "sha256": "723fd4ba791d7341399cd38d37a497fac03ca027cf84f839c263e37de94298b4"
+    },
+    {
+      "path": "analysis/emerald-es-random-cfg.json",
+      "sha256": "6141fd374dbf7f10a20607b062d072f6cec89492cbaa28dc17977b18176d6f4e"
+    },
+    {
+      "path": "analysis/emerald-es-seed-rng-cfg.json",
+      "sha256": "199319927c49a9992c99757e0ce9d2cdb1a5174577b8172077f26a3c7f724255"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "research/rng-global-reconstruction.md",
+      "sha256": "d9c565eb0f52c513d14c90a9626df713b69c32fef806911be989c56733dc8eb3"
+    },
+    {
+      "path": "tests/test_rng_global_reconstruction.py",
+      "sha256": "ac163912dbbdd248abba6178a82182e151ba8b4899540f7d6df7329610de847f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
