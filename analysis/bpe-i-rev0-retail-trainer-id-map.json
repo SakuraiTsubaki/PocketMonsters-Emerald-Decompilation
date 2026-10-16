@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-i-rev0-retail",
+    "sha256": "63cbff3500b657cb6966568beb0780de3655d3a0b2e5ac6e0ec33d5d01a916ad"
+  },
+  "variant": "emerald",
+  "source": "src/trainer_id.c",
+  "source_sha256": "b76b2f491f320bbfd5233b7d26658e480c9f84fb20d19a2abf609e7a43892eda",
+  "byte_order": "little-endian",
+  "trainer_id_length": 4,
+  "functions": [
+    {
+      "name": "SetTrainerId",
+      "address": "0x080842E0",
+      "range_end_exclusive": "0x080842F0",
+      "rom_code_range": {
+        "start_offset": 541408,
+        "end_offset_exclusive": 541424,
+        "length": 16,
+        "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+        "raw_bytes_published": false
+      },
+      "cfg": "analysis/bpe-i-rev0-retail-set-trainer-id-cfg.json",
+      "edge_count": 0,
+      "return_count": 1
+    },
+    {
+      "name": "GetTrainerId",
+      "address": "0x080842F0",
+      "range_end_exclusive": "0x08084308",
+      "rom_code_range": {
+        "start_offset": 541424,
+        "end_offset_exclusive": 541448,
+        "length": 24,
+        "sha256": "007d0bda88f16c7dd47124c261ed6846f26451d6862ac00c3cdecc3cc09d07b1",
+        "raw_bytes_published": false
+      },
+      "cfg": "analysis/bpe-i-rev0-retail-get-trainer-id-cfg.json",
+      "edge_count": 0,
+      "return_count": 1
+    },
+    {
+      "name": "CopyTrainerId",
+      "address": "0x08084308",
+      "range_end_exclusive": "0x08084324",
+      "rom_code_range": {
+        "start_offset": 541448,
+        "end_offset_exclusive": 541476,
+        "length": 28,
+        "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+        "raw_bytes_published": false
+      },
+      "cfg": "analysis/bpe-i-rev0-retail-copy-trainer-id-cfg.json",
+      "edge_count": 2,
+      "return_count": 1
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/new_game.c",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

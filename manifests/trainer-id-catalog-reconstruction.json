@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Emerald",
+  "origin_reference": "Japanese",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/trainer_id_matrix_evidence.py",
+    "tool_sha256": "299f4bbf557afb9ff052ce1792eec0da4495f1738c7f8188e45ec25f119d5d7f"
+  },
+  "outputs": [
+    {
+      "path": "src/trainer_id.c",
+      "sha256": "b76b2f491f320bbfd5233b7d26658e480c9f84fb20d19a2abf609e7a43892eda"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "analysis/emerald-jp-trainer-id-helpers-map.json",
+      "sha256": "b6a1925e9c6d75e29b1c5c2763531eabaf8c4f0a817c3d02b2a6a14327218c6f"
+    },
+    {
+      "path": "analysis/emerald-jp-set-trainer-id-cfg.json",
+      "sha256": "990d97cb56ff3d7e92974323d6e4ab774b9cc03b2b3c28a4dfc26a5dc29dc0b1"
+    },
+    {
+      "path": "analysis/emerald-jp-get-trainer-id-cfg.json",
+      "sha256": "41a8622627d3b201eb5e1015cfb2338e4cf0a20381883447b1b89419f664a889"
+    },
+    {
+      "path": "analysis/emerald-jp-copy-trainer-id-cfg.json",
+      "sha256": "62a4123e8aa46ad7ff0d3f0f7ecc3b8692b6e7632f64ae52331d108b6bf60c12"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-trainer-id-map.json",
+      "sha256": "c6f48780efb347112b10de144e3094bb490e5e171aa9b8e3fe02592acab6406c"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "1ff4ccd248f0756d2f11bc7d3f1dc0495150a052a6aea1da1caa3838c6f74ebf"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-get-trainer-id-cfg.json",
+      "sha256": "bf4598d57cdd24835206b464b70707d21f3a1669e0cc19ed0ea41d1400d07f01"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "ed10a298d05ef035e66d8eb39337e5aded6f6fd7c2c9770b0b29c1366124c352"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-trainer-id-map.json",
+      "sha256": "35a27d42255ba66cf1884b9be94b426f9b66323c2cada662b172258f2955f9d5"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "d1f5ced435c8ab303fde86d876a8311e25366db9755aed081ea3137e5598deaf"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-get-trainer-id-cfg.json",
+      "sha256": "ba2818dcd79c63647c74deece0b61c6355eaf05c6b76e805e41e024828576502"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "444cb8f537e9b239b84b49f67b150489676c3d646d53f2f7dc10255c744b1c7d"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-trainer-id-map.json",
+      "sha256": "a6a89fca77997c070e0230a377c1c8004e2a53da7f6b1fd98777ac90a47093e3"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "881289e57effefecd480e8210a2545e9833044e538fd1c57e3ff46dd9564d0f4"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-get-trainer-id-cfg.json",
+      "sha256": "b12fb66f8752a00b1ae848d11464d07e72d6754944b5072f35795bd7e192b8d1"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "f4cbad93a79986be86a939fa8123553dcfebf71bd36efa59871a4926ae5121d8"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-trainer-id-map.json",
+      "sha256": "ea8bfc858b365d80d85df47f321415eb4f1ae8a0a0d50619c1f5b133bd0fe25b"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "40b2d3c254535dfb8cbcb04283c97148550f33924e0d5c5a71bd9ac2c5ea2234"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-get-trainer-id-cfg.json",
+      "sha256": "e6cc165a21bf62fc2ef4d888537a20ad474fcef75f419a370964f423282f246f"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "b8c88d80aba6fc76b1695949aa72620039e085d13b028e6c2d76df6aad538c82"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-trainer-id-map.json",
+      "sha256": "5ac61f70f103325b5fa6a591f6e5819cef9221f83aa09245a75109a0cc6a4f16"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-set-trainer-id-cfg.json",
+      "sha256": "00a491108d8ca181eccc9ff85dfbffa3cf86e6b6a653f041afd4ca7b4cad848d"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-get-trainer-id-cfg.json",
+      "sha256": "c24dd4f508b92c65980b68d979410c518a1143eadab0ee9761d65e215765c399"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-copy-trainer-id-cfg.json",
+      "sha256": "7e14df03cfe28cebb0f3e8d4b2ae01452af9dd4f451d2209b6b0ac77cafbcf4a"
+    },
+    {
+      "path": "analysis/trainer-id-catalog-summary.json",
+      "sha256": "568685df02b57c681b0493d6f2787e2c1e70a90aa002bf377bcc93c420e2ff03"
+    },
+    {
+      "path": "research/trainer-id-catalog-reconstruction.md",
+      "sha256": "1daa242658eb70cf6f8e8c72d88785b29a0ccb9151993c8700ad87c32da3cfd6"
+    },
+    {
+      "path": "tests/test_trainer_id_catalog_reconstruction.py",
+      "sha256": "609255bd0b8aa4fae5f518eca56a77198b6888384e123440c5925c22ab918bcc"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
