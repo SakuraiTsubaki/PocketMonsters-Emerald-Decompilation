@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Emerald",
+  "function": "WaitForVBlank",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/wait_for_vblank_catalog.py",
+    "tool_sha256": "7b24532de6cced1166ae9962530aa3bee786e1e45b6e790b4e275ac08ef2b4ed"
+  },
+  "outputs": [
+    {
+      "path": "src/wait_for_vblank.c",
+      "sha256": "3d5e59ae1d0841bfcc8eed7044ae19d8771c2dffb7712bd6777d320e55125e8f"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "19e153e841380105c308228dc47635b13fb83cf78e914368c5e9fcd6479edf15"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "d639c94c7b11210c32c2f22b394535b8277c452ad313e383ae3d090fac55089a"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "9989c012d18e03003d38468c73a7e0adb7df6278722c91db463a934903984cb4"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "bd5b6232b6af55bf20359359485f17386fd374dfcdb87c0f6726e094ea861a49"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "f18b2296c37f6e5f276f6d9d80c97ba22a4b1fdad430003a1b3b4c88204064e8"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "7c25c130f74c8d4ccf7448b73ef0f9560d43058ce6a646990568dec0539d5404"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "96bcacb6f9d6afe86cd9eefbac33c5ed9e3a685bac1a879e141610955313f856"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "3998fade3643a25dc1df182ae4ddbd08467fac90ced11ecb87b37b4c61a7163c"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "420d4104e7dbb406968585314ac033b4f10ae56b6d3d5fc5141a74f15ddc4878"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "2f21e288e95714a7c5c3daaf47156d8e589cd15fd699e89a24845792dbaa3371"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-wait-for-vblank-cfg.json",
+      "sha256": "5a8a92684fef28c3400cc02bc4c59878aa3d1ed1b9e03b61c9d0452c12ab3b22"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-wait-for-vblank-map.json",
+      "sha256": "3b3da9ae0a9e64e49253fa07002c86f3d984b006a6b4b3d76a6c9924345d4a12"
+    },
+    {
+      "path": "analysis/emerald-jp-wait-for-vblank-map.json",
+      "sha256": "c0bba8fc33c3314cfed5fb50b1b933c104810902f6cb0534819c9fd9349691e6"
+    },
+    {
+      "path": "manifests/wait-for-vblank-reconstruction.json",
+      "sha256": "c934602792f1de738af07a6e3811d8af4149b9e234a90049c946a9099bf62b0a"
+    },
+    {
+      "path": "analysis/wait-for-vblank-catalog-summary.json",
+      "sha256": "8ddb38fddd028fafecc4984c16d6c06e84a34da264decdc8b4474a42f413199c"
+    },
+    {
+      "path": "research/wait-for-vblank-global-reconstruction.md",
+      "sha256": "abb7a6fa045c5605651f13770de4d436da9d5418b75129d4ac8a30e12ad1d639"
+    },
+    {
+      "path": "tests/test_wait_for_vblank_catalog.py",
+      "sha256": "6512087d030060082415677cc4abe7fbce9c8ccb79de275e42f6fb3b97ad3e12"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

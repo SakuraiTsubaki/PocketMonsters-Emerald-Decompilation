@@ -1,14 +1,40 @@
 {
   "schema_version": 1,
-  "target": {"release": "BPEJ-rev0", "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"},
+  "target": {
+    "release": "BPEJ-rev0",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
   "source": "src/wait_for_vblank.c",
-  "function": {"name": "WaitForVBlank", "address": "0x080008AC", "range_end_exclusive": "0x080008D4", "returns": true},
-  "rom_code_range": {"start_offset": 2220, "end_offset_exclusive": 2260, "sha256": "a76d461ef38542e453f177d865ed0be60c4cbca398e3ff02657adee9bcbb520a", "raw_bytes_published": false},
+  "function": {
+    "name": "WaitForVBlank",
+    "address": "0x080008AC",
+    "range_end_exclusive": "0x080008D4",
+    "returns": true
+  },
+  "rom_code_range": {
+    "start_offset": 2220,
+    "end_offset_exclusive": 2260,
+    "sha256": "a76d461ef38542e453f177d865ed0be60c4cbca398e3ff02657adee9bcbb520a",
+    "raw_bytes_published": false
+  },
   "calls": [],
-  "literal_addresses": {"gMain": "0x03002360", "clear_mask": "0x080008DC"},
-  "proven_offsets": {"intrCheck": 28},
-  "behavior": {"clears_vblank_flag_before_wait": true, "wait_mode": "volatile intrCheck polling"},
+  "literal_addresses": {
+    "gMain": "0x03002360",
+    "clear_mask": "0x080008D8"
+  },
+  "proven_offsets": {
+    "intrCheck": 28
+  },
+  "behavior": {
+    "clears_vblank_flag_before_wait": true,
+    "wait_mode": "volatile intrCheck polling"
+  },
   "cfg": "analysis/emerald-jp-wait-for-vblank-cfg.json",
-  "naming_basis": {"repository": "pret/pokeemerald", "commit": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881", "path": "src/main.c", "match_kind": "control flow, call target, literals and state access", "raw_rom_bytes_published": false}
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+    "path": "src/main.c",
+    "match_kind": "control flow, call target, literals and state access",
+    "raw_rom_bytes_published": false
+  }
 }
-

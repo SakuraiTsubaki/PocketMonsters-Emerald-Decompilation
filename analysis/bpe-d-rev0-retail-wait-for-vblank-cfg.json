@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 2220,
+  "start_address": 134219948,
+  "scan_limit_address": 134219988,
+  "instruction_halfwords": 20,
+  "range_start": 134219948,
+  "range_end": 134219988,
+  "return_observed": true,
+  "instructions": [
+    {
+      "address": 134219948,
+      "kind": "other"
+    },
+    {
+      "address": 134219950,
+      "kind": "other"
+    },
+    {
+      "address": 134219952,
+      "kind": "other"
+    },
+    {
+      "address": 134219954,
+      "kind": "other"
+    },
+    {
+      "address": 134219956,
+      "kind": "other"
+    },
+    {
+      "address": 134219958,
+      "kind": "other"
+    },
+    {
+      "address": 134219960,
+      "kind": "other"
+    },
+    {
+      "address": 134219962,
+      "kind": "other"
+    },
+    {
+      "address": 134219964,
+      "kind": "other"
+    },
+    {
+      "address": 134219966,
+      "kind": "other"
+    },
+    {
+      "address": 134219968,
+      "kind": "other"
+    },
+    {
+      "address": 134219970,
+      "kind": "conditional-branch",
+      "target": 134219984
+    },
+    {
+      "address": 134219972,
+      "kind": "other"
+    },
+    {
+      "address": 134219974,
+      "kind": "other"
+    },
+    {
+      "address": 134219976,
+      "kind": "other"
+    },
+    {
+      "address": 134219978,
+      "kind": "other"
+    },
+    {
+      "address": 134219980,
+      "kind": "other"
+    },
+    {
+      "address": 134219982,
+      "kind": "conditional-branch",
+      "target": 134219974
+    },
+    {
+      "address": 134219984,
+      "kind": "return-pop"
+    },
+    {
+      "address": 134219986,
+      "kind": "return-branch"
+    }
+  ],
+  "edges": [
+    {
+      "source": 134219970,
+      "target": 134219984,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134219970,
+      "target": 134219972,
+      "kind": "conditional-fallthrough"
+    },
+    {
+      "source": 134219982,
+      "target": 134219974,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134219982,
+      "target": 134219984,
+      "kind": "conditional-fallthrough"
+    }
+  ],
+  "calls": [],
+  "returns": [
+    134219986
+  ],
+  "raw_halfwords_omitted": true,
+  "source_size": 16777216,
+  "source_sha256": "7c599c56849efeebeb93bd71f714932ae4cdf980db51c9c1016b4431057f71d4"
+}

@@ -16,7 +16,7 @@
     },
     {
       "path": "analysis/emerald-jp-wait-for-vblank-map.json",
-      "sha256": "fa4a687602cf53d1238e447e38ceba28e1f7d7a26a6396ce7f21f88c20399b73"
+      "sha256": "c0bba8fc33c3314cfed5fb50b1b933c104810902f6cb0534819c9fd9349691e6"
     },
     {
       "path": "research/wait-for-vblank-reconstruction.md",
@@ -25,4 +25,3 @@
   ],
   "raw_rom_bytes_included": false
 }
-

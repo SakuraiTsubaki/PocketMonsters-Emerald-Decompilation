@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-j-rev0-retail",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "source": "src/wait_for_vblank.c",
+  "source_sha256": "3d5e59ae1d0841bfcc8eed7044ae19d8771c2dffb7712bd6777d320e55125e8f",
+  "function": {
+    "name": "WaitForVBlank",
+    "address": "0x080008AC",
+    "range_end_exclusive": "0x080008D4",
+    "rom_code_range": {
+      "start_offset": 2220,
+      "end_offset_exclusive": 2260,
+      "length": 40,
+      "sha256": "a76d461ef38542e453f177d865ed0be60c4cbca398e3ff02657adee9bcbb520a",
+      "raw_bytes_published": false
+    },
+    "cfg": "analysis/bpe-j-rev0-retail-wait-for-vblank-cfg.json"
+  },
+  "literal_addresses": {
+    "gMain": "0x03002360",
+    "gMain_pointer": "0x080008D4",
+    "clear_mask": "0x080008D8"
+  },
+  "state": {
+    "intrCheck_offset": 28,
+    "cleared_mask": 1
+  },
+  "wait": {
+    "mode": "volatile-poll",
+    "call": null
+  },
+  "origin_reference": true,
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+    "path": "src/main.c",
+    "match_kind": "Thumb data access, control flow, literals, and wait behavior",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
