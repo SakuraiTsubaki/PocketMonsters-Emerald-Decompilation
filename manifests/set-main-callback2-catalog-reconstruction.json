@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Emerald",
+  "function": "SetMainCallback2",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/set_main_callback2_evidence.py",
+    "tool_sha256": "d20fe012046de4e64633fbb13e0c821db6d362c892b7f8d2e7461bf122e96e59"
+  },
+  "outputs": [
+    {
+      "path": "src/main_callbacks.c",
+      "sha256": "b920a76e21911b5f25f8a8f72de70a47894939bb4955a0caa5c5c587d373c07f"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-set-main-callback2-cfg.json",
+      "sha256": "96a48dda9ea97a11d1fc1c9af8c20cac274d7988faabc8f8052eaaa24fcb5100"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-set-main-callback2-map.json",
+      "sha256": "0eb2cce3093d407917f30e2f631192ffa8aa7a852e68da6340cff2031536e9d6"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-set-main-callback2-cfg.json",
+      "sha256": "661a867c2b0af1cbdd79af59c5c84609c36f360abcdba9bac1f5ac51ee569678"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-set-main-callback2-map.json",
+      "sha256": "42b2fbf2029e76f4fe0afc3c9ba803b187e2cb1976dc517edcae14d3612b7b18"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-set-main-callback2-cfg.json",
+      "sha256": "50b908a72c7377e8573312361fc82a97c88e8c8ecc7ff621e2b2f205bd0e888f"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-set-main-callback2-map.json",
+      "sha256": "8a3880197b301af30668ae0757f58c0ede20e0cc9c9a77b762f1c333792708d7"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-set-main-callback2-cfg.json",
+      "sha256": "7293e33361bdb92a11a3204fb1a43e7a7d6a8cbd2fc93fa191324921d173138b"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-set-main-callback2-map.json",
+      "sha256": "e03c040043427ea9d9adb66c71ab5e38c79e2614f58509d8b96ec3ddfe245322"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-set-main-callback2-cfg.json",
+      "sha256": "29ef877eee006e85d73b75fa59fe3ef653c4bc3fbac7f371fe2286265171b167"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-set-main-callback2-map.json",
+      "sha256": "5afd1b07f28ce6995b56fde6557b87170bbf1e7d968aca8bb4c1e222377770fe"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-set-main-callback2-cfg.json",
+      "sha256": "befdb28f36adf213988fbcd3e6762e5a892b1e245f9bca570f975b9e5e9f0a85"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-set-main-callback2-map.json",
+      "sha256": "6b2804f97718f60179c38dedd69feeae28a912517b818684d8a53ee7aa69dea6"
+    },
+    {
+      "path": "analysis/set-main-callback2-catalog-summary.json",
+      "sha256": "769af26805240363538d1332f472e52b531f463b5e06dbec1a7e0a781c5cd958"
+    },
+    {
+      "path": "research/set-main-callback2-global-reconstruction.md",
+      "sha256": "5fa69512ec58e19805cb046399f5743264f5b2e6e7fc6408b02957bd9e8ee947"
+    },
+    {
+      "path": "tests/test_set_main_callback2_catalog.py",
+      "sha256": "fb413c585ac2a4a8120c2eb992b9e4bc30c4914eed18902d7c3d60921c90b80f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

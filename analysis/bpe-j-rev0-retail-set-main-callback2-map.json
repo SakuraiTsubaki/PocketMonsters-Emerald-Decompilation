@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-j-rev0-retail",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "source": "src/main_callbacks.c",
+  "source_sha256": "b920a76e21911b5f25f8a8f72de70a47894939bb4955a0caa5c5c587d373c07f",
+  "function": {
+    "name": "SetMainCallback2",
+    "address": "0x08000540",
+    "range_end_exclusive": "0x08000550",
+    "compiler_variant": "inline-state-offset",
+    "rom_code_range": {
+      "start_offset": 1344,
+      "end_offset_exclusive": 1360,
+      "length": 16,
+      "sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e",
+      "raw_bytes_published": false
+    },
+    "cfg": "analysis/bpe-j-rev0-retail-set-main-callback2-cfg.json"
+  },
+  "state": {
+    "gMain": "0x03002360",
+    "callback2_offset": 4,
+    "state_offset": 1080,
+    "state_value": 0
+  },
+  "behavior": [
+    "store callback argument in gMain.callback2",
+    "clear gMain.state",
+    "return without calls"
+  ],
+  "origin_reference": true,
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+    "path": "src/main.c",
+    "match_kind": "Thumb data-access and leaf-control-flow equivalence",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
