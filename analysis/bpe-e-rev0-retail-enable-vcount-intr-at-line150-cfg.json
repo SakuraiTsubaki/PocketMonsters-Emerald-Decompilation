@@ -3,7 +3,7 @@
   "rom_base": 134217728,
   "start_offset": 1428,
   "start_address": 134219156,
-  "scan_limit_address": 134219412,
+  "scan_limit_address": 134219196,
   "instruction_halfwords": 20,
   "range_start": 134219156,
   "range_end": 134219196,
@@ -20,7 +20,7 @@
     {
       "address": 134219160,
       "kind": "call",
-      "target": 134222288
+      "target": 134222264
     },
     {
       "address": 134219162,
@@ -65,7 +65,7 @@
     {
       "address": 134219182,
       "kind": "call",
-      "target": 134222148
+      "target": 134222004
     },
     {
       "address": 134219184,
@@ -78,7 +78,7 @@
     {
       "address": 134219188,
       "kind": "call",
-      "target": 134222452
+      "target": 134222428
     },
     {
       "address": 134219190,
@@ -97,21 +97,21 @@
   "calls": [
     {
       "source": 134219160,
-      "target": 134222288
+      "target": 134222264
     },
     {
       "source": 134219182,
-      "target": 134222148
+      "target": 134222004
     },
     {
       "source": 134219188,
-      "target": 134222452
+      "target": 134222428
     }
   ],
   "returns": [
     134219194
   ],
+  "raw_halfwords_omitted": true,
   "source_size": 16777216,
-  "source_sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
-  "raw_halfwords_omitted": true
+  "source_sha256": "a9dec84dfe7f62ab2220bafaef7479da0929d066ece16a6885f6226db19085af"
 }

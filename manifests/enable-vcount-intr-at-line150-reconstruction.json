@@ -1,33 +1,83 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPEJ-rev0",
-    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
-  },
+  "game": "Pokemon Emerald",
   "function": "EnableVCountIntrAtLine150",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+    "tool": "tools/enable_vcount_intr_evidence.py",
+    "tool_sha256": "854aa045730a4230900665ceedaf92f5da85314d59d5797e0b16b4a3ea980388"
   },
   "outputs": [
     {
       "path": "src/enable_vcount_intr_at_line150.c",
-      "sha256": "90fb979d2b57f15c54297b1952dbfac84f1a088cb03e5c8832f15072f5f529f9"
+      "sha256": "cba90e07e4b8862b38d123ac859bcfea424e64a796e9c29bd1119d5c26cc0619"
     },
     {
-      "path": "analysis/emerald-jp-enable-vcount-intr-at-line150-cfg.json",
-      "sha256": "c169215b870008e39f9ba5317f01e094578d43fd7d3b40896d4276b84faec673"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
     },
     {
-      "path": "analysis/emerald-jp-enable-vcount-intr-at-line150-map.json",
-      "sha256": "2a65e9e0f4bd08962acbe3244b255b7f507d97ce287070a4bd459fe17d9b241f"
+      "path": "analysis/bpe-j-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "6909de30f012721b20cc02b405eabfbd384ec4b47661063dc9f90f27a0d0d03c"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "829a76db5e6b47b5a72b25637e2e69aaa77fb691afb2cd0224bad58b658bb197"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "8e745fd8dbaa0245a8ee4084bc4ba11cc0b7186356d7b02e0a2db733c49736ea"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "385f1dd33b5f2da728a28444560cc52d54d8cb65ee43717f21b881d4fba66ae0"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "7eab66cc44f92b0bc972504eb7c39e9041df02b7c1b0fa07552e220ef14e85f4"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "c8891f13c65d4ccb3cfd740cc9bd4ab796b7340e2c6bcce082a241f4c9abd8f6"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "5185fb7e9ae913efc93cb3db190e87f521afb7eafcb2d3c9c9d42b88d343ed2a"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "39e31a632dce7ff85bd200257822463b0580c52e36bdfc41dfee7dd4d8442557"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "42c19659f63187838890055292c54cb59ae9f261a679203e8e0cc1fe9674cbb4"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "0eda97217d9a72b7bb8dc16d2e1d2bde8f71e3029f3fbcbd34ca894ceeeda1ae"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "913fa8da06b3401e3db7017d7e5c4546872847f04bcb4e9407c3ff8bf7a1c88d"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "a3fcf8f39bf448050455eb4f57b933e50b0f1c6ceb051a5421123a451cdad73f"
+    },
+    {
+      "path": "analysis/enable-vcount-intr-at-line150-summary.json",
+      "sha256": "0ea83f24c040db91563c79f60c670465c10fe36faa692262836cde32eea2587b"
     },
     {
       "path": "research/enable-vcount-intr-at-line150-reconstruction.md",
-      "sha256": "f12b45e652fab15d9a5eb70da610be3fecf5ee7b8ea4cfd8b425f60b9de561a2"
+      "sha256": "e4cb6557e6a8206460f98d493c99271036eb2f379021576da2fcc9bed56099b4"
+    },
+    {
+      "path": "tests/test_enable_vcount_intr_at_line150_reconstruction.py",
+      "sha256": "c9981f5388ca485c8ff60ac3dcc172587847abb799573e48a87e80fb03d0b62c"
     }
   ],
   "raw_rom_bytes_included": false
 }
-

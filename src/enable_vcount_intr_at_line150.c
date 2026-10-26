@@ -12,7 +12,6 @@ enum
     VCOUNT_COMPARE_LINE = 150
 };
 
-/* BPEJ-rev0: 0x08000594..0x080005bc. */
 void EnableVCountIntrAtLine150(void)
 {
     uint16_t gpuReg = (GetGpuReg(REG_OFFSET_DISPSTAT) & 0xFF)
@@ -20,4 +19,3 @@ void EnableVCountIntrAtLine150(void)
     SetGpuReg(REG_OFFSET_DISPSTAT, gpuReg | DISPSTAT_VCOUNT_INTR);
     EnableInterrupts(INTR_FLAG_VCOUNT);
 }
-
