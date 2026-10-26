@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-s-rev0-retail",
+    "sha256": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e"
+  },
+  "profile": "pointer",
+  "source": "src/key_input.c",
+  "source_sha256": "3031c6c9347c282b2b90af611d9dc761fbad5972fd00644273183a96adc249a0",
+  "functions": [
+    {
+      "name": "InitKeys",
+      "address": "0x080005BC",
+      "range_end_exclusive": "0x080005D8",
+      "rom_code_range": {
+        "start_offset": 1468,
+        "end_offset_exclusive": 1496,
+        "length": 28,
+        "sha256": "ecad40afc14bc40d31fb0d2bb31089ee44e2260d3a864e280da8a36520eda960",
+        "raw_bytes_published": false
+      },
+      "control_flow": {
+        "instruction_halfwords": 14,
+        "return_count": 1,
+        "call_count": 0,
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "ReadKeys",
+      "address": "0x080005E4",
+      "range_end_exclusive": "0x0800067A",
+      "rom_code_range": {
+        "start_offset": 1508,
+        "end_offset_exclusive": 1658,
+        "length": 150,
+        "sha256": "836bcf9c3eac8d0354a119cccd10af86807b5f830399edfa48a6196419001346",
+        "raw_bytes_published": false
+      },
+      "control_flow": {
+        "instruction_halfwords": 66,
+        "return_count": 1,
+        "call_count": 0,
+        "raw_halfwords_omitted": true
+      }
+    }
+  ],
+  "literal_addresses": {
+    "REG_KEYINPUT": "0x04000130",
+    "KEYS_MASK": "0x000003FF",
+    "gMain": "0x030022C0",
+    "gKeyRepeatContinueDelay": "0x030026FC",
+    "gKeyRepeatStartDelay": "0x030022B0",
+    "gSaveBlock2Ptr": "0x03005D90"
+  },
+  "proven_offsets": {
+    "heldKeysRaw": 40,
+    "newKeysRaw": 42,
+    "heldKeys": 44,
+    "newKeys": 46,
+    "newAndRepeatedKeys": 48,
+    "keyRepeatCounter": 50,
+    "watchedKeysPressed": 52,
+    "watchedKeysMask": 54,
+    "optionsButtonMode": 19
+  },
+  "constants": {
+    "repeat_continue_delay": 5,
+    "repeat_start_delay": 40,
+    "l_button": 512,
+    "a_button": 1,
+    "l_equals_a_mode": 2
+  },
+  "save_options_access": "pointer_indirect",
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/main.c",
+    "match_kind": "Thumb control flow, constants, literals, state offsets, and save-option access",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

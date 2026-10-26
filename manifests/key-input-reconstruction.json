@@ -1,8 +1,63 @@
 {
-  "schema_version":1,"target":{"release":"BPEJ-rev0","sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"},"functions":["InitKeys","ReadKeys"],
-  "outputs":[
-    {"path":"src/key_input.c","sha256":"7466da3c9abf121db7e923448d060da996368a1110c83ca6031c0ad3d05eb494"},
-    {"path":"analysis/emerald-jp-key-input-map.json","sha256":"f431249a039870ae9655fe1dedbfec95e86dfa03bd4b4292ee619093c9a2be86"},
-    {"path":"research/key-input-reconstruction.md","sha256":"9694c154c0bc383b5cc8e1d0dbee67b52caa78755c9738d1de300a434daf9f2e"}
-  ],"raw_rom_bytes_included":false
+  "schema_version": 1,
+  "game": "Emerald",
+  "functions": [
+    "InitKeys",
+    "ReadKeys"
+  ],
+  "profile": "pointer",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/key_input_catalog.py",
+    "tool_sha256": "e0db0f2f110864675f48debaaad10a4556f044e13605b081c1ce958f87bc44e5"
+  },
+  "outputs": [
+    {
+      "path": "src/key_input.c",
+      "sha256": "3031c6c9347c282b2b90af611d9dc761fbad5972fd00644273183a96adc249a0"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-key-input-map.json",
+      "sha256": "8b4cfc4d3be59a1cba43787727bb3fda155349dfe9a9c638c14c17e3b2ac2fe6"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-key-input-map.json",
+      "sha256": "08357da75893aac770506edb81117ceeb2827ea2afbbd52ba62a562066fe0ec0"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-key-input-map.json",
+      "sha256": "81512194970ce26b98433ddc88e4e92ed3597051a1f34de9427ea65dfb2646d3"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-key-input-map.json",
+      "sha256": "6cfbdda2daaa3f6fdd2f75fad1022bce86fa9af86f2b61a1cee5aa99dda819c9"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-key-input-map.json",
+      "sha256": "1f9e1fcc9188f67ed8916282f57fc84e11b7604d8e2f29fcf3cdba9d96ade058"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-key-input-map.json",
+      "sha256": "9c9739fdf78478bb27e17934088148bf20716ca4547446e572d8b5e6a60b02a5"
+    },
+    {
+      "path": "analysis/key-input-summary.json",
+      "sha256": "099410b1d319d843efa564781a09377e600adbc8c1a5ccf0019fcad2b4ffdcdf"
+    },
+    {
+      "path": "research/key-input-reconstruction.md",
+      "sha256": "0c02c87bacda939b169ad8dd2aa7974daa00d9cf355135239334ddfe3b74e528"
+    },
+    {
+      "path": "tests/test_key_input_reconstruction.py",
+      "sha256": "1a90fc9a209bbad400e44ea010410c7a82f2913e099a4bdf495522c031e85287"
+    }
+  ],
+  "raw_rom_bytes_included": false
 }

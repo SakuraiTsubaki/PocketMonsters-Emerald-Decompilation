@@ -3,7 +3,8 @@
 typedef uint8_t bool8;
 typedef void (*MainCallback)(void);
 
-struct MainInputState {
+struct MainInputState
+{
     MainCallback callback1;
     MainCallback callback2;
     uint8_t unknown_008[0x20];
@@ -18,7 +19,8 @@ struct MainInputState {
     uint16_t watchedKeysMask;
 };
 
-struct SaveBlock2InputOptions {
+struct SaveBlock2InputOptions
+{
     uint8_t unknown_000[0x13];
     uint8_t optionsButtonMode;
 };
@@ -30,14 +32,14 @@ extern uint16_t gKeyRepeatStartDelay;
 
 #define REG_KEYINPUT (*(volatile uint16_t *)0x04000130)
 
-enum {
+enum
+{
     A_BUTTON = 1,
     L_BUTTON = 1 << 9,
     KEYS_MASK = 0x03FF,
     OPTIONS_BUTTON_MODE_L_EQUALS_A = 2
 };
 
-/* BPEJ rev0: 0x080005bc..0x080005d7. */
 void InitKeys(void)
 {
     gKeyRepeatContinueDelay = 5;
@@ -49,7 +51,6 @@ void InitKeys(void)
     gMain.newKeysRaw = 0;
 }
 
-/* BPEJ rev0: 0x080005e4..0x08000679. */
 void ReadKeys(void)
 {
     uint16_t keyInput = REG_KEYINPUT ^ KEYS_MASK;
@@ -57,20 +58,25 @@ void ReadKeys(void)
     gMain.newKeys = gMain.newKeysRaw;
     gMain.newAndRepeatedKeys = gMain.newKeysRaw;
 
-    if (keyInput != 0 && gMain.heldKeys == keyInput) {
+    if (keyInput != 0 && gMain.heldKeys == keyInput)
+    {
         gMain.keyRepeatCounter--;
-        if (gMain.keyRepeatCounter == 0) {
+        if (gMain.keyRepeatCounter == 0)
+        {
             gMain.newAndRepeatedKeys = keyInput;
             gMain.keyRepeatCounter = gKeyRepeatContinueDelay;
         }
-    } else {
+    }
+    else
+    {
         gMain.keyRepeatCounter = gKeyRepeatStartDelay;
     }
 
     gMain.heldKeysRaw = keyInput;
     gMain.heldKeys = gMain.heldKeysRaw;
 
-    if (gSaveBlock2Ptr->optionsButtonMode == OPTIONS_BUTTON_MODE_L_EQUALS_A) {
+    if (gSaveBlock2Ptr->optionsButtonMode == OPTIONS_BUTTON_MODE_L_EQUALS_A)
+    {
         if (gMain.newKeys & L_BUTTON)
             gMain.newKeys |= A_BUTTON;
         if (gMain.heldKeys & L_BUTTON)
@@ -80,4 +86,3 @@ void ReadKeys(void)
     if (gMain.newKeys & gMain.watchedKeysMask)
         gMain.watchedKeysPressed = 1;
 }
-

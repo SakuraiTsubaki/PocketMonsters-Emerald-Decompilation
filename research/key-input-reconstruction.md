@@ -1,11 +1,5 @@
-# BPEJ revision 0 key-input reconstruction
+# Emerald key input reconstruction
 
-The Japanese Emerald `InitKeys` is at `0x080005BC` and `ReadKeys` at
-`0x080005E4`. The reconstruction preserves the repeat timing, active-low key
-mask, L-to-A remapping, and watched-key latch.
+The Japanese release `bpe-j-rev0-retail` is the origin reference. All 6 cataloged releases (Japanese, English, German, French, Italian, Spanish) contain exactly one InitKeys and ReadKeys pair matching the `pointer` profile. Options are read through the gSaveBlock2Ptr indirection.
 
-Unlike Japanese Ruby/Sapphire, Emerald loads the save-options object through
-`gSaveBlock2Ptr` at `0x03005AF0` before reading byte `+0x13`. The code and map
-retain this real version difference rather than copying the earlier games'
-fixed-object declaration. The ROM code range is hash-locked, while raw ROM
-instructions are omitted from publication.
+The pair establishes repeat delays 5 and 40, derives active-high keys from REG_KEYINPUT with mask 0x03FF, implements repeat behavior, applies L-equals-A mode, and records watched-key presses. Per-release maps retain ranges, hashes, validated literals and control-flow counts without ROM instruction bytes. Naming and behavior are corroborated by `pret/pokeemerald` at `fe1d8e51b265851676b65885818b1f5f62586135`, `src/main.c`.
