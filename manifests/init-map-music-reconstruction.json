@@ -1,31 +1,58 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPEJ-rev0",
-    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
-  },
+  "game": "Emerald",
   "function": "InitMapMusic",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "0bf18299d057f76b801016390b3a57892c8a50df"
+    "tool": "tools/map_music_catalog.py",
+    "tool_sha256": "075b0e127192699313a618260cf0906e13374a96d80020a301a022f2644d68cd"
   },
   "outputs": [
     {
       "path": "src/init_map_music.c",
-      "sha256": "a77e2d4b7e6f31022d0f181e7406bfe6a0196c1238d881d0c944fd431056b2be"
+      "sha256": "77ce716a9da752315510cdfadac8328e8631fd9cad3f6c89243b6387c78b0ef9"
     },
     {
-      "path": "analysis/emerald-jp-init-map-music-cfg.json",
-      "sha256": "691478e41d9e35ac1e68d2ddad2e3689212a9309f096e9181d828ef65658cccb"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
     },
     {
-      "path": "analysis/emerald-jp-init-map-music-map.json",
-      "sha256": "6ac474f9891c9844e5bbafdfed08c13ea61e10df7beb173dfa8ca737c6307baa"
+      "path": "analysis/map-music-summary.json",
+      "sha256": "f878a09806389daa4f106a742f13569128f28adf1a20c2119b71492cd6803b6e"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-init-map-music-map.json",
+      "sha256": "2bee1b2aaac1bd439a7f3a3b9a674f6068d64eff8ab6c61366fc2b5c66fe29ce"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-init-map-music-map.json",
+      "sha256": "98dda01bc113e13751bedd23b309df9cf75e60ad24df2e8e5ee1c70af33df36f"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-init-map-music-map.json",
+      "sha256": "6f0adfe55df2956a6a9b9d3f4773a005a37dcf0b4873d748beffbe0f34ca341d"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-init-map-music-map.json",
+      "sha256": "3ab7bdda16d6b95619d7ffea3be6bf8a8ddb10e6a978bee1f99e00248ecad0af"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-init-map-music-map.json",
+      "sha256": "9064ee35463f256cc100dbcfe46b129c07228af1c0ac8116f01cb6bf2bdafd47"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-init-map-music-map.json",
+      "sha256": "356baaf26be186f85a0ae758548f934c6504ca2c59089ba9043c592565bb8f88"
     },
     {
       "path": "research/init-map-music-reconstruction.md",
-      "sha256": "edcdafe7595b3d0415a49d7fba2f3ec9924f01cee0ebd884a70cca50abe597c1"
+      "sha256": "6fc11b747dce60fb1a8fc704907a3eb81be7e6eb69b755cf7a63f597d3f7dfd0"
+    },
+    {
+      "path": "tests/test_init_map_music_reconstruction.py",
+      "sha256": "d422c9ca93062c42d39e324f1020118280967df693046d0bc48009ed253337d3"
     }
   ],
   "raw_rom_bytes_included": false

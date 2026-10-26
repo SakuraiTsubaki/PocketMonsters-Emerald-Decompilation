@@ -16,7 +16,8 @@ extern void FadeInNewBGM(u16 songNum, u8 speed);
 
 void MapMusicMain(void)
 {
-    switch (sMapMusicState) {
+    switch (sMapMusicState)
+    {
     case 0:
         break;
     case 1:
@@ -28,13 +29,15 @@ void MapMusicMain(void)
     case 4:
         break;
     case 5:
-        if (IsBGMStopped()) {
+        if (IsBGMStopped())
+        {
             sNextMapMusic = 0;
             sMapMusicState = 0;
         }
         break;
     case 6:
-        if (IsBGMStopped() && IsFanfareTaskInactive()) {
+        if (IsBGMStopped() && IsFanfareTaskInactive())
+        {
             sCurrentMapMusic = sNextMapMusic;
             sNextMapMusic = 0;
             sMapMusicState = 2;
@@ -42,7 +45,8 @@ void MapMusicMain(void)
         }
         break;
     case 7:
-        if (IsBGMStopped() && IsFanfareTaskInactive()) {
+        if (IsBGMStopped() && IsFanfareTaskInactive())
+        {
             FadeInNewBGM(sNextMapMusic, sMapMusicFadeInSpeed);
             sCurrentMapMusic = sNextMapMusic;
             sNextMapMusic = 0;
@@ -52,4 +56,3 @@ void MapMusicMain(void)
         break;
     }
 }
-
