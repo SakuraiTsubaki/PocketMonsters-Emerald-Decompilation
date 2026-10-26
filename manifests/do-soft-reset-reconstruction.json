@@ -21,7 +21,7 @@
     },
     {
       "path": "analysis/emerald-jp-do-soft-reset-map.json",
-      "sha256": "ec68ee45e0acd6e032c9bae9922211908c4e7911b381e4bd8ddb16c8b5b0df9c"
+      "sha256": "9bea22565adff9505b0aa84ecd8a093968256b751e5532b1613ed4589a34275a"
     },
     {
       "path": "research/do-soft-reset-reconstruction.md",
@@ -30,4 +30,3 @@
   ],
   "raw_rom_bytes_included": false
 }
-

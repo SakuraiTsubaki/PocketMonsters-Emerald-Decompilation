@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Emerald",
+  "function": "DoSoftReset",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "source": "src/do_soft_reset.c",
+  "releases": [
+    {
+      "id": "bpe-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+      "origin_reference": true,
+      "address": "0x080008F4",
+      "code_sha256": "3ef44d6129b690d136ac017c669c2dbd5c0d5ad0d95f4692b4487c3be2390f9c",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x0828ECEC",
+        "ScanlineEffect_Stop": "0x080B9710",
+        "SiiRtcProtect": "0x082906F0",
+        "SoftReset": "0x082959E4"
+      },
+      "evidence": {
+        "map": "analysis/bpe-j-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpe-j-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpe-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "a9dec84dfe7f62ab2220bafaef7479da0929d066ece16a6885f6226db19085af",
+      "origin_reference": false,
+      "address": "0x080008F4",
+      "code_sha256": "4e9809cabd6470c7bb426b9ad07c8812281ebf506afc26c5f7762e39b3c7bd38",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x082E0764",
+        "ScanlineEffect_Stop": "0x080B9FB8",
+        "SiiRtcProtect": "0x082E2168",
+        "SoftReset": "0x082E70AC"
+      },
+      "evidence": {
+        "map": "analysis/bpe-e-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpe-e-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpe-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "7c599c56849efeebeb93bd71f714932ae4cdf980db51c9c1016b4431057f71d4",
+      "origin_reference": false,
+      "address": "0x080008F4",
+      "code_sha256": "6842ed188a5194c75bfca00671cd929fa7c616d29de5ff8c0f30892ec864a640",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x082F64A4",
+        "ScanlineEffect_Stop": "0x080B9FD4",
+        "SiiRtcProtect": "0x082F7EA8",
+        "SoftReset": "0x082FCDEC"
+      },
+      "evidence": {
+        "map": "analysis/bpe-d-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpe-d-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpe-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4",
+      "origin_reference": false,
+      "address": "0x080008F4",
+      "code_sha256": "edc2d285354a3f5f51e1b7cfb70c93e2f3c6231907ea3b03c999b4771e196c60",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x082E9738",
+        "ScanlineEffect_Stop": "0x080B9FCC",
+        "SiiRtcProtect": "0x082EB13C",
+        "SoftReset": "0x082F0080"
+      },
+      "evidence": {
+        "map": "analysis/bpe-f-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpe-f-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpe-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "63cbff3500b657cb6966568beb0780de3655d3a0b2e5ac6e0ec33d5d01a916ad",
+      "origin_reference": false,
+      "address": "0x080008F4",
+      "code_sha256": "86c9d57a56382b8b11d0fc3b3ee60a33564ec10856dae86035246958021b376d",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x082E16F0",
+        "ScanlineEffect_Stop": "0x080B9FCC",
+        "SiiRtcProtect": "0x082E30F4",
+        "SoftReset": "0x082E8038"
+      },
+      "evidence": {
+        "map": "analysis/bpe-i-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpe-i-rev0-retail-do-soft-reset-cfg.json"
+      }
+    },
+    {
+      "id": "bpe-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e",
+      "origin_reference": false,
+      "address": "0x080008F4",
+      "code_sha256": "061efe05c528925dd71f68ba4f61f484de85edc7f90a73b54d7d5035cbd92b4d",
+      "variant": "rtc-full-reset",
+      "soft_reset_mask": "0xFF",
+      "call_targets": {
+        "m4aSoundVSyncOff": "0x082E7EF0",
+        "ScanlineEffect_Stop": "0x080B9FCC",
+        "SiiRtcProtect": "0x082E98F4",
+        "SoftReset": "0x082EE838"
+      },
+      "evidence": {
+        "map": "analysis/bpe-s-rev0-retail-do-soft-reset-map.json",
+        "cfg": "analysis/bpe-s-rev0-retail-do-soft-reset-cfg.json"
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

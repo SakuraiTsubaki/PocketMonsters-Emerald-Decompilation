@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Emerald",
+  "function": "DoSoftReset",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/do_soft_reset_catalog.py",
+    "tool_sha256": "67c8b41cf9789a0e6f5664e86978bddb51af748e62baaba899edf0d1b1e353db"
+  },
+  "outputs": [
+    {
+      "path": "src/do_soft_reset.c",
+      "sha256": "8ab59172f10f978fbfba0e2575a6fb2f59c79b4e59d424137ea3a24bf2e774b6"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "962b5d78fbdb7a3ca21213570103146979cf03ddb830b4ebffefc07eefb55887"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-do-soft-reset-map.json",
+      "sha256": "4d658ec0fee2871c2ae9101034d6ffe8b223e566c62ffb96662b95e8df5dbbea"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "eb886d17d504b94acf2792e36ed46700d4eea2d8a8739ec144850f52d5ae26a1"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-do-soft-reset-map.json",
+      "sha256": "a5cda4caa5a1285b3f3dfe097eebd346402f9f3e2e4616117e0137ca2c52a3b2"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "947dc7a9286e62a6d934461828ca540081ca164620b08d2a535ede4e64891046"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-do-soft-reset-map.json",
+      "sha256": "e3b9f8b92309560f3433f56467af55abb1e5318df6b23e4b571eb473ded28f7f"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "5ab562124dca04d0426a0a2dd604775eb52500f838e3064b228ec190303b3feb"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-do-soft-reset-map.json",
+      "sha256": "36eb3b941d280e981e13166913248ed987fb0a6876d968c6b6b392add9d105fa"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "3fa2b005d8f6d39024d348748338e690a733859772a9af63b01172d844dca7f6"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-do-soft-reset-map.json",
+      "sha256": "2fd8318e74fb2c933b09fd2e814ee63f118fc7ecaf19047bceb5d8c9f98ae5e4"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-do-soft-reset-cfg.json",
+      "sha256": "aa656e1e4c6596c7b2d780cd177edc689fd0aee78c3e64bb27f1b18f1090bae1"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-do-soft-reset-map.json",
+      "sha256": "16526ac4b5f6f7ad7cde648c210cd3a1571a4b0fe5542e4e490bda7b3fc3bc57"
+    },
+    {
+      "path": "analysis/emerald-jp-do-soft-reset-map.json",
+      "sha256": "9bea22565adff9505b0aa84ecd8a093968256b751e5532b1613ed4589a34275a"
+    },
+    {
+      "path": "manifests/do-soft-reset-reconstruction.json",
+      "sha256": "8478f64633b5b9361f6103635f0195adc38629c53a12aabad3b526faec471aa4"
+    },
+    {
+      "path": "analysis/do-soft-reset-catalog-summary.json",
+      "sha256": "e3c7a00433a52fc217724362fb60bb4ca823c0803923ff03426eb733c5d34364"
+    },
+    {
+      "path": "research/do-soft-reset-global-reconstruction.md",
+      "sha256": "624f81f5c0382e220e3ddda8a67c840e34d1ad86681f94fd697da55b172376fc"
+    },
+    {
+      "path": "tests/test_do_soft_reset_catalog.py",
+      "sha256": "f726c42c00715d39b386f1b2eae1623a9c60f633ba675bdfb83e6d12d91eb0b5"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

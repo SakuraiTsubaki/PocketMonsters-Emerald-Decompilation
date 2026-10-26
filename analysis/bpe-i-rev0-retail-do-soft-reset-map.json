@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-i-rev0-retail",
+    "sha256": "63cbff3500b657cb6966568beb0780de3655d3a0b2e5ac6e0ec33d5d01a916ad"
+  },
+  "source": "src/do_soft_reset.c",
+  "source_sha256": "8ab59172f10f978fbfba0e2575a6fb2f59c79b4e59d424137ea3a24bf2e774b6",
+  "function": {
+    "name": "DoSoftReset",
+    "address": "0x080008F4",
+    "range_end_exclusive": "0x08000950",
+    "variant": "rtc-full-reset",
+    "rom_code_range": {
+      "start_offset": 2292,
+      "end_offset_exclusive": 2384,
+      "length": 92,
+      "sha256": "86c9d57a56382b8b11d0fc3b3ee60a33564ec10856dae86035246958021b376d",
+      "raw_bytes_published": false
+    },
+    "cfg": "analysis/bpe-i-rev0-retail-do-soft-reset-cfg.json"
+  },
+  "calls": [
+    {
+      "name": "m4aSoundVSyncOff",
+      "source": "0x080008FC",
+      "target": "0x082E16F0"
+    },
+    {
+      "name": "ScanlineEffect_Stop",
+      "source": "0x08000900",
+      "target": "0x080B9FCC"
+    },
+    {
+      "name": "SiiRtcProtect",
+      "source": "0x08000940",
+      "target": "0x082E30F4"
+    },
+    {
+      "name": "SoftReset",
+      "source": "0x08000946",
+      "target": "0x082E8038"
+    }
+  ],
+  "hardware_writes": {
+    "REG_IME": "0x04000208",
+    "dma_control_high": [
+      "0x040000C6",
+      "0x040000D2",
+      "0x040000DE"
+    ]
+  },
+  "behavior": {
+    "interrupt_master_enable": 0,
+    "dma_channels_stopped": [
+      1,
+      2,
+      3
+    ],
+    "rtc_protected": true,
+    "soft_reset_mask": "0xFF"
+  },
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+    "path": "src/main.c",
+    "match_kind": "Thumb call order, hardware addresses, DMA masks, and reset constant",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
