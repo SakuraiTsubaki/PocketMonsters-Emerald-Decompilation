@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-i-rev0-retail",
+    "sha256": "63cbff3500b657cb6966568beb0780de3655d3a0b2e5ac6e0ec33d5d01a916ad"
+  },
+  "origin_reference": false,
+  "profile_variant": "emerald-retail",
+  "source": "src/main_loop.c",
+  "source_sha256": "59bf24080d46cfc2363ad329c5357f74a7ed2b8a727cf8e6b466d516cf7d13fa",
+  "function": {
+    "name": "AgbMain",
+    "address": "0x080003A4",
+    "range_end_exclusive": "0x080004C0",
+    "nonreturning": true,
+    "rom_code_range": {
+      "start_offset": 932,
+      "end_offset_exclusive": 1216,
+      "length": 284,
+      "sha256": "337fc577dad16b192641f89fea41fd59425458413d32618cde86ca241d2c4eea",
+      "raw_bytes_published": false
+    },
+    "loop_back_edge": {
+      "source": "0x080004BE",
+      "target": "0x0800042A"
+    }
+  },
+  "entry_chain": {
+    "arm_entry_target": "0x08000204",
+    "thumb_transition_target": "0x080003A4"
+  },
+  "control_flow": {
+    "instruction_halfwords": 124,
+    "edge_count": 14,
+    "edge_kinds": {
+      "branch": 2,
+      "conditional-fallthrough": 6,
+      "conditional-taken": 6
+    },
+    "direct_call_count": 29,
+    "unique_call_target_count": 27,
+    "return_observed": false,
+    "target_equivalence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      21,
+      22,
+      23,
+      21,
+      24,
+      25,
+      26
+    ],
+    "raw_halfwords_omitted": true
+  },
+  "direct_calls": [
+    {
+      "name": "RegisterRamReset",
+      "source": "0x080003AC",
+      "target": "0x082E8034"
+    },
+    {
+      "name": "InitGpuRegManager",
+      "source": "0x080003BA",
+      "target": "0x08000FE4"
+    },
+    {
+      "name": "InitKeys",
+      "source": "0x080003C6",
+      "target": "0x080005BC"
+    },
+    {
+      "name": "InitIntrHandlers",
+      "source": "0x080003CA",
+      "target": "0x08000684"
+    },
+    {
+      "name": "m4aSoundInit",
+      "source": "0x080003CE",
+      "target": "0x082E0FFC"
+    },
+    {
+      "name": "EnableVCountIntrAtLine150",
+      "source": "0x080003D2",
+      "target": "0x08000594"
+    },
+    {
+      "name": "InitRFU",
+      "source": "0x080003D6",
+      "target": "0x0800E6D0"
+    },
+    {
+      "name": "RtcInit",
+      "source": "0x080003DA",
+      "target": "0x0802F220"
+    },
+    {
+      "name": "CheckForFlashMemory",
+      "source": "0x080003DE",
+      "target": "0x08076B68"
+    },
+    {
+      "name": "InitMainCallbacks",
+      "source": "0x080003E2",
+      "target": "0x080004D8"
+    },
+    {
+      "name": "InitMapMusic",
+      "source": "0x080003E6",
+      "target": "0x080A2DE8"
+    },
+    {
+      "name": "ClearDma3Requests",
+      "source": "0x080003EA",
+      "target": "0x08000BB8"
+    },
+    {
+      "name": "ResetBgs",
+      "source": "0x080003EE",
+      "target": "0x080012F0"
+    },
+    {
+      "name": "SetDefaultFontsPointer",
+      "source": "0x080003F2",
+      "target": "0x08006368"
+    },
+    {
+      "name": "InitHeap",
+      "source": "0x080003FC",
+      "target": "0x08000B1C"
+    },
+    {
+      "name": "SetMainCallback2",
+      "source": "0x08000410",
+      "target": "0x08000540"
+    },
+    {
+      "name": "ReadKeys",
+      "source": "0x0800042A",
+      "target": "0x080005E4"
+    },
+    {
+      "name": "rfu_REQ_stopMode",
+      "source": "0x08000448",
+      "target": "0x082E5250"
+    },
+    {
+      "name": "rfu_waitREQComplete",
+      "source": "0x0800044C",
+      "target": "0x082E5174"
+    },
+    {
+      "name": "DoSoftReset",
+      "source": "0x08000450",
+      "target": "0x080008F4"
+    },
+    {
+      "name": "Overworld_SendKeysToLinkIsRunning",
+      "source": "0x08000454",
+      "target": "0x08087648"
+    },
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "source": "0x0800045E",
+      "target": "0x080004C4"
+    },
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "source": "0x08000492",
+      "target": "0x080004C4"
+    },
+    {
+      "name": "Overworld_RecvKeysFromLinkIsRunning",
+      "source": "0x08000496",
+      "target": "0x080875DC"
+    },
+    {
+      "name": "ClearSpriteCopyRequests",
+      "source": "0x080004A4",
+      "target": "0x080071B8"
+    },
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "source": "0x080004AA",
+      "target": "0x080004C4"
+    },
+    {
+      "name": "PlayTimeCounter_Update",
+      "source": "0x080004B2",
+      "target": "0x08084250"
+    },
+    {
+      "name": "MapMusicMain",
+      "source": "0x080004B6",
+      "target": "0x080A2DFC"
+    },
+    {
+      "name": "WaitForVBlank",
+      "source": "0x080004BA",
+      "target": "0x080008AC"
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/main.c",
+    "match_kind": "call order, branches, literals and state accesses",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

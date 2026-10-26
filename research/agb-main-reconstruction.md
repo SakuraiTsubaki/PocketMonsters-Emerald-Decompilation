@@ -1,13 +1,3 @@
-# BPEJ revision 0 `AgbMain` reconstruction
+# Emerald `AgbMain` reconstruction
 
-The verified Japanese Emerald CFG covers `0x080003A4..0x080004BF`, contains 29
-direct calls, and loops from `0x080004BE` to the frame body at `0x0800042A`.
-All call sites are mapped against `pret/pokeemerald` `src/main.c` at commit
-`fe1d8e51b265851676b65885818b1f5f62586135`.
-
-Emerald shares RFU-aware link processing with FRLG but retains `RtcInit`, lacks
-the FireRed/LeafGreen help-system initialization, and gates its initial callback
-when flash memory is unavailable. BPEJ rev0 does not call debug printing or the
-optional bugfix-only RTC seed routine. The reconstruction preserves those
-observed build differences instead of treating all third-generation loops as
-interchangeable. No ROM instruction bytes are published.
+The Japanese release `bpe-j-rev0-retail` is the origin reference. All 6 cataloged releases (Japanese, English, German, French, Italian, Spanish) were followed from the GBA ARM entry branch through the literal-backed ARM-to-Thumb bootstrap transition into `AgbMain`. The observed builds form 1 explicit structural variant(s); each release is checked against its variant's direct-call name sequence, call offsets, target equivalence and edge-kind shape, plus one backward main-loop branch, and no return. Per-release maps preserve addresses, code hashes, calls, entry-chain evidence, and raw-free control-flow summaries. No ROM instruction bytes are published. Symbol names remain based on `pret/pokeemerald` at `fe1d8e51b265851676b65885818b1f5f62586135`, `src/main.c`.

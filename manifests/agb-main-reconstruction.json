@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"emerald-jp-agb-main-reconstruction","input":{"release":"BPEJ-rev0","size":16777216,"sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c","cfg":"analysis/emerald-jp-thumb-entry-cfg.json"},"outputs":[{"path":"analysis/emerald-jp-agb-main-map.json","sha256":"edad37ecf4824c64f0a28faefd09511bd946749ab6df4ebcc9115ad513ef6c9d"},{"path":"src/main_loop.c","sha256":"59bf24080d46cfc2363ad329c5357f74a7ed2b8a727cf8e6b466d516cf7d13fa"},{"path":"research/agb-main-reconstruction.md","sha256":"1a6000c1b8a44663fdccaf087d2c2094ab89e20784452f0333e61bb04ae06261"}],"verification":{"test":"tests/test_agb_main_reconstruction.py","raw_rom_bytes_published":false}}
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "function": "AgbMain",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/agb_main_catalog.py",
+    "tool_sha256": "137cb84a85f83058566206a9fe4ddd54798449fb5dc4f68c38ae0fffc540a80d"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "analysis/agb-main-profile.json",
+      "sha256": "6db5cf0cdf7cc089c1b7a6c7de389bc8b646f1b5d0beff61356dc17133a06224"
+    },
+    {
+      "path": "src/main_loop.c",
+      "sha256": "59bf24080d46cfc2363ad329c5357f74a7ed2b8a727cf8e6b466d516cf7d13fa"
+    },
+    {
+      "path": "analysis/agb-main-summary.json",
+      "sha256": "833dd5b7cf444a8273a48ae955917ae4eb6a7b1aedd7b6435110516967ec50a6"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-agb-main-map.json",
+      "sha256": "369763d52e340bd762bd13f7b7b462447ca86e726d974b6d636a6a22cd7e42db"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-agb-main-map.json",
+      "sha256": "1a686b8db4aa5695b2122714c9b9fe0384fa22a93e9a2aa41fd937f5f04632a4"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-agb-main-map.json",
+      "sha256": "03ae2c775523774f80ca4da8d68e8b9a802646dd0137b3cf35dd6aee7ea79621"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-agb-main-map.json",
+      "sha256": "6a5d404329d1bede38e9f5a3b5b76898b9ee42d2c89888df029c3d9e1bb033c2"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-agb-main-map.json",
+      "sha256": "f3370e526035840f1d50561975dda42ce2ee2a5f3f5ae20aa0d20e34885517e2"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-agb-main-map.json",
+      "sha256": "7c1e7a701a452897afb9a6800b613311b7eba3c94ed5b59a96a69a68dfd1bffe"
+    },
+    {
+      "path": "research/agb-main-reconstruction.md",
+      "sha256": "e41024903163565c449f2dabd6bc8aa200a6c1bd7847ae6df50bdf054450c9ba"
+    },
+    {
+      "path": "tests/test_agb_main_reconstruction.py",
+      "sha256": "2e49ed837fcb463368ba6687dce08ab721cdec7392ceabaef67c8a6cffd9558b"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
