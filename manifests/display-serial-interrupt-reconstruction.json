@@ -1,2 +1,64 @@
-{"schema_version":1,"target":{"release":"BPEJ-rev0","sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"},"functions":["HBlankIntr","VCountIntr","SerialIntr"],"outputs":[{"path":"src/display_serial_interrupts.c","sha256":"8e6a5bcba9bab23b4e5f12b14af9e588e4a34fd68e67389b19e5af702bd08c01"},{"path":"analysis/emerald-jp-display-serial-interrupt-map.json","sha256":"bf62799ee0935232a0f0828c5e899646ecae1a22f7cd8dfa2844f66b58412f5e"},{"path":"research/display-serial-interrupt-reconstruction.md","sha256":"e69aec95d6034bc3757b508153989566bb7b5125feae527312d2edfad51b845e"}],"raw_rom_bytes_included":false}
-
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "functions": [
+    "HBlankIntr",
+    "VCountIntr",
+    "SerialIntr"
+  ],
+  "profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/display_interrupt_catalog.py",
+    "tool_sha256": "771f6b764d7e830e7b6556476f58c2744f5dd8d637ea0ce81498df9ebe4d5fe8"
+  },
+  "outputs": [
+    {
+      "path": "src/display_serial_interrupts.c",
+      "sha256": "1fd163d1cd7b6c9d5398cfe2b3d6f04655656f98acbae898fac193a9b70cbb7c"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "e91412fbc1f90ce23e8e7a33f24768bf586a5645808968a42f324de3fde5da16"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "6c32d1f7c3abbed90f48a904145ef000b3eded6e7a1bef2cfdf88c7d8c736ae2"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "d5e054ca59529648601fffb625222a2661a581134e7001f2d01426e1376c31aa"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "088af25341fc394d0a064d46e0a2bd159cc1c5f5da9ad4f9426895482183d00b"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "1fd28642d75bdfaa8916a5548ddb70a65fc8fb1a5e39256d6462ab51111574ff"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-display-serial-interrupt-map.json",
+      "sha256": "c1c32ee3d8207abca1e5fc12071cedc2c95b44d4ea1c9c3dcfb3c0aea80605b2"
+    },
+    {
+      "path": "analysis/display-serial-interrupt-summary.json",
+      "sha256": "92ea1191f3b3ac932dbcd1def3c25b95efe931753f4cb41096ff50d7dbfa6e53"
+    },
+    {
+      "path": "research/display-serial-interrupt-reconstruction.md",
+      "sha256": "2f079c472991b8875a8580b9214d212b36cc6584292a131418e5eedf4ba6c88f"
+    },
+    {
+      "path": "tests/test_display_serial_interrupts.py",
+      "sha256": "3a449f52133d278384658e3995cef30f27e4a4302b937ba3020de458ed3480ed"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

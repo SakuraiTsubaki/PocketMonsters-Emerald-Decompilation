@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-s-rev0-retail",
+    "sha256": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e"
+  },
+  "profile": "emerald",
+  "source": "src/display_serial_interrupts.c",
+  "source_sha256": "1fd163d1cd7b6c9d5398cfe2b3d6f04655656f98acbae898fac193a9b70cbb7c",
+  "functions": [
+    {
+      "name": "HBlankIntr",
+      "address": "0x08000814",
+      "range_end_exclusive": "0x0800083A",
+      "rom_code_range": {
+        "start_offset": 2068,
+        "end_offset_exclusive": 2106,
+        "length": 38,
+        "sha256": "7b4d50d2f131d01c3d0f402618f1ff4e821d26e387cf1e8df9d8cd7fdca92e25",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "indirect hblank callback trampoline",
+          "source": "0x0800081E",
+          "target": "0x082EE85C"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 19,
+        "return_count": 1,
+        "call_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "VCountIntr",
+      "address": "0x08000844",
+      "range_end_exclusive": "0x0800086E",
+      "rom_code_range": {
+        "start_offset": 2116,
+        "end_offset_exclusive": 2158,
+        "length": 42,
+        "sha256": "6e4dad7a5a81c44cc6654b8a157cba608808fa2b8e44d953b3b24a08678c6dbf",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "indirect vcount callback trampoline",
+          "source": "0x0800084E",
+          "target": "0x082EE85C"
+        },
+        {
+          "name": "m4aSoundVSync",
+          "source": "0x08000852",
+          "target": "0x082E719C"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 21,
+        "return_count": 1,
+        "call_count": 2,
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "SerialIntr",
+      "address": "0x08000878",
+      "range_end_exclusive": "0x0800089E",
+      "rom_code_range": {
+        "start_offset": 2168,
+        "end_offset_exclusive": 2206,
+        "length": 38,
+        "sha256": "8841b3afcd0fc3e827b02595687cbe0eda79bab3d500f1c642e2b8d63af3b3eb",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "indirect serial callback trampoline",
+          "source": "0x08000882",
+          "target": "0x082EE85C"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 19,
+        "return_count": 1,
+        "call_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    }
+  ],
+  "literal_addresses": {
+    "gMain": "0x030022C0",
+    "INTR_CHECK": "0x03007FF8"
+  },
+  "proven_offsets": {
+    "hblankCallback": 16,
+    "vcountCallback": 20,
+    "serialCallback": 24,
+    "intrCheck": 28
+  },
+  "interrupt_flags": {
+    "HBLANK": "0x0002",
+    "VCOUNT": "0x0004",
+    "SERIAL": "0x0080"
+  },
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "731ad5e7e7a8031b79629077efbc8409c1363a70",
+    "path": "src/main.c",
+    "match_kind": "Thumb control flow, callback offsets, interrupt flags, literals, and call order",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
