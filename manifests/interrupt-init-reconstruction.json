@@ -1,29 +1,58 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPEJ-rev0",
-    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  "game": "Emerald",
+  "profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/interrupt_init_catalog.py",
+    "tool_sha256": "5b61f7711f2714288c95e0a9f11b558438db53b82cc14a87833a197cf95c65ba"
   },
-  "functions": [
-    "InitIntrHandlers",
-    "SetVBlankCallback",
-    "SetHBlankCallback",
-    "SetVCountCallback",
-    "RestoreSerialTimer3IntrHandlers",
-    "SetSerialCallback"
-  ],
   "outputs": [
     {
       "path": "src/interrupt_init.c",
-      "sha256": "1c1144796a4cde1763b1e10b9e106c785bcecd6c0f6ff9803abfc7544580d3c4"
+      "sha256": "f0082e7b5c64d0cbfbfa3c87ebd270e4fa692fc758853d6b37dd3b720b694e98"
     },
     {
-      "path": "analysis/emerald-jp-interrupt-init-map.json",
-      "sha256": "b7af5f597cc91a654924405b61d96806afd29554418c88a30c0d4a95c6149edf"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-interrupt-init-map.json",
+      "sha256": "1f1d863085a7694aaaf4a80f16dbe7e5c73a19a43a40af0dd2164799f3254766"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-interrupt-init-map.json",
+      "sha256": "138f3465f8576f8d422047b363de347442a1c56de61dc8ecbf60b09469cf2ef5"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-interrupt-init-map.json",
+      "sha256": "4764aedf7cc22d4aa0715286c1850fcc2c113481a1972c5d7984776f14c98437"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-interrupt-init-map.json",
+      "sha256": "0e95ca55175ea418ccc16a614a215383f6acc39db689f2df2a18afde2b488899"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-interrupt-init-map.json",
+      "sha256": "dbd8ea094ce1f8fd1a1ce7157f3cb972b5ea29993753090832c869ac4e0c90e5"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-interrupt-init-map.json",
+      "sha256": "8b3eee2fd14e309172c78c012cb7d5f3790656991e7907471c600bdd9035bbb0"
+    },
+    {
+      "path": "analysis/interrupt-init-summary.json",
+      "sha256": "11d4e4a779faea055637a4bef30affa7bfa721ae49cca4482353e9cb2668c260"
     },
     {
       "path": "research/interrupt-init-reconstruction.md",
-      "sha256": "9c1da4b2f2ede63e5e02c584a1ffbb6543b47bd04392f92d45defca9d455a022"
+      "sha256": "48e2cbda26c105c6c282f3fb89cabe5b1fef7267b11a8ead6034a63f83085c4c"
+    },
+    {
+      "path": "tests/test_interrupt_init_reconstruction.py",
+      "sha256": "845a2f962843e3365d1602528ba24b84291376b08e5a57e01e5f04f6cb54fa3b"
     }
   ],
   "raw_rom_bytes_included": false
