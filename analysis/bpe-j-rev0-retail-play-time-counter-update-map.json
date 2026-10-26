@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-j-rev0-retail",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "profile": "pointer",
+  "source": "src/play_time_counter.c",
+  "source_sha256": "3b8eb323382864964a52ab6261908be499707b83d91aaeed95be4bb4bd8417ca",
+  "save_storage": "gSaveBlock2Ptr",
+  "literal_addresses": {
+    "sPlayTimeCounterState": "0x03000E08",
+    "gSaveBlock2Ptr": "0x03005AF0"
+  },
+  "save_field_offsets": {
+    "playTimeHours": 14,
+    "playTimeMinutes": 16,
+    "playTimeSeconds": 17,
+    "playTimeVBlanks": 18
+  },
+  "origin_reference": true,
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/play_time.c",
+    "match_kind": "cluster layout, state writes, save offsets, thresholds, CFGs, and SetToMax call targets",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false,
+  "function": {
+    "name": "PlayTimeCounter_Update",
+    "address": "0x08083BC4",
+    "range_end_exclusive": "0x08083C20",
+    "rom_code_range": {
+      "start_offset": 539588,
+      "end_offset_exclusive": 539680,
+      "length": 92,
+      "sha256": "4307a398f162c7bc732bb41036bbc531ffd4049ce7cea4a9920d24ef779cb4d8",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "source": "0x08083C18",
+        "target": "0x08083C2C",
+        "name": "PlayTimeCounter_SetToMax"
+      }
+    ],
+    "control_flow": {
+      "instruction_halfwords": 46,
+      "edge_count": 10,
+      "return_count": 1,
+      "call_count": 1,
+      "raw_halfwords_omitted": true
+    }
+  },
+  "behavior": {
+    "required_state": 1,
+    "vblanks_per_second": 60,
+    "seconds_per_minute": 60,
+    "minutes_per_hour": 60,
+    "maximum_hours": 999
+  }
+}

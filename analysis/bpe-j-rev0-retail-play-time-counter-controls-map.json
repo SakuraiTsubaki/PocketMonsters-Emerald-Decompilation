@@ -1,18 +1,32 @@
 {
   "schema_version": 1,
   "target": {
-    "release": "BPEJ-rev0",
+    "release": "bpe-j-rev0-retail",
     "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
   },
+  "profile": "pointer",
   "source": "src/play_time_counter.c",
-  "source_sha256": "6896cf1d8c24e5ccaa5db41a9e9145764c67545fe74d0fbf13fe4e5c07f97928",
+  "source_sha256": "3b8eb323382864964a52ab6261908be499707b83d91aaeed95be4bb4bd8417ca",
   "save_storage": "gSaveBlock2Ptr",
+  "literal_addresses": {
+    "sPlayTimeCounterState": "0x03000E08",
+    "gSaveBlock2Ptr": "0x03005AF0"
+  },
   "save_field_offsets": {
     "playTimeHours": 14,
     "playTimeMinutes": 16,
     "playTimeSeconds": 17,
     "playTimeVBlanks": 18
   },
+  "origin_reference": true,
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/play_time.c",
+    "match_kind": "cluster layout, state writes, save offsets, thresholds, CFGs, and SetToMax call targets",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false,
   "functions": [
     {
       "name": "PlayTimeCounter_Reset",
@@ -25,10 +39,14 @@
         "sha256": "6dee17d890810e71b59343bb41a46213bf2e2b6d4b795b06442fe99e9b90419a",
         "raw_bytes_published": false
       },
-      "cfg": "analysis/emerald-jp-play-time-counter-reset-cfg.json",
-      "edge_count": 0,
-      "return_count": 1,
-      "calls": []
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 14,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "raw_halfwords_omitted": true
+      }
     },
     {
       "name": "PlayTimeCounter_Start",
@@ -41,15 +59,20 @@
         "sha256": "245be510a80dba9e5609035282e375dc8797d647a0f0d99ea5b1fea1832fc3c1",
         "raw_bytes_published": false
       },
-      "cfg": "analysis/emerald-jp-play-time-counter-start-cfg.json",
-      "edge_count": 2,
-      "return_count": 1,
       "calls": [
         {
-          "address": "0x08083BA4",
-          "target": "0x08083C2C"
+          "source": "0x08083BA4",
+          "target": "0x08083C2C",
+          "name": "PlayTimeCounter_SetToMax"
         }
-      ]
+      ],
+      "control_flow": {
+        "instruction_halfwords": 14,
+        "edge_count": 2,
+        "return_count": 1,
+        "call_count": 1,
+        "raw_halfwords_omitted": true
+      }
     },
     {
       "name": "PlayTimeCounter_Stop",
@@ -62,10 +85,14 @@
         "sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699",
         "raw_bytes_published": false
       },
-      "cfg": "analysis/emerald-jp-play-time-counter-stop-cfg.json",
-      "edge_count": 0,
-      "return_count": 1,
-      "calls": []
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 4,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "raw_halfwords_omitted": true
+      }
     },
     {
       "name": "PlayTimeCounter_SetToMax",
@@ -78,10 +105,14 @@
         "sha256": "3692df09faf1ac9b5829de52fdb5d912456f627f60d484b3f5e9d636b86a1e33",
         "raw_bytes_published": false
       },
-      "cfg": "analysis/emerald-jp-play-time-counter-set-to-max-cfg.json",
-      "edge_count": 0,
-      "return_count": 1,
-      "calls": []
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 14,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "raw_halfwords_omitted": true
+      }
     }
   ],
   "behavior": {
@@ -106,12 +137,5 @@
       "seconds": 59,
       "vblanks": 59
     }
-  },
-  "naming_basis": {
-    "repository": "pret/pokeemerald",
-    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
-    "path": "src/play_time.c",
-    "match_kind": "state writes, save-field offsets, clamp threshold and direct call target",
-    "raw_rom_bytes_published": false
   }
 }

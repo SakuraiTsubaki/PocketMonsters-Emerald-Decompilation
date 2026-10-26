@@ -3,7 +3,8 @@
 typedef uint8_t u8;
 typedef uint16_t u16;
 
-struct SaveBlock2 {
+struct SaveBlock2
+{
     u8 unknown_000[0x0E];
     u16 playTimeHours;
     u8 playTimeMinutes;
@@ -14,7 +15,8 @@ struct SaveBlock2 {
 extern struct SaveBlock2 *gSaveBlock2Ptr;
 extern u8 sPlayTimeCounterState;
 
-enum {
+enum
+{
     PLAY_TIME_STOPPED,
     PLAY_TIME_RUNNING,
     PLAY_TIME_MAXED_OUT

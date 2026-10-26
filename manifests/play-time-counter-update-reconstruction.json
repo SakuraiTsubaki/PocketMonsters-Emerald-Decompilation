@@ -1,31 +1,59 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPEJ-rev0",
-    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
-  },
+  "game": "Emerald",
+  "profile": "pointer",
   "function": "PlayTimeCounter_Update",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
-    "tool": "tools/thumb_cfg.py",
-    "minimum_commit": "4f687a912ecc40823a17a67fa885768cdca12e98"
+    "tool": "tools/play_time_controls.py",
+    "tool_sha256": "eeec1d00650aa767a88e199c47b3700d54d8aad67874b16ce9e32e9754d924dd"
   },
   "outputs": [
     {
       "path": "src/play_time_counter.c",
-      "sha256": "6896cf1d8c24e5ccaa5db41a9e9145764c67545fe74d0fbf13fe4e5c07f97928"
+      "sha256": "3b8eb323382864964a52ab6261908be499707b83d91aaeed95be4bb4bd8417ca"
     },
     {
-      "path": "analysis/emerald-jp-play-time-counter-update-cfg.json",
-      "sha256": "e1180c891792d10c3919a7a31c110c4c02c9ab47acfcd7989e24a7cc9204b3aa"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
     },
     {
-      "path": "analysis/emerald-jp-play-time-counter-update-map.json",
-      "sha256": "044ab39a77e2ca4783f50d2f3557c17d16ae8c7a3b54ad0270919606d123ce64"
+      "path": "analysis/play-time-counter-summary.json",
+      "sha256": "cb0e015f7c74926542616899a1820d568b7b837878c98e692f3c85ace58171a9"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "5f4918860ac51ece9bb7eb6f21f85f2d0e0d9c477dc7f11223a3ee439ce3b22f"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "21dcdb0cbce793dace2df83024d40550d68f7c40cbca302dc1d346811cb4055c"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "df3317ce881a3fab5ac363ce07b15a1e0b7ae89874a6c7f62ec5a8210c6646bc"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "37b79a19a91e3854c470f71f399c3c7ea1a9613c5b39f7f71fdf49c60bc2d2ba"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "71d2be92b588752ed44d345123460a38307897615f7cd845c8bba31c832d6f3c"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-play-time-counter-update-map.json",
+      "sha256": "0b564d2beeb0b998bb841000431d1eed1e966e76d4bb5b4e92c1446112340108"
     },
     {
       "path": "research/play-time-counter-update-reconstruction.md",
-      "sha256": "a0eb486a5d19c09f351efd33f9c2585dcad76b63a2cf22833d444422c5b37770"
+      "sha256": "e2aace851795e5bc021e90d0782a7c565b1e850a098aeb68f0658ca213b81462"
+    },
+    {
+      "path": "tests/test_play_time_counter_update_reconstruction.py",
+      "sha256": "1ec060c1867c283629919095058eba7afb13b606868ec57295424ca880124625"
     }
   ],
   "raw_rom_bytes_included": false
