@@ -1,11 +1,5 @@
-# BPEJ revision 0 VBlank interrupt
+# Emerald VBlankIntr reconstruction
 
-Emerald's handler selects RFU or wired-link VSync, maintains both main VBlank
-counters and an optional saturating Trainer Hill counter, dispatches the
-callback, flushes buffered GPU and DMA3 work, then services audio and incoming
-link-battle data. RNG advances unless an active battle has one of the recorded,
-link, or Frontier-related flags represented by mask `0x013F0102`.
+The Japanese release `bpe-j-rev0-retail` is the origin reference. All 6 cataloged releases (Japanese, English, German, French, Italian, Spanish) have a VBlank handler immediately after the verified serial callback setter and match the `emerald` control-flow profile. Wireless sync, Trainer Hill counting and battle-dependent RNG suppression are retained.
 
-The final wireless-indicator update and dual VBlank acknowledgments are also
-preserved. The map records exact Japanese calls, globals, range hash, and the
-`gMain.inBattle` offset without publishing ROM instruction bytes.
+Per-release maps preserve code hashes, call targets, validated state addresses and the dependency hash for interrupt initialization. CFG evidence omits raw halfwords and no ROM instruction bytes are published. Naming and behavior are corroborated by `pret/pokeemerald` at `731ad5bfd6e6f265508d0efcca0ba42f9dcf5881`, `src/main.c`.

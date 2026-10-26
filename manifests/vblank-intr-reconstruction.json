@@ -1,22 +1,59 @@
 {
   "schema_version": 1,
-  "target": {
-    "release": "BPEJ-rev0",
-    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
-  },
+  "game": "Emerald",
   "function": "VBlankIntr",
+  "profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/vblank_intr_catalog.py",
+    "tool_sha256": "b432995737f5b4d44d4f2d57385166aed952411e2f1165aeb49f691ee5795b11"
+  },
   "outputs": [
     {
       "path": "src/vblank_intr.c",
-      "sha256": "18a65571ab58f87c66858aaf3f0fd691e64d04c7aef6030442e6a3f3460f540f"
+      "sha256": "020789e4c4dcfcac2e55ed30016752c4fbd73bce86514f917dd9d41da660ed0f"
     },
     {
-      "path": "analysis/emerald-jp-vblank-intr-map.json",
-      "sha256": "feb9b5730532d61a744e27107117caf61f908f3a268614534f638da55af3a00a"
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-vblank-intr-map.json",
+      "sha256": "308094635de5ae1088867e75a810fb34328e560704bbf25aabe0046ce3b789d0"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-vblank-intr-map.json",
+      "sha256": "f359faddd2a60c0844ad6890cb18b973b3717f688031730d96c885ea2e7519eb"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-vblank-intr-map.json",
+      "sha256": "9b4b2b74b5123602f5ffff924770d8d51f2c29fe4aea0ec95dd315275941636f"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-vblank-intr-map.json",
+      "sha256": "bc708b66e294cf88c0d6bebf291c1c78b4f2c37567692f73033a92dcd9437cd8"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-vblank-intr-map.json",
+      "sha256": "13c48b714a13dd665b21383b46369d599984b2b3028cc66b52686aeee1658b08"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-vblank-intr-map.json",
+      "sha256": "90ce7ec6d8698527366f789f2206fb7e5f744d870336907b5d8166d3fc97d52d"
+    },
+    {
+      "path": "analysis/vblank-intr-summary.json",
+      "sha256": "d8f0571d9528f23d983ee7978572421ba63a0d5d3a4c29811767e17404ab75e3"
     },
     {
       "path": "research/vblank-intr-reconstruction.md",
-      "sha256": "5c7a1e1f2a7a9b899af3c3e32b099c7e5a85816c0f43a6f8b2f8513a73c9db2c"
+      "sha256": "346569402a5d295381c05e833a639417c552b42ce7c19ae2e3f9baa45f2e58c0"
+    },
+    {
+      "path": "tests/test_vblank_intr_reconstruction.py",
+      "sha256": "3708adc61b6d63cf6f1a5bde94d6561733cb2f04b319867726ed248feb6b5054"
     }
   ],
   "raw_rom_bytes_included": false

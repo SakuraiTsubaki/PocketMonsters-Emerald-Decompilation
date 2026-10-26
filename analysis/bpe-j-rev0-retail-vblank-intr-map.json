@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-j-rev0-retail",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "profile": "emerald",
+  "source": "src/vblank_intr.c",
+  "source_sha256": "020789e4c4dcfcac2e55ed30016752c4fbd73bce86514f917dd9d41da660ed0f",
+  "function": {
+    "name": "VBlankIntr",
+    "address": "0x08000738",
+    "range_end_exclusive": "0x080007DC",
+    "rom_code_range": {
+      "start_offset": 1848,
+      "end_offset_exclusive": 2012,
+      "length": 164,
+      "sha256": "9f35292e5496e37c173bf0ad322fe3645fa2385f36516eacc0361a91751d1642",
+      "raw_bytes_published": false
+    },
+    "control_flow": {
+      "instruction_halfwords": 80,
+      "return_count": 1,
+      "call_count": 9,
+      "raw_halfwords_omitted": true
+    }
+  },
+  "calls": [
+    {
+      "name": "RfuVSync",
+      "source": "0x08000742",
+      "target": "0x080115A8"
+    },
+    {
+      "name": "LinkVSync",
+      "source": "0x08000754",
+      "target": "0x0800B474"
+    },
+    {
+      "name": "indirect callback trampoline",
+      "source": "0x0800077E",
+      "target": "0x08295A08"
+    },
+    {
+      "name": "CopyBufferedValuesToGpuRegs",
+      "source": "0x08000788",
+      "target": "0x08001110"
+    },
+    {
+      "name": "ProcessDma3Requests",
+      "source": "0x0800078C",
+      "target": "0x08000C80"
+    },
+    {
+      "name": "m4aSoundMain",
+      "source": "0x08000798",
+      "target": "0x0828E6AC"
+    },
+    {
+      "name": "TryReceiveLinkBattleData",
+      "source": "0x0800079C",
+      "target": "0x080334E0"
+    },
+    {
+      "name": "Random",
+      "source": "0x080007BA",
+      "target": "0x0806F050"
+    },
+    {
+      "name": "UpdateWirelessStatusIndicatorSprite",
+      "source": "0x080007BE",
+      "target": "0x0800DC40"
+    }
+  ],
+  "literal_addresses": {
+    "gWirelessCommType": "0x0300319C",
+    "gLinkVSyncDisabled": "0x030027E8",
+    "gMain": "0x03002360",
+    "gTrainerHillVBlankCounter": "0x0203CC28",
+    "gPcmDmaCounter": "0x03002FF0",
+    "gSoundInfo": "0x03006120",
+    "inBattleOffset": "0x00000439",
+    "gBattleTypeFlags": "0x02022C90",
+    "battleRngSuppressMask": "0x013F0102",
+    "INTR_CHECK": "0x03007FF8"
+  },
+  "behavior": {
+    "trainer_hill_counter": true,
+    "in_battle_offset": 1081,
+    "battle_rng_suppress_mask": "0x013F0102"
+  },
+  "proven_offsets": {
+    "vblankCallback": 12,
+    "intrCheck": 28,
+    "vblankCounter1": 32,
+    "vblankCounter2": 36,
+    "pcmDmaCounter": 4
+  },
+  "interrupt_flag": "0x0001",
+  "evidence_dependency": {
+    "path": "analysis/bpe-j-rev0-retail-interrupt-init-map.json",
+    "sha256": "1f1d863085a7694aaaf4a80f16dbe7e5c73a19a43a40af0dd2164799f3254766",
+    "relation": "VBlankIntr immediately follows the SetSerialCallback code and literal span"
+  },
+  "origin_reference": true,
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+    "path": "src/main.c",
+    "match_kind": "adjacent interrupt layout, Thumb control flow, call order, literals, constants, and state offsets",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
