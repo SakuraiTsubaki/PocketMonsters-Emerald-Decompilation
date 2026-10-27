@@ -1,0 +1,3 @@
+# Emerald heap bootstrap reconstruction
+
+The Japanese release `bpe-j-rev0-retail` is the origin reference. All 6 cataloged releases (Japanese, English, German, French, Italian, Spanish) preserve the same three-function chain: `InitHeap` records the arena and calls `PutFirstMemBlockHeader`, which creates one circular free block through `PutMemBlockHeader`. Each function has one observed return and no branch edges; per-release maps retain addresses, call targets and hashes without ROM bytes or instruction halfwords. Behavior is cross-referenced to `pret/pokeemerald` commit `fe1d8e51b265851676b65885818b1f5f62586135`, `src/malloc.c`.

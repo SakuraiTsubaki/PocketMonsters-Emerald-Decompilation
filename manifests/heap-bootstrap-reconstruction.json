@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "cluster": [
+    "InitHeap",
+    "PutFirstMemBlockHeader",
+    "PutMemBlockHeader"
+  ],
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/init_heap_catalog.py",
+    "tool_sha256": "4766fc2308fcbcbdf3fe947b5660abe272bdc734d7d7bc2523d9cf4c7bf86dd9"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/malloc.c",
+      "sha256": "4b17c73fbf32b29610a4fce1fe11d1719052faf288fae5fdc135b6ec414b6385"
+    },
+    {
+      "path": "analysis/heap-bootstrap-summary.json",
+      "sha256": "ea920c64f909743852fe166e883fb61f6f11989daf406b920267e4f60cb86d96"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "11abe79fded78757dd28933763067194bc01a70f0baa2c1a285c319c5d1bbabf"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "4508a2d7d02024997b76bbcb16a268b540af142893ea92bc5967a45aef2b9517"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "aa26948b548deb521e663b53ec160310a63d36efbb3af636fbc98668341af3de"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "32e34af1684632ab10b1248e1f65e62657e649e000471b96592d5b1aabcb2851"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "6b05bd970e2d681cdeaa8815fe0422f966018f248884bc3e0fef0ae34aaa8f85"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-heap-bootstrap-map.json",
+      "sha256": "c7f0967c4aa3dcd7b4cfdb4bd35083b0fd41fc05b0a5d69327a90bdc89e857d3"
+    },
+    {
+      "path": "research/heap-bootstrap-reconstruction.md",
+      "sha256": "2aa17cd209757dd36d84ec95d365fc872ac84809d40ea918b3c493e943440314"
+    },
+    {
+      "path": "tests/test_heap_bootstrap_reconstruction.py",
+      "sha256": "e3fef9cce30452a5e266eb2dc0ee48ea36b980f0af9c2fd30d7eb3d7c1c74999"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
