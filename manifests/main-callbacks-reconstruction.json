@@ -1,29 +1,68 @@
 {
   "schema_version": 1,
-  "id": "emerald-jp-main-callbacks-reconstruction",
-  "inputs": [
-    {
-      "path": "analysis/emerald-jp-callee-080004c4.json",
-      "sha256": "0b508d44680b7a67116a34a3c6d13723856f064d166b7dae0578afb386448369"
-    },
-    {
-      "repository": "pret/pokeemerald",
-      "path": "src/main.c",
-      "role": "public naming and behavior reference"
-    }
+  "game": "Emerald",
+  "cluster": [
+    "UpdateLinkAndCallCallbacks",
+    "InitMainCallbacks",
+    "CallCallbacks",
+    "SetMainCallback2"
   ],
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/main_callback_catalog.py",
+    "tool_sha256": "cebed0fd5a611a984866fa74779d21542ebb651e415d974435158352a1c22962"
+  },
   "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
     {
       "path": "src/main_callbacks.c",
       "sha256": "b920a76e21911b5f25f8a8f72de70a47894939bb4955a0caa5c5c587d373c07f"
     },
     {
-      "path": "analysis/emerald-jp-main-callbacks-map.json",
-      "sha256": "fe67fb6f2608b2952f50871e847c13a8714d652dfc4865e58f504fa976251cca"
+      "path": "src/init_main_callbacks.c",
+      "sha256": "be0e2c0a436a22ac7bb561bf93f48067bb4f9c5ecb3c62f41ba2e18563630e06"
+    },
+    {
+      "path": "analysis/main-callbacks-summary.json",
+      "sha256": "76195c05a31be4e73a9454bf594c24d9c1d992484b0ce158ef8c7aa7d7736df1"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-main-callbacks-map.json",
+      "sha256": "6d9f4ebead1ea5d6b052d8e2516ac29caa5141d9bdbfc94573d3418ed4dd0939"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-main-callbacks-map.json",
+      "sha256": "bcc3ceba1cd6e008f090e11eccaefd92317ccce0d0d8f6b4693274c49fb4064b"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-main-callbacks-map.json",
+      "sha256": "fb5ca745ab270331880c7cbc5c4cf4e902e9e755defdbe7d94b698188470eab7"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-main-callbacks-map.json",
+      "sha256": "17203ec04cb0b2e3630c28d40d39da6767d2977239e4690757bcb6b34baafe1d"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-main-callbacks-map.json",
+      "sha256": "7334e6828f4b7ff247c30325dbcf061a6eb8818f44fe6f46851e723b943e2287"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-main-callbacks-map.json",
+      "sha256": "9c530b09d8ff9c4e3ce2a2db0c2994fbb977387fb7f8497c7c1081c0cb17a2bd"
     },
     {
       "path": "research/main-callbacks-reconstruction.md",
-      "sha256": "b645f08d332ccc99f4e6d8b2804f84afab0d2d24c54a1de078b11447e6c8dffc"
+      "sha256": "014594728acf41b8946ce6070c14cd2c0cc8f124a0d721993937e2399239bf20"
+    },
+    {
+      "path": "tests/test_main_callbacks_reconstruction.py",
+      "sha256": "484fb6245418b4409b7cf55e5386873b49bae06f1d3dd5cc82e054a10021e2a3"
     }
-  ]
+  ],
+  "raw_rom_bytes_included": false
 }

@@ -1,43 +1,92 @@
-from __future__ import annotations
-
-import json
 import hashlib
+import json
 import unittest
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).parents[1]
 
 
 class MainCallbacksReconstructionTests(unittest.TestCase):
     def setUp(self):
-        self.mapping = json.loads((ROOT / "analysis" / "emerald-jp-main-callbacks-map.json").read_text())
-        self.cfg = json.loads((ROOT / "analysis" / "emerald-jp-callee-080004c4.json").read_text())
-        self.source = (ROOT / "src" / "main_callbacks.c").read_text()
+        self.catalog = json.loads(
+            (ROOT / "analysis/global-release-catalog.json").read_text()
+        )
+        self.summary = json.loads(
+            (ROOT / "analysis/main-callbacks-summary.json").read_text()
+        )
 
-    def test_ranges_and_cfg_targets_agree(self):
-        functions = {item["name"]: item for item in self.mapping["functions"]}
-        self.assertEqual(functions["UpdateLinkAndCallCallbacks"]["address"], self.cfg["start_address"])
-        cfg_targets = {call["target"] for call in self.cfg["calls"]}
-        self.assertTrue(set(functions["UpdateLinkAndCallCallbacks"]["direct_callees"]).issubset(cfg_targets))
-        self.assertIn(functions["CallCallbacks"]["address"], cfg_targets)
-        self.assertIn(functions["SetMainCallback2"]["address"], cfg_targets)
+    def maps(self):
+        for release in self.summary["releases"]:
+            yield release, json.loads((ROOT / release["evidence"]).read_text())
 
-    def test_proven_offsets_are_not_speculatively_named(self):
-        setter = self.mapping["functions"][2]
-        self.assertEqual([store["offset"] for store in setter["stores"]], [4, 0x438])
-        self.assertIn("unknown_008[0x430]", self.source)
-        self.assertIn("gMain.state = 0", self.source)
+    def test_every_release_has_four_function_cluster(self):
+        self.assertEqual(
+            [item["id"] for item in self.summary["releases"]],
+            [item["id"] for item in self.catalog["releases"]],
+        )
+        self.assertEqual(self.catalog["releases"][0]["language"], "Japanese")
+        expected = [
+            "UpdateLinkAndCallCallbacks", "InitMainCallbacks",
+            "CallCallbacks", "SetMainCallback2",
+        ]
+        for release, address_map in self.maps():
+            with self.subTest(release=release["id"]):
+                self.assertEqual(
+                    [item["name"] for item in address_map["functions"]], expected
+                )
 
-    def test_source_has_three_reconstructed_functions(self):
-        for name in ("UpdateLinkAndCallCallbacks", "CallCallbacks", "SetMainCallback2"):
-            self.assertIn(name + "(", self.source)
-        self.assertFalse(self.mapping["naming_basis"]["raw_rom_bytes_published"])
+    def test_ranges_cfgs_and_cross_references_are_verified(self):
+        for release, address_map in self.maps():
+            with self.subTest(release=release["id"]):
+                functions = {item["name"]: item for item in address_map["functions"]}
+                for function in functions.values():
+                    code = function["rom_code_range"]
+                    self.assertEqual(
+                        code["length"],
+                        code["end_offset_exclusive"] - code["start_offset"],
+                    )
+                    self.assertEqual(function["control_flow"]["return_count"], 1)
+                    self.assertFalse(code["raw_bytes_published"])
+                set_map_path = ROOT / address_map["cross_references"]["set_main_callback2_map"]
+                set_map = json.loads(set_map_path.read_text())
+                self.assertEqual(
+                    functions["SetMainCallback2"]["address"],
+                    set_map["function"]["address"],
+                )
+                self.assertEqual(
+                    hashlib.sha256(set_map_path.read_bytes()).hexdigest(),
+                    address_map["cross_references"]["set_main_callback2_map_sha256"],
+                )
 
-    def test_manifest_hashes_all_reconstruction_outputs(self):
-        manifest = json.loads((ROOT / "manifests" / "main-callbacks-reconstruction.json").read_text())
+    def test_named_call_relationships_and_raw_free_maps(self):
+        for release, address_map in self.maps():
+            with self.subTest(release=release["id"]):
+                functions = {item["name"]: item for item in address_map["functions"]}
+                self.assertEqual(
+                    functions["UpdateLinkAndCallCallbacks"]["calls"][-1]["name"],
+                    "CallCallbacks",
+                )
+                self.assertEqual(
+                    functions["InitMainCallbacks"]["calls"][-1]["name"],
+                    "SetMainCallback2",
+                )
+                self.assertEqual(functions["SetMainCallback2"]["calls"], [])
+                text = json.dumps(address_map).lower()
+                for forbidden in ('"instructions"', '"halfword":', "instruction_word", "raw_hex"):
+                    self.assertNotIn(forbidden, text)
+
+    def test_sources_and_manifest_hashes(self):
+        for source in self.summary["sources"]:
+            self.assertTrue((ROOT / source).is_file())
+        manifest = json.loads(
+            (ROOT / "manifests/main-callbacks-reconstruction.json").read_text()
+        )
+        self.assertEqual(manifest["release_count"], len(self.catalog["releases"]))
         for output in manifest["outputs"]:
-            digest = hashlib.sha256((ROOT / output["path"]).read_bytes()).hexdigest()
-            self.assertEqual(digest, output["sha256"], output["path"])
+            self.assertEqual(
+                hashlib.sha256((ROOT / output["path"]).read_bytes()).hexdigest(),
+                output["sha256"],
+            )
 
 
 if __name__ == "__main__":

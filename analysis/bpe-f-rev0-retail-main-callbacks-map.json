@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-f-rev0-retail",
+    "sha256": "e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4"
+  },
+  "origin_reference": false,
+  "family_profile": "emerald",
+  "functions": [
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "address": "0x080004C4",
+      "range_end_exclusive": "0x080004D8",
+      "source": "src/main_callbacks.c",
+      "source_sha256": "b920a76e21911b5f25f8a8f72de70a47894939bb4955a0caa5c5c587d373c07f",
+      "rom_code_range": {
+        "start_offset": 1220,
+        "end_offset_exclusive": 1240,
+        "length": 20,
+        "sha256": "ebacd684fe3d7d62a307daaf905aa9173e29710b684a25c3e00820bc5a49e01a",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "HandleLinkConnection",
+          "source": "0x080004C6",
+          "target": "0x0800B40C"
+        },
+        {
+          "name": "CallCallbacks",
+          "source": "0x080004D0",
+          "target": "0x0800051C"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 10,
+        "edge_count": 2,
+        "edge_kinds": {
+          "conditional-fallthrough": 1,
+          "conditional-taken": 1
+        },
+        "direct_call_count": 2,
+        "return_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "InitMainCallbacks",
+      "address": "0x080004D8",
+      "range_end_exclusive": "0x080004FE",
+      "source": "src/init_main_callbacks.c",
+      "source_sha256": "be0e2c0a436a22ac7bb561bf93f48067bb4f9c5ecb3c62f41ba2e18563630e06",
+      "rom_code_range": {
+        "start_offset": 1240,
+        "end_offset_exclusive": 1278,
+        "length": 38,
+        "sha256": "e899a700f85d64dbe15c8f7778f0e8ffbd17d434e5ae3ac0e8471cab192bb430",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "SetMainCallback2",
+          "source": "0x080004EA",
+          "target": "0x08000540"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 19,
+        "edge_count": 0,
+        "edge_kinds": {},
+        "direct_call_count": 1,
+        "return_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "CallCallbacks",
+      "address": "0x0800051C",
+      "range_end_exclusive": "0x0800053A",
+      "source": "src/main_callbacks.c",
+      "source_sha256": "b920a76e21911b5f25f8a8f72de70a47894939bb4955a0caa5c5c587d373c07f",
+      "rom_code_range": {
+        "start_offset": 1308,
+        "end_offset_exclusive": 1338,
+        "length": 30,
+        "sha256": "ae0b5dcc55d3d019f385b3119b675fae2e5012dc6d50105483c3b5b5e1aa8124",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "Callback1Dispatch",
+          "source": "0x08000526",
+          "target": "0x082F00A4"
+        },
+        {
+          "name": "Callback2Dispatch",
+          "source": "0x08000530",
+          "target": "0x082F00A4"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 15,
+        "edge_count": 4,
+        "edge_kinds": {
+          "conditional-fallthrough": 2,
+          "conditional-taken": 2
+        },
+        "direct_call_count": 2,
+        "return_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "SetMainCallback2",
+      "address": "0x08000540",
+      "range_end_exclusive": "0x08000550",
+      "source": "src/main_callbacks.c",
+      "source_sha256": "b920a76e21911b5f25f8a8f72de70a47894939bb4955a0caa5c5c587d373c07f",
+      "rom_code_range": {
+        "start_offset": 1344,
+        "end_offset_exclusive": 1360,
+        "length": 16,
+        "sha256": "ec1b3773f6d0521e06945a26db83b027eace56daaea78238830954d96f966c2e",
+        "raw_bytes_published": false
+      },
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 8,
+        "edge_count": 0,
+        "edge_kinds": {},
+        "direct_call_count": 0,
+        "return_count": 1,
+        "raw_halfwords_omitted": true
+      }
+    }
+  ],
+  "cross_references": {
+    "agb_main_map": "analysis/bpe-f-rev0-retail-agb-main-map.json",
+    "agb_main_map_sha256": "6a5d404329d1bede38e9f5a3b5b76898b9ee42d2c89888df029c3d9e1bb033c2",
+    "set_main_callback2_map": "analysis/bpe-f-rev0-retail-set-main-callback2-map.json",
+    "set_main_callback2_map_sha256": "e03c040043427ea9d9adb66c71ab5e38c79e2614f58509d8b96ec3ddfe245322"
+  },
+  "raw_rom_bytes_included": false
+}
