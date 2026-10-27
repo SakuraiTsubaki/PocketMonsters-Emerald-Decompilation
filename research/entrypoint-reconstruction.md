@@ -1,3 +1,3 @@
-# Japanese ROM entrypoint reconstruction
+# Emerald GBA entrypoint reconstruction
 
-The already verified BPEJ target begins with ARM word `0xea00007f`, branching from `0x08000000` to `0x08000204` under ARM PC+8 semantics. This advances the existing Emerald work without repeating its six-language identity study. The checked-in assembly preserves the exact entry word; no ROM binary is stored.
+The Japanese release `bpe-j-rev0-retail` is the origin reference. All 6 cataloged releases (Japanese, English, German, French, Italian, Spanish) contain a verified ARM branch at the GBA entry address. Per-release evidence stores the target and a four-byte range hash without publishing the encoded instruction word. `src/rom_entry.s` preserves the semantic branch using symbols.

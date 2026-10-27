@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-s-rev0-retail",
+    "sha256": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e"
+  },
+  "origin_reference": false,
+  "raw_rom_bytes_included": false,
+  "function": {
+    "name": "AgbMain",
+    "address": "0x080003A4",
+    "range_end_exclusive": "0x080004C0",
+    "nonreturning": true,
+    "rom_code_range": {
+      "start_offset": 932,
+      "end_offset_exclusive": 1216,
+      "length": 284,
+      "sha256": "a7c7fd07be56b4c83ad4531b247a35ec5379c2669e5193360fedcfb4c838dd88",
+      "raw_bytes_published": false
+    }
+  },
+  "control_flow": {
+    "instruction_halfwords": 124,
+    "edge_count": 14,
+    "edge_kinds": {
+      "branch": 2,
+      "conditional-fallthrough": 6,
+      "conditional-taken": 6
+    },
+    "direct_call_count": 29,
+    "return_count": 0,
+    "loop_back_edge": {
+      "source": "0x080004BE",
+      "target": "0x0800042A"
+    },
+    "raw_halfwords_omitted": true
+  },
+  "cross_reference": {
+    "agb_main_map": "analysis/bpe-s-rev0-retail-agb-main-map.json",
+    "agb_main_map_sha256": "7c1e7a701a452897afb9a6800b613311b7eba3c94ed5b59a96a69a68dfd1bffe"
+  }
+}

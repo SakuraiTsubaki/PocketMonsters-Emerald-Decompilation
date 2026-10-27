@@ -1,1 +1,59 @@
-{"schema_version":1,"id":"emerald-bpej-entrypoint","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/gba_entrypoint.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"}],"outputs":[{"path":"analysis/emerald-jp-entrypoint.json","sha256":"c827fe48d80da5dadddf2e20a149b34c6d576472a273e3647a10aef13974a59e"},{"path":"src/rom_entry.s","sha256":"fc2388f14cbbf80efdb9d774b45c185633711fadf1f7da2f63b6625d44120b67"}]}
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "evidence_kind": "entrypoint",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/entry_bootstrap_catalog.py",
+    "tool_sha256": "a31fa9fef5ec7074a301e8cd5b49689decbd237e73e303fc290cfe50aeefb369"
+  },
+  "outputs": [
+    {
+      "path": "src/rom_entry.s",
+      "sha256": "52943417ce7ccfee748789bd6b252cf3d8cfb916e1a8928e41dba857ef5bc2f5"
+    },
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "analysis/entry-bootstrap-summary.json",
+      "sha256": "cac4f4d4cf65d9acefd0a3ce3c7977a87a4159199a89b245b454797f83f9b273"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-entrypoint.json",
+      "sha256": "5f72f9b6fda6d71a643839112b6d55232618fc23506d14f4abba87af3e934fd5"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-entrypoint.json",
+      "sha256": "1552e86536bfe8bd2ceafc4beaadddec50ac6cf6e2d28f0868f1072940ff8362"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-entrypoint.json",
+      "sha256": "7851c2b64cdeac14dd38fa031778e89ea1902518ae336698954380ef83dffa70"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-entrypoint.json",
+      "sha256": "c25aebf9a8b0a64caa7f560a4b482d8fa0e8c6e871483a58db6f93f08828b831"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-entrypoint.json",
+      "sha256": "631a4674137259a14b41532a381b1b8b89c18d9eae1429ee511c9d04196e7af1"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-entrypoint.json",
+      "sha256": "65616360d8bb73fd8382994659712bd0d9f65de87eab47c07054c408a78d3c8f"
+    },
+    {
+      "path": "research/entrypoint-reconstruction.md",
+      "sha256": "b392a0f2eac90776f7e58cd0ffcdb0b5941785ad68aace9c7e4675d1d1de5dec"
+    },
+    {
+      "path": "tests/test_entrypoint.py",
+      "sha256": "00bb4ea791c452d497700e80c3996a502d2d286e6eac9e1142e3d84e13cd8866"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,3 +1,3 @@
-# BPEJ bootstrap ARM-to-Thumb transition
+# Emerald ARM-to-Thumb bootstrap transition
 
-Without repeating Emerald's established identity work, the BPEJ entry path is extended from `0x08000204` through twelve ARM words to `bx r1` at `0x08000230`. Literal `0x080003a5` at `0x08000244` proves transition into Thumb code at `0x080003a4`.
+All 6 cataloged releases were traced from the decoded entry target to a literal-backed register branch into Thumb state. Each transition target is required to equal the corresponding verified `AgbMain` address. Maps retain addresses, counts and code hashes but omit ARM instruction words and literal values.

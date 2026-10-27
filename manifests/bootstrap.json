@@ -1,1 +1,55 @@
-{"schema_version":1,"id":"emerald-bpej-bootstrap","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/gba_bootstrap.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"}],"outputs":[{"path":"analysis/emerald-jp-bootstrap.json","sha256":"d03a29231a4f8dbedd58699301373688fbed477f722e1ecc9f63a63f5da0245e"}]}
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "evidence_kind": "bootstrap",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/entry_bootstrap_catalog.py",
+    "tool_sha256": "a31fa9fef5ec7074a301e8cd5b49689decbd237e73e303fc290cfe50aeefb369"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "analysis/entry-bootstrap-summary.json",
+      "sha256": "cac4f4d4cf65d9acefd0a3ce3c7977a87a4159199a89b245b454797f83f9b273"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-bootstrap.json",
+      "sha256": "224a750e7164fa36febb3c5569828b012684030f73c08034c5dcf12528309fee"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-bootstrap.json",
+      "sha256": "4bb377365f92445f52dc2cab29fb099465fdf9a873c784c58ff7bb131e74278a"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-bootstrap.json",
+      "sha256": "522a16475c0b5f01e17b72778be76f7b71b2e4677fe8c9534eccaec8542933aa"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-bootstrap.json",
+      "sha256": "aaccd8e17b60a2b8e90a03a8f28eac765d09e579757f6a3002cb3621641ee4eb"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-bootstrap.json",
+      "sha256": "9c5254641ade7ebe4fc5cb42444b65b14cea846a4a45175658e64ff6c62775d6"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-bootstrap.json",
+      "sha256": "7b95493d3309fd343df90509aecacb092304c3146a7114832be0760d65c6bcb5"
+    },
+    {
+      "path": "research/bootstrap-transition.md",
+      "sha256": "2e96d3367639d528d55c8bfb59cc4a047ba5170f46c6b0565826931ab75d805d"
+    },
+    {
+      "path": "tests/test_bootstrap.py",
+      "sha256": "14ba1e30518d8dd3c9634d8981bd370a2bcd14564659a502f85ea0684ff3fb76"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

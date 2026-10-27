@@ -1,1 +1,55 @@
-{"schema_version":1,"id":"emerald-jp-thumb-entry-cfg","generator":{"repository":"SakuraiTsubaki/Decompilation","tool":"tools/thumb_cfg.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"}],"outputs":[{"path":"analysis/emerald-jp-thumb-entry-cfg.json","sha256":"3b0d4ea760da6feb9f56c47e2d6dc4d8dcb493f4abd436a04668a2dce90a47ce"}]}
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "evidence_kind": "thumb-entry-cfg",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/entry_bootstrap_catalog.py",
+    "tool_sha256": "a31fa9fef5ec7074a301e8cd5b49689decbd237e73e303fc290cfe50aeefb369"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "analysis/entry-bootstrap-summary.json",
+      "sha256": "cac4f4d4cf65d9acefd0a3ce3c7977a87a4159199a89b245b454797f83f9b273"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "0f225c99bf127d3d0b68e4856589c4ad3bd185cb86c10d7be40fedde90cbbb2e"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "edfe1bdf0cd748de228b098d0db28a94fe2e52c2afbef34a2dd71f74009b14d3"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "f97866b1815fba9d0dbdfcc3d5a06c079a4a6aebda8cfe59f6d10198bb5344be"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "63bb2be8591d7e1fb9b75c56f527567144cdb50e0956e611f360548ded2139cd"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "1cbab0d615afb249dbefefc7735a5892605fbdc644bd78838e8e9e35ada5d852"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-thumb-entry-cfg.json",
+      "sha256": "5200756c008fa398b422d9ff94d11bc0dba02267139c130c9ef2e228e148ca3e"
+    },
+    {
+      "path": "research/thumb-entry-cfg.md",
+      "sha256": "774de84e45848c9cf7a36f271ec4ebd06ace2a4bcaa66e449029768664405f60"
+    },
+    {
+      "path": "tests/test_thumb_entry_cfg.py",
+      "sha256": "5ff4ee1e37e28e8d1de368b647056de39bdd51d7f89b72bc06c18a4cddc11377"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
