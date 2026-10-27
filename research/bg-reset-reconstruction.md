@@ -1,0 +1,3 @@
+# Emerald background reset reconstruction
+
+The Japanese release `bpe-j-rev0-retail` is the origin reference. All 6 cataloged releases (Japanese, English, German, French, Italian, Spanish) preserve the same three-function reset cluster. Four cached background configurations are zeroed, the cached mode/visibility field is cleared, and display-control mode plus BG0-BG3 enable bits are removed through `GetGpuReg`/`SetGpuReg`. Per-release maps retain addresses, calls and code hashes without ROM bytes or instruction halfwords. `pret/pokeemerald` commit `fe1d8e51b265851676b65885818b1f5f62586135`, `src/bg.c`, is the naming basis.

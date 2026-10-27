@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-e-rev0-retail",
+    "sha256": "a9dec84dfe7f62ab2220bafaef7479da0929d066ece16a6885f6226db19085af"
+  },
+  "origin_reference": false,
+  "functions": [
+    {
+      "name": "ResetBgs",
+      "address": "0x080012F0",
+      "range_end_exclusive": "0x08001304",
+      "source": "src/bg_reset.c",
+      "source_sha256": "1d54cf1b6fd06d711ae76245a90fa343be334f04fb3b0fa2e4407cf0f68dee37",
+      "rom_code_range": {
+        "start_offset": 4848,
+        "end_offset_exclusive": 4868,
+        "length": 20,
+        "sha256": "207faafca3dea4425c98f96af10603e7af3a7ab870cafa18abdcdf89c6b860e4",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "ResetBgControlStructs",
+          "source": "0x080012F2",
+          "target": "0x08001334"
+        },
+        {
+          "name": "SetTextModeAndHideBgs",
+          "source": "0x080012FC",
+          "target": "0x080016BC"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 10,
+        "edge_count": 0,
+        "edge_kinds": {},
+        "direct_call_count": 2,
+        "return_count": 1,
+        "canonical_reachable_bytes_sha256": "207faafca3dea4425c98f96af10603e7af3a7ab870cafa18abdcdf89c6b860e4",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "ResetBgControlStructs",
+      "address": "0x08001334",
+      "range_end_exclusive": "0x0800134C",
+      "source": "src/bg_reset.c",
+      "source_sha256": "1d54cf1b6fd06d711ae76245a90fa343be334f04fb3b0fa2e4407cf0f68dee37",
+      "rom_code_range": {
+        "start_offset": 4916,
+        "end_offset_exclusive": 4940,
+        "length": 24,
+        "sha256": "5da1f17b9e228f3471e7fdcbd864a1d2359aad9947e88caec608857ecdc8c2c8",
+        "raw_bytes_published": false
+      },
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 12,
+        "edge_count": 2,
+        "edge_kinds": {
+          "conditional-fallthrough": 1,
+          "conditional-taken": 1
+        },
+        "direct_call_count": 0,
+        "return_count": 1,
+        "canonical_reachable_bytes_sha256": "5da1f17b9e228f3471e7fdcbd864a1d2359aad9947e88caec608857ecdc8c2c8",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "SetTextModeAndHideBgs",
+      "address": "0x080016BC",
+      "range_end_exclusive": "0x080016D2",
+      "source": "src/bg_reset.c",
+      "source_sha256": "1d54cf1b6fd06d711ae76245a90fa343be334f04fb3b0fa2e4407cf0f68dee37",
+      "rom_code_range": {
+        "start_offset": 5820,
+        "end_offset_exclusive": 5842,
+        "length": 22,
+        "sha256": "fdf71443f04a0a399f99b050348d8449bfa5c4c1d8ad291b308268d6dacf3809",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x080016C0",
+          "target": "0x080011B8"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080016CA",
+          "target": "0x080010B4"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 11,
+        "edge_count": 0,
+        "edge_kinds": {},
+        "direct_call_count": 2,
+        "return_count": 1,
+        "canonical_reachable_bytes_sha256": "fdf71443f04a0a399f99b050348d8449bfa5c4c1d8ad291b308268d6dacf3809",
+        "raw_halfwords_omitted": true
+      }
+    }
+  ],
+  "verified_behavior": {
+    "background_count": 4,
+    "clears_control_configs": true,
+    "clears_visibility_and_mode_cache": true,
+    "display_control_clear_mask": "0x0F07"
+  },
+  "cross_reference": {
+    "agb_main_map": "analysis/bpe-e-rev0-retail-agb-main-map.json",
+    "agb_main_map_sha256": "1a686b8db4aa5695b2122714c9b9fe0384fa22a93e9a2aa41fd937f5f04632a4"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/bg.c",
+    "match_kind": "caller identity, call chain, loop and state stores"
+  },
+  "raw_rom_bytes_included": false
+}

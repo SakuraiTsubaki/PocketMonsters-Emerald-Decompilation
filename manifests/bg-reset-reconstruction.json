@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "cluster": [
+    "ResetBgs",
+    "ResetBgControlStructs",
+    "SetTextModeAndHideBgs"
+  ],
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/reset_bgs_catalog.py",
+    "tool_sha256": "7b0ddcd8f1766c561dc4ee7fb98e7ef3427b2b004354d28a8fd13c4526a03520"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/bg_reset.c",
+      "sha256": "1d54cf1b6fd06d711ae76245a90fa343be334f04fb3b0fa2e4407cf0f68dee37"
+    },
+    {
+      "path": "analysis/bg-reset-summary.json",
+      "sha256": "34e8580b3116129cc361bcb07dd938d6f171ff2872c8c6441b220e693cc90601"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-bg-reset-map.json",
+      "sha256": "b8d2a98a65b5cdf843ddf79e33a0022b48a3341761bb6cce031fa1bee8a6729d"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-bg-reset-map.json",
+      "sha256": "919ccb68efc8621cdfbaaf87b11e2e56e0f70f6cb590b47cede3e957712b5c23"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-bg-reset-map.json",
+      "sha256": "e03e1c24290adaf8b1122a59e6fb1d511046b93850762990249133f6c6f9771c"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-bg-reset-map.json",
+      "sha256": "31f0aaf4af398b6f8a859767b24f65607073b27b3deb2401aba1bb77a3b0a775"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-bg-reset-map.json",
+      "sha256": "87ab9d1fe83fd2b4897dac2186e1817d240143a7557b3a5f18466a77b644f4b5"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-bg-reset-map.json",
+      "sha256": "4fbec389d14c1046e9892caff8bcccfcc8655cf030e63b48b40561f3a3947782"
+    },
+    {
+      "path": "research/bg-reset-reconstruction.md",
+      "sha256": "d6033b57bd56b5067145f0841402378615715059a099d8f4b2bbaf80551c0eb4"
+    },
+    {
+      "path": "tests/test_bg_reset_reconstruction.py",
+      "sha256": "2fb9c4d7af0badbc4b537d82a10cde882d87f5a693a107fb514420ab7302a616"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
