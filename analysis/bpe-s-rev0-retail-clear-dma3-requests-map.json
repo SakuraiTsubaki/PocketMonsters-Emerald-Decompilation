@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-s-rev0-retail",
+    "sha256": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e"
+  },
+  "origin_reference": false,
+  "source": "src/dma3_manager.c",
+  "source_sha256": "1800270724f6312c25b6a1936b2ceeabb2336085291d7ebf69fed0a797c51cd3",
+  "function": {
+    "name": "ClearDma3Requests",
+    "address": "0x08000BB8",
+    "range_end_exclusive": "0x08000BE2",
+    "rom_code_range": {
+      "start_offset": 3000,
+      "end_offset_exclusive": 3042,
+      "length": 42,
+      "sha256": "68bf9eee097054dd1e9e83e0679d0b201faff8b90eb6ffaf609e3c6c71d184f6",
+      "raw_bytes_published": false
+    }
+  },
+  "verified_behavior": {
+    "locks_manager_during_reset": true,
+    "resets_request_cursor": true,
+    "request_count": 128,
+    "cleared_fields": [
+      "size",
+      "src",
+      "dest"
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 21,
+    "edge_count": 2,
+    "direct_call_count": 0,
+    "return_count": 1,
+    "loop_back_edge": {
+      "source": "0x08000BD8",
+      "target": "0x08000BCC"
+    },
+    "canonical_reachable_bytes_sha256": "68bf9eee097054dd1e9e83e0679d0b201faff8b90eb6ffaf609e3c6c71d184f6",
+    "raw_halfwords_omitted": true
+  },
+  "cross_reference": {
+    "agb_main_map": "analysis/bpe-s-rev0-retail-agb-main-map.json",
+    "agb_main_map_sha256": "7c1e7a701a452897afb9a6800b613311b7eba3c94ed5b59a96a69a68dfd1bffe"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/dma3_manager.c",
+    "match_kind": "caller identity, loop shape, globals and field stores"
+  },
+  "raw_rom_bytes_included": false
+}
