@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-d-rev0-retail",
+    "sha256": "7c599c56849efeebeb93bd71f714932ae4cdf980db51c9c1016b4431057f71d4"
+  },
+  "origin_reference": false,
+  "functions": [
+    {
+      "name": "SetDefaultFontsPointer",
+      "address": "0x08006368",
+      "range_end_exclusive": "0x08006374",
+      "source": "src/font_pointer.c",
+      "source_sha256": "ac95984c2288b7ebcb44537a3d7d440cfd124af41c627bc7d563683023e769d5",
+      "rom_code_range": {
+        "start_offset": 25448,
+        "end_offset_exclusive": 25460,
+        "length": 12,
+        "sha256": "5557144853c84bfee5f9d38f54a7ed74db60d3a4f08055a54d29e720f2d13e10",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "SetFontsPointer",
+          "source": "0x0800636C",
+          "target": "0x080045A4"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 6,
+        "edge_count": 0,
+        "direct_call_count": 1,
+        "return_count": 1,
+        "canonical_reachable_bytes_sha256": "5557144853c84bfee5f9d38f54a7ed74db60d3a4f08055a54d29e720f2d13e10",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "SetFontsPointer",
+      "address": "0x080045A4",
+      "range_end_exclusive": "0x080045AA",
+      "source": "src/font_pointer.c",
+      "source_sha256": "ac95984c2288b7ebcb44537a3d7d440cfd124af41c627bc7d563683023e769d5",
+      "rom_code_range": {
+        "start_offset": 17828,
+        "end_offset_exclusive": 17834,
+        "length": 6,
+        "sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209",
+        "raw_bytes_published": false
+      },
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 3,
+        "edge_count": 0,
+        "direct_call_count": 0,
+        "return_count": 1,
+        "canonical_reachable_bytes_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209",
+        "raw_halfwords_omitted": true
+      }
+    }
+  ],
+  "verified_behavior": {
+    "default_table": "sFontInfos",
+    "sets_active_font_table": true
+  },
+  "cross_reference": {
+    "agb_main_map": "analysis/bpe-d-rev0-retail-agb-main-map.json",
+    "agb_main_map_sha256": "03ae2c775523774f80ca4da8d68e8b9a802646dd0137b3cf35dd6aee7ea79621"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "wrapper_path": "src/text.c",
+    "callee_path": "src/text.c",
+    "match_kind": "caller identity, direct-call target and pointer store"
+  },
+  "raw_rom_bytes_included": false
+}

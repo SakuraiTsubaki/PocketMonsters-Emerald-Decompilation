@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "cluster": [
+    "SetDefaultFontsPointer",
+    "SetFontsPointer"
+  ],
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "source": "src/font_pointer.c",
+  "releases": [
+    {
+      "id": "bpe-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+      "origin_reference": true,
+      "functions": {
+        "SetDefaultFontsPointer": {
+          "address": "0x080061A4",
+          "code_sha256": "2d9dd25a5fb61ca4b2a3d83f392f7be42d7583a92435994b4941dbb0d11f62ca"
+        },
+        "SetFontsPointer": {
+          "address": "0x08004474",
+          "code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+        }
+      },
+      "evidence": "analysis/bpe-j-rev0-retail-font-pointer-bootstrap-map.json"
+    },
+    {
+      "id": "bpe-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "a9dec84dfe7f62ab2220bafaef7479da0929d066ece16a6885f6226db19085af",
+      "origin_reference": false,
+      "functions": {
+        "SetDefaultFontsPointer": {
+          "address": "0x08006368",
+          "code_sha256": "5557144853c84bfee5f9d38f54a7ed74db60d3a4f08055a54d29e720f2d13e10"
+        },
+        "SetFontsPointer": {
+          "address": "0x080045A4",
+          "code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+        }
+      },
+      "evidence": "analysis/bpe-e-rev0-retail-font-pointer-bootstrap-map.json"
+    },
+    {
+      "id": "bpe-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "7c599c56849efeebeb93bd71f714932ae4cdf980db51c9c1016b4431057f71d4",
+      "origin_reference": false,
+      "functions": {
+        "SetDefaultFontsPointer": {
+          "address": "0x08006368",
+          "code_sha256": "5557144853c84bfee5f9d38f54a7ed74db60d3a4f08055a54d29e720f2d13e10"
+        },
+        "SetFontsPointer": {
+          "address": "0x080045A4",
+          "code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+        }
+      },
+      "evidence": "analysis/bpe-d-rev0-retail-font-pointer-bootstrap-map.json"
+    },
+    {
+      "id": "bpe-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4",
+      "origin_reference": false,
+      "functions": {
+        "SetDefaultFontsPointer": {
+          "address": "0x08006368",
+          "code_sha256": "5557144853c84bfee5f9d38f54a7ed74db60d3a4f08055a54d29e720f2d13e10"
+        },
+        "SetFontsPointer": {
+          "address": "0x080045A4",
+          "code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+        }
+      },
+      "evidence": "analysis/bpe-f-rev0-retail-font-pointer-bootstrap-map.json"
+    },
+    {
+      "id": "bpe-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "63cbff3500b657cb6966568beb0780de3655d3a0b2e5ac6e0ec33d5d01a916ad",
+      "origin_reference": false,
+      "functions": {
+        "SetDefaultFontsPointer": {
+          "address": "0x08006368",
+          "code_sha256": "5557144853c84bfee5f9d38f54a7ed74db60d3a4f08055a54d29e720f2d13e10"
+        },
+        "SetFontsPointer": {
+          "address": "0x080045A4",
+          "code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+        }
+      },
+      "evidence": "analysis/bpe-i-rev0-retail-font-pointer-bootstrap-map.json"
+    },
+    {
+      "id": "bpe-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e",
+      "origin_reference": false,
+      "functions": {
+        "SetDefaultFontsPointer": {
+          "address": "0x08006368",
+          "code_sha256": "5557144853c84bfee5f9d38f54a7ed74db60d3a4f08055a54d29e720f2d13e10"
+        },
+        "SetFontsPointer": {
+          "address": "0x080045A4",
+          "code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+        }
+      },
+      "evidence": "analysis/bpe-s-rev0-retail-font-pointer-bootstrap-map.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,3 @@
+# Emerald default font-pointer reconstruction
+
+The Japanese release `bpe-j-rev0-retail` is the origin reference. All 6 cataloged releases (Japanese, English, German, French, Italian, Spanish) resolve `SetDefaultFontsPointer` from `AgbMain` and follow its sole direct call to `SetFontsPointer`. The wrapper selects the game's default font-info table (`sFontInfos`); the callee stores it as the active table. Both functions have one observed return and no branch edges. Maps retain addresses and hashes without ROM bytes or instruction halfwords, using `pret/pokeemerald` commit `fe1d8e51b265851676b65885818b1f5f62586135` as the naming and behavior reference.

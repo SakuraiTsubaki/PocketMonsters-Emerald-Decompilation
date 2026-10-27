@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "cluster": [
+    "SetDefaultFontsPointer",
+    "SetFontsPointer"
+  ],
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/font_pointer_catalog.py",
+    "tool_sha256": "0d14c7096eb8bacfe148a96ee95e53e6cbd57864aee98fbdabf264441e3eebe2"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/font_pointer.c",
+      "sha256": "ac95984c2288b7ebcb44537a3d7d440cfd124af41c627bc7d563683023e769d5"
+    },
+    {
+      "path": "analysis/font-pointer-bootstrap-summary.json",
+      "sha256": "1e473e46c694fbf938c427beac0007a979e2028a978274fba27ff067c1e5f03f"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "a901dbae84e042859ef14475b8b6bccc0282a9edb772f8bb7f19c0e4c3d1984d"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "5b638e618971e40603d638b15289bf3e609a8d4b7910ee2c124e7bce9718740e"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "1d19351987b948a430ac8855531660aed67eeb82898732a33f6221bfa1782e3c"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "f4af4d23720b81a11f21f81410ea6730c3fe3a79dee1ec6674bb98599826c50a"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "73c24993f00b8f92a29fe0ce43c50903ea2913162e68eb5cb935366831060ba5"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-font-pointer-bootstrap-map.json",
+      "sha256": "b278e6f0f5d0f42ba0d5994d0de1e66818743ec66f0177906095ad4ffba915b6"
+    },
+    {
+      "path": "research/font-pointer-bootstrap-reconstruction.md",
+      "sha256": "4da0f9f92a0840732d46f94cbac6ff4bc04f57a5deb0325ed1536570e9ca751f"
+    },
+    {
+      "path": "tests/test_font_pointer_bootstrap_reconstruction.py",
+      "sha256": "6f5b5c325fe61a25da00be98e3d0455062a2e1533cdfecf19839beebf218d014"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
