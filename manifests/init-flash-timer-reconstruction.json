@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "function": "InitFlashTimer",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/init_flash_timer_catalog.py",
+    "tool_sha256": "7e99f0d2b6fcb7212625b43e5a31def9b56bcac165ed5d951618ffff270760c7"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/init_flash_timer.c",
+      "sha256": "4274128ae51b0a314c7dbd38b803828c3a4612787d31a85d6e4b05ae7ee858ab"
+    },
+    {
+      "path": "analysis/init-flash-timer-summary.json",
+      "sha256": "748e82676ffc2d3d41b6500fb28e5afea0ccc80cefff28ade7963783271a4102"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-init-flash-timer-map.json",
+      "sha256": "8c4757dd73e06b796b24f860b6489b2ab0c4084fb14c9cd3df72f4f1ade183d9"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-init-flash-timer-map.json",
+      "sha256": "bfccba7abbc0acfa567c73386f87c9868505292a6ebeb6e196c2e52902bc059c"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-init-flash-timer-map.json",
+      "sha256": "506c0012187674acd689d4902f18076893460073880249c7a42ee46d37d735f6"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-init-flash-timer-map.json",
+      "sha256": "0b265f0bb4e38777df69ad00d628727a10ea7720186380c957637bbcad64b969"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-init-flash-timer-map.json",
+      "sha256": "7c73adfd6c2181cb39f20236bdb26411c5017d37c0a7ffb290ffed29e2cc327b"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-init-flash-timer-map.json",
+      "sha256": "9610f304a484e5297b496f788228c349d9d946ee118d696a397f7f1a240157e7"
+    },
+    {
+      "path": "research/init-flash-timer-reconstruction.md",
+      "sha256": "406f704a280746ded7d9279564573a45befcc75668b95bc0909c33afecfc7bd8"
+    },
+    {
+      "path": "tests/test_init_flash_timer_reconstruction.py",
+      "sha256": "4103e815fc25e625fa62e49818a73cc5b2dd38295966eaa4c4bcac071e1c97b0"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

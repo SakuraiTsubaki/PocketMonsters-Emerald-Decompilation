@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpe-f-rev0-retail",
+    "sha256": "e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4"
+  },
+  "origin_reference": false,
+  "function": {
+    "name": "InitFlashTimer",
+    "address": "0x08000800",
+    "range_end_exclusive": "0x0800080E",
+    "source": "src/init_flash_timer.c",
+    "source_sha256": "4274128ae51b0a314c7dbd38b803828c3a4612787d31a85d6e4b05ae7ee858ab",
+    "rom_code_range": {
+      "start_offset": 2048,
+      "end_offset_exclusive": 2062,
+      "length": 14,
+      "sha256": "fae361e5ee3bdf6589f90fe175ade68451d1b80611fc50f2d326fca3387c72ab",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "SetFlashTimerIntr",
+        "source": "0x08000806",
+        "target": "0x082EA918"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 7,
+    "edge_count": 0,
+    "direct_call_count": 1,
+    "return_count": 1,
+    "canonical_reachable_bytes_sha256": "fae361e5ee3bdf6589f90fe175ade68451d1b80611fc50f2d326fca3387c72ab",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "timer_index": 2,
+    "interrupt_table_slot": 7,
+    "pointer_variant": "direct"
+  },
+  "cross_reference": {
+    "check_flash_memory_map": "analysis/bpe-f-rev0-retail-check-flash-memory-map.json",
+    "check_flash_memory_map_sha256": "955bbb996d43231d24790ea6294b0f2933d904ebae532e7dc4107dfaa0400719"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}
