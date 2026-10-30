@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "function": "RegisterRamReset",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/register_ram_reset_catalog.py",
+    "tool_sha256": "6d8a5bd06900ab9c97437477759a554b21fb881e946ecaedb54beae8a47974f1"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/register_ram_reset.s",
+      "sha256": "19614dda159498b82460291534267fc9046a8d2386ca93777831e9691d0e30db"
+    },
+    {
+      "path": "analysis/register-ram-reset-summary.json",
+      "sha256": "7c10a40dfe1e9478253d213892f6c7e1665a5eec19e0e9f8dc03c5b42553d190"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-register-ram-reset-map.json",
+      "sha256": "c639920b9b7a4d56f1af9764be0967e69061ad68d80a38778c24e1b0a6770d5b"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-register-ram-reset-map.json",
+      "sha256": "137235cc34a537ea1f9fa286fe1db53dacae96406d2bbfbd90b72897d7fe3a38"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-register-ram-reset-map.json",
+      "sha256": "e192bebcef32dc305beb14f524d1962ef06c22d04dc11b27603d981e30735051"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-register-ram-reset-map.json",
+      "sha256": "8488bbd9b4d67acafe88cec9d484ade2284d3275ab32b5e57e0e9d5219e47c90"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-register-ram-reset-map.json",
+      "sha256": "0ebc248f798b6a44fb3a61bdd4efb5cbc873b332275f831ef263a2feab446108"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-register-ram-reset-map.json",
+      "sha256": "fee3e02154ab6e5c54b0724b92d5ddd73927ab882c88f09f7cb0fe3aa464ebb9"
+    },
+    {
+      "path": "research/register-ram-reset-reconstruction.md",
+      "sha256": "692080930e3b7eebf381842a7cc9aa81c8ea6e9d67cb89caedf92d7424bc5374"
+    },
+    {
+      "path": "tests/test_register_ram_reset_reconstruction.py",
+      "sha256": "bedb783f8e8746fdd5ebe442df313cdeaf8e53578cab1bb1ff67fa1b1ad1257e"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

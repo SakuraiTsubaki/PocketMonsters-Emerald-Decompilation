@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpe-s-rev0-retail",
+    "sha256": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "function": {
+    "name": "RegisterRamReset",
+    "address": "0x082EE834",
+    "range_end_exclusive": "0x082EE838",
+    "source": "src/register_ram_reset.s",
+    "source_sha256": "19614dda159498b82460291534267fc9046a8d2386ca93777831e9691d0e30db",
+    "rom_code_range": {
+      "start_offset": 3074100,
+      "end_offset_exclusive": 3074104,
+      "length": 4,
+      "sha256": "be83efc9175d398e437cd01b3943750ecc0700157e0f99aa356d8e56de2694bd",
+      "raw_bytes_published": false
+    }
+  },
+  "verified_behavior": {
+    "length": 4,
+    "instruction_halfwords": 2,
+    "software_interrupt": 1,
+    "return_instruction": "bx lr",
+    "argument_register": "r0"
+  },
+  "cross_reference": {
+    "agb_main_map": "analysis/bpe-s-rev0-retail-agb-main-map.json",
+    "agb_main_map_sha256": "7c1e7a701a452897afb9a6800b613311b7eba3c94ed5b59a96a69a68dfd1bffe"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}
