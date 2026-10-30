@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "function": "SoftReset",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/soft_reset_catalog.py",
+    "tool_sha256": "5b8b5947dab5a77687a5012fd79ec2c3a5f83e8c6759e51ea56cb70a4383918b"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/soft_reset.s",
+      "sha256": "e37cd98386ecac57d28c2c50ce2d627d38001f225ea4ba3a65255b2846ecf9bd"
+    },
+    {
+      "path": "analysis/soft-reset-summary.json",
+      "sha256": "4c4696a88691081cfcdbfb3d02eacbeb5449e9b6f3942b4faa323edffdfbabd2"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-soft-reset-map.json",
+      "sha256": "d03aadb1b9a56df211b772ca8b3ec6e89ecd8024a56c6a6cea91596322802b12"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-soft-reset-map.json",
+      "sha256": "d45200badf213c2cae4a9b9e47f4bb2e250fa7e77eda7aa53c8772d27501d918"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-soft-reset-map.json",
+      "sha256": "5eeb8209b6ed96f9756d0faea430c4984ab25e168ce8096afe6948835499d0ce"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-soft-reset-map.json",
+      "sha256": "24c742bcd6283e1863851d587d95d699dab3e155dae1cae0ee3670ec700a7586"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-soft-reset-map.json",
+      "sha256": "2fc81d56f72d73df105b026a08ca5e90fe6746dac024724f7d03646a9c982244"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-soft-reset-map.json",
+      "sha256": "120ebc089305a6a8a44eddcb99313d4c87768ba72c0d94376dc4f2898dc704e6"
+    },
+    {
+      "path": "research/soft-reset-reconstruction.md",
+      "sha256": "8a6cece35c6f35ce1d26886c81eb72c9e5e8df8a237e5fb86483ba578d8388d2"
+    },
+    {
+      "path": "tests/test_soft_reset_reconstruction.py",
+      "sha256": "f93a0f382aaa9d6e8ca28f7c349bceae3c3a2a6a322212bdeda581f0dcbfc872"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

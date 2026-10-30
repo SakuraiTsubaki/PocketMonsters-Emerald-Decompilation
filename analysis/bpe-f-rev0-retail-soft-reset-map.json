@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpe-f-rev0-retail",
+    "sha256": "e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "function": {
+    "name": "SoftReset",
+    "address": "0x082F0080",
+    "range_end_exclusive": "0x082F0098",
+    "source": "src/soft_reset.s",
+    "source_sha256": "e37cd98386ecac57d28c2c50ce2d627d38001f225ea4ba3a65255b2846ecf9bd",
+    "rom_code_range": {
+      "start_offset": 3080320,
+      "end_offset_exclusive": 3080344,
+      "length": 24,
+      "sha256": "13b9651ba27c9de04f893d61d57e71dc6a082222331b7b5fec029b8f7ce6e0d3",
+      "raw_bytes_published": false
+    }
+  },
+  "verified_behavior": {
+    "length": 24,
+    "instruction_halfwords": 7,
+    "literal_pool_bytes": 8,
+    "interrupt_master_enable_address": "0x04000208",
+    "interrupt_master_enable_value": 0,
+    "reset_stack_pointer": "0x03007F00",
+    "register_ram_reset_swi": 1,
+    "soft_reset_swi": 0,
+    "reset_flags_register": "r0",
+    "nonreturning": true
+  },
+  "cross_reference": {
+    "do_soft_reset_map": "analysis/bpe-f-rev0-retail-do-soft-reset-map.json",
+    "do_soft_reset_map_sha256": "36eb3b941d280e981e13166913248ed987fb0a6876d968c6b6b392add9d105fa"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}
