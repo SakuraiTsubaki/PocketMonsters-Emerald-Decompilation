@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "species": {
+    "id": 406,
+    "name": "rayquaza"
+  },
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rse_species_sprite_catalog.py",
+    "tool_sha256": "e4d6b7511861cb851eb6599271325336c2a7b6baf22dc208d1dcf3eee4ef233a"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/rayquaza_species_sprite_tables.asm",
+      "sha256": "fe77bb88387bfb4a678573aa1a67afae5a87ff59ba7740936683424b9d2c8591"
+    },
+    {
+      "path": "analysis/rayquaza-sprite-set-summary.json",
+      "sha256": "fe03cb4cda3994aab72baddaf0f4b610f4958f9e44f95afd5b9dc3585043b584"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-rayquaza-sprite-set.json",
+      "sha256": "d80099829e8e4df9227fd8d9f5a93bd99d96fe7509e3779e9ae0b7c868c59aa6"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-rayquaza-sprite-set.json",
+      "sha256": "dc649c808216ad7d0e3b64df9f92c64462319339130e8197727f71ee24ba68f1"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-rayquaza-sprite-set.json",
+      "sha256": "4c248ea35d345cde84da37fe21ba3abcb36206afae205a21f38d17a29c52796e"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-rayquaza-sprite-set.json",
+      "sha256": "2a6f2968f94912d03d1cbe91db7b55e9aa19c7ffda119e1c6f96d531b68562a5"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-rayquaza-sprite-set.json",
+      "sha256": "25ded8a0e339c41e0225c24de1a1815cc26dde166155d4333e9bdd7736124dd3"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-rayquaza-sprite-set.json",
+      "sha256": "84cd66718f29d6e10820b90276f1d1b2a4d42a24aa28754281181edc9905f310"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-front-bpe-j-rev0-retail.png",
+      "sha256": "6014868be44b7e15f1424ddc28f8dc1712076f7bd77d14ea9c079b8871ef99f8"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-back-bpe-j-rev0-retail.png",
+      "sha256": "0fd8617aedfa2e1e5532b90c86734276f72d3e9d030fd4e4673178fbff174b42"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-bpe-j-rev0-retail.pal",
+      "sha256": "8c8295d3b822749a5049e319d074d4e3de1279419e6f2316ce3532f2daed13c5"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-front-bpe-e-rev0-retail.png",
+      "sha256": "6014868be44b7e15f1424ddc28f8dc1712076f7bd77d14ea9c079b8871ef99f8"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-back-bpe-e-rev0-retail.png",
+      "sha256": "0fd8617aedfa2e1e5532b90c86734276f72d3e9d030fd4e4673178fbff174b42"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-bpe-e-rev0-retail.pal",
+      "sha256": "8c8295d3b822749a5049e319d074d4e3de1279419e6f2316ce3532f2daed13c5"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-front-bpe-d-rev0-retail.png",
+      "sha256": "6014868be44b7e15f1424ddc28f8dc1712076f7bd77d14ea9c079b8871ef99f8"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-back-bpe-d-rev0-retail.png",
+      "sha256": "0fd8617aedfa2e1e5532b90c86734276f72d3e9d030fd4e4673178fbff174b42"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-bpe-d-rev0-retail.pal",
+      "sha256": "8c8295d3b822749a5049e319d074d4e3de1279419e6f2316ce3532f2daed13c5"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-front-bpe-f-rev0-retail.png",
+      "sha256": "6014868be44b7e15f1424ddc28f8dc1712076f7bd77d14ea9c079b8871ef99f8"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-back-bpe-f-rev0-retail.png",
+      "sha256": "0fd8617aedfa2e1e5532b90c86734276f72d3e9d030fd4e4673178fbff174b42"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-bpe-f-rev0-retail.pal",
+      "sha256": "8c8295d3b822749a5049e319d074d4e3de1279419e6f2316ce3532f2daed13c5"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-front-bpe-i-rev0-retail.png",
+      "sha256": "6014868be44b7e15f1424ddc28f8dc1712076f7bd77d14ea9c079b8871ef99f8"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-back-bpe-i-rev0-retail.png",
+      "sha256": "0fd8617aedfa2e1e5532b90c86734276f72d3e9d030fd4e4673178fbff174b42"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-bpe-i-rev0-retail.pal",
+      "sha256": "8c8295d3b822749a5049e319d074d4e3de1279419e6f2316ce3532f2daed13c5"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-front-bpe-s-rev0-retail.png",
+      "sha256": "6014868be44b7e15f1424ddc28f8dc1712076f7bd77d14ea9c079b8871ef99f8"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-back-bpe-s-rev0-retail.png",
+      "sha256": "0fd8617aedfa2e1e5532b90c86734276f72d3e9d030fd4e4673178fbff174b42"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-bpe-s-rev0-retail.pal",
+      "sha256": "8c8295d3b822749a5049e319d074d4e3de1279419e6f2316ce3532f2daed13c5"
+    },
+    {
+      "path": "research/rayquaza-sprite-set.md",
+      "sha256": "c93fcf22bf46591497707263958764e41c165960a271e030d5ea9c473eca8d80"
+    },
+    {
+      "path": "tests/test_rayquaza_sprite_reconstruction.py",
+      "sha256": "716f504825c3ec658cb8b564594db3f27c4a9184b0838d2ba19ecd6089b249f1"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

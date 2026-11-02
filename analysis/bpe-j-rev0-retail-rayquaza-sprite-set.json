@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpe-j-rev0-retail",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+    "build_kind": "retail"
+  },
+  "origin_reference": true,
+  "species": {
+    "id": 406,
+    "name": "rayquaza"
+  },
+  "source": "src/rayquaza_species_sprite_tables.asm",
+  "source_sha256": "fe77bb88387bfb4a678573aa1a67afae5a87ff59ba7740936683424b9d2c8591",
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2971992,
+      "table_offset": 2968744,
+      "source_offset": 13859740,
+      "size": 2048,
+      "tag": 406
+    },
+    "back": {
+      "entry_offset": 2977272,
+      "table_offset": 2974024,
+      "source_offset": 13861808,
+      "size": 2048,
+      "tag": 406
+    },
+    "palette": {
+      "entry_offset": 2980792,
+      "table_offset": 2977544,
+      "source_offset": 13861768,
+      "tag": 406
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/rayquaza-front-bpe-j-rev0-retail.png",
+      "sha256": "6014868be44b7e15f1424ddc28f8dc1712076f7bd77d14ea9c079b8871ef99f8",
+      "extraction": {
+        "source_offset": 13859740,
+        "compressed_length": 2025,
+        "compressed_sha256": "7ec6c5bc7a44574ba95a15757b48966ed66148d2dcd06186a8f59738510f8017",
+        "decompressed_length": 8192,
+        "decompressed_sha256": "be5cf5e50b64bab6eb792302a25ce3e480ecd13b7967a5c090f747c7e8b3dfa6",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false,
+        "trailing_decoded_length": 6144,
+        "trailing_decoded_sha256": "884929e08ec0c709c085488ca1b0c61bb9749b0f38bd253c97c073657116f5be",
+        "trailing_uniform_byte": 255
+      }
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-back-bpe-j-rev0-retail.png",
+      "sha256": "0fd8617aedfa2e1e5532b90c86734276f72d3e9d030fd4e4673178fbff174b42",
+      "extraction": {
+        "source_offset": 13861808,
+        "compressed_length": 824,
+        "compressed_sha256": "b2185753b11a5bc6fbffe9c3042c97958f5a1020ce27bdb866d141408a1ef739",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "ffbb0c2bed3427a190db433e010bef8c20b944c744544d729aecc8f2591046e9",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-bpe-j-rev0-retail.pal",
+      "sha256": "8c8295d3b822749a5049e319d074d4e3de1279419e6f2316ce3532f2daed13c5",
+      "extraction": {
+        "source_offset": 13861768,
+        "compressed_length": 40,
+        "compressed_sha256": "f87f92f43587bf8d07fcd9f66132b4a13f39562f14e8fe4a754350ca22bf0c26",
+        "decompressed_length": 32,
+        "decompressed_sha256": "b361ed24e198a9f63aa1fb8080a1b85f4bd3b4aa4ea4f7a667880416fc8e9baf",
+        "declared_render_length": 32,
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}
