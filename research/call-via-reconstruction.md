@@ -1,0 +1,3 @@
+# Emerald libgcc call-via reconstruction
+
+`bpe-j-rev0-retail` is the Japanese origin reference. All 6 cataloged builds (Japanese, English, German, French, Italian, Spanish) independently verify the word-aligned `_call_via_rX` suite at +40 bytes from RegisterRamReset, after SoftReset, Sqrt, VBlankIntrWait, and alignment padding. Its 15 four-byte Thumb trampolines branch through r0-r9, sl, fp, ip, sp, and lr, with a trailing `nop`. The pinned upstream linker script places `libgcc.a:_call_via_rX.o(.text)` here. 5 build(s) contain a second byte-identical suite, so selection uses the verified SDK layout. No ROM bytes are published.

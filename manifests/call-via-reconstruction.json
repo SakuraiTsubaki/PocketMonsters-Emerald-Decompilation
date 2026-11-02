@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "library": "libgcc",
+  "object": "_call_via_rX.o",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "function_count": 15,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/call_via_catalog.py",
+    "tool_sha256": "e30748f1d1af711d3815d8e1dd50ab9d242d8b340cf2a6cef8d59f753719c5be"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/call_via_stubs.s",
+      "sha256": "949d4f0bd48d0e6948271bebb1994478ae2bea90dca5c566f8a88aaaf7f5f908"
+    },
+    {
+      "path": "analysis/call-via-summary.json",
+      "sha256": "b67eb5e6c1bd5503254c1ad99b802d1bc5ca70a4ee67642f36f001136f033d23"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-call-via-map.json",
+      "sha256": "89d7c94764aae15c661953628860ddab5965bab22245a4010c29384a09a724eb"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-call-via-map.json",
+      "sha256": "15c04f90ccad993a03870c6eb3e19413c54c9acd29bb1a5c31363e63ad3011e1"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-call-via-map.json",
+      "sha256": "c980b2f1a5c7beb026b1cb6718dc8a9a5d2279dfcbc9f6a31d48c68681345333"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-call-via-map.json",
+      "sha256": "50f0d081d01882e40035806344732fc1febc987c8f25123c0e657a6467bd0266"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-call-via-map.json",
+      "sha256": "695c641701c512aef4a7693788aa6825d7e2c28785522e8a43af4dc2d971bed9"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-call-via-map.json",
+      "sha256": "36b500c769beb54e8788a739ce1a028f23e97f5d2be915b8873645ea3f4565b9"
+    },
+    {
+      "path": "research/call-via-reconstruction.md",
+      "sha256": "d9a02e0a4d8710e4cbf014d58611d1e2302cd1a5570651542e7b7f2e60ab992c"
+    },
+    {
+      "path": "tests/test_call_via_reconstruction.py",
+      "sha256": "5bf249463e39ed406b8301abe27a8753fe87985c21bccbdd1d5cf7d50a130337"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
