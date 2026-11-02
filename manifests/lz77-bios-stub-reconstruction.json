@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "library": "libagbsyscall",
+  "functions": [
+    "LZ77UnCompVram",
+    "LZ77UnCompWram"
+  ],
+  "family_profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/lz77_bios_stub_catalog.py",
+    "tool_sha256": "40676d0224c049a9cdaaf63f2385ae5cd563ae0a799dc0f8cf89dae179c20848"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/lz77_bios_stubs.s",
+      "sha256": "d3bbc762342fbe9da694f5a19a433a532cd94ba9053664d5cc4dfa07205fae50"
+    },
+    {
+      "path": "analysis/lz77-bios-stub-summary.json",
+      "sha256": "0111c8185e108faf0fdcfeaffa0d0681afa4ca2b4147d4b682568cfbdcc99fdd"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-lz77-bios-stub-map.json",
+      "sha256": "d05b1ef76ee35802f426e97fe79a309104a7da4d2fcde2782293f7c43243435d"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-lz77-bios-stub-map.json",
+      "sha256": "48692b6a1e1ec41be38ee3ac662e61f4ea520628d1be6c61116ffc5a1610fe34"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-lz77-bios-stub-map.json",
+      "sha256": "f07c22ab7b0f4c6a9243a17aa7c065202a1956a3f1e324795a0df044c4ec48c7"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-lz77-bios-stub-map.json",
+      "sha256": "b8e8511a15039c1ac53ab56975d294172fd5ddcc1d2b404b90a913a465a16e06"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-lz77-bios-stub-map.json",
+      "sha256": "973ee34a96c9173dbea9f147cc4eaac838a7e6002b90fbd4e35cbe070353fb38"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-lz77-bios-stub-map.json",
+      "sha256": "d390624bac09f82f9325e074a7bc408c1b72b22030950d84b1a9ee9361e56598"
+    },
+    {
+      "path": "research/lz77-bios-stub-reconstruction.md",
+      "sha256": "d088e06b7756dfeec8411eec7619ad1cc578f8d995fcc18fe2fbc0b4e46bcd51"
+    },
+    {
+      "path": "tests/test_lz77_bios_stub_reconstruction.py",
+      "sha256": "3f7b07ab38a2ca3aa15781aee9a45f238d731f55c47d98d9cb6bbec62ef849ab"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
