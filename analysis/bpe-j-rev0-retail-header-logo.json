@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpe-j-rev0-retail",
+    "language": "Japanese",
+    "revision": 0,
+    "build_kind": "retail",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "origin_reference": true,
+  "asset": {
+    "name": "GbaHeaderNintendoLogo",
+    "source_offset": 4,
+    "source_length": 156,
+    "source_sha256": "08a0153cfd6b0ea54b938f7d209933fa849da0d56f5a34c481060c9ff2fad818",
+    "decoded_1bpp_sha256": "eb8207ce239013cefa7f3d76ea9e19f8ab31085edc06e7c67ad8d38f8220c3b0",
+    "format": "gba-bios-huffman-plus-cumulative-104x16-1bpp-tiled",
+    "logical_width": 104,
+    "logical_height": 16,
+    "png_width": 416,
+    "png_height": 64,
+    "nearest_neighbor_scale": 4,
+    "png_sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b",
+    "raw_rom_bytes_included": false
+  },
+  "output": {
+    "path": "graphics/header/nintendo-logo.png",
+    "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+  },
+  "standard_location": "GBA cartridge header 0x000004..0x00009F",
+  "raw_rom_bytes_included": false
+}

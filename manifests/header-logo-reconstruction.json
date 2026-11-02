@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "asset": "GbaHeaderNintendoLogo",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/header_logo_catalog.py",
+    "tool_sha256": "55641a0145cf323334c26b9aae9f4dc344be0043b2c2e057bd0a2dc470dae212"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "graphics/header/nintendo-logo.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "analysis/header-logo-summary.json",
+      "sha256": "3741fc6752e5090c81502b3839e1ea3521003bd6c3a7e1ec768c2103f354bd7a"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-header-logo.json",
+      "sha256": "8244e04ebebb53e99672db7ba99ed87298697d0794dbf3ade15376078497b35b"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-header-logo.json",
+      "sha256": "208e141bcda9788557fb983811ebcf9407991deb199367c545414377d9c2cac5"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-header-logo.json",
+      "sha256": "50323166550bcacaedb54c6a89df7357b2bff9271eefde71e10e677c7decd5a0"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-header-logo.json",
+      "sha256": "89fc4283f33ba3109cc4ad90bc4da844bc213db24991af59026d29630a34267a"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-header-logo.json",
+      "sha256": "94ab9b6a8285515ee56ebedca1f964dbdc730fa4f0a831fc6a6e573acea3b37f"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-header-logo.json",
+      "sha256": "30da7b0781d124dd8d1b49c55dd832a6ea9d2fe9381f0123d943cfc60560b8dc"
+    },
+    {
+      "path": "research/header-logo-reconstruction.md",
+      "sha256": "821105a520c52a65de7d6982e5e76bdc5f5700225a003abf09e68c18036969f2"
+    },
+    {
+      "path": "tests/test_header_logo_reconstruction.py",
+      "sha256": "f88e440f9aaad08123c34f7584774004ca690f8fda7c3569b14e87e90fe65a9e"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "asset": "GbaHeaderNintendoLogo",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "source_sha256": "08a0153cfd6b0ea54b938f7d209933fa849da0d56f5a34c481060c9ff2fad818",
+  "png": "graphics/header/nintendo-logo.png",
+  "png_sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b",
+  "releases": [
+    {
+      "id": "bpe-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+      "origin_reference": true,
+      "source_sha256": "08a0153cfd6b0ea54b938f7d209933fa849da0d56f5a34c481060c9ff2fad818",
+      "png_sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b",
+      "evidence": "analysis/bpe-j-rev0-retail-header-logo.json"
+    },
+    {
+      "id": "bpe-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "a9dec84dfe7f62ab2220bafaef7479da0929d066ece16a6885f6226db19085af",
+      "origin_reference": false,
+      "source_sha256": "08a0153cfd6b0ea54b938f7d209933fa849da0d56f5a34c481060c9ff2fad818",
+      "png_sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b",
+      "evidence": "analysis/bpe-e-rev0-retail-header-logo.json"
+    },
+    {
+      "id": "bpe-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "7c599c56849efeebeb93bd71f714932ae4cdf980db51c9c1016b4431057f71d4",
+      "origin_reference": false,
+      "source_sha256": "08a0153cfd6b0ea54b938f7d209933fa849da0d56f5a34c481060c9ff2fad818",
+      "png_sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b",
+      "evidence": "analysis/bpe-d-rev0-retail-header-logo.json"
+    },
+    {
+      "id": "bpe-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4",
+      "origin_reference": false,
+      "source_sha256": "08a0153cfd6b0ea54b938f7d209933fa849da0d56f5a34c481060c9ff2fad818",
+      "png_sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b",
+      "evidence": "analysis/bpe-f-rev0-retail-header-logo.json"
+    },
+    {
+      "id": "bpe-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "63cbff3500b657cb6966568beb0780de3655d3a0b2e5ac6e0ec33d5d01a916ad",
+      "origin_reference": false,
+      "source_sha256": "08a0153cfd6b0ea54b938f7d209933fa849da0d56f5a34c481060c9ff2fad818",
+      "png_sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b",
+      "evidence": "analysis/bpe-i-rev0-retail-header-logo.json"
+    },
+    {
+      "id": "bpe-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e",
+      "origin_reference": false,
+      "source_sha256": "08a0153cfd6b0ea54b938f7d209933fa849da0d56f5a34c481060c9ff2fad818",
+      "png_sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b",
+      "evidence": "analysis/bpe-s-rev0-retail-header-logo.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
