@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "library": "libagbsyscall",
+  "functions": [
+    "BgAffineSet",
+    "CpuFastSet",
+    "ObjAffineSet"
+  ],
+  "family_profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/affine_copy_bios_stub_catalog.py",
+    "tool_sha256": "8ffc37ffdc5fbbf7b11c55cb8bcd88075c8d0eaa34c3fdeb0565300a20201e79"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/affine_copy_bios_stubs.s",
+      "sha256": "b82b0e3ba6932e426f4dba67964a8a012030802ba6f46b10697aaf7c7dfb48f7"
+    },
+    {
+      "path": "analysis/affine-copy-bios-stub-summary.json",
+      "sha256": "0af61562e9462b4ad129f08ad9427a8111c4849fa8a8df8c4bc12f36ac553206"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "5c84b0d478b7acdda482c74efbb0686a4edfde63f0c994d893faaf288c7e778c"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "aa0265768226fe13a5f3a89b136af86be398dda8ba42d03a4aa62641f7e382e6"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "b0824578dfa733e46552335b7add4868109a7a343a93c45693ce59a1566254ec"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "e636d656d4f53286d6af464c74808164cef4455438b006b73a7cb58e82ca41a8"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "6be87c46757844ba0559feeb23b57993c435bfebbf066417153b24bcd990a9cc"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-affine-copy-bios-stub-map.json",
+      "sha256": "ae0b831c912ae90c4e0310a02c3fb37b2e4e1d4990fb87a2e6824f1d47ed2cd0"
+    },
+    {
+      "path": "research/affine-copy-bios-stub-reconstruction.md",
+      "sha256": "22d619c7fc0ca5c58389a2755024d9e5b2e35949466d4f70ee587739029059a2"
+    },
+    {
+      "path": "tests/test_affine_copy_bios_stub_reconstruction.py",
+      "sha256": "eec9775f9aecf8bcbaa1368e90ed5a85ad4ff5238968725c72fbd5507098f4a4"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

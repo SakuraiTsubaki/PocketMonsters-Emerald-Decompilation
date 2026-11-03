@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpe-s-rev0-retail",
+    "sha256": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "source": "src/affine_copy_bios_stubs.s",
+  "source_sha256": "b82b0e3ba6932e426f4dba67964a8a012030802ba6f46b10697aaf7c7dfb48f7",
+  "functions": {
+    "BgAffineSet": {
+      "address": "0x082EE808",
+      "rom_offset": 3074056,
+      "range_end_exclusive": "0x082EE80C",
+      "length": 4,
+      "code_sha256": "7db5376a9255b6f3b335a2a0553165e6f8fb14695e62f9b3797fb876191ee72a",
+      "software_interrupt": 14,
+      "arguments": [
+        "r0:source",
+        "r1:destination",
+        "r2:count"
+      ],
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": -16
+    },
+    "CpuFastSet": {
+      "address": "0x082EE80C",
+      "rom_offset": 3074060,
+      "range_end_exclusive": "0x082EE810",
+      "length": 4,
+      "code_sha256": "dedc152a89df8aadc9dc9526881c29e92f681504cf9bf438bbac1c6362fd9b42",
+      "software_interrupt": 12,
+      "arguments": [
+        "r0:source",
+        "r1:destination",
+        "r2:mode"
+      ],
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": -12
+    },
+    "ObjAffineSet": {
+      "address": "0x082EE828",
+      "rom_offset": 3074088,
+      "range_end_exclusive": "0x082EE82C",
+      "length": 4,
+      "code_sha256": "9f004ab9239029bc7e051e24763751da64c47109e542f1d19f241ac89ceccb39",
+      "software_interrupt": 15,
+      "arguments": [
+        "r0:source",
+        "r1:destination",
+        "r2:count",
+        "r3:offset"
+      ],
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": 16
+    }
+  },
+  "verified_layout": {
+    "lz77_vram_anchor": "0x082EE818",
+    "family_relative_offsets": {
+      "BgAffineSet": [
+        -16
+      ],
+      "CpuFastSet": [
+        -12
+      ],
+      "ObjAffineSet": [
+        16
+      ]
+    },
+    "all_signatures_globally_unique": true
+  },
+  "cross_reference": {
+    "lz77_bios_stub_map": "analysis/bpe-s-rev0-retail-lz77-bios-stub-map.json",
+    "sha256": "d390624bac09f82f9325e074a7bc408c1b72b22030950d84b1a9ee9361e56598"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "libagbsyscall/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}
