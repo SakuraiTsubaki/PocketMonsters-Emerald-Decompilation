@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpe-f-rev0-retail",
+    "sha256": "e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "source": "src/div_bios_stub.s",
+  "source_sha256": "e6ab2a8ec3c5a673606b0565f3d8495f9b56a43bf5346096e6907753675cf8e0",
+  "function": {
+    "name": "Div",
+    "rom_offset": 3080284,
+    "address": "0x082F005C",
+    "range_end_exclusive": "0x082F0060",
+    "length": 4,
+    "code_sha256": "8e93a1720c694e06005b83e2dbaf36a800649ab8948fc4e15efa39309f4c5ce6",
+    "numerator_register": "r0",
+    "denominator_register": "r1",
+    "quotient_register": "r0",
+    "remainder_register": "r1",
+    "absolute_quotient_register": "r3",
+    "software_interrupt": 6,
+    "return": "bx lr",
+    "signature_match_count": 1,
+    "lz77_vram_relative_offset": -4,
+    "selected_by_verified_sdk_layout": true
+  },
+  "verified_layout": {
+    "lz77_vram_anchor": "0x082F0060",
+    "relative_offset": -4
+  },
+  "cross_reference": {
+    "lz77_bios_stub_map": "analysis/bpe-f-rev0-retail-lz77-bios-stub-map.json",
+    "sha256": "b8e8511a15039c1ac53ab56975d294172fd5ddcc1d2b404b90a913a465a16e06"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "libagbsyscall/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}
