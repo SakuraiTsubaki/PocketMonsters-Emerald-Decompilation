@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpe-d-rev0-retail",
+    "sha256": "7c599c56849efeebeb93bd71f714932ae4cdf980db51c9c1016b4431057f71d4",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "source": "src/multiboot_bios_stub.s",
+  "source_sha256": "2ed8f848b1a2db14f543d1f2ec774d06696eca4feebdd9d6752d0044a7394683",
+  "function": {
+    "name": "MultiBoot",
+    "rom_offset": 3132884,
+    "address": "0x082FCDD4",
+    "range_end_exclusive": "0x082FCDDA",
+    "length": 6,
+    "code_sha256": "1a0c04e017cf4403e3b9453e951104a6a7f633f89aab670cde478cc915c58a78",
+    "mode_register": "r1",
+    "mode_value": 1,
+    "parameter_register": "r0",
+    "result_register": "r0",
+    "software_interrupt": 37,
+    "return": "bx lr",
+    "signature_match_count": 1,
+    "lz77_vram_relative_offset": 8,
+    "selected_by_verified_sdk_layout": true
+  },
+  "verified_layout": {
+    "lz77_vram_anchor": "0x082FCDCC",
+    "family_relative_offset": 8
+  },
+  "cross_reference": {
+    "lz77_bios_stub_map": "analysis/bpe-d-rev0-retail-lz77-bios-stub-map.json",
+    "sha256": "f07c22ab7b0f4c6a9243a17aa7c065202a1956a3f1e324795a0df044c4ec48c7"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "libagbsyscall/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}

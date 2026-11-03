@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "library": "libagbsyscall",
+  "function": "MultiBoot",
+  "family_profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/multiboot_stub_catalog.py",
+    "tool_sha256": "4c737c4b6c11f24558237a076c451be64ad803f99fadec19c09f28459e5e4924"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/multiboot_bios_stub.s",
+      "sha256": "2ed8f848b1a2db14f543d1f2ec774d06696eca4feebdd9d6752d0044a7394683"
+    },
+    {
+      "path": "analysis/multiboot-stub-summary.json",
+      "sha256": "8e6255f96d1f21cb2a613cb6285eee5208d52da6798fb477e12b3dfa9ff9adcd"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-multiboot-stub-map.json",
+      "sha256": "1cab5a39924a3f0b7407a99805d5656ab21e8c0848a121f8b80fed865207c842"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-multiboot-stub-map.json",
+      "sha256": "ce41f73d19ef46bb9fe2f77e073aa8bdccddc54a88b09fa6d88f89423cb1aae3"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-multiboot-stub-map.json",
+      "sha256": "2052c38299c7e3c1a302509031243b546129642f34b5d0655b615e588c4ed427"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-multiboot-stub-map.json",
+      "sha256": "83eb35a533af5052c1f4998b3c5046800bd4d65b70ff62cae6b5b9b63e0fb231"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-multiboot-stub-map.json",
+      "sha256": "b178b5f03a57f5aeed037cfc83bcffc078d25f705c13f92e2e817acd0ac0eaad"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-multiboot-stub-map.json",
+      "sha256": "a23de2f0fe6f4c4cc2d15ca2b28c66bef54a85c581c01e0aeb959ada2c7b65f5"
+    },
+    {
+      "path": "research/multiboot-stub-reconstruction.md",
+      "sha256": "5f13f8a7d06b020713ad77dee275bea8265f1395ab9e2f6b65a2ae8a453cec59"
+    },
+    {
+      "path": "tests/test_multiboot_stub_catalog.py",
+      "sha256": "762b00da790d90cf0a217c81ffd84f1e71499e2283b896ae093baa6e87c59bb9"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
