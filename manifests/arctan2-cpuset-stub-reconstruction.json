@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "library": "libagbsyscall",
+  "functions": [
+    "ArcTan2",
+    "CpuSet"
+  ],
+  "family_profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/arctan2_cpuset_stub_catalog.py",
+    "tool_sha256": "71b90c98866abb22f4c452dffaa5389d9baf1c4e43949e8994d1b927715553b2"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/arctan2_cpuset_bios_stubs.s",
+      "sha256": "b3689ce4b50099a5be86bec1d6421258bc6bdc20053b7dff5c8a08be8c858814"
+    },
+    {
+      "path": "analysis/arctan2-cpuset-stub-summary.json",
+      "sha256": "4f22b4151f7f79352c8baa99df85a30b6e184f4d3bfa99cb74eb69a1b331a3a1"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "41e10de547d3acd3203c3c45a6071500051a477810bbd24b20ae4058aa203796"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "71e17114bd6a59845015685d4841d3a40c21c548191bff70c83cddef802bba3c"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "a2ebb7f96784c81b7f690051d4a1439fd885073e2cc79153f9f5f59bc4565641"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "ca3c706c10be4f2fed1ceeea8c2fc857e825625d804ee8fb97523ca60f9cd272"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "674b279818adbdf99e33f75c7fddb1e74b7e58d997566c72375d0ddd87160dd8"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-arctan2-cpuset-stub-map.json",
+      "sha256": "e74f194b0f6c2e255d5db2954b365ab55a0d256aefd617f9622e9cf435907cd5"
+    },
+    {
+      "path": "research/arctan2-cpuset-stub-reconstruction.md",
+      "sha256": "0cb756e90be4723c8e6653aecc01e628d2585129e46f06959238d76c89827d39"
+    },
+    {
+      "path": "tests/test_arctan2_cpuset_stub_reconstruction.py",
+      "sha256": "e991c19bcc25e9ea1dbfdb531f0b14ca14d3b2209be86c5db34d19191d836303"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

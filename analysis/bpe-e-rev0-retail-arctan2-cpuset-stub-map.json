@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpe-e-rev0-retail",
+    "sha256": "a9dec84dfe7f62ab2220bafaef7479da0929d066ece16a6885f6226db19085af",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "source": "src/arctan2_cpuset_bios_stubs.s",
+  "source_sha256": "b3689ce4b50099a5be86bec1d6421258bc6bdc20053b7dff5c8a08be8c858814",
+  "functions": {
+    "ArcTan2": {
+      "address": "0x082E7078",
+      "rom_offset": 3043448,
+      "range_end_exclusive": "0x082E707C",
+      "length": 4,
+      "code_sha256": "d0c2ec82c5f5d65a013e773fd2f3eb012f5930f37efbf594d8e08b2afd3c3154",
+      "software_interrupt": 10,
+      "arguments": [
+        "r0:x",
+        "r1:y"
+      ],
+      "result_register": "r0",
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": -20,
+      "selected_by_verified_sdk_layout": true
+    },
+    "CpuSet": {
+      "address": "0x082E7084",
+      "rom_offset": 3043460,
+      "range_end_exclusive": "0x082E7088",
+      "length": 4,
+      "code_sha256": "07967ebdc3979cd4fd4de37fd22b3e6de8965b00dae4ac5585577c9709839652",
+      "software_interrupt": 11,
+      "arguments": [
+        "r0:source",
+        "r1:destination",
+        "r2:mode"
+      ],
+      "result_register": null,
+      "return": "bx lr",
+      "signature_match_count": 2,
+      "lz77_vram_relative_offset": -8,
+      "selected_by_verified_sdk_layout": true
+    }
+  },
+  "verified_layout": {
+    "lz77_vram_anchor": "0x082E708C",
+    "allowed_family_relative_offsets": {
+      "ArcTan2": [
+        -20
+      ],
+      "CpuSet": [
+        -8
+      ]
+    }
+  },
+  "cross_reference": {
+    "lz77_bios_stub_map": "analysis/bpe-e-rev0-retail-lz77-bios-stub-map.json",
+    "sha256": "48692b6a1e1ec41be38ee3ac662e61f4ea520628d1be6c61116ffc5a1610fe34"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "path": "libagbsyscall/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}
