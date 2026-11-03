@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "library": "libagbsyscall",
+  "functions": [
+    "RLUnCompVram",
+    "RLUnCompWram"
+  ],
+  "family_profile": "emerald",
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rl_bios_stub_catalog.py",
+    "tool_sha256": "b1cc3264ebb1ac42defe5eade875a1c5a40febf2fe541b461d5785f36eed53dd"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/rl_bios_stubs.s",
+      "sha256": "bf373181708d6a9eea10b8e04fe68026b65b57e9fd8d9a7cec78ec27922862af"
+    },
+    {
+      "path": "analysis/rl-bios-stub-summary.json",
+      "sha256": "038504035e64c952cc6923c0bc25b23a4821d5084cf1664b3d38ff90e30dcb24"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-rl-bios-stub-map.json",
+      "sha256": "1ea43142eb5f9d4a03cb1b23edff54cef06f942d97758647f74ee3ed12b00983"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-rl-bios-stub-map.json",
+      "sha256": "38ff7c2290b78a6fb967312d5b5c3e3e03222e4544491f7c6076ffbcd4906e43"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-rl-bios-stub-map.json",
+      "sha256": "965961af555de19c579e86cbbe61b6a6cf3811624aa64b674ed289119b4ca3a9"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-rl-bios-stub-map.json",
+      "sha256": "95773f7bd5dbcc7b642024b91646d95e16cbfa1c71ff42e60d3796afab0c6bb1"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-rl-bios-stub-map.json",
+      "sha256": "353c3a6ddefbf0dcbdcc378cda09d850d2c8f43d85cd71adf860158522e89188"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-rl-bios-stub-map.json",
+      "sha256": "6fce4dc2f6bcc809cd0af38528bdc85e71cb0e3f1d54fe36ddc0385ec325b464"
+    },
+    {
+      "path": "research/rl-bios-stub-reconstruction.md",
+      "sha256": "36aa3b48a9e1d8b18138ecf0e4e7635ec81afd691146b1f60ff96fe30f2cc7df"
+    },
+    {
+      "path": "tests/test_rl_bios_stub_catalog.py",
+      "sha256": "46b34d9b7df49a1c05e7b2cf12cbf9dd463681ac454ac78712215cd13ed9c2e4"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
