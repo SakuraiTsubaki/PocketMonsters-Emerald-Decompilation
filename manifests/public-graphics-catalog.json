@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "game": "Emerald",
+  "asset_count": 55,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/catalog_public_graphics.py",
+    "tool_sha256": "df6121aca7dae3854a5998adc8c4aabeb820793868cfd21cab812bb82f09aa92"
+  },
+  "inputs": [
+    {
+      "path": "graphics/header/nintendo-logo.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-bpe-j-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-bpe-j-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-bpe-j-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpe-j-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpe-j-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpe-j-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-back-bpe-j-rev0-retail.png",
+      "sha256": "0fd8617aedfa2e1e5532b90c86734276f72d3e9d030fd4e4673178fbff174b42"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-bpe-j-rev0-retail.pal",
+      "sha256": "8c8295d3b822749a5049e319d074d4e3de1279419e6f2316ce3532f2daed13c5"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-front-bpe-j-rev0-retail.png",
+      "sha256": "6014868be44b7e15f1424ddc28f8dc1712076f7bd77d14ea9c079b8871ef99f8"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-bpe-e-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-bpe-e-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-bpe-e-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpe-e-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpe-e-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpe-e-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-back-bpe-e-rev0-retail.png",
+      "sha256": "0fd8617aedfa2e1e5532b90c86734276f72d3e9d030fd4e4673178fbff174b42"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-bpe-e-rev0-retail.pal",
+      "sha256": "8c8295d3b822749a5049e319d074d4e3de1279419e6f2316ce3532f2daed13c5"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-front-bpe-e-rev0-retail.png",
+      "sha256": "6014868be44b7e15f1424ddc28f8dc1712076f7bd77d14ea9c079b8871ef99f8"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-bpe-d-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-bpe-d-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-bpe-d-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpe-d-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpe-d-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpe-d-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-back-bpe-d-rev0-retail.png",
+      "sha256": "0fd8617aedfa2e1e5532b90c86734276f72d3e9d030fd4e4673178fbff174b42"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-bpe-d-rev0-retail.pal",
+      "sha256": "8c8295d3b822749a5049e319d074d4e3de1279419e6f2316ce3532f2daed13c5"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-front-bpe-d-rev0-retail.png",
+      "sha256": "6014868be44b7e15f1424ddc28f8dc1712076f7bd77d14ea9c079b8871ef99f8"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-bpe-f-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-bpe-f-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-bpe-f-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpe-f-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpe-f-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpe-f-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-back-bpe-f-rev0-retail.png",
+      "sha256": "0fd8617aedfa2e1e5532b90c86734276f72d3e9d030fd4e4673178fbff174b42"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-bpe-f-rev0-retail.pal",
+      "sha256": "8c8295d3b822749a5049e319d074d4e3de1279419e6f2316ce3532f2daed13c5"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-front-bpe-f-rev0-retail.png",
+      "sha256": "6014868be44b7e15f1424ddc28f8dc1712076f7bd77d14ea9c079b8871ef99f8"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-bpe-i-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-bpe-i-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-bpe-i-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpe-i-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpe-i-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpe-i-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-back-bpe-i-rev0-retail.png",
+      "sha256": "0fd8617aedfa2e1e5532b90c86734276f72d3e9d030fd4e4673178fbff174b42"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-bpe-i-rev0-retail.pal",
+      "sha256": "8c8295d3b822749a5049e319d074d4e3de1279419e6f2316ce3532f2daed13c5"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-front-bpe-i-rev0-retail.png",
+      "sha256": "6014868be44b7e15f1424ddc28f8dc1712076f7bd77d14ea9c079b8871ef99f8"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-bpe-s-rev0-retail.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-bpe-s-rev0-retail.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-bpe-s-rev0-retail.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-bpe-s-rev0-retail.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-bpe-s-rev0-retail.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-bpe-s-rev0-retail.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-back-bpe-s-rev0-retail.png",
+      "sha256": "0fd8617aedfa2e1e5532b90c86734276f72d3e9d030fd4e4673178fbff174b42"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-bpe-s-rev0-retail.pal",
+      "sha256": "8c8295d3b822749a5049e319d074d4e3de1279419e6f2316ce3532f2daed13c5"
+    },
+    {
+      "path": "graphics/pokemon/rayquaza-front-bpe-s-rev0-retail.png",
+      "sha256": "6014868be44b7e15f1424ddc28f8dc1712076f7bd77d14ea9c079b8871ef99f8"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/public-graphics-catalog.json",
+      "sha256": "925e3425bf493547aa434f796cb5737a0bf9b891ef4154e63ff9db9b279baf1d"
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "2fdbb9ddc355c9f575aaf8dcfb8aa303ecac5246d9ee16483cac9f30580a8b5e"
+    },
+    {
+      "path": "research/public-graphics-catalog.md",
+      "sha256": "24036ac217aeb6861131623e2751e5af768c714e2d6b057789a606e6120e9d4f"
+    },
+    {
+      "path": "tests/test_public_graphics_catalog.py",
+      "sha256": "a87003a2fd5a68d0a7fd8b0d6fb3b225aee3a5d3cd23a990c1878696998478cb"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
