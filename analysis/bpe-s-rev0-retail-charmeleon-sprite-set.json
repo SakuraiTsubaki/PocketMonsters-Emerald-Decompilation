@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpe-s-rev0-retail",
+    "sha256": "e32c82bd10f174cf4019123b36f3ef7729105fb6634d9aa6b61413ee5101a55e",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 5,
+    "name": "charmeleon"
+  },
+  "source": "src/charmeleon_species_sprite_tables.asm",
+  "source_sha256": "98164266722bba2ed8fff1c4f84ec2ad8d6dd78ba3b6369c2812795d681f7acd",
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 3176100,
+      "table_offset": 3176060,
+      "source_offset": 12789676,
+      "size": 2048,
+      "tag": 5
+    },
+    "back": {
+      "entry_offset": 3181380,
+      "table_offset": 3181340,
+      "source_offset": 12790652,
+      "size": 2048,
+      "tag": 5
+    },
+    "palette": {
+      "entry_offset": 3184900,
+      "table_offset": 3184860,
+      "source_offset": 12790612,
+      "tag": 5
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/charmeleon-front-bpe-s-rev0-retail.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4",
+      "extraction": {
+        "source_offset": 12789676,
+        "compressed_length": 934,
+        "compressed_sha256": "dff1f9f9f3d6d83a4b4bd6b090432810c77874a8435843d9711424a6d9aa9326",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "3ed4ac46fa04fe2c3f4a4c9288292e7f09494a1d95304bec2368efd62c03a759",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-bpe-s-rev0-retail.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68",
+      "extraction": {
+        "source_offset": 12790652,
+        "compressed_length": 735,
+        "compressed_sha256": "4e2ba7d8843f2ceadc4fcb891e5699f265cf976ab6119f9f1e34866c1b962b87",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "a463f2c464eb7b42af87574e036071f9586760aee1f9db2ae6c0f0973e26814a",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-bpe-s-rev0-retail.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1",
+      "extraction": {
+        "source_offset": 12790612,
+        "compressed_length": 40,
+        "compressed_sha256": "75672ed4d252bdc0f34ad26d05250027b258807e1231ef6c2664466c1dec1c91",
+        "decompressed_length": 32,
+        "decompressed_sha256": "4704ecadc46fdcae2263ec64e025b471e22bfac68882258c22d17dadd360e0a7",
+        "declared_render_length": 32,
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}

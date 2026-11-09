@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "game": "Emerald",
-  "asset_count": 127,
+  "asset_count": 163,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
     "tool": "tools/catalog_public_graphics.py",
@@ -25,6 +25,18 @@
       "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
     },
     {
+      "path": "graphics/pokemon/charizard-back-bpe-j-rev0-retail.png",
+      "sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-bpe-j-rev0-retail.pal",
+      "sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-bpe-j-rev0-retail.png",
+      "sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f"
+    },
+    {
       "path": "graphics/pokemon/charmander-back-bpe-j-rev0-retail.png",
       "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
     },
@@ -35,6 +47,18 @@
     {
       "path": "graphics/pokemon/charmander-front-bpe-j-rev0-retail.png",
       "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-bpe-j-rev0-retail.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-bpe-j-rev0-retail.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-bpe-j-rev0-retail.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
     },
     {
       "path": "graphics/pokemon/ivysaur-back-bpe-j-rev0-retail.png",
@@ -109,6 +133,18 @@
       "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
     },
     {
+      "path": "graphics/pokemon/charizard-back-bpe-e-rev0-retail.png",
+      "sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-bpe-e-rev0-retail.pal",
+      "sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-bpe-e-rev0-retail.png",
+      "sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f"
+    },
+    {
       "path": "graphics/pokemon/charmander-back-bpe-e-rev0-retail.png",
       "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
     },
@@ -119,6 +155,18 @@
     {
       "path": "graphics/pokemon/charmander-front-bpe-e-rev0-retail.png",
       "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-bpe-e-rev0-retail.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-bpe-e-rev0-retail.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-bpe-e-rev0-retail.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
     },
     {
       "path": "graphics/pokemon/ivysaur-back-bpe-e-rev0-retail.png",
@@ -193,6 +241,18 @@
       "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
     },
     {
+      "path": "graphics/pokemon/charizard-back-bpe-d-rev0-retail.png",
+      "sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-bpe-d-rev0-retail.pal",
+      "sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-bpe-d-rev0-retail.png",
+      "sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f"
+    },
+    {
       "path": "graphics/pokemon/charmander-back-bpe-d-rev0-retail.png",
       "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
     },
@@ -203,6 +263,18 @@
     {
       "path": "graphics/pokemon/charmander-front-bpe-d-rev0-retail.png",
       "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-bpe-d-rev0-retail.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-bpe-d-rev0-retail.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-bpe-d-rev0-retail.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
     },
     {
       "path": "graphics/pokemon/ivysaur-back-bpe-d-rev0-retail.png",
@@ -277,6 +349,18 @@
       "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
     },
     {
+      "path": "graphics/pokemon/charizard-back-bpe-f-rev0-retail.png",
+      "sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-bpe-f-rev0-retail.pal",
+      "sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-bpe-f-rev0-retail.png",
+      "sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f"
+    },
+    {
       "path": "graphics/pokemon/charmander-back-bpe-f-rev0-retail.png",
       "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
     },
@@ -287,6 +371,18 @@
     {
       "path": "graphics/pokemon/charmander-front-bpe-f-rev0-retail.png",
       "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-bpe-f-rev0-retail.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-bpe-f-rev0-retail.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-bpe-f-rev0-retail.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
     },
     {
       "path": "graphics/pokemon/ivysaur-back-bpe-f-rev0-retail.png",
@@ -361,6 +457,18 @@
       "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
     },
     {
+      "path": "graphics/pokemon/charizard-back-bpe-i-rev0-retail.png",
+      "sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-bpe-i-rev0-retail.pal",
+      "sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-bpe-i-rev0-retail.png",
+      "sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f"
+    },
+    {
       "path": "graphics/pokemon/charmander-back-bpe-i-rev0-retail.png",
       "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
     },
@@ -371,6 +479,18 @@
     {
       "path": "graphics/pokemon/charmander-front-bpe-i-rev0-retail.png",
       "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-bpe-i-rev0-retail.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-bpe-i-rev0-retail.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-bpe-i-rev0-retail.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
     },
     {
       "path": "graphics/pokemon/ivysaur-back-bpe-i-rev0-retail.png",
@@ -445,6 +565,18 @@
       "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
     },
     {
+      "path": "graphics/pokemon/charizard-back-bpe-s-rev0-retail.png",
+      "sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-bpe-s-rev0-retail.pal",
+      "sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-bpe-s-rev0-retail.png",
+      "sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f"
+    },
+    {
       "path": "graphics/pokemon/charmander-back-bpe-s-rev0-retail.png",
       "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
     },
@@ -455,6 +587,18 @@
     {
       "path": "graphics/pokemon/charmander-front-bpe-s-rev0-retail.png",
       "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-bpe-s-rev0-retail.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-bpe-s-rev0-retail.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-bpe-s-rev0-retail.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
     },
     {
       "path": "graphics/pokemon/ivysaur-back-bpe-s-rev0-retail.png",
@@ -520,15 +664,15 @@
   "outputs": [
     {
       "path": "analysis/public-graphics-catalog.json",
-      "sha256": "9b385168277391aaafadb32f45a29d95a33b92bfe1d82b7c7323273a0a562b71"
+      "sha256": "0c5693e18eade0c7799020cb855b200f03cef72d355e180c0e6e054e357c8f44"
     },
     {
       "path": "ASSETS.md",
-      "sha256": "5b0b5780d29264946d38ebcef2cc27115823ff6c1cd49a8a4147720c32651a30"
+      "sha256": "513cfc17e59326bf04e2ca6b28e2b6bc3c24fd30a3a87f641ee8eb18ccaa921e"
     },
     {
       "path": "research/public-graphics-catalog.md",
-      "sha256": "91c47e631b41455fa6d6b8de1cbbd204c0d03784a0bec930c8c5a1e447ecf518"
+      "sha256": "8a5d835742640cbeb50484b82edd7c12efcb95564d97666742d797bf3d9433bc"
     },
     {
       "path": "tests/test_public_graphics_catalog.py",
