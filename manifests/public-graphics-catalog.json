@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "game": "Emerald",
-  "asset_count": 163,
+  "asset_count": 199,
   "generator": {
     "repository": "SakuraiTsubaki/Decompilation",
     "tool": "tools/catalog_public_graphics.py",
@@ -11,6 +11,18 @@
     {
       "path": "graphics/header/nintendo-logo.png",
       "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-bpe-j-rev0-retail.png",
+      "sha256": "7bb37807bac10be80ee94271e68cfa3f47b0039cd98bbf33cd2c70426cc65843"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-bpe-j-rev0-retail.pal",
+      "sha256": "82620e8a8070e819d80e2e8b9292dbaabf8a8867046a9faaf2565f50e361c892"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-bpe-j-rev0-retail.png",
+      "sha256": "d42812517389bf5d7f8bf8f79bc67328df80667de6169990ada32326d8c75624"
     },
     {
       "path": "graphics/pokemon/bulbasaur-back-bpe-j-rev0-retail.png",
@@ -121,6 +133,30 @@
       "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
     },
     {
+      "path": "graphics/pokemon/wartortle-back-bpe-j-rev0-retail.png",
+      "sha256": "5d2150f21ea37fd7d14d7549f1a75aa4664bf310f032a6db04877fe575b7ad53"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-bpe-j-rev0-retail.pal",
+      "sha256": "a787b5d4ede926c7eda2922318546760ca596cb51a9427626cf0130029fb2cb7"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-bpe-j-rev0-retail.png",
+      "sha256": "d082be86e7d6b9355094c06ab995ee35bbd3ae8602b898356e9ee4101afdd5f3"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-bpe-e-rev0-retail.png",
+      "sha256": "7bb37807bac10be80ee94271e68cfa3f47b0039cd98bbf33cd2c70426cc65843"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-bpe-e-rev0-retail.pal",
+      "sha256": "82620e8a8070e819d80e2e8b9292dbaabf8a8867046a9faaf2565f50e361c892"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-bpe-e-rev0-retail.png",
+      "sha256": "d42812517389bf5d7f8bf8f79bc67328df80667de6169990ada32326d8c75624"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-back-bpe-e-rev0-retail.png",
       "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
     },
@@ -227,6 +263,30 @@
     {
       "path": "graphics/pokemon/venusaur-front-bpe-e-rev0-retail.png",
       "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-bpe-e-rev0-retail.png",
+      "sha256": "5d2150f21ea37fd7d14d7549f1a75aa4664bf310f032a6db04877fe575b7ad53"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-bpe-e-rev0-retail.pal",
+      "sha256": "a787b5d4ede926c7eda2922318546760ca596cb51a9427626cf0130029fb2cb7"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-bpe-e-rev0-retail.png",
+      "sha256": "d082be86e7d6b9355094c06ab995ee35bbd3ae8602b898356e9ee4101afdd5f3"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-bpe-d-rev0-retail.png",
+      "sha256": "7bb37807bac10be80ee94271e68cfa3f47b0039cd98bbf33cd2c70426cc65843"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-bpe-d-rev0-retail.pal",
+      "sha256": "82620e8a8070e819d80e2e8b9292dbaabf8a8867046a9faaf2565f50e361c892"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-bpe-d-rev0-retail.png",
+      "sha256": "d42812517389bf5d7f8bf8f79bc67328df80667de6169990ada32326d8c75624"
     },
     {
       "path": "graphics/pokemon/bulbasaur-back-bpe-d-rev0-retail.png",
@@ -337,6 +397,30 @@
       "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
     },
     {
+      "path": "graphics/pokemon/wartortle-back-bpe-d-rev0-retail.png",
+      "sha256": "5d2150f21ea37fd7d14d7549f1a75aa4664bf310f032a6db04877fe575b7ad53"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-bpe-d-rev0-retail.pal",
+      "sha256": "a787b5d4ede926c7eda2922318546760ca596cb51a9427626cf0130029fb2cb7"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-bpe-d-rev0-retail.png",
+      "sha256": "d082be86e7d6b9355094c06ab995ee35bbd3ae8602b898356e9ee4101afdd5f3"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-bpe-f-rev0-retail.png",
+      "sha256": "7bb37807bac10be80ee94271e68cfa3f47b0039cd98bbf33cd2c70426cc65843"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-bpe-f-rev0-retail.pal",
+      "sha256": "82620e8a8070e819d80e2e8b9292dbaabf8a8867046a9faaf2565f50e361c892"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-bpe-f-rev0-retail.png",
+      "sha256": "d42812517389bf5d7f8bf8f79bc67328df80667de6169990ada32326d8c75624"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-back-bpe-f-rev0-retail.png",
       "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
     },
@@ -443,6 +527,30 @@
     {
       "path": "graphics/pokemon/venusaur-front-bpe-f-rev0-retail.png",
       "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-bpe-f-rev0-retail.png",
+      "sha256": "5d2150f21ea37fd7d14d7549f1a75aa4664bf310f032a6db04877fe575b7ad53"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-bpe-f-rev0-retail.pal",
+      "sha256": "a787b5d4ede926c7eda2922318546760ca596cb51a9427626cf0130029fb2cb7"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-bpe-f-rev0-retail.png",
+      "sha256": "d082be86e7d6b9355094c06ab995ee35bbd3ae8602b898356e9ee4101afdd5f3"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-bpe-i-rev0-retail.png",
+      "sha256": "7bb37807bac10be80ee94271e68cfa3f47b0039cd98bbf33cd2c70426cc65843"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-bpe-i-rev0-retail.pal",
+      "sha256": "82620e8a8070e819d80e2e8b9292dbaabf8a8867046a9faaf2565f50e361c892"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-bpe-i-rev0-retail.png",
+      "sha256": "d42812517389bf5d7f8bf8f79bc67328df80667de6169990ada32326d8c75624"
     },
     {
       "path": "graphics/pokemon/bulbasaur-back-bpe-i-rev0-retail.png",
@@ -553,6 +661,30 @@
       "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
     },
     {
+      "path": "graphics/pokemon/wartortle-back-bpe-i-rev0-retail.png",
+      "sha256": "5d2150f21ea37fd7d14d7549f1a75aa4664bf310f032a6db04877fe575b7ad53"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-bpe-i-rev0-retail.pal",
+      "sha256": "a787b5d4ede926c7eda2922318546760ca596cb51a9427626cf0130029fb2cb7"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-bpe-i-rev0-retail.png",
+      "sha256": "d082be86e7d6b9355094c06ab995ee35bbd3ae8602b898356e9ee4101afdd5f3"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-bpe-s-rev0-retail.png",
+      "sha256": "7bb37807bac10be80ee94271e68cfa3f47b0039cd98bbf33cd2c70426cc65843"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-bpe-s-rev0-retail.pal",
+      "sha256": "82620e8a8070e819d80e2e8b9292dbaabf8a8867046a9faaf2565f50e361c892"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-bpe-s-rev0-retail.png",
+      "sha256": "d42812517389bf5d7f8bf8f79bc67328df80667de6169990ada32326d8c75624"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-back-bpe-s-rev0-retail.png",
       "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
     },
@@ -659,20 +791,32 @@
     {
       "path": "graphics/pokemon/venusaur-front-bpe-s-rev0-retail.png",
       "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-bpe-s-rev0-retail.png",
+      "sha256": "5d2150f21ea37fd7d14d7549f1a75aa4664bf310f032a6db04877fe575b7ad53"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-bpe-s-rev0-retail.pal",
+      "sha256": "a787b5d4ede926c7eda2922318546760ca596cb51a9427626cf0130029fb2cb7"
+    },
+    {
+      "path": "graphics/pokemon/wartortle-front-bpe-s-rev0-retail.png",
+      "sha256": "d082be86e7d6b9355094c06ab995ee35bbd3ae8602b898356e9ee4101afdd5f3"
     }
   ],
   "outputs": [
     {
       "path": "analysis/public-graphics-catalog.json",
-      "sha256": "0c5693e18eade0c7799020cb855b200f03cef72d355e180c0e6e054e357c8f44"
+      "sha256": "71b83fd3b8d1dff11ec0a5f43d443d2f40dc4f8b6c4b1632d3fb2b7301177ae6"
     },
     {
       "path": "ASSETS.md",
-      "sha256": "513cfc17e59326bf04e2ca6b28e2b6bc3c24fd30a3a87f641ee8eb18ccaa921e"
+      "sha256": "d91c0d637593ffc855a38c797d3e400abd57b2a1e75cdadead2608bdbf746b26"
     },
     {
       "path": "research/public-graphics-catalog.md",
-      "sha256": "8a5d835742640cbeb50484b82edd7c12efcb95564d97666742d797bf3d9433bc"
+      "sha256": "11ff015ee8bcaccac88ea5d0135e96374aaf6dec9eb36d7df6e3de9645f4c3fb"
     },
     {
       "path": "tests/test_public_graphics_catalog.py",

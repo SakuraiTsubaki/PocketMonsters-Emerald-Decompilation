@@ -1,0 +1,3 @@
+# Emerald Blastoise sprite reconstruction
+
+`bpe-j-rev0-retail` is the Japanese origin reference. All 6 cataloged builds (Japanese, English, German, French, Italian, Spanish) independently locate the species front, back, and normal-palette tables by their structural deltas. Each GBA LZ77 stream is decoded and its declared 0x800-byte sprite payload is rendered to a 128x128 PNG with the verified BGR555 palette. Any decompressed trailing padding is excluded from rendering but retained by length, hash, and uniform-byte evidence. Compressed, decoded, palette, and output hashes are recorded. No ROM bytes are published.

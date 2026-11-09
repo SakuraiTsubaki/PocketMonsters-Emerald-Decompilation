@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpe-f-rev0-retail",
+    "sha256": "e79b40e6189550b4870b06918a5c59e04d3a2e1d7c92718aeda92181201f51e4",
+    "build_kind": "retail"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 8,
+    "name": "wartortle"
+  },
+  "source": "src/wartortle_species_sprite_tables.asm",
+  "source_sha256": "25b56964ec7c50c4fdf581254583d82dbf1d5c4c0bf8cfe1dff8f98b709c62b8",
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 3182472,
+      "table_offset": 3182408,
+      "source_offset": 12798636,
+      "size": 2048,
+      "tag": 8
+    },
+    "back": {
+      "entry_offset": 3187752,
+      "table_offset": 3187688,
+      "source_offset": 12799568,
+      "size": 2048,
+      "tag": 8
+    },
+    "palette": {
+      "entry_offset": 3191272,
+      "table_offset": 3191208,
+      "source_offset": 12799528,
+      "tag": 8
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/wartortle-front-bpe-f-rev0-retail.png",
+      "sha256": "d082be86e7d6b9355094c06ab995ee35bbd3ae8602b898356e9ee4101afdd5f3",
+      "extraction": {
+        "source_offset": 12798636,
+        "compressed_length": 892,
+        "compressed_sha256": "ff7f29138811495616667dd39bd8979794df66c29e7f28451e23615fe08b9620",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "ac9492ae4761c5fa47353faff22325c270bf0a951364fe6cf4ef7193fe830494",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-bpe-f-rev0-retail.png",
+      "sha256": "5d2150f21ea37fd7d14d7549f1a75aa4664bf310f032a6db04877fe575b7ad53",
+      "extraction": {
+        "source_offset": 12799568,
+        "compressed_length": 819,
+        "compressed_sha256": "0082e9e555f197185e67bae2f57d066b6dc826475282910da9af206f7689d1dd",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "e452735bc1cfabed14999937f72c24976a135dff917fec4667a761d1d1d7d8ca",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/wartortle-bpe-f-rev0-retail.pal",
+      "sha256": "a787b5d4ede926c7eda2922318546760ca596cb51a9427626cf0130029fb2cb7",
+      "extraction": {
+        "source_offset": 12799528,
+        "compressed_length": 40,
+        "compressed_sha256": "f58f2018ec4c976388236495fc1bc2915e5e4fc61334eac33418cb1d4eb420e2",
+        "decompressed_length": 32,
+        "decompressed_sha256": "cabdcfc64b46f4e904b4a94939c2770c4e5222083ae5b7fe61c01a69f7eb282a",
+        "declared_render_length": 32,
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}
