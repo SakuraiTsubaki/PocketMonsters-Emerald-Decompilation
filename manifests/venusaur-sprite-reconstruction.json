@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "species": {
+    "id": 3,
+    "name": "venusaur"
+  },
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rse_species_sprite_catalog.py",
+    "tool_sha256": "e4d6b7511861cb851eb6599271325336c2a7b6baf22dc208d1dcf3eee4ef233a"
+  },
+  "outputs": [
+    {
+      "path": "analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/venusaur_species_sprite_tables.asm",
+      "sha256": "2138e62053e6b1deacd7eb7b2df6c546511effa77205b0c5512872e26a05324c"
+    },
+    {
+      "path": "analysis/venusaur-sprite-set-summary.json",
+      "sha256": "c1fa18e1582c9a0e3cbbde24c4cf3cf54fefbc94358d4e79252c4e3563959e96"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-venusaur-sprite-set.json",
+      "sha256": "1a1d43699916774a1ddac12b6be29bb1b115eaa2068e2b7c0ab247b90a5433f6"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-venusaur-sprite-set.json",
+      "sha256": "235fdffe96f283b7a8135acc62bf586ac04c5d9d0c9dca131f5467306fb65ae9"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-venusaur-sprite-set.json",
+      "sha256": "bbbfcd9ee1983d87e665d77e579dd12a76e59faf38b1d557bba970dd313f8347"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-venusaur-sprite-set.json",
+      "sha256": "36dc71d5cd5cb5ac6f2d76dc4e8a24a853474769f7527b1536ba5377edceb85e"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-venusaur-sprite-set.json",
+      "sha256": "af5df065ccd84e7bef2e3c6ef7990f9bc83f17d34a063046250c50a53fe9d57e"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-venusaur-sprite-set.json",
+      "sha256": "c927a7b5171c350e39f3c67665d9e93757d9bedc7440d7e00b13dda5f6dc9648"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpe-j-rev0-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpe-j-rev0-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpe-j-rev0-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpe-e-rev0-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpe-e-rev0-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpe-e-rev0-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpe-d-rev0-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpe-d-rev0-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpe-d-rev0-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpe-f-rev0-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpe-f-rev0-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpe-f-rev0-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpe-i-rev0-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpe-i-rev0-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpe-i-rev0-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-front-bpe-s-rev0-retail.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-bpe-s-rev0-retail.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138"
+    },
+    {
+      "path": "graphics/pokemon/venusaur-bpe-s-rev0-retail.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+    },
+    {
+      "path": "research/venusaur-sprite-set.md",
+      "sha256": "6f2a9d597c33ed3be61139b1ae2eb5d8b4dc4f4601865e3433d6c7cc6b48ba9e"
+    },
+    {
+      "path": "tests/test_venusaur_sprite_reconstruction.py",
+      "sha256": "31b92604c150b12bba8ec7db890e60e14afaf8d87e1d9fc3f5ad422cf649e8a4"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
