@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "species": {
+    "id": 10,
+    "name": "caterpie"
+  },
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rse_species_sprite_catalog.py",
+    "tool_sha256": "e4d6b7511861cb851eb6599271325336c2a7b6baf22dc208d1dcf3eee4ef233a"
+  },
+  "outputs": [
+    {
+      "path": "C:/Temp/pokemon-gen-work/repos/PocketMonsters-Emerald-Decompilation/analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/caterpie_species_sprite_tables.asm",
+      "sha256": "46c5fc94dfc449ccf566b2b09c863322d4314d258701c9f504634ac9ee0e1aa7"
+    },
+    {
+      "path": "analysis/caterpie-sprite-set-summary.json",
+      "sha256": "3d1b28bcc304e2fc2c4e824c9b273c1af72832c6d78eed99db34fca515484289"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-caterpie-sprite-set.json",
+      "sha256": "63c374eae66817489506aade0862c2c5369e479dc66d08b971ceef15838990fc"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-caterpie-sprite-set.json",
+      "sha256": "589a2e7dc335af0c33db71d670874a42293c8828ec961edc7828ed996f068819"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-caterpie-sprite-set.json",
+      "sha256": "57e4dde753a98996e6486ab1becf168e635d67742311dd3aba2b82ba1a8bc153"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-caterpie-sprite-set.json",
+      "sha256": "fcc1abff89aab09c006e49854d5a246b7a11140f1ed6f85201e974e98c34eef4"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-caterpie-sprite-set.json",
+      "sha256": "f34127fade58c98e3af97527a5831d5ee8bcc7adcc686fc38835648d7593a609"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-caterpie-sprite-set.json",
+      "sha256": "cc37fd9a99c26c11a07fb02e14cc9cfc2fc971b74d9bee197965171b93c7b84b"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-bpe-j-rev0-retail.png",
+      "sha256": "93bf66d3fdb59779131290c28ca763a758cc980756c95c7c180ea3dc66f9c84e"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpe-j-rev0-retail.png",
+      "sha256": "c86e04206ba8a9902d05eacc46feedcd7307c368caff0d46d1a3261020e49efe"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpe-j-rev0-retail.pal",
+      "sha256": "efd847a1ca344c5ba6bf4992d6be353637f31af2cf4fc7c9d58a508349bf76fd"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-bpe-e-rev0-retail.png",
+      "sha256": "93bf66d3fdb59779131290c28ca763a758cc980756c95c7c180ea3dc66f9c84e"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpe-e-rev0-retail.png",
+      "sha256": "c86e04206ba8a9902d05eacc46feedcd7307c368caff0d46d1a3261020e49efe"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpe-e-rev0-retail.pal",
+      "sha256": "efd847a1ca344c5ba6bf4992d6be353637f31af2cf4fc7c9d58a508349bf76fd"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-bpe-d-rev0-retail.png",
+      "sha256": "93bf66d3fdb59779131290c28ca763a758cc980756c95c7c180ea3dc66f9c84e"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpe-d-rev0-retail.png",
+      "sha256": "c86e04206ba8a9902d05eacc46feedcd7307c368caff0d46d1a3261020e49efe"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpe-d-rev0-retail.pal",
+      "sha256": "efd847a1ca344c5ba6bf4992d6be353637f31af2cf4fc7c9d58a508349bf76fd"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-bpe-f-rev0-retail.png",
+      "sha256": "93bf66d3fdb59779131290c28ca763a758cc980756c95c7c180ea3dc66f9c84e"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpe-f-rev0-retail.png",
+      "sha256": "c86e04206ba8a9902d05eacc46feedcd7307c368caff0d46d1a3261020e49efe"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpe-f-rev0-retail.pal",
+      "sha256": "efd847a1ca344c5ba6bf4992d6be353637f31af2cf4fc7c9d58a508349bf76fd"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-bpe-i-rev0-retail.png",
+      "sha256": "93bf66d3fdb59779131290c28ca763a758cc980756c95c7c180ea3dc66f9c84e"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpe-i-rev0-retail.png",
+      "sha256": "c86e04206ba8a9902d05eacc46feedcd7307c368caff0d46d1a3261020e49efe"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpe-i-rev0-retail.pal",
+      "sha256": "efd847a1ca344c5ba6bf4992d6be353637f31af2cf4fc7c9d58a508349bf76fd"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-bpe-s-rev0-retail.png",
+      "sha256": "93bf66d3fdb59779131290c28ca763a758cc980756c95c7c180ea3dc66f9c84e"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-bpe-s-rev0-retail.png",
+      "sha256": "c86e04206ba8a9902d05eacc46feedcd7307c368caff0d46d1a3261020e49efe"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-bpe-s-rev0-retail.pal",
+      "sha256": "efd847a1ca344c5ba6bf4992d6be353637f31af2cf4fc7c9d58a508349bf76fd"
+    },
+    {
+      "path": "research/caterpie-sprite-set.md",
+      "sha256": "949da4faf15b86f38d8f72d013cde225f0997a021bf7d1c3057b1f3d3b4e076e"
+    },
+    {
+      "path": "tests/test_caterpie_sprite_reconstruction.py",
+      "sha256": "87a56b910a37e2352168bf0cf99331b79adb244886a358fa4bfc1afa6662a08c"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "game": "Emerald",
+  "species": {
+    "id": 11,
+    "name": "metapod"
+  },
+  "origin_reference": "bpe-j-rev0-retail",
+  "release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Decompilation",
+    "tool": "tools/rse_species_sprite_catalog.py",
+    "tool_sha256": "e4d6b7511861cb851eb6599271325336c2a7b6baf22dc208d1dcf3eee4ef233a"
+  },
+  "outputs": [
+    {
+      "path": "C:/Temp/pokemon-gen-work/repos/PocketMonsters-Emerald-Decompilation/analysis/global-release-catalog.json",
+      "sha256": "0376cb60d9bd8ded3de23e2378f7499faeacdcf8e53f205217084e41aa71acaf"
+    },
+    {
+      "path": "src/metapod_species_sprite_tables.asm",
+      "sha256": "1e5512387cad3c3dfcd2de417c1d7bf2d190f01f19562a7e47462815ed00d5ae"
+    },
+    {
+      "path": "analysis/metapod-sprite-set-summary.json",
+      "sha256": "8a3ad9c279279704644e13b41cc0db19ca1a7de33701fc2772dfd20d3f3277c7"
+    },
+    {
+      "path": "analysis/bpe-j-rev0-retail-metapod-sprite-set.json",
+      "sha256": "7ca4059f7376f081a4f8ed654b38359af850aa1ac19c478adaa37789e35009dd"
+    },
+    {
+      "path": "analysis/bpe-e-rev0-retail-metapod-sprite-set.json",
+      "sha256": "95f07de1a866b16f9cffd3324712e6eb50ea2408056e98ee86e8cfb0e14b93b7"
+    },
+    {
+      "path": "analysis/bpe-d-rev0-retail-metapod-sprite-set.json",
+      "sha256": "037126fafac225fe64d57739b296425df74af2b34aa273ab0523cd1cee6b9392"
+    },
+    {
+      "path": "analysis/bpe-f-rev0-retail-metapod-sprite-set.json",
+      "sha256": "ba3d4ff250a91569297b37727f8506468ca56b5ad9169c669fba873b9412a786"
+    },
+    {
+      "path": "analysis/bpe-i-rev0-retail-metapod-sprite-set.json",
+      "sha256": "716f945881d166678e4aca5a9544f9eee7d676f413e52fee9dcb7be18d562f4a"
+    },
+    {
+      "path": "analysis/bpe-s-rev0-retail-metapod-sprite-set.json",
+      "sha256": "d8c2fa5f10e40ac7c6634802d58d86355ae9b6fe903747dfc458812a9948d4e7"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-bpe-j-rev0-retail.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpe-j-rev0-retail.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpe-j-rev0-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-bpe-e-rev0-retail.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpe-e-rev0-retail.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpe-e-rev0-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-bpe-d-rev0-retail.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpe-d-rev0-retail.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpe-d-rev0-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-bpe-f-rev0-retail.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpe-f-rev0-retail.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpe-f-rev0-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-bpe-i-rev0-retail.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpe-i-rev0-retail.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpe-i-rev0-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-bpe-s-rev0-retail.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-bpe-s-rev0-retail.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-bpe-s-rev0-retail.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "research/metapod-sprite-set.md",
+      "sha256": "7e3a2a3045ae4deb586ab50152619d49613742bb7064995519e951505dd56838"
+    },
+    {
+      "path": "tests/test_metapod_sprite_reconstruction.py",
+      "sha256": "d0e42f6d11a9753b96ef96b7cd63d8f0a9cb59095b71fe9ef71117cc8dc24f70"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

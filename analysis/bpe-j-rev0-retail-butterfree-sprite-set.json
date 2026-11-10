@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "axis": "Decompilation",
+  "target": {
+    "release": "bpe-j-rev0-retail",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+    "build_kind": "retail"
+  },
+  "origin_reference": true,
+  "species": {
+    "id": 12,
+    "name": "butterfree"
+  },
+  "source": "src/butterfree_species_sprite_tables.asm",
+  "source_sha256": "cdb79d723f70b528db32e5319fa875baeb3985d18f79fb0651032a3fd6190537",
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2968840,
+      "table_offset": 2968744,
+      "source_offset": 12809652,
+      "size": 2048,
+      "tag": 12
+    },
+    "back": {
+      "entry_offset": 2974120,
+      "table_offset": 2974024,
+      "source_offset": 12810556,
+      "size": 2048,
+      "tag": 12
+    },
+    "palette": {
+      "entry_offset": 2977640,
+      "table_offset": 2977544,
+      "source_offset": 12810516,
+      "tag": 12
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/butterfree-front-bpe-j-rev0-retail.png",
+      "sha256": "810948c0d4a47bd68cb797e3b2f512e5cca7d2231f4da827aec76f885ae6a313",
+      "extraction": {
+        "source_offset": 12809652,
+        "compressed_length": 862,
+        "compressed_sha256": "5e6f5d2867c19fdd119afd0626dcb6062679d01c8a60ff7e0ef9b7737fab3771",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "65f62909d807dd4f9ad42e31d25057cd88055369b64fb371e74514a8a0d08485",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-bpe-j-rev0-retail.png",
+      "sha256": "45f2b90283069539061a3984a4c2a38d5b7aafdec509c82241cf7d5fc7ffc01b",
+      "extraction": {
+        "source_offset": 12810556,
+        "compressed_length": 1040,
+        "compressed_sha256": "425929b57d5753e9327cae42313a5a8dbe5608da85aae64c31ab934c101e9903",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "b4028cc2a671ed31c3dced464cd8ef490c535e7eea615bb343a38f43f030cbc9",
+        "declared_render_length": 2048,
+        "raw_rom_bytes_included": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/butterfree-bpe-j-rev0-retail.pal",
+      "sha256": "d90adb1eaaec542597bfe2c28d5a1fd7902d2683c38c3b15f034dc6537e272ab",
+      "extraction": {
+        "source_offset": 12810516,
+        "compressed_length": 40,
+        "compressed_sha256": "f024eba12d6f6a4d31fc73cc810f0f63554c62db14e51115863f50ac5980d65e",
+        "decompressed_length": 32,
+        "decompressed_sha256": "67a1b7d71976f76cc41a8febb0ad29e824379a925d596e08d213eb234c1310d1",
+        "declared_render_length": 32,
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeemerald",
+    "commit": "fe1d8e51b265851676b65885818b1f5f62586135",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}
